@@ -9399,31 +9399,31 @@ alandIslands =
 andorraSubdivisions : List Subdivision
 andorraSubdivisions =
     [ { name = "Canillo"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Canillo" ]
       }
     , { name = "Encamp"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Encamp" ]
       }
     , { name = "La Massana"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "La Massana" ]
       }
     , { name = "Ordino"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Ordino" ]
       }
     , { name = "Sant Julià de Lòria"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Saint Julia de Loria" ]
       }
     , { name = "Andorra la Vella"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Andorra la Vieja", "Andorre-la-Vieille" ]
       }
     , { name = "Escaldes-Engordany"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Les Escaldes" ]
       }
     ]
@@ -9433,31 +9433,31 @@ andorraSubdivisions =
 unitedArabEmiratesSubdivisions : List Subdivision
 unitedArabEmiratesSubdivisions =
     [ { name = "'Ajmān"
-      , code = ""
+      , code = "AJ"
       , unofficialNames = [ "-إمارة عجمانّ - Ujman" ]
       }
     , { name = "Abū Z̧aby [Abu Dhabi]"
-      , code = ""
+      , code = "AZ"
       , unofficialNames = [ "أبو ظبي", "Abu Zabi", "Abu Zaby", "Abū Z̨abī", "Abu Dhabi", "Abu Dhabi" ]
       }
     , { name = "Dubayy"
-      , code = ""
+      , code = "DU"
       , unofficialNames = [ "دبي", "Dubai" ]
       }
     , { name = "Al Fujayrah"
-      , code = ""
+      , code = "FU"
       , unofficialNames = [ "الفجيرة", "Al Fujayrah", "Fujairah" ]
       }
     , { name = "Ra's al Khaymah"
-      , code = ""
+      , code = "RK"
       , unofficialNames = [ "إمارة رأس الخيمة", "Ras al-Khaimah" ]
       }
     , { name = "Ash Shariqah [Sharjah]"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "إمارة الشارقةّ", "Ash Shariqah" ]
       }
     , { name = "Umm al Qaywayn"
-      , code = ""
+      , code = "UQ"
       , unofficialNames = [ "أمّ القيوين", "Umm al-Quwain" ]
       }
     ]
@@ -9467,139 +9467,139 @@ unitedArabEmiratesSubdivisions =
 afghanistanSubdivisions : List Subdivision
 afghanistanSubdivisions =
     [ { name = "Balkh"
-      , code = ""
+      , code = "BAL"
       , unofficialNames = [ "Balkh" ]
       }
     , { name = "Bamian"
-      , code = ""
+      , code = "BAM"
       , unofficialNames = [ "Bamian", "Bamiyan", "Bāmīān" ]
       }
     , { name = "Badghis"
-      , code = ""
+      , code = "BDG"
       , unofficialNames = [ "Badghis", "Badgis", "Bādghīs" ]
       }
     , { name = "Badakhshan"
-      , code = ""
+      , code = "BDS"
       , unofficialNames = [ "Badaẖšan" ]
       }
     , { name = "Baghlan"
-      , code = ""
+      , code = "BGL"
       , unofficialNames = [ "Baghlan", "Baghlān", "Baglan" ]
       }
     , { name = "Daykondi"
-      , code = ""
+      , code = "DAY"
       , unofficialNames = [ "Daikondi" ]
       }
     , { name = "Farah"
-      , code = ""
+      , code = "FRA"
       , unofficialNames = [ "Fahrah" ]
       }
     , { name = "Faryab"
-      , code = ""
+      , code = "FYB"
       , unofficialNames = [ "Fariab" ]
       }
     , { name = "Ghazni"
-      , code = ""
+      , code = "GHA"
       , unofficialNames = [ "Gazni", "Ghazni" ]
       }
     , { name = "Ghowr"
-      , code = ""
+      , code = "GHO"
       , unofficialNames = [ "Ghawr", "Ghor", "Ghowr", "Gōr" ]
       }
     , { name = "Helmand"
-      , code = ""
+      , code = "HEL"
       , unofficialNames = [ "Helmand", "Hilmend" ]
       }
     , { name = "Herat"
-      , code = ""
+      , code = "HER"
       , unofficialNames = [ "Herat" ]
       }
     , { name = "Jowzjan"
-      , code = ""
+      , code = "JOW"
       , unofficialNames = [ "Jawzjan", "Jowzjan", "Jowzjān", "Jozjan", "Juzjan" ]
       }
     , { name = "Kabul [Kabol]"
-      , code = ""
+      , code = "KAB"
       , unofficialNames = [ "Kabol", "Kābol", "Kābul", "Kabul" ]
       }
     , { name = "Kandahar"
-      , code = ""
+      , code = "KAN"
       , unofficialNames = [ "Kandahar" ]
       }
     , { name = "Kapisa"
-      , code = ""
+      , code = "KAP"
       , unofficialNames = [ "Kapesa", "Kapisa", "Kapissa" ]
       }
     , { name = "Kondoz [Kunduz]"
-      , code = ""
+      , code = "KDZ"
       , unofficialNames = [ "Kondoz", "Kondūz", "Kūnduz", "Qondūz" ]
       }
     , { name = "Khowst"
-      , code = ""
+      , code = "KHO"
       , unofficialNames = [ "H̱ōst", "Khawst", "Khost", "Matun", "Matūn", "H̱awst" ]
       }
     , { name = "Konar [Kunar]"
-      , code = ""
+      , code = "KNR"
       , unofficialNames = [ "Konar", "Konarhā" ]
       }
     , { name = "Laghman"
-      , code = ""
+      , code = "LAG"
       , unofficialNames = [ "Laghman", "Laghmān", "Lagman" ]
       }
     , { name = "Lowgar"
-      , code = ""
+      , code = "LOW"
       , unofficialNames = [ "Lawgar", "Logar", "Loghar", "Lowgar", "Lowghar" ]
       }
     , { name = "Nangrahar [Nangarhar]"
-      , code = ""
+      , code = "NAN"
       , unofficialNames = [ "Nangarhar", "Ningarhar" ]
       }
     , { name = "Nimruz"
-      , code = ""
+      , code = "NIM"
       , unofficialNames = [ "Chakhānsur", "Neemroze", "Nimroz", "Nimroze" ]
       }
     , { name = "Nurestan"
-      , code = ""
+      , code = "NUR"
       , unofficialNames = [ "Nooristan", "Nouristan", "Nurestan" ]
       }
     , { name = "Oruzgan [Uruzgan]"
-      , code = ""
+      , code = "ORU"
       , unofficialNames = [ "Oruzgan", "Oruzghan", "Orūzghān", "Uruzgan", "Uruzghan", "Urūzghān" ]
       }
     , { name = "Panjshir"
-      , code = ""
+      , code = "PAN"
       , unofficialNames = [ "Panjshir" ]
       }
     , { name = "Parwan"
-      , code = ""
+      , code = "PAR"
       , unofficialNames = [ "Parvan", "Parvān", "Parwan" ]
       }
     , { name = "Paktia"
-      , code = ""
+      , code = "PIA"
       , unofficialNames = [ "Paktia", "Paktiya", "Paktīā" ]
       }
     , { name = "Paktika"
-      , code = ""
+      , code = "PKA"
       , unofficialNames = [ "Paktika" ]
       }
     , { name = "Samangan"
-      , code = ""
+      , code = "SAM"
       , unofficialNames = [ "Samangan" ]
       }
     , { name = "Sar-e Pol"
-      , code = ""
+      , code = "SAR"
       , unofficialNames = [ "Sar-e Pol", "Sar-i Pol", "Sari Pol" ]
       }
     , { name = "Takhar"
-      , code = ""
+      , code = "TAK"
       , unofficialNames = [ "Tahar", "Takhar", "Takhār" ]
       }
     , { name = "Wardak [Wardag]"
-      , code = ""
+      , code = "WAR"
       , unofficialNames = [ "Vardak", "Wardagh", "Wardak" ]
       }
     , { name = "Zabol [Zabul]"
-      , code = ""
+      , code = "ZAB"
       , unofficialNames = [ "Zabol", "Zabul", "Zābol" ]
       }
     ]
@@ -9609,35 +9609,35 @@ afghanistanSubdivisions =
 antiguaAndBarbudaSubdivisions : List Subdivision
 antiguaAndBarbudaSubdivisions =
     [ { name = "Saint George"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Saint George" ]
       }
     , { name = "Saint John’s"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Saint John’s" ]
       }
     , { name = "Saint Mary"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Saint Mary" ]
       }
     , { name = "Saint Paul"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Saint Paul" ]
       }
     , { name = "Saint Peter"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Saint Peter" ]
       }
     , { name = "Saint Philip"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Saint Philip" ]
       }
     , { name = "Barbuda"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Barbuda" ]
       }
     , { name = "Redonda"
-      , code = ""
+      , code = "X2~"
       , unofficialNames = [ "Redonda" ]
       }
     ]
@@ -9647,59 +9647,59 @@ antiguaAndBarbudaSubdivisions =
 anguillaSubdivisions : List Subdivision
 anguillaSubdivisions =
     [ { name = "Blowing Point"
-      , code = ""
+      , code = "BP"
       , unofficialNames = [ "Blowing Point" ]
       }
     , { name = "East End"
-      , code = ""
+      , code = "EE"
       , unofficialNames = [ "East End" ]
       }
     , { name = "George Hill"
-      , code = ""
+      , code = "GH"
       , unofficialNames = [ "George Hill" ]
       }
     , { name = "Island Harbour"
-      , code = ""
+      , code = "IH"
       , unofficialNames = [ "Island Harbour" ]
       }
     , { name = "North Hill"
-      , code = ""
+      , code = "NH"
       , unofficialNames = [ "North Hill" ]
       }
     , { name = "North Side"
-      , code = ""
+      , code = "NS"
       , unofficialNames = [ "North Side" ]
       }
     , { name = "Sandy Ground"
-      , code = ""
+      , code = "SG"
       , unofficialNames = [ "Sandy Ground" ]
       }
     , { name = "Sandy Hill"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Sandy Hill" ]
       }
     , { name = "South Hill"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "South Hill" ]
       }
     , { name = "Stoney Ground"
-      , code = ""
+      , code = "ST"
       , unofficialNames = [ "Stoney Ground" ]
       }
     , { name = "The Farrington"
-      , code = ""
+      , code = "TF"
       , unofficialNames = [ "The Farrington" ]
       }
     , { name = "The Quarter"
-      , code = ""
+      , code = "TQ"
       , unofficialNames = [ "The Quarter" ]
       }
     , { name = "The Valley"
-      , code = ""
+      , code = "TV"
       , unofficialNames = [ "The Valley" ]
       }
     , { name = "West End"
-      , code = ""
+      , code = "WE"
       , unofficialNames = [ "West End" ]
       }
     ]
@@ -9709,147 +9709,147 @@ anguillaSubdivisions =
 albaniaSubdivisions : List Subdivision
 albaniaSubdivisions =
     [ { name = "Berat"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Berat" ]
       }
     , { name = "Bulqizë"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Bulqizë" ]
       }
     , { name = "Dibër"
-      , code = ""
+      , code = "DI"
       , unofficialNames = [ "Dibër" ]
       }
     , { name = "Delvinë"
-      , code = ""
+      , code = "DL"
       , unofficialNames = [ "Delvinë" ]
       }
     , { name = "Durrës"
-      , code = ""
+      , code = "DR"
       , unofficialNames = [ "Durrës" ]
       }
     , { name = "Devoll"
-      , code = ""
+      , code = "DV"
       , unofficialNames = [ "Devoli" ]
       }
     , { name = "Elbasan"
-      , code = ""
+      , code = "EL"
       , unofficialNames = [ "Elbasan" ]
       }
     , { name = "Kolonjë"
-      , code = ""
+      , code = "ER"
       , unofficialNames = [ "Kolonjë" ]
       }
     , { name = "Fier"
-      , code = ""
+      , code = "FR"
       , unofficialNames = [ "Fier" ]
       }
     , { name = "Gjirokastër"
-      , code = ""
+      , code = "GJ"
       , unofficialNames = [ "Gjirokastër" ]
       }
     , { name = "Gramsh"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Gramsh" ]
       }
     , { name = "Has"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Has" ]
       }
     , { name = "Kavajë"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Kavajë" ]
       }
     , { name = "Kurbin"
-      , code = ""
+      , code = "KB"
       , unofficialNames = [ "Kurbin" ]
       }
     , { name = "Kuçovë"
-      , code = ""
+      , code = "KC"
       , unofficialNames = [ "Kuçovë" ]
       }
     , { name = "Korçë"
-      , code = ""
+      , code = "KO"
       , unofficialNames = [ "Korçë" ]
       }
     , { name = "Krujë"
-      , code = ""
+      , code = "KR"
       , unofficialNames = [ "Krujë" ]
       }
     , { name = "Kukës"
-      , code = ""
+      , code = "KU"
       , unofficialNames = [ "Kukës" ]
       }
     , { name = "Librazhd"
-      , code = ""
+      , code = "LB"
       , unofficialNames = [ "Librazhd" ]
       }
     , { name = "Lezhë"
-      , code = ""
+      , code = "LE"
       , unofficialNames = [ "Lezhë" ]
       }
     , { name = "Lushnjë"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "Lushnjë" ]
       }
     , { name = "Mallakastër"
-      , code = ""
+      , code = "MK"
       , unofficialNames = [ "Mallakastër" ]
       }
     , { name = "Malësi e Madhe"
-      , code = ""
+      , code = "MM"
       , unofficialNames = [ "Malesia e Madhe" ]
       }
     , { name = "Mirditë"
-      , code = ""
+      , code = "MR"
       , unofficialNames = [ "Mirditë" ]
       }
     , { name = "Mat"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Mat" ]
       }
     , { name = "Pogradec"
-      , code = ""
+      , code = "PG"
       , unofficialNames = [ "Pogradec" ]
       }
     , { name = "Peqin"
-      , code = ""
+      , code = "PQ"
       , unofficialNames = [ "Peqin" ]
       }
     , { name = "Përmet"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Përmet" ]
       }
     , { name = "Pukë"
-      , code = ""
+      , code = "PU"
       , unofficialNames = [ "Pukë" ]
       }
     , { name = "Shkodër"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Shkodër" ]
       }
     , { name = "Skrapar"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "Skrapar" ]
       }
     , { name = "Sarandë"
-      , code = ""
+      , code = "SR"
       , unofficialNames = [ "Sarandë" ]
       }
     , { name = "Tepelenë"
-      , code = ""
+      , code = "TE"
       , unofficialNames = [ "Tepelenë" ]
       }
     , { name = "Tropojë"
-      , code = ""
+      , code = "TP"
       , unofficialNames = [ "Tropojë" ]
       }
     , { name = "Tiranë"
-      , code = ""
+      , code = "TR"
       , unofficialNames = [ "Tiranë", "Tirana", "Tirana" ]
       }
     , { name = "Vlorë"
-      , code = ""
+      , code = "VL"
       , unofficialNames = [ "Vlorë" ]
       }
     ]
@@ -9859,47 +9859,47 @@ albaniaSubdivisions =
 armeniaSubdivisions : List Subdivision
 armeniaSubdivisions =
     [ { name = "Aragacotn"
-      , code = ""
+      , code = "AG"
       , unofficialNames = [ "Aragacotn" ]
       }
     , { name = "Ararat"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Ararat" ]
       }
     , { name = "Armavir"
-      , code = ""
+      , code = "AV"
       , unofficialNames = [ "Armavir" ]
       }
     , { name = "Erevan"
-      , code = ""
+      , code = "ER"
       , unofficialNames = [ "Erevan" ]
       }
     , { name = "Gegark'unik'"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Gegharkunick" ]
       }
     , { name = "Kotayk'"
-      , code = ""
+      , code = "KT"
       , unofficialNames = [ "Kotaik" ]
       }
     , { name = "Lory"
-      , code = ""
+      , code = "LO"
       , unofficialNames = [ "Lorri" ]
       }
     , { name = "Širak"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Širak" ]
       }
     , { name = "Syunik'"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "Syunik'" ]
       }
     , { name = "Tavuš"
-      , code = ""
+      , code = "TV"
       , unofficialNames = [ "Tavoush" ]
       }
     , { name = "Vayoc Jor"
-      , code = ""
+      , code = "VD"
       , unofficialNames = [ "Vayoc Jor" ]
       }
     ]
@@ -9909,75 +9909,75 @@ armeniaSubdivisions =
 angolaSubdivisions : List Subdivision
 angolaSubdivisions =
     [ { name = "Bengo"
-      , code = ""
+      , code = "BGO"
       , unofficialNames = [ "Bengo" ]
       }
     , { name = "Benguela"
-      , code = ""
+      , code = "BGU"
       , unofficialNames = [ "Benguela" ]
       }
     , { name = "Bié"
-      , code = ""
+      , code = "BIE"
       , unofficialNames = [ "Bié" ]
       }
     , { name = "Cabinda"
-      , code = ""
+      , code = "CAB"
       , unofficialNames = [ "Kabinda" ]
       }
     , { name = "Cuando-Cubango"
-      , code = ""
+      , code = "CCU"
       , unofficialNames = [ "Cuando-Cubango" ]
       }
     , { name = "Cunene"
-      , code = ""
+      , code = "CNN"
       , unofficialNames = [ "Cunene" ]
       }
     , { name = "Cuanza Norte"
-      , code = ""
+      , code = "CNO"
       , unofficialNames = [ "Cuanza-Norte" ]
       }
     , { name = "Cuanza Sul"
-      , code = ""
+      , code = "CUS"
       , unofficialNames = [ "Cuanza-Sul" ]
       }
     , { name = "Huambo"
-      , code = ""
+      , code = "HUA"
       , unofficialNames = [ "Huambo" ]
       }
     , { name = "Huíla"
-      , code = ""
+      , code = "HUI"
       , unofficialNames = [ "Huíla" ]
       }
     , { name = "Lunda Norte"
-      , code = ""
+      , code = "LNO"
       , unofficialNames = [ "Lunda Norte" ]
       }
     , { name = "Lunda Sul"
-      , code = ""
+      , code = "LSU"
       , unofficialNames = [ "Lunda Sul" ]
       }
     , { name = "Luanda"
-      , code = ""
+      , code = "LUA"
       , unofficialNames = [ "Luanda" ]
       }
     , { name = "Malange"
-      , code = ""
+      , code = "MAL"
       , unofficialNames = [ "Malange" ]
       }
     , { name = "Moxico"
-      , code = ""
+      , code = "MOX"
       , unofficialNames = [ "Moxico" ]
       }
     , { name = "Namibe"
-      , code = ""
+      , code = "NAM"
       , unofficialNames = [ "Namibe" ]
       }
     , { name = "Uíge"
-      , code = ""
+      , code = "UIG"
       , unofficialNames = [ "Uíge" ]
       }
     , { name = "Zaire"
-      , code = ""
+      , code = "ZAI"
       , unofficialNames = [ "Zaire" ]
       }
     ]
@@ -9987,99 +9987,99 @@ angolaSubdivisions =
 argentinaSubdivisions : List Subdivision
 argentinaSubdivisions =
     [ { name = "Salta"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Salta" ]
       }
     , { name = "Buenos Aires"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Buenos Aires" ]
       }
     , { name = "Capital federal"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Capital federal" ]
       }
     , { name = "San Luis"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "San Luis" ]
       }
     , { name = "Entre Ríos"
-      , code = ""
+      , code = "E"
       , unofficialNames = [ "Entre Ríos" ]
       }
     , { name = "La Rioja"
-      , code = ""
+      , code = "F"
       , unofficialNames = [ "La Rioja" ]
       }
     , { name = "Santiago del Estero"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Santiago del Estero" ]
       }
     , { name = "Chaco"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Chaco" ]
       }
     , { name = "San Juan"
-      , code = ""
+      , code = "J"
       , unofficialNames = [ "San Juan" ]
       }
     , { name = "Catamarca"
-      , code = ""
+      , code = "K"
       , unofficialNames = [ "Catamarca" ]
       }
     , { name = "La Pampa"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Pampa" ]
       }
     , { name = "Mendoza"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Mendoza" ]
       }
     , { name = "Misiones"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Misiones" ]
       }
     , { name = "Formosa"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Formosa" ]
       }
     , { name = "Neuquén"
-      , code = ""
+      , code = "Q"
       , unofficialNames = [ "Neuquén" ]
       }
     , { name = "Río Negro"
-      , code = ""
+      , code = "R"
       , unofficialNames = [ "Río Negro" ]
       }
     , { name = "Santa Fe"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Santa Fe" ]
       }
     , { name = "Tucumán"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Tucumán" ]
       }
     , { name = "Chubut"
-      , code = ""
+      , code = "U"
       , unofficialNames = [ "Chubut" ]
       }
     , { name = "Tierra del Fuego"
-      , code = ""
+      , code = "V"
       , unofficialNames = [ "Tierra del Fuego" ]
       }
     , { name = "Corrientes"
-      , code = ""
+      , code = "W"
       , unofficialNames = [ "Corrientes" ]
       }
     , { name = "Córdoba"
-      , code = ""
+      , code = "X"
       , unofficialNames = [ "Córdoba" ]
       }
     , { name = "Jujuy"
-      , code = ""
+      , code = "Y"
       , unofficialNames = [ "Jujuy" ]
       }
     , { name = "Santa Cruz"
-      , code = ""
+      , code = "Z"
       , unofficialNames = [ "Santa Cruz" ]
       }
     ]
@@ -10089,23 +10089,23 @@ argentinaSubdivisions =
 americanSamoaSubdivisions : List Subdivision
 americanSamoaSubdivisions =
     [ { name = "Eastern District"
-      , code = ""
+      , code = "010"
       , unofficialNames = [ "Eastern District" ]
       }
     , { name = "Manu'a District"
-      , code = ""
+      , code = "020"
       , unofficialNames = [ "Manu'a District" ]
       }
     , { name = "Rose Atoll"
-      , code = ""
+      , code = "030"
       , unofficialNames = [ "Rose Atoll" ]
       }
     , { name = "Swains Island"
-      , code = ""
+      , code = "040"
       , unofficialNames = [ "Swains Island" ]
       }
     , { name = "Western District"
-      , code = ""
+      , code = "050"
       , unofficialNames = [ "Western District" ]
       }
     ]
@@ -10115,39 +10115,39 @@ americanSamoaSubdivisions =
 austriaSubdivisions : List Subdivision
 austriaSubdivisions =
     [ { name = "Burgenland"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Burgenland" ]
       }
     , { name = "Kärnten"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Carinthia", "Koroška" ]
       }
     , { name = "Niederösterreich"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Lower Austria" ]
       }
     , { name = "Oberösterreich"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Upper Austria" ]
       }
     , { name = "Salzburg"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Salzbourg" ]
       }
     , { name = "Steiermark"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Styria" ]
       }
     , { name = "Tirol"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Tyrol" ]
       }
     , { name = "Vorarlberg"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Vorarlberg" ]
       }
     , { name = "Wien"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Vienna" ]
       }
     ]
@@ -10157,35 +10157,35 @@ austriaSubdivisions =
 australiaSubdivisions : List Subdivision
 australiaSubdivisions =
     [ { name = "Australian Capital Territory"
-      , code = ""
+      , code = "ACT"
       , unofficialNames = [ "Australian Capital Territory" ]
       }
     , { name = "New South Wales"
-      , code = ""
+      , code = "NSW"
       , unofficialNames = [ "New South Wales" ]
       }
     , { name = "Northern Territory"
-      , code = ""
+      , code = "NT"
       , unofficialNames = [ "Northern Territory" ]
       }
     , { name = "Queensland"
-      , code = ""
+      , code = "QLD"
       , unofficialNames = [ "Queensland" ]
       }
     , { name = "South Australia"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "South Australia" ]
       }
     , { name = "Tasmania"
-      , code = ""
+      , code = "TAS"
       , unofficialNames = [ "Tasmania" ]
       }
     , { name = "Victoria"
-      , code = ""
+      , code = "VIC"
       , unofficialNames = [ "Victoria" ]
       }
     , { name = "Western Australia"
-      , code = ""
+      , code = "WA"
       , unofficialNames = [ "Western Australia" ]
       }
     ]
@@ -10201,15 +10201,15 @@ arubaSubdivisions =
 alandIslandsSubdivisions : List Subdivision
 alandIslandsSubdivisions =
     [ { name = "Mariehamn"
-      , code = ""
+      , code = "211"
       , unofficialNames = [ "Mariehamn" ]
       }
     , { name = "Alands landsbygd"
-      , code = ""
+      , code = "212"
       , unofficialNames = [ "Alands landsbygd" ]
       }
     , { name = "Alands skaergard"
-      , code = ""
+      , code = "213"
       , unofficialNames = [ "Alands skaergard" ]
       }
     ]
@@ -10219,311 +10219,311 @@ alandIslandsSubdivisions =
 azerbaijanSubdivisions : List Subdivision
 azerbaijanSubdivisions =
     [ { name = "Äli Bayramli"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Äli Bayramli" ]
       }
     , { name = "Abseron"
-      , code = ""
+      , code = "ABS"
       , unofficialNames = [ "Abseron" ]
       }
     , { name = "Agstafa"
-      , code = ""
+      , code = "AGA"
       , unofficialNames = [ "Agstafa" ]
       }
     , { name = "Agcabädi"
-      , code = ""
+      , code = "AGC"
       , unofficialNames = [ "Agcabädi" ]
       }
     , { name = "Agdam"
-      , code = ""
+      , code = "AGM"
       , unofficialNames = [ "Agdam" ]
       }
     , { name = "Agdas"
-      , code = ""
+      , code = "AGS"
       , unofficialNames = [ "Agdas" ]
       }
     , { name = "Agsu"
-      , code = ""
+      , code = "AGU"
       , unofficialNames = [ "Agsu" ]
       }
     , { name = "Astara"
-      , code = ""
+      , code = "AST"
       , unofficialNames = [ "Astara" ]
       }
     , { name = "Baki"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Baki" ]
       }
     , { name = "Babäk"
-      , code = ""
+      , code = "BAB"
       , unofficialNames = [ "Babäk" ]
       }
     , { name = "Balakän"
-      , code = ""
+      , code = "BAL"
       , unofficialNames = [ "Balakän" ]
       }
     , { name = "Bärdä"
-      , code = ""
+      , code = "BAR"
       , unofficialNames = [ "Bärdä" ]
       }
     , { name = "Beyläqan"
-      , code = ""
+      , code = "BEY"
       , unofficialNames = [ "Beyläqan" ]
       }
     , { name = "Biläsuvar"
-      , code = ""
+      , code = "BIL"
       , unofficialNames = [ "Biläsuvar" ]
       }
     , { name = "Cäbrayil"
-      , code = ""
+      , code = "CAB"
       , unofficialNames = [ "Cäbrayil" ]
       }
     , { name = "Cälilabab"
-      , code = ""
+      , code = "CAL"
       , unofficialNames = [ "Cälilabab" ]
       }
     , { name = "Culfa"
-      , code = ""
+      , code = "CUL"
       , unofficialNames = [ "Culfa" ]
       }
     , { name = "Daskäsän"
-      , code = ""
+      , code = "DAS"
       , unofficialNames = [ "Daskäsän" ]
       }
     , { name = "Däväçi"
-      , code = ""
+      , code = "DAV"
       , unofficialNames = [ "Däväçi" ]
       }
     , { name = "Füzuli"
-      , code = ""
+      , code = "FUZ"
       , unofficialNames = [ "Füzuli" ]
       }
     , { name = "Gäncä"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Gäncä" ]
       }
     , { name = "Gädäbäy"
-      , code = ""
+      , code = "GAD"
       , unofficialNames = [ "Gädäbäy" ]
       }
     , { name = "Goranboy"
-      , code = ""
+      , code = "GOR"
       , unofficialNames = [ "Goranboy" ]
       }
     , { name = "Göyçay"
-      , code = ""
+      , code = "GOY"
       , unofficialNames = [ "Göyçay" ]
       }
     , { name = "Haciqabul"
-      , code = ""
+      , code = "HAC"
       , unofficialNames = [ "Haciqabul" ]
       }
     , { name = "Imisli"
-      , code = ""
+      , code = "IMI"
       , unofficialNames = [ "Imisli" ]
       }
     , { name = "Ismayilli"
-      , code = ""
+      , code = "ISM"
       , unofficialNames = [ "Ismayilli" ]
       }
     , { name = "Kälbäcär"
-      , code = ""
+      , code = "KAL"
       , unofficialNames = [ "Kälbäcär" ]
       }
     , { name = "Kürdämir"
-      , code = ""
+      , code = "KUR"
       , unofficialNames = [ "Kürdämir" ]
       }
     , { name = "Länkäran City"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Länkäran City" ]
       }
     , { name = "Laçin"
-      , code = ""
+      , code = "LAC"
       , unofficialNames = [ "Laçin" ]
       }
     , { name = "Länkäran"
-      , code = ""
+      , code = "LAN"
       , unofficialNames = [ "Länkäran" ]
       }
     , { name = "Lerik"
-      , code = ""
+      , code = "LER"
       , unofficialNames = [ "Lerik" ]
       }
     , { name = "Masalli"
-      , code = ""
+      , code = "MAS"
       , unofficialNames = [ "Masalli" ]
       }
     , { name = "Mingäçevir"
-      , code = ""
+      , code = "MI"
       , unofficialNames = [ "Mingäçevir" ]
       }
     , { name = "Naftalan"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Naftalan" ]
       }
     , { name = "Neftçala"
-      , code = ""
+      , code = "NEF"
       , unofficialNames = [ "Neftçala" ]
       }
     , { name = "Naxçivan"
-      , code = ""
+      , code = "NX"
       , unofficialNames = [ "Naxçivan" ]
       }
     , { name = "Oguz"
-      , code = ""
+      , code = "OGU"
       , unofficialNames = [ "Oguz" ]
       }
     , { name = "Ordubad"
-      , code = ""
+      , code = "ORD"
       , unofficialNames = [ "Ordubad" ]
       }
     , { name = "Qäbälä"
-      , code = ""
+      , code = "QAB"
       , unofficialNames = [ "Qäbälä" ]
       }
     , { name = "Qax"
-      , code = ""
+      , code = "QAX"
       , unofficialNames = [ "Qax" ]
       }
     , { name = "Qazax"
-      , code = ""
+      , code = "QAZ"
       , unofficialNames = [ "Qazax" ]
       }
     , { name = "Quba"
-      , code = ""
+      , code = "QBA"
       , unofficialNames = [ "Quba" ]
       }
     , { name = "Qubadli"
-      , code = ""
+      , code = "QBI"
       , unofficialNames = [ "Qubadli" ]
       }
     , { name = "Qobustan"
-      , code = ""
+      , code = "QOB"
       , unofficialNames = [ "Qobustan" ]
       }
     , { name = "Qusar"
-      , code = ""
+      , code = "QUS"
       , unofficialNames = [ "Qusar" ]
       }
     , { name = "Säki City"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Säki City" ]
       }
     , { name = "Sabirabad"
-      , code = ""
+      , code = "SAB"
       , unofficialNames = [ "Sabirabad" ]
       }
     , { name = "Sädäräk"
-      , code = ""
+      , code = "SAD"
       , unofficialNames = [ "Sädäräk" ]
       }
     , { name = "Sahbuz"
-      , code = ""
+      , code = "SAH"
       , unofficialNames = [ "Sahbuz" ]
       }
     , { name = "Säki"
-      , code = ""
+      , code = "SAK"
       , unofficialNames = [ "Säki" ]
       }
     , { name = "Salyan"
-      , code = ""
+      , code = "SAL"
       , unofficialNames = [ "Salyan" ]
       }
     , { name = "Särur"
-      , code = ""
+      , code = "SAR"
       , unofficialNames = [ "Särur" ]
       }
     , { name = "Saatli"
-      , code = ""
+      , code = "SAT"
       , unofficialNames = [ "Saatli" ]
       }
     , { name = "Siyäzän"
-      , code = ""
+      , code = "SIY"
       , unofficialNames = [ "Siyäzän" ]
       }
     , { name = "Sämkir"
-      , code = ""
+      , code = "SKR"
       , unofficialNames = [ "Sämkir" ]
       }
     , { name = "Sumqayit"
-      , code = ""
+      , code = "SM"
       , unofficialNames = [ "Sumqayit" ]
       }
     , { name = "Samaxi"
-      , code = ""
+      , code = "SMI"
       , unofficialNames = [ "Samaxi" ]
       }
     , { name = "Samux"
-      , code = ""
+      , code = "SMX"
       , unofficialNames = [ "Samux" ]
       }
     , { name = "Susa City"
-      , code = ""
+      , code = "SS"
       , unofficialNames = [ "Susa City" ]
       }
     , { name = "Susa"
-      , code = ""
+      , code = "SUS"
       , unofficialNames = [ "Susa" ]
       }
     , { name = "Tärtär"
-      , code = ""
+      , code = "TAR"
       , unofficialNames = [ "Tärtär" ]
       }
     , { name = "Tovuz"
-      , code = ""
+      , code = "TOV"
       , unofficialNames = [ "Tovuz" ]
       }
     , { name = "Ucar"
-      , code = ""
+      , code = "UCA"
       , unofficialNames = [ "Ucar" ]
       }
     , { name = "Xankändi"
-      , code = ""
+      , code = "XA"
       , unofficialNames = [ "Xankändi" ]
       }
     , { name = "Xaçmaz"
-      , code = ""
+      , code = "XAC"
       , unofficialNames = [ "Xaçmaz" ]
       }
     , { name = "Xanlar"
-      , code = ""
+      , code = "XAN"
       , unofficialNames = [ "Xanlar" ]
       }
     , { name = "Xocali"
-      , code = ""
+      , code = "XCI"
       , unofficialNames = [ "Xocali" ]
       }
     , { name = "Xizi"
-      , code = ""
+      , code = "XIZ"
       , unofficialNames = [ "Xizi" ]
       }
     , { name = "Xocavänd"
-      , code = ""
+      , code = "XVD"
       , unofficialNames = [ "Xocavänd" ]
       }
     , { name = "Yardimli"
-      , code = ""
+      , code = "YAR"
       , unofficialNames = [ "Yardimli" ]
       }
     , { name = "Yevlax City"
-      , code = ""
+      , code = "YE"
       , unofficialNames = [ "Yevlax City" ]
       }
     , { name = "Yevlax"
-      , code = ""
+      , code = "YEV"
       , unofficialNames = [ "Yevlax" ]
       }
     , { name = "Zängilan"
-      , code = ""
+      , code = "ZAN"
       , unofficialNames = [ "Zängilan" ]
       }
     , { name = "Zaqatala"
-      , code = ""
+      , code = "ZAQ"
       , unofficialNames = [ "Zaqatala" ]
       }
     , { name = "Zärdab"
-      , code = ""
+      , code = "ZAR"
       , unofficialNames = [ "Zärdab" ]
       }
     ]
@@ -10533,11 +10533,11 @@ azerbaijanSubdivisions =
 bosniaAndHerzegovinaSubdivisions : List Subdivision
 bosniaAndHerzegovinaSubdivisions =
     [ { name = "Federacija Bosna i Hercegovina"
-      , code = ""
+      , code = "BIH"
       , unofficialNames = [ "Federacija Bosna i Hercegovina" ]
       }
     , { name = "Republika Srpska"
-      , code = ""
+      , code = "SRP"
       , unofficialNames = [ "Republika Srpska" ]
       }
     ]
@@ -10547,47 +10547,47 @@ bosniaAndHerzegovinaSubdivisions =
 barbadosSubdivisions : List Subdivision
 barbadosSubdivisions =
     [ { name = "Christ Church"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Christ Church" ]
       }
     , { name = "Saint Andrew"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Saint Andrew" ]
       }
     , { name = "Saint George"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Saint George" ]
       }
     , { name = "Saint James"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Saint James" ]
       }
     , { name = "Saint John"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Saint John" ]
       }
     , { name = "Saint Joseph"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Saint Joseph" ]
       }
     , { name = "Saint Lucy"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Saint Lucy" ]
       }
     , { name = "Saint Michael"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Saint Michael" ]
       }
     , { name = "Saint Peter"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Saint Peter" ]
       }
     , { name = "Saint Philip"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Saint Philip" ]
       }
     , { name = "Saint Thomas"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Saint Thomas" ]
       }
     ]
@@ -10597,259 +10597,259 @@ barbadosSubdivisions =
 bangladeshSubdivisions : List Subdivision
 bangladeshSubdivisions =
     [ { name = "Bandarban zila"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Bandarban" ]
       }
     , { name = "Barguna zila"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Barguna zila" ]
       }
     , { name = "Bogra zila"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Bogora", "Bogra", "Borga Thana" ]
       }
     , { name = "Brahmanbaria zila"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Brahman Bariya", "Brahmanbaria" ]
       }
     , { name = "Bagerhat zila"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Bagarhat", "Bagerhat", "Bagherhat", "Basabari", "Bāsābāri" ]
       }
     , { name = "Barisal zila"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Barisal" ]
       }
     , { name = "Bhola zila"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Bhola" ]
       }
     , { name = "Comilla zila"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Comilla", "Komilla" ]
       }
     , { name = "Chandpur zila"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Chandipur", "Chandpur" ]
       }
     , { name = "Chittagong zila"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Chattagam", "Chittagong" ]
       }
     , { name = "Cox's Bazar zila"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Coxʿs Bazar", "Koks Bazar" ]
       }
     , { name = "Chuadanga zila"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Chuadanga" ]
       }
     , { name = "Dhaka zila"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Dacca", "Dakka", "Dhaka" ]
       }
     , { name = "Dinajpur zila"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Dinajpur" ]
       }
     , { name = "Faridpur zila"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Faridpur" ]
       }
     , { name = "Feni zila"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Feni" ]
       }
     , { name = "Gopalganj zila"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Gopalganj" ]
       }
     , { name = "Gazipur zila"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Gajipur" ]
       }
     , { name = "Gaibandha zila"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Gaibanda", "Gaibandah", "Gaibandha", "Gaybanda", "Gaybandah" ]
       }
     , { name = "Habiganj zila"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Habiganj", "Hobiganj", "Hobigonj" ]
       }
     , { name = "Jamalpur zila"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Jamalpur" ]
       }
     , { name = "Jessore zila"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Jessore", "Jessur" ]
       }
     , { name = "Jhenaidah zila"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Jhanaydah", "Jhanidah", "Jhanīdāh", "Jhenaida", "Jhenida" ]
       }
     , { name = "Jaipurhat zila"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Jaipur Hat", "Jaipurhat", "Joypurhat" ]
       }
     , { name = "Jhalakati zila"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Jhalakati", "Jhalokati" ]
       }
     , { name = "Kishoreganj zila"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Kishoreganj" ]
       }
     , { name = "Khulna zila"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Khulna" ]
       }
     , { name = "Kurigram zila"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Kurigram" ]
       }
     , { name = "Khagrachari zila"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Khagrachari zila" ]
       }
     , { name = "Kushtia zila"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Kushtia", "Kushtiya" ]
       }
     , { name = "Lakshmipur zila"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Lakshmipur", "Laksmipur" ]
       }
     , { name = "Lalmonirhat zila"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Lalmanir Hat", "Lalmonirhat" ]
       }
     , { name = "Manikganj zila"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Manikganj" ]
       }
     , { name = "Mymensingh zila"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Mymensingh", "Nasirabad", "Nasirābād" ]
       }
     , { name = "Munshiganj zila"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Munshiganj zila" ]
       }
     , { name = "Madaripur zila"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Madaripur" ]
       }
     , { name = "Magura zila"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Magura" ]
       }
     , { name = "Moulvibazar zila"
-      , code = ""
+      , code = "38"
       , unofficialNames = [ "Maulvi Bazar", "Moulvi Bazar" ]
       }
     , { name = "Meherpur zila"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Meherpur zila" ]
       }
     , { name = "Narayanganj zila"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Narayanganj" ]
       }
     , { name = "Netrakona zila"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Netrakona", "Netrokana" ]
       }
     , { name = "Narsingdi zila"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Narsinghdi" ]
       }
     , { name = "Narail zila"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Narail", "Naral" ]
       }
     , { name = "Natore zila"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Nator", "Natore" ]
       }
     , { name = "Nawabganj zila"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Nawabganj", "Nawabgonj" ]
       }
     , { name = "Nilphamari zila"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Nilphamari" ]
       }
     , { name = "Noakhali zila"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Noakhali" ]
       }
     , { name = "Naogaon zila"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Naogaon", "Naugaon" ]
       }
     , { name = "Pabna zila"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Pabna" ]
       }
     , { name = "Pirojpur zila"
-      , code = ""
+      , code = "50"
       , unofficialNames = [ "Perojpur", "Pirojpur" ]
       }
     , { name = "Patuakhali zila"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Patukhali" ]
       }
     , { name = "Panchagarh zila"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Panchagarh zila" ]
       }
     , { name = "Rajbari zila"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Rajbari" ]
       }
     , { name = "Rajshahi zila"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Rajshahi", "Rampur Boalia" ]
       }
     , { name = "Rangpur zila"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Rangpur" ]
       }
     , { name = "Rangamati zila"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Rangamati" ]
       }
     , { name = "Sherpur zila"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Sherpur" ]
       }
     , { name = "Satkhira zila"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Satkhira" ]
       }
     , { name = "Sirajganj zila"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Serajgonj", "Sirajganj" ]
       }
     , { name = "Sylhet zila"
-      , code = ""
+      , code = "60"
       , unofficialNames = [ "Silhat", "Sylhet" ]
       }
     , { name = "Sunamganj zila"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Shunamganj", "Sunamganj" ]
       }
     , { name = "Shariatpur zila"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Shariatpur" ]
       }
     , { name = "Tangail zila"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Tangail", "Tangayal" ]
       }
     , { name = "Thakurgaon zila"
-      , code = ""
+      , code = "64"
       , unofficialNames = [ "Thakurgaon" ]
       }
     ]
@@ -10859,47 +10859,47 @@ bangladeshSubdivisions =
 belgiumSubdivisions : List Subdivision
 belgiumSubdivisions =
     [ { name = "Brussels"
-      , code = ""
+      , code = "BRU"
       , unofficialNames = [ "Brussels Hoofdstedelijk Gewest", "Région de Bruxelles-Capitale", "Brussel", "Brüssel", "Bruxelles" ]
       }
     , { name = "Antwerpen (nl)"
-      , code = ""
+      , code = "VAN"
       , unofficialNames = [ "Antwerpen", "Anvers" ]
       }
     , { name = "Vlaams Brabant (nl)"
-      , code = ""
+      , code = "VBR"
       , unofficialNames = [ "Brabant-Vlanderen", "Vlaams-Brabant", "Flämisch Brabant", "Brabant-Flamand" ]
       }
     , { name = "Limburg (nl)"
-      , code = ""
+      , code = "VLI"
       , unofficialNames = [ "Limbourg" ]
       }
     , { name = "Oost-Vlaanderen (nl)"
-      , code = ""
+      , code = "VOV"
       , unofficialNames = [ "Oos-Vlanderen", "Oost-Vlaanderen", "Ost-Flandern", "Flandre-Orientale" ]
       }
     , { name = "West-Vlaanderen (nl)"
-      , code = ""
+      , code = "VWV"
       , unofficialNames = [ "Wes-Vlanderen", "West-Vlaanderen", "West-Flandern", "Flandre-Occidentale" ]
       }
     , { name = "Brabant Wallon (fr)"
-      , code = ""
+      , code = "WBR"
       , unofficialNames = [ "Waals-Brabant", "Wallonisch Brabant", "Walloon Brabant" ]
       }
     , { name = "Hainaut (fr)"
-      , code = ""
+      , code = "WHT"
       , unofficialNames = [ "Henegouwen", "Hennegau" ]
       }
     , { name = "Liège (fr)"
-      , code = ""
+      , code = "WLG"
       , unofficialNames = [ "Luik", "Lüttich" ]
       }
     , { name = "Luxembourg (fr)"
-      , code = ""
+      , code = "WLX"
       , unofficialNames = [ "Luxembourg", "Luxemburg" ]
       }
     , { name = "Namur (fr)"
-      , code = ""
+      , code = "WNA"
       , unofficialNames = [ "Namen" ]
       }
     ]
@@ -10909,183 +10909,183 @@ belgiumSubdivisions =
 burkinaFasoSubdivisions : List Subdivision
 burkinaFasoSubdivisions =
     [ { name = "Balé"
-      , code = ""
+      , code = "BAL"
       , unofficialNames = [ "Balé" ]
       }
     , { name = "Bam"
-      , code = ""
+      , code = "BAM"
       , unofficialNames = [ "Bam" ]
       }
     , { name = "Banwa"
-      , code = ""
+      , code = "BAN"
       , unofficialNames = [ "Banwa" ]
       }
     , { name = "Bazèga"
-      , code = ""
+      , code = "BAZ"
       , unofficialNames = [ "Bazèga" ]
       }
     , { name = "Bougouriba"
-      , code = ""
+      , code = "BGR"
       , unofficialNames = [ "Bougouriba" ]
       }
     , { name = "Boulgou"
-      , code = ""
+      , code = "BLG"
       , unofficialNames = [ "Boulgou" ]
       }
     , { name = "Boulkiemdé"
-      , code = ""
+      , code = "BLK"
       , unofficialNames = [ "Boulkiemdé" ]
       }
     , { name = "Comoé"
-      , code = ""
+      , code = "COM"
       , unofficialNames = [ "Comoé" ]
       }
     , { name = "Ganzourgou"
-      , code = ""
+      , code = "GAN"
       , unofficialNames = [ "Ganzourgou" ]
       }
     , { name = "Gnagna"
-      , code = ""
+      , code = "GNA"
       , unofficialNames = [ "Gnagna" ]
       }
     , { name = "Gourma"
-      , code = ""
+      , code = "GOU"
       , unofficialNames = [ "Gourma" ]
       }
     , { name = "Houet"
-      , code = ""
+      , code = "HOU"
       , unofficialNames = [ "Houet" ]
       }
     , { name = "Ioba"
-      , code = ""
+      , code = "IOB"
       , unofficialNames = [ "Ioba" ]
       }
     , { name = "Kadiogo"
-      , code = ""
+      , code = "KAD"
       , unofficialNames = [ "Kadiogo" ]
       }
     , { name = "Kénédougou"
-      , code = ""
+      , code = "KEN"
       , unofficialNames = [ "Kénédougou" ]
       }
     , { name = "Komondjari"
-      , code = ""
+      , code = "KMD"
       , unofficialNames = [ "Komandjoari", "Komondjari" ]
       }
     , { name = "Kompienga"
-      , code = ""
+      , code = "KMP"
       , unofficialNames = [ "Kompienga" ]
       }
     , { name = "Koulpélogo"
-      , code = ""
+      , code = "KOP"
       , unofficialNames = [ "Koulpélogo" ]
       }
     , { name = "Kossi"
-      , code = ""
+      , code = "KOS"
       , unofficialNames = [ "Kossi" ]
       }
     , { name = "Kouritenga"
-      , code = ""
+      , code = "KOT"
       , unofficialNames = [ "Kouritenga" ]
       }
     , { name = "Kourwéogo"
-      , code = ""
+      , code = "KOW"
       , unofficialNames = [ "Kourwéogo" ]
       }
     , { name = "Léraba"
-      , code = ""
+      , code = "LER"
       , unofficialNames = [ "Léraba" ]
       }
     , { name = "Loroum"
-      , code = ""
+      , code = "LOR"
       , unofficialNames = [ "Loroum" ]
       }
     , { name = "Mouhoun"
-      , code = ""
+      , code = "MOU"
       , unofficialNames = [ "Mouhoun" ]
       }
     , { name = "Namentenga"
-      , code = ""
+      , code = "NAM"
       , unofficialNames = [ "Namentenga" ]
       }
     , { name = "Nahouri"
-      , code = ""
+      , code = "NAO"
       , unofficialNames = [ "Naouri" ]
       }
     , { name = "Nayala"
-      , code = ""
+      , code = "NAY"
       , unofficialNames = [ "Nayala" ]
       }
     , { name = "Noumbiel"
-      , code = ""
+      , code = "NOU"
       , unofficialNames = [ "Noumbiel" ]
       }
     , { name = "Oubritenga"
-      , code = ""
+      , code = "OUB"
       , unofficialNames = [ "Oubritenga" ]
       }
     , { name = "Oudalan"
-      , code = ""
+      , code = "OUD"
       , unofficialNames = [ "Oudalan" ]
       }
     , { name = "Passoré"
-      , code = ""
+      , code = "PAS"
       , unofficialNames = [ "Passoré" ]
       }
     , { name = "Poni"
-      , code = ""
+      , code = "PON"
       , unofficialNames = [ "Poni" ]
       }
     , { name = "Séno"
-      , code = ""
+      , code = "SEN"
       , unofficialNames = [ "Séno" ]
       }
     , { name = "Sissili"
-      , code = ""
+      , code = "SIS"
       , unofficialNames = [ "Sissili" ]
       }
     , { name = "Sanmatenga"
-      , code = ""
+      , code = "SMT"
       , unofficialNames = [ "Sanmatenga" ]
       }
     , { name = "Sanguié"
-      , code = ""
+      , code = "SNG"
       , unofficialNames = [ "Sanguié" ]
       }
     , { name = "Soum"
-      , code = ""
+      , code = "SOM"
       , unofficialNames = [ "Soum" ]
       }
     , { name = "Sourou"
-      , code = ""
+      , code = "SOR"
       , unofficialNames = [ "Sourou" ]
       }
     , { name = "Tapoa"
-      , code = ""
+      , code = "TAP"
       , unofficialNames = [ "Tapoa" ]
       }
     , { name = "Tui"
-      , code = ""
+      , code = "TUI"
       , unofficialNames = [ "Tui" ]
       }
     , { name = "Yagha"
-      , code = ""
+      , code = "YAG"
       , unofficialNames = [ "Yagha" ]
       }
     , { name = "Yatenga"
-      , code = ""
+      , code = "YAT"
       , unofficialNames = [ "Yatenga" ]
       }
     , { name = "Ziro"
-      , code = ""
+      , code = "ZIR"
       , unofficialNames = [ "Ziro" ]
       }
     , { name = "Zondoma"
-      , code = ""
+      , code = "ZON"
       , unofficialNames = [ "Zondoma" ]
       }
     , { name = "Zoundwéogo"
-      , code = ""
+      , code = "ZOU"
       , unofficialNames = [ "Zoundwéogo" ]
       }
     ]
@@ -11095,115 +11095,115 @@ burkinaFasoSubdivisions =
 bulgariaSubdivisions : List Subdivision
 bulgariaSubdivisions =
     [ { name = "Blagoevgrad"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Blagoevgrad" ]
       }
     , { name = "Burgas"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Burgas" ]
       }
     , { name = "Varna"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Varna" ]
       }
     , { name = "Veliko Tarnovo"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Veliko Tarnovo" ]
       }
     , { name = "Vidin"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Vidin" ]
       }
     , { name = "Vratsa"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Vratsa" ]
       }
     , { name = "Gabrovo"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Gabrovo" ]
       }
     , { name = "Dobrich"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Dobrich" ]
       }
     , { name = "Kardzhali"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Kardzhali" ]
       }
     , { name = "Kjustendil"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Kjustendil" ]
       }
     , { name = "Lovech"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Lovech" ]
       }
     , { name = "Montana"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Montana" ]
       }
     , { name = "Pazardzhik"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Pazardzhik" ]
       }
     , { name = "Pernik"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Pernik" ]
       }
     , { name = "Pleven"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Pleven" ]
       }
     , { name = "Plovdiv"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Plovdiv" ]
       }
     , { name = "Razgrad"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Razgrad" ]
       }
     , { name = "Ruse"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Ruse" ]
       }
     , { name = "Silistra"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Silistra" ]
       }
     , { name = "Sliven"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Sliven" ]
       }
     , { name = "Smolyan"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Smolyan" ]
       }
     , { name = "Sofia-Grad"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Sofia-Grad" ]
       }
     , { name = "Sofia"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Sofia" ]
       }
     , { name = "Stara Zagora"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Stara Zagora" ]
       }
     , { name = "Targovishte"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Targovishte" ]
       }
     , { name = "Haskovo"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Haskovo" ]
       }
     , { name = "Šumen"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Šumen" ]
       }
     , { name = "Yambol"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Yambol" ]
       }
     ]
@@ -11213,23 +11213,23 @@ bulgariaSubdivisions =
 bahrainSubdivisions : List Subdivision
 bahrainSubdivisions =
     [ { name = "Al Manamah (Al ‘Asimah)"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Manāmah", "al-Manāmah", "Manama", "Manama", "Manama" ]
       }
     , { name = "Al Janubiyah"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Eastern", "Hawa", "Juzur H̨awār", "Southern", "ash Sharqiyah", "aš-Šarqīyah" ]
       }
     , { name = "Al Muharraq"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Al Muharraq" ]
       }
     , { name = "Al Wustá"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Central", "al-Mintaqah al-Wusta" ]
       }
     , { name = "Ash Shamaliyah"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Northern", "al-Mintaqa ash Shamaliyah", "ash Shamaliyah" ]
       }
     ]
@@ -11239,67 +11239,67 @@ bahrainSubdivisions =
 burundiSubdivisions : List Subdivision
 burundiSubdivisions =
     [ { name = "Bubanza"
-      , code = ""
+      , code = "BB"
       , unofficialNames = [ "Bubanza" ]
       }
     , { name = "Bujumbura"
-      , code = ""
+      , code = "BJ"
       , unofficialNames = [ "Bujumbura" ]
       }
     , { name = "Bururi"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Bururi" ]
       }
     , { name = "Cankuzo"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Cankuzo" ]
       }
     , { name = "Cibitoke"
-      , code = ""
+      , code = "CI"
       , unofficialNames = [ "Cibitoke" ]
       }
     , { name = "Gitega"
-      , code = ""
+      , code = "GI"
       , unofficialNames = [ "Kitega" ]
       }
     , { name = "Kirundo"
-      , code = ""
+      , code = "KI"
       , unofficialNames = [ "Kirundo" ]
       }
     , { name = "Karuzi"
-      , code = ""
+      , code = "KR"
       , unofficialNames = [ "Karusi" ]
       }
     , { name = "Kayanza"
-      , code = ""
+      , code = "KY"
       , unofficialNames = [ "Kayanza" ]
       }
     , { name = "Makamba"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Makamba" ]
       }
     , { name = "Muramvya"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "Muramuya" ]
       }
     , { name = "Mwaro"
-      , code = ""
+      , code = "MW"
       , unofficialNames = [ "Mwaro" ]
       }
     , { name = "Muyinga"
-      , code = ""
+      , code = "MY"
       , unofficialNames = [ "Muhinga" ]
       }
     , { name = "Ngozi"
-      , code = ""
+      , code = "NG"
       , unofficialNames = [ "Ngozi" ]
       }
     , { name = "Rutana"
-      , code = ""
+      , code = "RT"
       , unofficialNames = [ "Rutana" ]
       }
     , { name = "Ruyigi"
-      , code = ""
+      , code = "RY"
       , unofficialNames = [ "Ruyigi" ]
       }
     ]
@@ -11309,51 +11309,51 @@ burundiSubdivisions =
 beninSubdivisions : List Subdivision
 beninSubdivisions =
     [ { name = "Atakora"
-      , code = ""
+      , code = "AK"
       , unofficialNames = [ "Atakora" ]
       }
     , { name = "Alibori"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Alibori" ]
       }
     , { name = "Atlantique"
-      , code = ""
+      , code = "AQ"
       , unofficialNames = [ "Atlantique" ]
       }
     , { name = "Borgou"
-      , code = ""
+      , code = "BO"
       , unofficialNames = [ "Borgou" ]
       }
     , { name = "Collines"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Collines" ]
       }
     , { name = "Donga"
-      , code = ""
+      , code = "DO"
       , unofficialNames = [ "Donga" ]
       }
     , { name = "Kouffo"
-      , code = ""
+      , code = "KO"
       , unofficialNames = [ "Kouffo" ]
       }
     , { name = "Littoral"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Littoral" ]
       }
     , { name = "Mono"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Mono" ]
       }
     , { name = "Ouémé"
-      , code = ""
+      , code = "OU"
       , unofficialNames = [ "Ouémé" ]
       }
     , { name = "Plateau"
-      , code = ""
+      , code = "PL"
       , unofficialNames = [ "Plateau" ]
       }
     , { name = "Zou"
-      , code = ""
+      , code = "ZO"
       , unofficialNames = [ "Zou" ]
       }
     ]
@@ -11369,47 +11369,47 @@ saintBarthelemySubdivisions =
 bermudaSubdivisions : List Subdivision
 bermudaSubdivisions =
     [ { name = "Devonshire"
-      , code = ""
+      , code = "DS"
       , unofficialNames = [ "Devonshire" ]
       }
     , { name = "Saint George"
-      , code = ""
+      , code = "GC"
       , unofficialNames = [ "Saint George" ]
       }
     , { name = "Hamilton"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Hamilton" ]
       }
     , { name = "Hamilton City"
-      , code = ""
+      , code = "HC"
       , unofficialNames = [ "Hamilton City" ]
       }
     , { name = "Pembroke"
-      , code = ""
+      , code = "PB"
       , unofficialNames = [ "Pembroke" ]
       }
     , { name = "Paget"
-      , code = ""
+      , code = "PG"
       , unofficialNames = [ "Paget" ]
       }
     , { name = "Sandys"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Sandys" ]
       }
     , { name = "Saint George's"
-      , code = ""
+      , code = "SG"
       , unofficialNames = [ "Saint George's" ]
       }
     , { name = "Southampton"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Southampton" ]
       }
     , { name = "Smith's"
-      , code = ""
+      , code = "SM"
       , unofficialNames = [ "Smith's" ]
       }
     , { name = "Warwick"
-      , code = ""
+      , code = "WA"
       , unofficialNames = [ "Warwick" ]
       }
     ]
@@ -11419,19 +11419,19 @@ bermudaSubdivisions =
 bruneiDarussalamSubdivisions : List Subdivision
 bruneiDarussalamSubdivisions =
     [ { name = "Belait"
-      , code = ""
+      , code = "BE"
       , unofficialNames = [ "Belait" ]
       }
     , { name = "Brunei-Muara"
-      , code = ""
+      , code = "BM"
       , unofficialNames = [ "Brunei-Muara" ]
       }
     , { name = "Temburong"
-      , code = ""
+      , code = "TE"
       , unofficialNames = [ "Temburong" ]
       }
     , { name = "Tutong"
-      , code = ""
+      , code = "TU"
       , unofficialNames = [ "Tutong" ]
       }
     ]
@@ -11441,39 +11441,39 @@ bruneiDarussalamSubdivisions =
 boliviaPlurinationalStateOfSubdivisions : List Subdivision
 boliviaPlurinationalStateOfSubdivisions =
     [ { name = "El Beni"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "El Beni" ]
       }
     , { name = "Cochabamba"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Cochabamba" ]
       }
     , { name = "Chuquisaca"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Chuquisaca" ]
       }
     , { name = "La Paz"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "La Paz" ]
       }
     , { name = "Pando"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Pando" ]
       }
     , { name = "Oruro"
-      , code = ""
+      , code = "O"
       , unofficialNames = [ "Oruro" ]
       }
     , { name = "Potosí"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Potosí" ]
       }
     , { name = "Santa Cruz"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Santa Cruz" ]
       }
     , { name = "Tarija"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Tarija" ]
       }
     ]
@@ -11483,15 +11483,15 @@ boliviaPlurinationalStateOfSubdivisions =
 bonaireSintEustatiusAndSabaSubdivisions : List Subdivision
 bonaireSintEustatiusAndSabaSubdivisions =
     [ { name = "Bonaire"
-      , code = ""
+      , code = "BO"
       , unofficialNames = [ "Bonaire" ]
       }
     , { name = "Saba"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Saba" ]
       }
     , { name = "Sint Eustatius"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Sint Eustatius" ]
       }
     ]
@@ -11501,111 +11501,111 @@ bonaireSintEustatiusAndSabaSubdivisions =
 brazilSubdivisions : List Subdivision
 brazilSubdivisions =
     [ { name = "Acre"
-      , code = ""
+      , code = "AC"
       , unofficialNames = [ "Acre" ]
       }
     , { name = "Alagoas"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Alagoas" ]
       }
     , { name = "Amazonas"
-      , code = ""
+      , code = "AM"
       , unofficialNames = [ "Amazonas" ]
       }
     , { name = "Amapá"
-      , code = ""
+      , code = "AP"
       , unofficialNames = [ "Amapá" ]
       }
     , { name = "Bahia"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Bahia" ]
       }
     , { name = "Ceará"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Ceará" ]
       }
     , { name = "Distrito Federal"
-      , code = ""
+      , code = "DF"
       , unofficialNames = [ "Distrito Federal" ]
       }
     , { name = "Espírito Santo"
-      , code = ""
+      , code = "ES"
       , unofficialNames = [ "Espírito Santo" ]
       }
     , { name = "Goiás"
-      , code = ""
+      , code = "GO"
       , unofficialNames = [ "Goiás" ]
       }
     , { name = "Maranhão"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Maranhão" ]
       }
     , { name = "Minas Gerais"
-      , code = ""
+      , code = "MG"
       , unofficialNames = [ "Minas Gerais" ]
       }
     , { name = "Mato Grosso do Sul"
-      , code = ""
+      , code = "MS"
       , unofficialNames = [ "Mato Grosso do Sul" ]
       }
     , { name = "Mato Grosso"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Mato Grosso" ]
       }
     , { name = "Pará"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Pará" ]
       }
     , { name = "Paraíba"
-      , code = ""
+      , code = "PB"
       , unofficialNames = [ "Paraíba" ]
       }
     , { name = "Pernambuco"
-      , code = ""
+      , code = "PE"
       , unofficialNames = [ "Pernambuco" ]
       }
     , { name = "Piauí"
-      , code = ""
+      , code = "PI"
       , unofficialNames = [ "Piauí" ]
       }
     , { name = "Paraná"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Paraná" ]
       }
     , { name = "Rio de Janeiro"
-      , code = ""
+      , code = "RJ"
       , unofficialNames = [ "Rio de Janeiro" ]
       }
     , { name = "Rio Grande do Norte"
-      , code = ""
+      , code = "RN"
       , unofficialNames = [ "Rio Grande do Norte" ]
       }
     , { name = "Rondônia"
-      , code = ""
+      , code = "RO"
       , unofficialNames = [ "Rondônia" ]
       }
     , { name = "Roraima"
-      , code = ""
+      , code = "RR"
       , unofficialNames = [ "Roraima" ]
       }
     , { name = "Rio Grande do Sul"
-      , code = ""
+      , code = "RS"
       , unofficialNames = [ "Rio Grande do Sul" ]
       }
     , { name = "Santa Catarina"
-      , code = ""
+      , code = "SC"
       , unofficialNames = [ "Santa Catarina" ]
       }
     , { name = "Sergipe"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Sergipe" ]
       }
     , { name = "São Paulo"
-      , code = ""
+      , code = "SP"
       , unofficialNames = [ "São Paulo" ]
       }
     , { name = "Tocantins"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Tocantins" ]
       }
     ]
@@ -11615,87 +11615,87 @@ brazilSubdivisions =
 bahamasSubdivisions : List Subdivision
 bahamasSubdivisions =
     [ { name = "Acklins and Crooked Islands"
-      , code = ""
+      , code = "AC"
       , unofficialNames = [ "Acklins and Crooked Islands" ]
       }
     , { name = "Bimini"
-      , code = ""
+      , code = "BI"
       , unofficialNames = [ "Bimini Islands" ]
       }
     , { name = "Cat Island"
-      , code = ""
+      , code = "CI"
       , unofficialNames = [ "Cat Island" ]
       }
     , { name = "Exuma"
-      , code = ""
+      , code = "EX"
       , unofficialNames = [ "Exuma" ]
       }
     , { name = "Fresh Creek"
-      , code = ""
+      , code = "FC"
       , unofficialNames = [ "Fresh Creek" ]
       }
     , { name = "Freeport"
-      , code = ""
+      , code = "FP"
       , unofficialNames = [ "Freeport" ]
       }
     , { name = "Governor's Harbour"
-      , code = ""
+      , code = "GH"
       , unofficialNames = [ "Governor's Harbour" ]
       }
     , { name = "Green Turtle Cay"
-      , code = ""
+      , code = "GT"
       , unofficialNames = [ "Green Turtle Cay" ]
       }
     , { name = "Harbour Island"
-      , code = ""
+      , code = "HI"
       , unofficialNames = [ "Harbour Island" ]
       }
     , { name = "High Rock"
-      , code = ""
+      , code = "HR"
       , unofficialNames = [ "High Rock" ]
       }
     , { name = "Inagua"
-      , code = ""
+      , code = "IN"
       , unofficialNames = [ "Inagua" ]
       }
     , { name = "Kemps Bay"
-      , code = ""
+      , code = "KB"
       , unofficialNames = [ "Kemps Bay" ]
       }
     , { name = "Long Island"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Long Island" ]
       }
     , { name = "Mayaguana"
-      , code = ""
+      , code = "MG"
       , unofficialNames = [ "Mayaguana" ]
       }
     , { name = "Marsh Harbour"
-      , code = ""
+      , code = "MH"
       , unofficialNames = [ "Marsh Harbour" ]
       }
     , { name = "Nicholls Town and Berry Islands"
-      , code = ""
+      , code = "NB"
       , unofficialNames = [ "Nicholls Town and Berry Islands" ]
       }
     , { name = "New Providence"
-      , code = ""
+      , code = "NP"
       , unofficialNames = [ "New Providence" ]
       }
     , { name = "Ragged Island"
-      , code = ""
+      , code = "RI"
       , unofficialNames = [ "Ragged Island" ]
       }
     , { name = "Rock Sound"
-      , code = ""
+      , code = "RS"
       , unofficialNames = [ "Rock Sound" ]
       }
     , { name = "Sandy Point"
-      , code = ""
+      , code = "SP"
       , unofficialNames = [ "Sandy Point" ]
       }
     , { name = "San Salvador and Rum Cay"
-      , code = ""
+      , code = "SR"
       , unofficialNames = [ "San Salvador and Rum Cay" ]
       }
     ]
@@ -11705,83 +11705,83 @@ bahamasSubdivisions =
 bhutanSubdivisions : List Subdivision
 bhutanSubdivisions =
     [ { name = "Paro"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Paro", "Rinpung" ]
       }
     , { name = "Chhukha"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Chhuka", "Chuka", "Chukha" ]
       }
     , { name = "Ha"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Ha", "Haa" ]
       }
     , { name = "Samtse"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Samchi", "Samtse" ]
       }
     , { name = "Thimphu"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Thimbu", "Thimphu", "Thimpu", "Timbhu", "Timbu", "Timphu" ]
       }
     , { name = "Tsirang"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Chirang", "Tsirang" ]
       }
     , { name = "Dagana"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Daga", "Dagana" ]
       }
     , { name = "Punakha"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Punakha" ]
       }
     , { name = "Wangdue Phodrang"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Wangdi Phodrang", "Wangdiphodrang", "Wangdue", "Wangdue Phodrang" ]
       }
     , { name = "Sarpang"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Gaylegphug", "Geylegphug", "Sarbhang", "Sarpang" ]
       }
     , { name = "Trongsa"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Tongsa", "Trongsa" ]
       }
     , { name = "Bumthang"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Bumthang" ]
       }
     , { name = "Zhemgang"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Shemgang", "Zhemgang" ]
       }
     , { name = "Trashigang"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Tashigang", "Trashigang" ]
       }
     , { name = "Monggar"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Monggar", "Mongor" ]
       }
     , { name = "Pemagatshel"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Pema Gatshel", "Pemagatsel" ]
       }
     , { name = "Lhuentse"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Lhuentse", "Lhun Tshi", "Lhuntshi", "Lhuntsi" ]
       }
     , { name = "Samdrup Jongkha"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Samdruk Jongkhar", "Samdrup", "Samdrup Jongkha" ]
       }
     , { name = "Gasa"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Gaza" ]
       }
     , { name = "Trashi Yangtse"
-      , code = ""
+      , code = "TY"
       , unofficialNames = [ "Tashiyangtse" ]
       }
     ]
@@ -11791,39 +11791,39 @@ bhutanSubdivisions =
 botswanaSubdivisions : List Subdivision
 botswanaSubdivisions =
     [ { name = "Central"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Ghanzi"
-      , code = ""
+      , code = "GH"
       , unofficialNames = [ "Ghansi", "Khanzi" ]
       }
     , { name = "Kgalagadi"
-      , code = ""
+      , code = "KG"
       , unofficialNames = [ "Kgalagadi" ]
       }
     , { name = "Kgatleng"
-      , code = ""
+      , code = "KL"
       , unofficialNames = [ "Kgatleng" ]
       }
     , { name = "Kweneng"
-      , code = ""
+      , code = "KW"
       , unofficialNames = [ "Kweneng" ]
       }
     , { name = "North-East"
-      , code = ""
+      , code = "NE"
       , unofficialNames = [ "North-East" ]
       }
     , { name = "North-West"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "North-West" ]
       }
     , { name = "South-East"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "South-East" ]
       }
     , { name = "Southern"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Southern" ]
       }
     ]
@@ -11833,31 +11833,31 @@ botswanaSubdivisions =
 belarusSubdivisions : List Subdivision
 belarusSubdivisions =
     [ { name = "Brestskaya voblasts' (be) Brestskaya oblast' (ru)"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Bierascie", "Brest-Litovsk", "Brestskaja Oblastʿ", "Brestskaja Voblastsʿ", "Brestskaya Oblastʿ", "Brestskaya Voblastsʿ", "Brisk", "Brześć nad Bugiem", "Brześć-Litewski" ]
       }
     , { name = "Homyel'skaya voblasts' (be) Gomel'skaya oblast' (ru)"
-      , code = ""
+      , code = "HO"
       , unofficialNames = [ "Gomel", "Gomelskaja Oblastʿ", "Gomelskaya Oblastʿ", "Gomelʿ", "Homelskaja Voblastsʿ", "Homelskaya Voblastsʿ", "Homiel", "Homyel" ]
       }
     , { name = "Hrodzenskaya voblasts' (be) Grodnenskaya oblast' (ru)"
-      , code = ""
+      , code = "HR"
       , unofficialNames = [ "Gardinas", "Grodnenskaja Oblastʿ", "Grodnenskaya Oblastʿ", "Grodno", "Horadnia", "Hrodno", "Hrodzenskaja Voblastsʿ", "Hrodzenskaya Voblastsʿ" ]
       }
     , { name = "Mahilyowskaya voblasts' (be) Mogilevskaya oblast' (ru)"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Mahiljov", "Mahiljowskaja Voblastsʿ", "Mahilyov", "Mahilyowskaya Voblastsʿ", "Mahilëv", "Mahilëŭ", "Mogilev", "Mogiliov", "Mogiljovskaja Oblastʿ", "Mogilov", "Mogilyovskaya Oblast", "Mogilëv", "Mogilʿov" ]
       }
     , { name = "Minskaya voblasts' (be) Minskaya oblast' (ru)"
-      , code = ""
+      , code = "MI"
       , unofficialNames = [ "Minskaja Oblastʿ", "Minskaya Oblastʿ", "Minskaya Voblastsʿ" ]
       }
     , { name = "Vitsyebskaya voblasts' (be) Vitebskaya oblast' (ru)"
-      , code = ""
+      , code = "VI"
       , unofficialNames = [ "Vicebskaja Voblastsʿ", "Vicebskaya Voblastsʿ", "Viciebsk", "Vicjebsk", "Vitebsk", "Vitebskaja Oblastʿ", "Vitebskaya Oblastʿ", "Vitsyebsk" ]
       }
     , { name = "Horad Minsk"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Gorod Minsk", "Horad Minsk", "Mensk" ]
       }
     ]
@@ -11867,27 +11867,27 @@ belarusSubdivisions =
 belizeSubdivisions : List Subdivision
 belizeSubdivisions =
     [ { name = "Belize"
-      , code = ""
+      , code = "BZ"
       , unofficialNames = [ "Belize" ]
       }
     , { name = "Cayo"
-      , code = ""
+      , code = "CY"
       , unofficialNames = [ "Cayo" ]
       }
     , { name = "Corozal"
-      , code = ""
+      , code = "CZL"
       , unofficialNames = [ "Corozal" ]
       }
     , { name = "Orange Walk"
-      , code = ""
+      , code = "OW"
       , unofficialNames = [ "Orange Walk" ]
       }
     , { name = "Stann Creek"
-      , code = ""
+      , code = "SC"
       , unofficialNames = [ "Stann Creek" ]
       }
     , { name = "Toledo"
-      , code = ""
+      , code = "TOL"
       , unofficialNames = [ "Toledo" ]
       }
     ]
@@ -11897,55 +11897,55 @@ belizeSubdivisions =
 canadaSubdivisions : List Subdivision
 canadaSubdivisions =
     [ { name = "Alberta"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Alberta" ]
       }
     , { name = "British Columbia"
-      , code = ""
+      , code = "BC"
       , unofficialNames = [ "Colombie-Britannique" ]
       }
     , { name = "Manitoba"
-      , code = ""
+      , code = "MB"
       , unofficialNames = [ "Manitoba" ]
       }
     , { name = "New Brunswick"
-      , code = ""
+      , code = "NB"
       , unofficialNames = [ "Nouveau-Brunswick" ]
       }
     , { name = "Newfoundland and Labrador"
-      , code = ""
+      , code = "NL"
       , unofficialNames = [ "Terre-Neuve-et-Labrador", "Newfoundland", "Terre-Neuve" ]
       }
     , { name = "Nova Scotia"
-      , code = ""
+      , code = "NS"
       , unofficialNames = [ "Nouvelle-Écosse" ]
       }
     , { name = "Northwest Territories"
-      , code = ""
+      , code = "NT"
       , unofficialNames = [ "Territoires du Nord-Ouest" ]
       }
     , { name = "Nunavut"
-      , code = ""
+      , code = "NU"
       , unofficialNames = [ "Nunavut" ]
       }
     , { name = "Ontario"
-      , code = ""
+      , code = "ON"
       , unofficialNames = [ "Ontario" ]
       }
     , { name = "Prince Edward Island"
-      , code = ""
+      , code = "PE"
       , unofficialNames = [ "Île-du-Prince-Édouard" ]
       }
     , { name = "Quebec"
-      , code = ""
+      , code = "QC"
       , unofficialNames = [ "Québec" ]
       }
     , { name = "Saskatchewan"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "Saskatchewan" ]
       }
     , { name = "Yukon"
-      , code = ""
+      , code = "YT"
       , unofficialNames = [ "Yukon Territory" ]
       }
     ]
@@ -11955,47 +11955,47 @@ canadaSubdivisions =
 congoDemocraticRepublicOfTheSubdivisions : List Subdivision
 congoDemocraticRepublicOfTheSubdivisions =
     [ { name = "Bas-Congo"
-      , code = ""
+      , code = "BC"
       , unofficialNames = [ "Bas-Zaire" ]
       }
     , { name = "Bandundu"
-      , code = ""
+      , code = "BN"
       , unofficialNames = [ "Bandundu" ]
       }
     , { name = "Équateur"
-      , code = ""
+      , code = "EQ"
       , unofficialNames = [ "Équateur" ]
       }
     , { name = "Katanga"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Shaba" ]
       }
     , { name = "Kasai-Oriental"
-      , code = ""
+      , code = "KE"
       , unofficialNames = [ "Kasai-Oriental" ]
       }
     , { name = "Kinshasa"
-      , code = ""
+      , code = "KN"
       , unofficialNames = [ "Kinshasa" ]
       }
     , { name = "Kasai-Occidental"
-      , code = ""
+      , code = "KW"
       , unofficialNames = [ "Kasai-Occidental" ]
       }
     , { name = "Maniema"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Maniema" ]
       }
     , { name = "Nord-Kivu"
-      , code = ""
+      , code = "NK"
       , unofficialNames = [ "Nord-Kivu" ]
       }
     , { name = "Orientale"
-      , code = ""
+      , code = "OR"
       , unofficialNames = [ "Haut-Zaire", "Orientale" ]
       }
     , { name = "Sud-Kivu"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "Sud-Kivu" ]
       }
     ]
@@ -12005,71 +12005,71 @@ congoDemocraticRepublicOfTheSubdivisions =
 centralAfricanRepublicSubdivisions : List Subdivision
 centralAfricanRepublicSubdivisions =
     [ { name = "Ouham"
-      , code = ""
+      , code = "AC"
       , unofficialNames = [ "Ouham" ]
       }
     , { name = "Bamingui-Bangoran"
-      , code = ""
+      , code = "BB"
       , unofficialNames = [ "Bamingui-Bangoran" ]
       }
     , { name = "Bangui"
-      , code = ""
+      , code = "BGF"
       , unofficialNames = [ "Bangui" ]
       }
     , { name = "Basse-Kotto"
-      , code = ""
+      , code = "BK"
       , unofficialNames = [ "Basse-Kotto" ]
       }
     , { name = "Haute-Kotto"
-      , code = ""
+      , code = "HK"
       , unofficialNames = [ "Haute-Kotto" ]
       }
     , { name = "Haut-Mbomou"
-      , code = ""
+      , code = "HM"
       , unofficialNames = [ "Haut-Mʿbomou" ]
       }
     , { name = "Mambéré-Kadéï"
-      , code = ""
+      , code = "HS"
       , unofficialNames = [ "Haut-Sangha" ]
       }
     , { name = "Nana-Grébizi"
-      , code = ""
+      , code = "KB"
       , unofficialNames = [ "Gribingui", "Nana-Grébisi" ]
       }
     , { name = "Kémo"
-      , code = ""
+      , code = "KG"
       , unofficialNames = [ "Kémo Gribingui" ]
       }
     , { name = "Lobaye"
-      , code = ""
+      , code = "LB"
       , unofficialNames = [ "Lobaye" ]
       }
     , { name = "Mbomou"
-      , code = ""
+      , code = "MB"
       , unofficialNames = [ "Mʿbomou" ]
       }
     , { name = "Ombella-Mpoko"
-      , code = ""
+      , code = "MP"
       , unofficialNames = [ "Ombella-Mʿpoko", "Ombelle Mpoko" ]
       }
     , { name = "Nana-Mambéré"
-      , code = ""
+      , code = "NM"
       , unofficialNames = [ "Nana-Mambéré" ]
       }
     , { name = "Ouham-Pendé"
-      , code = ""
+      , code = "OP"
       , unofficialNames = [ "Ouham-Pendé" ]
       }
     , { name = "Sangha-Mbaéré"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Mbaeré", "Sangha" ]
       }
     , { name = "Ouaka"
-      , code = ""
+      , code = "UK"
       , unofficialNames = [ "Ouaka" ]
       }
     , { name = "Vakaga"
-      , code = ""
+      , code = "VK"
       , unofficialNames = [ "Vakaga" ]
       }
     ]
@@ -12079,47 +12079,47 @@ centralAfricanRepublicSubdivisions =
 congoSubdivisions : List Subdivision
 congoSubdivisions =
     [ { name = "Bouenza"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Bouénza" ]
       }
     , { name = "Pool"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Pool" ]
       }
     , { name = "Sangha"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Sangha" ]
       }
     , { name = "Plateaux"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Plateaux" ]
       }
     , { name = "Cuvette-Ouest"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Cuvette Ouest" ]
       }
     , { name = "Lékoumou"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Lékoumou" ]
       }
     , { name = "Kouilou"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Kouilou" ]
       }
     , { name = "Likouala"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Likouala" ]
       }
     , { name = "Cuvette"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Cuvette" ]
       }
     , { name = "Niari"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Niari" ]
       }
     , { name = "Brazzaville"
-      , code = ""
+      , code = "BZV"
       , unofficialNames = [ "Brazzaville" ]
       }
     ]
@@ -12129,107 +12129,107 @@ congoSubdivisions =
 switzerlandSubdivisions : List Subdivision
 switzerlandSubdivisions =
     [ { name = "Aargau (de)"
-      , code = ""
+      , code = "AG"
       , unofficialNames = [ "Argovie" ]
       }
     , { name = "Appenzell Innerrhoden (de)"
-      , code = ""
+      , code = "AI"
       , unofficialNames = [ "Appenzell Innerrhoden (de)" ]
       }
     , { name = "Appenzell Ausserrhoden (de)"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Appenzell-Ausser Rhoden" ]
       }
     , { name = "Bern (de)"
-      , code = ""
+      , code = "BE"
       , unofficialNames = [ "Berne" ]
       }
     , { name = "Basel-Landschaft (de)"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Bâle-Campagne" ]
       }
     , { name = "Basel-Stadt (de)"
-      , code = ""
+      , code = "BS"
       , unofficialNames = [ "Basel", "Basilea", "Basle", "Basel-Stadt", "Bâle-Ville" ]
       }
     , { name = "Fribourg (fr)"
-      , code = ""
+      , code = "FR"
       , unofficialNames = [ "Freiburg" ]
       }
     , { name = "Genève (fr)"
-      , code = ""
+      , code = "GE"
       , unofficialNames = [ "Ginevra", "Genève", "Genf", "Ginebra" ]
       }
     , { name = "Glarus (de)"
-      , code = ""
+      , code = "GL"
       , unofficialNames = [ "Glaris" ]
       }
     , { name = "Graubünden (de)"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Grigioni", "Grisons" ]
       }
     , { name = "Jura (fr)"
-      , code = ""
+      , code = "JU"
       , unofficialNames = [ "Jura (fr)" ]
       }
     , { name = "Luzern (de)"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "Lucerna", "Lucerne" ]
       }
     , { name = "Neuchâtel (fr)"
-      , code = ""
+      , code = "NE"
       , unofficialNames = [ "Neuenburg" ]
       }
     , { name = "Nidwalden (de)"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "Nidwald" ]
       }
     , { name = "Obwalden (de)"
-      , code = ""
+      , code = "OW"
       , unofficialNames = [ "Obwald" ]
       }
     , { name = "Sankt Gallen (de)"
-      , code = ""
+      , code = "SG"
       , unofficialNames = [ "Saint Galle", "Sankt Gallen", "Saint-Gall" ]
       }
     , { name = "Schaffhausen (de)"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Schaffhouse" ]
       }
     , { name = "Solothurn (de)"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Soleure" ]
       }
     , { name = "Schwyz (de)"
-      , code = ""
+      , code = "SZ"
       , unofficialNames = [ "Schwyz (de)" ]
       }
     , { name = "Thurgau (de)"
-      , code = ""
+      , code = "TG"
       , unofficialNames = [ "Thurgovie" ]
       }
     , { name = "Ticino (it)"
-      , code = ""
+      , code = "TI"
       , unofficialNames = [ "Tessin", "Tessin" ]
       }
     , { name = "Uri (de)"
-      , code = ""
+      , code = "UR"
       , unofficialNames = [ "Uri (de)" ]
       }
     , { name = "Vaud (fr)"
-      , code = ""
+      , code = "VD"
       , unofficialNames = [ "Waadt" ]
       }
     , { name = "Valais (fr)"
-      , code = ""
+      , code = "VS"
       , unofficialNames = [ "Vallese", "Wallis" ]
       }
     , { name = "Zug (de)"
-      , code = ""
+      , code = "ZG"
       , unofficialNames = [ "Zoug" ]
       }
     , { name = "Zürich (de)"
-      , code = ""
+      , code = "ZH"
       , unofficialNames = [ "Zurigo", "Zürich", "Zurich" ]
       }
     ]
@@ -12239,79 +12239,79 @@ switzerlandSubdivisions =
 coteDIvoireSubdivisions : List Subdivision
 coteDIvoireSubdivisions =
     [ { name = "Lagunes (Région des)"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Lagunes (Région des)" ]
       }
     , { name = "Haut-Sassandra (Région du)"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Haut-Sassandra (Région du)" ]
       }
     , { name = "Savanes (Région des)"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Savanes (Région des)" ]
       }
     , { name = "Vallée du Bandama (Région de la)"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Vallée du Bandama (Région de la)" ]
       }
     , { name = "Moyen-Comoé (Région du)"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Moyen-Comoé (Région du)" ]
       }
     , { name = "18 Montagnes (Région des)"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "18 Montagnes (Région des)" ]
       }
     , { name = "Lacs (Région des)"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Lacs (Région des)" ]
       }
     , { name = "Zanzan (Région du)"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Zanzan (Région du)" ]
       }
     , { name = "Bas-Sassandra (Région du)"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Bas-Sassandra (Région du)" ]
       }
     , { name = "Denguélé (Région du)"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Denguélé (Région du)" ]
       }
     , { name = "Nzi-Comoé (Région)"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Nzi-Comoé (Région)" ]
       }
     , { name = "Marahoué (Région de la)"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Marahoué (Région de la)" ]
       }
     , { name = "Sud-Comoé (Région du)"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Sud-Comoé (Région du)" ]
       }
     , { name = "Worodougou (Région du)"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Worodougou (Région du)" ]
       }
     , { name = "Sud-Bandama (Région du)"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Sud-Bandama (Région du)" ]
       }
     , { name = "Agnébi (Région de l')"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Agnébi (Région de l')" ]
       }
     , { name = "Bafing (Région du)"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Bafing (Région du)" ]
       }
     , { name = "Fromager (Région du)"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Fromager (Région du)" ]
       }
     , { name = "Moyen-Cavally (Région du)"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Moyen-Cavally (Région du)" ]
       }
     ]
@@ -12321,47 +12321,47 @@ coteDIvoireSubdivisions =
 cookIslandsSubdivisions : List Subdivision
 cookIslandsSubdivisions =
     [ { name = "Aitutaki"
-      , code = ""
+      , code = "AI"
       , unofficialNames = [ "Aitutaki" ]
       }
     , { name = "Atiu"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Atiu" ]
       }
     , { name = "Mangaia"
-      , code = ""
+      , code = "MG"
       , unofficialNames = [ "Mangaia" ]
       }
     , { name = "Manihiki"
-      , code = ""
+      , code = "MK"
       , unofficialNames = [ "Manihiki" ]
       }
     , { name = "Ma'uke"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "Ma'uke" ]
       }
     , { name = "Mitiaro"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Mitiaro" ]
       }
     , { name = "Palmerston"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Palmerston" ]
       }
     , { name = "Penrhyn"
-      , code = ""
+      , code = "PE"
       , unofficialNames = [ "Penrhyn" ]
       }
     , { name = "Pukapuka"
-      , code = ""
+      , code = "PU"
       , unofficialNames = [ "Pukapuka" ]
       }
     , { name = "Rakahanga"
-      , code = ""
+      , code = "RK"
       , unofficialNames = [ "Rakahanga" ]
       }
     , { name = "Rarotonga"
-      , code = ""
+      , code = "RR"
       , unofficialNames = [ "Rarotonga" ]
       }
     ]
@@ -12371,67 +12371,67 @@ cookIslandsSubdivisions =
 chileSubdivisions : List Subdivision
 chileSubdivisions =
     [ { name = "Aisén del General Carlos Ibáñez del Campo"
-      , code = ""
+      , code = "AI"
       , unofficialNames = [ "Aisén del General Carlos Ibáñez del Campo", "Aysén" ]
       }
     , { name = "Antofagasta"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Antofagasta" ]
       }
     , { name = "Araucanía"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "La Araucanía" ]
       }
     , { name = "Arica y Parinacota"
-      , code = ""
+      , code = "AP"
       , unofficialNames = [ "Arica y Parinacota" ]
       }
     , { name = "Atacama"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Atacama" ]
       }
     , { name = "Bío-Bío"
-      , code = ""
+      , code = "BI"
       , unofficialNames = [ "Bíobío" ]
       }
     , { name = "Coquimbo"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Coquimbo" ]
       }
     , { name = "Libertador General Bernardo O'Higgins"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "General Bernardo O'Higgins", "Libertador", "Libertador OʿHiggins" ]
       }
     , { name = "Los Lagos"
-      , code = ""
+      , code = "LL"
       , unofficialNames = [ "Los Lagos" ]
       }
     , { name = "Los Ríos"
-      , code = ""
+      , code = "LR"
       , unofficialNames = [ "Los Ríos" ]
       }
     , { name = "Magallanes"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Magellantes y la Antártica Chilena" ]
       }
     , { name = "Maule"
-      , code = ""
+      , code = "ML"
       , unofficialNames = [ "Maule" ]
       }
     , { name = "Región de Ñuble"
-      , code = ""
+      , code = "NB"
       , unofficialNames = [ "Ñuble" ]
       }
     , { name = "Región Metropolitana de Santiago"
-      , code = ""
+      , code = "RM"
       , unofficialNames = [ "Metropolitana de Santiago" ]
       }
     , { name = "Tarapacá"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tarapacá" ]
       }
     , { name = "Valparaíso"
-      , code = ""
+      , code = "VS"
       , unofficialNames = [ "Valparaíso" ]
       }
     ]
@@ -12441,43 +12441,43 @@ chileSubdivisions =
 cameroonSubdivisions : List Subdivision
 cameroonSubdivisions =
     [ { name = "Adamaoua"
-      , code = ""
+      , code = "AD"
       , unofficialNames = [ "Adamawa" ]
       }
     , { name = "Centre"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Centre" ]
       }
     , { name = "Far North"
-      , code = ""
+      , code = "EN"
       , unofficialNames = [ "Far North" ]
       }
     , { name = "East"
-      , code = ""
+      , code = "ES"
       , unofficialNames = [ "East" ]
       }
     , { name = "Littoral"
-      , code = ""
+      , code = "LT"
       , unofficialNames = [ "Littoral" ]
       }
     , { name = "North"
-      , code = ""
+      , code = "NO"
       , unofficialNames = [ "Bénoué" ]
       }
     , { name = "North-West"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "North-West" ]
       }
     , { name = "West"
-      , code = ""
+      , code = "OU"
       , unofficialNames = [ "West" ]
       }
     , { name = "South"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "South" ]
       }
     , { name = "South-West"
-      , code = ""
+      , code = "SW"
       , unofficialNames = [ "South-West" ]
       }
     ]
@@ -12487,139 +12487,139 @@ cameroonSubdivisions =
 chinaSubdivisions : List Subdivision
 chinaSubdivisions =
     [ { name = "Beijing"
-      , code = ""
+      , code = "BJ"
       , unofficialNames = [ "Beijing", "Pekín" ]
       }
     , { name = "Tianjin"
-      , code = ""
+      , code = "TJ"
       , unofficialNames = [ "Tianjin" ]
       }
     , { name = "Hebei"
-      , code = ""
+      , code = "HE"
       , unofficialNames = [ "Hebei" ]
       }
     , { name = "Shanxi"
-      , code = ""
+      , code = "SX"
       , unofficialNames = [ "Shanxi" ]
       }
     , { name = "Nei Mongol (mn)"
-      , code = ""
+      , code = "NM"
       , unofficialNames = [ "Inner Mongolia", "Nei Monggol" ]
       }
     , { name = "Liaoning"
-      , code = ""
+      , code = "LN"
       , unofficialNames = [ "Liaoning" ]
       }
     , { name = "Jilin"
-      , code = ""
+      , code = "JL"
       , unofficialNames = [ "Jilin" ]
       }
     , { name = "Heilongjiang"
-      , code = ""
+      , code = "HL"
       , unofficialNames = [ "Heilongjiang" ]
       }
     , { name = "Shanghai"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Schanghai" ]
       }
     , { name = "Jiangsu"
-      , code = ""
+      , code = "JS"
       , unofficialNames = [ "Jiangsu" ]
       }
     , { name = "Zhejiang"
-      , code = ""
+      , code = "ZJ"
       , unofficialNames = [ "Zhejiang" ]
       }
     , { name = "Anhui"
-      , code = ""
+      , code = "AH"
       , unofficialNames = [ "Anhui" ]
       }
     , { name = "Fujian"
-      , code = ""
+      , code = "FJ"
       , unofficialNames = [ "Fujian" ]
       }
     , { name = "Jiangxi"
-      , code = ""
+      , code = "JX"
       , unofficialNames = [ "Jiangxi" ]
       }
     , { name = "Shandong"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Shandong" ]
       }
     , { name = "Henan"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Henan" ]
       }
     , { name = "Hubei"
-      , code = ""
+      , code = "HB"
       , unofficialNames = [ "Hubei" ]
       }
     , { name = "Hunan"
-      , code = ""
+      , code = "HN"
       , unofficialNames = [ "Hunan" ]
       }
     , { name = "Guangdong"
-      , code = ""
+      , code = "GD"
       , unofficialNames = [ "Guangdong" ]
       }
     , { name = "Guangxi"
-      , code = ""
+      , code = "GX"
       , unofficialNames = [ "Guangxi Zhuang" ]
       }
     , { name = "Hainan"
-      , code = ""
+      , code = "HI"
       , unofficialNames = [ "Hainan" ]
       }
     , { name = "Chongqing"
-      , code = ""
+      , code = "CQ"
       , unofficialNames = [ "Chongqing" ]
       }
     , { name = "Sichuan"
-      , code = ""
+      , code = "SC"
       , unofficialNames = [ "Sichuan" ]
       }
     , { name = "Guizhou"
-      , code = ""
+      , code = "GZ"
       , unofficialNames = [ "Guizhou" ]
       }
     , { name = "Yunnan"
-      , code = ""
+      , code = "YN"
       , unofficialNames = [ "Yunnan" ]
       }
     , { name = "Xizang"
-      , code = ""
+      , code = "XZ"
       , unofficialNames = [ "Tibet" ]
       }
     , { name = "Shaanxi"
-      , code = ""
+      , code = "SN"
       , unofficialNames = [ "Shaanxi" ]
       }
     , { name = "Gansu"
-      , code = ""
+      , code = "GS"
       , unofficialNames = [ "Gansu" ]
       }
     , { name = "Qinghai"
-      , code = ""
+      , code = "QH"
       , unofficialNames = [ "Qinghai" ]
       }
     , { name = "Ningxia"
-      , code = ""
+      , code = "NX"
       , unofficialNames = [ "Ningxia Hui" ]
       }
     , { name = "Xinjiang"
-      , code = ""
+      , code = "XJ"
       , unofficialNames = [ "Uighur", "Uygur" ]
       }
     , { name = "Taiwan *"
-      , code = ""
+      , code = "TW"
       , unofficialNames = [ "Taiwan *" ]
       }
     , { name = "Xianggang (zh) **"
-      , code = ""
+      , code = "HK"
       , unofficialNames = [ "Xianggang", "Hongkong" ]
       }
     , { name = "Aomen (zh) ***"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Aomen (zh) ***" ]
       }
     ]
@@ -12629,135 +12629,135 @@ chinaSubdivisions =
 colombiaSubdivisions : List Subdivision
 colombiaSubdivisions =
     [ { name = "Amazonas"
-      , code = ""
+      , code = "AMA"
       , unofficialNames = [ "Amazonas" ]
       }
     , { name = "Antioquia"
-      , code = ""
+      , code = "ANT"
       , unofficialNames = [ "Antioquia" ]
       }
     , { name = "Arauca"
-      , code = ""
+      , code = "ARA"
       , unofficialNames = [ "Arauca" ]
       }
     , { name = "Atlántico"
-      , code = ""
+      , code = "ATL"
       , unofficialNames = [ "Atlántico" ]
       }
     , { name = "Bolívar"
-      , code = ""
+      , code = "BOL"
       , unofficialNames = [ "Bolívar" ]
       }
     , { name = "Boyacá"
-      , code = ""
+      , code = "BOY"
       , unofficialNames = [ "Boyacá" ]
       }
     , { name = "Caldas"
-      , code = ""
+      , code = "CAL"
       , unofficialNames = [ "Caldas" ]
       }
     , { name = "Caquetá"
-      , code = ""
+      , code = "CAQ"
       , unofficialNames = [ "Caquetá" ]
       }
     , { name = "Casanare"
-      , code = ""
+      , code = "CAS"
       , unofficialNames = [ "Casanare" ]
       }
     , { name = "Cauca"
-      , code = ""
+      , code = "CAU"
       , unofficialNames = [ "Cauca" ]
       }
     , { name = "Cesar"
-      , code = ""
+      , code = "CES"
       , unofficialNames = [ "Cesar" ]
       }
     , { name = "Chocó"
-      , code = ""
+      , code = "CHO"
       , unofficialNames = [ "Chocó" ]
       }
     , { name = "Córdoba"
-      , code = ""
+      , code = "COR"
       , unofficialNames = [ "Córdoba" ]
       }
     , { name = "Cundinamarca"
-      , code = ""
+      , code = "CUN"
       , unofficialNames = [ "Cundinamarca" ]
       }
     , { name = "Distrito Capital de Bogotá"
-      , code = ""
+      , code = "DC"
       , unofficialNames = [ "Santafé de Bogotá Distrito Capital" ]
       }
     , { name = "Guainía"
-      , code = ""
+      , code = "GUA"
       , unofficialNames = [ "Guainía" ]
       }
     , { name = "Guaviare"
-      , code = ""
+      , code = "GUV"
       , unofficialNames = [ "Guaviare" ]
       }
     , { name = "Huila"
-      , code = ""
+      , code = "HUI"
       , unofficialNames = [ "Huila" ]
       }
     , { name = "La Guajira"
-      , code = ""
+      , code = "LAG"
       , unofficialNames = [ "La Guajira" ]
       }
     , { name = "Magdalena"
-      , code = ""
+      , code = "MAG"
       , unofficialNames = [ "Magdalena" ]
       }
     , { name = "Meta"
-      , code = ""
+      , code = "MET"
       , unofficialNames = [ "Meta" ]
       }
     , { name = "Nariño"
-      , code = ""
+      , code = "NAR"
       , unofficialNames = [ "Nariño" ]
       }
     , { name = "Norte de Santander"
-      , code = ""
+      , code = "NSA"
       , unofficialNames = [ "Norte de Santander" ]
       }
     , { name = "Putumayo"
-      , code = ""
+      , code = "PUT"
       , unofficialNames = [ "Putumayo" ]
       }
     , { name = "Quindío"
-      , code = ""
+      , code = "QUI"
       , unofficialNames = [ "Quindío" ]
       }
     , { name = "Risaralda"
-      , code = ""
+      , code = "RIS"
       , unofficialNames = [ "Risaralda" ]
       }
     , { name = "Santander"
-      , code = ""
+      , code = "SAN"
       , unofficialNames = [ "Santander" ]
       }
     , { name = "San Andrés, Providencia y Santa Catalina"
-      , code = ""
+      , code = "SAP"
       , unofficialNames = [ "San Andrés, Providencia y Santa Catalina" ]
       }
     , { name = "Sucre"
-      , code = ""
+      , code = "SUC"
       , unofficialNames = [ "Sucre" ]
       }
     , { name = "Tolima"
-      , code = ""
+      , code = "TOL"
       , unofficialNames = [ "Tolima" ]
       }
     , { name = "Valle del Cauca"
-      , code = ""
+      , code = "VAC"
       , unofficialNames = [ "Valle del Cauca" ]
       }
     , { name = "Vaupés"
-      , code = ""
+      , code = "VAU"
       , unofficialNames = [ "Vaupés" ]
       }
     , { name = "Vichada"
-      , code = ""
+      , code = "VID"
       , unofficialNames = [ "Vichada" ]
       }
     ]
@@ -12767,31 +12767,31 @@ colombiaSubdivisions =
 costaRicaSubdivisions : List Subdivision
 costaRicaSubdivisions =
     [ { name = "Alajuela"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Alajuela" ]
       }
     , { name = "Cartago"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Cartago" ]
       }
     , { name = "Guanacaste"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Guanacaste" ]
       }
     , { name = "Heredia"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Heredia" ]
       }
     , { name = "Limón"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Limón" ]
       }
     , { name = "Puntarenas"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Puntarenas" ]
       }
     , { name = "San José"
-      , code = ""
+      , code = "SJ"
       , unofficialNames = [ "San José" ]
       }
     ]
@@ -12801,67 +12801,67 @@ costaRicaSubdivisions =
 cubaSubdivisions : List Subdivision
 cubaSubdivisions =
     [ { name = "Pinar del Río"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Pinar del Río" ]
       }
     , { name = "La Habana"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "La Habana" ]
       }
     , { name = "Matanzas"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Matanzas" ]
       }
     , { name = "Villa Clara"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Villa Clara" ]
       }
     , { name = "Cienfuegos"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Cienfuegos" ]
       }
     , { name = "Sancti Spíritus"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Sancti Spíritus" ]
       }
     , { name = "Ciego de Ávila"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Ciego de Ávila" ]
       }
     , { name = "Camagüey"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Camagüey" ]
       }
     , { name = "Las Tunas"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Las Tunas" ]
       }
     , { name = "Holguín"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Holguín" ]
       }
     , { name = "Granma"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Granma" ]
       }
     , { name = "Santiago de Cuba"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Santiago de Cuba" ]
       }
     , { name = "Guantánamo"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Guantánamo" ]
       }
     , { name = "Artemisa"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Artemisa" ]
       }
     , { name = "Mayabeque"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Mayabeque" ]
       }
     , { name = "Isla de la Juventud"
-      , code = ""
+      , code = "99"
       , unofficialNames = [ "Isla de la Juventud" ]
       }
     ]
@@ -12871,71 +12871,71 @@ cubaSubdivisions =
 caboVerdeSubdivisions : List Subdivision
 caboVerdeSubdivisions =
     [ { name = "Brava"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Brava" ]
       }
     , { name = "Boa Vista"
-      , code = ""
+      , code = "BV"
       , unofficialNames = [ "Boa Vista" ]
       }
     , { name = "Santa Catarina"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Santa Catarina" ]
       }
     , { name = "Santa Cruz"
-      , code = ""
+      , code = "CR"
       , unofficialNames = [ "Santa Cruz" ]
       }
     , { name = "Calheta de São Miguel"
-      , code = ""
+      , code = "CS"
       , unofficialNames = [ "Calheta de São Miguel" ]
       }
     , { name = "Maio"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Maio" ]
       }
     , { name = "Mosteiros"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Mosteiros" ]
       }
     , { name = "Paúl"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Paúl" ]
       }
     , { name = "Porto Novo"
-      , code = ""
+      , code = "PN"
       , unofficialNames = [ "Porto Novo" ]
       }
     , { name = "Praia"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Praia" ]
       }
     , { name = "Ribeira Grande"
-      , code = ""
+      , code = "RG"
       , unofficialNames = [ "Santiago" ]
       }
     , { name = "São Domingos"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "São Domingos" ]
       }
     , { name = "São Filipe"
-      , code = ""
+      , code = "SF"
       , unofficialNames = [ "São Filipe" ]
       }
     , { name = "Sal"
-      , code = ""
+      , code = "SL"
       , unofficialNames = [ "Sal" ]
       }
     , { name = "São Nicolau"
-      , code = ""
+      , code = "SN"
       , unofficialNames = [ "São Nicolau" ]
       }
     , { name = "São Vicente"
-      , code = ""
+      , code = "SV"
       , unofficialNames = [ "São Vicente" ]
       }
     , { name = "Tarrafal"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tarrafal" ]
       }
     ]
@@ -12951,27 +12951,27 @@ curacaoSubdivisions =
 cyprusSubdivisions : List Subdivision
 cyprusSubdivisions =
     [ { name = "Lefkosia"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Lefkosia" ]
       }
     , { name = "Lemesos"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Lemesos" ]
       }
     , { name = "Larnaka"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Larnaka" ]
       }
     , { name = "Ammochostos"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Ammochostos" ]
       }
     , { name = "Pafos"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Pafos" ]
       }
     , { name = "Keryneia"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Keryneia" ]
       }
     ]
@@ -12981,59 +12981,59 @@ cyprusSubdivisions =
 czechRepublicSubdivisions : List Subdivision
 czechRepublicSubdivisions =
     [ { name = "Jihočeský kraj"
-      , code = ""
+      , code = "JC"
       , unofficialNames = [ "Budějovický", "Českobudějovický" ]
       }
     , { name = "Jihomoravský kraj "
-      , code = ""
+      , code = "JM"
       , unofficialNames = [ "Brněnský" ]
       }
     , { name = "Karlovarský kraj"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Karlovarský kraj" ]
       }
     , { name = "Královéhradecký kraj"
-      , code = ""
+      , code = "KR"
       , unofficialNames = [ "Královéhradecký kraj" ]
       }
     , { name = "Liberecký kraj"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Liberecký kraj" ]
       }
     , { name = "Moravskoslezský kraj"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Ostravský" ]
       }
     , { name = "Olomoucký kraj"
-      , code = ""
+      , code = "OL"
       , unofficialNames = [ "Olomoucký kraj" ]
       }
     , { name = "Pardubický kraj"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Pardubický kraj" ]
       }
     , { name = "Plzeňský kraj"
-      , code = ""
+      , code = "PL"
       , unofficialNames = [ "Plzeňský kraj" ]
       }
     , { name = "Praha, hlavní město"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Hlavní město Praha", "Praha", "Prag", "Prague" ]
       }
     , { name = "Středočeský kraj"
-      , code = ""
+      , code = "ST"
       , unofficialNames = [ "Central Bohemia", "Mittelböhmen", "Středočeský" ]
       }
     , { name = "Ústecký kraj"
-      , code = ""
+      , code = "US"
       , unofficialNames = [ "Ústecký kraj" ]
       }
     , { name = "Vysočina"
-      , code = ""
+      , code = "VY"
       , unofficialNames = [ "Jihlavský" ]
       }
     , { name = "Zlínský kraj"
-      , code = ""
+      , code = "ZL"
       , unofficialNames = [ "Zlínský kraj" ]
       }
     ]
@@ -13043,67 +13043,67 @@ czechRepublicSubdivisions =
 germanySubdivisions : List Subdivision
 germanySubdivisions =
     [ { name = "Brandenburg"
-      , code = ""
+      , code = "BB"
       , unofficialNames = [ "Brandenbourg", "Brandenburgo" ]
       }
     , { name = "Berlin"
-      , code = ""
+      , code = "BE"
       , unofficialNames = [ "Berlín" ]
       }
     , { name = "Baden-Württemberg"
-      , code = ""
+      , code = "BW"
       , unofficialNames = [ "Baden-Württemberg" ]
       }
     , { name = "Bayern"
-      , code = ""
+      , code = "BY"
       , unofficialNames = [ "Bavière", "Bayern", "Bavaria" ]
       }
     , { name = "Bremen"
-      , code = ""
+      , code = "HB"
       , unofficialNames = [ "Brème" ]
       }
     , { name = "Hessen"
-      , code = ""
+      , code = "HE"
       , unofficialNames = [ "Hessen", "Hesse" ]
       }
     , { name = "Hamburg"
-      , code = ""
+      , code = "HH"
       , unofficialNames = [ "Amburgo", "Hambourg", "Hamburgo" ]
       }
     , { name = "Mecklenburg-Vorpommern"
-      , code = ""
+      , code = "MV"
       , unofficialNames = [ "Mecklenburg-Vorpommern" ]
       }
     , { name = "Niedersachsen"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Niedersachsen" ]
       }
     , { name = "Nordrhein-Westfalen"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "Nordrhein-Westfalen", "Rhénanie-Westphalie" ]
       }
     , { name = "Rheinland-Pfalz"
-      , code = ""
+      , code = "RP"
       , unofficialNames = [ "Rheinland-Pfalz", "Rhénanie-Palatinat", "Rhineland-Palatinate" ]
       }
     , { name = "Schleswig-Holstein"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Schleswig-Holstein" ]
       }
     , { name = "Saarland"
-      , code = ""
+      , code = "SL"
       , unofficialNames = [ "Saarland" ]
       }
     , { name = "Sachsen"
-      , code = ""
+      , code = "SN"
       , unofficialNames = [ "Sachsen" ]
       }
     , { name = "Sachsen-Anhalt"
-      , code = ""
+      , code = "ST"
       , unofficialNames = [ "Sachsen-Anhalt" ]
       }
     , { name = "Thüringen"
-      , code = ""
+      , code = "TH"
       , unofficialNames = [ "Thüringen" ]
       }
     ]
@@ -13113,27 +13113,27 @@ germanySubdivisions =
 djiboutiSubdivisions : List Subdivision
 djiboutiSubdivisions =
     [ { name = "Arta"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Arta" ]
       }
     , { name = "Ali Sabieh"
-      , code = ""
+      , code = "AS"
       , unofficialNames = [ "Ali Sabieh", "Ali Sabih" ]
       }
     , { name = "Dikhil"
-      , code = ""
+      , code = "DI"
       , unofficialNames = [ "Dikhil", "Dikkil" ]
       }
     , { name = "Djibouti"
-      , code = ""
+      , code = "DJ"
       , unofficialNames = [ "Djibouti" ]
       }
     , { name = "Obock"
-      , code = ""
+      , code = "OB"
       , unofficialNames = [ "Obock", "Obok" ]
       }
     , { name = "Tadjourah"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tadjoura", "Tadjourah", "Tajura" ]
       }
     ]
@@ -13143,87 +13143,87 @@ djiboutiSubdivisions =
 denmarkSubdivisions : List Subdivision
 denmarkSubdivisions =
     [ { name = "København"
-      , code = ""
+      , code = "015"
       , unofficialNames = [ "København" ]
       }
     , { name = "Frederiksborg"
-      , code = ""
+      , code = "020"
       , unofficialNames = [ "Frederiksborg" ]
       }
     , { name = "Roskilde"
-      , code = ""
+      , code = "025"
       , unofficialNames = [ "Roskilde" ]
       }
     , { name = "Vestsjælland"
-      , code = ""
+      , code = "030"
       , unofficialNames = [ "Vestsjælland" ]
       }
     , { name = "Storstrøm"
-      , code = ""
+      , code = "035"
       , unofficialNames = [ "Storstrøm" ]
       }
     , { name = "Bornholm"
-      , code = ""
+      , code = "040"
       , unofficialNames = [ "Bornholm" ]
       }
     , { name = "Fyn"
-      , code = ""
+      , code = "042"
       , unofficialNames = [ "Fyn" ]
       }
     , { name = "Sønderjylland"
-      , code = ""
+      , code = "050"
       , unofficialNames = [ "Sønderjylland" ]
       }
     , { name = "Ribe"
-      , code = ""
+      , code = "055"
       , unofficialNames = [ "Ribe" ]
       }
     , { name = "Vejle"
-      , code = ""
+      , code = "060"
       , unofficialNames = [ "Vejle" ]
       }
     , { name = "Ringkøbing"
-      , code = ""
+      , code = "065"
       , unofficialNames = [ "Ringkøbing" ]
       }
     , { name = "Århus"
-      , code = ""
+      , code = "070"
       , unofficialNames = [ "Århus" ]
       }
     , { name = "Viborg"
-      , code = ""
+      , code = "076"
       , unofficialNames = [ "Viborg" ]
       }
     , { name = "Nordjylland"
-      , code = ""
+      , code = "080"
       , unofficialNames = [ "Nordjylland" ]
       }
     , { name = "København City"
-      , code = ""
+      , code = "101"
       , unofficialNames = [ "København City" ]
       }
     , { name = "Frederiksberg City"
-      , code = ""
+      , code = "147"
       , unofficialNames = [ "Frederiksberg City" ]
       }
     , { name = "North Jutland"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Nordjylland" ]
       }
     , { name = "Central Jutland"
-      , code = ""
+      , code = "82"
       , unofficialNames = [ "Midtjylland" ]
       }
     , { name = "South Denmark"
-      , code = ""
+      , code = "83"
       , unofficialNames = [ "Syddanmark" ]
       }
     , { name = "Capital"
-      , code = ""
+      , code = "84"
       , unofficialNames = [ "Region Hovedstaden" ]
       }
     , { name = "Zeeland"
-      , code = ""
+      , code = "85"
       , unofficialNames = [ "Sjælland" ]
       }
     ]
@@ -13233,43 +13233,43 @@ denmarkSubdivisions =
 dominicaSubdivisions : List Subdivision
 dominicaSubdivisions =
     [ { name = "Saint Andrew"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Saint Andrew" ]
       }
     , { name = "Saint David"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Saint David" ]
       }
     , { name = "Saint George"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Saint George" ]
       }
     , { name = "Saint John"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Saint John" ]
       }
     , { name = "Saint Joseph"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Saint Joseph" ]
       }
     , { name = "Saint Luke"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Saint Luke" ]
       }
     , { name = "Saint Mark"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Saint Mark" ]
       }
     , { name = "Saint Patrick"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Saint Patrick" ]
       }
     , { name = "Saint Paul"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Saint Paul" ]
       }
     , { name = "Saint Peter"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Saint Peter" ]
       }
     ]
@@ -13279,127 +13279,127 @@ dominicaSubdivisions =
 dominicanRepublicSubdivisions : List Subdivision
 dominicanRepublicSubdivisions =
     [ { name = "Distrito Nacional (Santo Domingo)"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Distrito Nacional (Santo Domingo)" ]
       }
     , { name = "Azua"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Azua" ]
       }
     , { name = "Bahoruco"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Bahoruco", "Baoruco" ]
       }
     , { name = "Barahona"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Barahona" ]
       }
     , { name = "Dajabón"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Dajabón" ]
       }
     , { name = "Duarte"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Duarte" ]
       }
     , { name = "La Estrelleta [Elías Piña]"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "La Estrelleta [Elías Piña]" ]
       }
     , { name = "El Seybo [El Seibo]"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "El Seybo [El Seibo]" ]
       }
     , { name = "Espaillat"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Espaillat" ]
       }
     , { name = "Independencia"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Independencia" ]
       }
     , { name = "La Altagracia"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "La Altagracia" ]
       }
     , { name = "La Romana"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "La Romana" ]
       }
     , { name = "La Vega"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "La Vega" ]
       }
     , { name = "María Trinidad Sánchez"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "María Trinidad Sánchez" ]
       }
     , { name = "Monte Cristi"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Monte Cristi" ]
       }
     , { name = "Pedernales"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Pedernales" ]
       }
     , { name = "Peravia"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Peravia" ]
       }
     , { name = "Puerto Plata"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Puerto Plata" ]
       }
     , { name = "Salcedo"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Salcedo" ]
       }
     , { name = "Samaná"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Samaná" ]
       }
     , { name = "San Cristóbal"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "San Cristóbal" ]
       }
     , { name = "San Juan"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "San Juan" ]
       }
     , { name = "San Pedro de Macorís"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "San Pedro de Macorís" ]
       }
     , { name = "Sánchez Ramírez"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Sánchez Ramírez" ]
       }
     , { name = "Santiago"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Santiago" ]
       }
     , { name = "Santiago Rodríguez"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Santiago Rodríguez" ]
       }
     , { name = "Valverde"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Valverde" ]
       }
     , { name = "Monseñor Nouel"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Monseñor Nouel" ]
       }
     , { name = "Monte Plata"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Monte Plata" ]
       }
     , { name = "Hato Mayor"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Hato Mayor" ]
       }
     , { name = "San Jose de Ocoa"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "San Jose de Ocoa" ]
       }
     ]
@@ -13409,195 +13409,195 @@ dominicanRepublicSubdivisions =
 algeriaSubdivisions : List Subdivision
 algeriaSubdivisions =
     [ { name = "Adrar"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Adrar" ]
       }
     , { name = "Chlef"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Al Asnam", "Al Asnām", "Chelef", "Chelf", "Chlef", "Chlif", "Ech Cheliff", "El Asnam" ]
       }
     , { name = "Laghouat"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Laghouat" ]
       }
     , { name = "Oum el Bouaghi"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Canrobert", "Oum el Bouaghi" ]
       }
     , { name = "Batna"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Batna" ]
       }
     , { name = "Béjaïa"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Bejaïa", "Béjaïa", "Bougie" ]
       }
     , { name = "Biskra"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Beskra", "Biskara", "Biskra" ]
       }
     , { name = "Béchar"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Béchar" ]
       }
     , { name = "Blida"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "El Boulaida", "Blida" ]
       }
     , { name = "Bouira"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Bouira" ]
       }
     , { name = "Tamanghasset"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Fort-Laperrine", "Tamanghist", "Tamanrasset" ]
       }
     , { name = "Tébessa"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Tbessa", "Tébessa" ]
       }
     , { name = "Tlemcen"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Tilimsen", "Tlemcen" ]
       }
     , { name = "Tiaret"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Tihert", "Tiaret" ]
       }
     , { name = "Tizi Ouzou"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Tizi-Ouzou" ]
       }
     , { name = "Alger"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Al-Jazair", "Al-Jazaʿir", "El Djazair", "al-Jazāʿir", "Algier", "Alger" ]
       }
     , { name = "Djelfa"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "El Djelfa", "Djelfa" ]
       }
     , { name = "Jijel"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Djidjel", "Djidjelli", "Jijel", "Djidjeli" ]
       }
     , { name = "Sétif"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Setif", "Stif", "Sétif" ]
       }
     , { name = "Saïda"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Saida", "Saïda" ]
       }
     , { name = "Skikda"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Skikda" ]
       }
     , { name = "Sidi Bel Abbès"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Sidi bel Abbès" ]
       }
     , { name = "Annaba"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Bona", "Bône", "Annaba" ]
       }
     , { name = "Guelma"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Guelma" ]
       }
     , { name = "Constantine"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Ksontina", "Qacentina", "Qoussantina", "Qusanţīnah", "Constantine" ]
       }
     , { name = "Médéa"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Lemdiyya", "al-Midyah", "Médéa" ]
       }
     , { name = "Mostaganem"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Mestghanem", "Mustaghanam", "Mustaghanim", "Mustaġānam", "Mostaganem" ]
       }
     , { name = "Msila"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "MʿSila", "Msila" ]
       }
     , { name = "Mascara"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Mouaskar", "Mascara" ]
       }
     , { name = "Ouargla"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Wargla", "Ouargla" ]
       }
     , { name = "Oran"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Ouahran", "Oran" ]
       }
     , { name = "El Bayadh"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "El Bayadh" ]
       }
     , { name = "Illizi"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Illizi" ]
       }
     , { name = "Bordj Bou Arréridj"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Bordj Bou Arreridj" ]
       }
     , { name = "Boumerdès"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Boumerdès" ]
       }
     , { name = "El Tarf"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "El Taref", "at-Tarf", "El Tarf" ]
       }
     , { name = "Tindouf"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Tindouf" ]
       }
     , { name = "Tissemsilt"
-      , code = ""
+      , code = "38"
       , unofficialNames = [ "Tissemselt", "Tissemsilt" ]
       }
     , { name = "El Oued"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "El Ouâdi", "El Wad", "El Oued" ]
       }
     , { name = "Khenchela"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Khenchla", "Khenchela" ]
       }
     , { name = "Souk Ahras"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Souq Ahras", "Souk Ahras" ]
       }
     , { name = "Tipaza"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Tipaza" ]
       }
     , { name = "Mila"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Mila" ]
       }
     , { name = "Aïn Defla"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Aïn Eddefla", "Aïn Defla" ]
       }
     , { name = "Naama"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Naama" ]
       }
     , { name = "Aïn Témouchent"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Aïn Temouchent" ]
       }
     , { name = "Ghardaïa"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Ghardaïa" ]
       }
     , { name = "Relizane"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Ghilizane", "Ighil Izane", "Rélizane", "Relizane" ]
       }
     ]
@@ -13607,99 +13607,99 @@ algeriaSubdivisions =
 ecuadorSubdivisions : List Subdivision
 ecuadorSubdivisions =
     [ { name = "Azuay"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Azuay" ]
       }
     , { name = "Bolívar"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Bolívar" ]
       }
     , { name = "Carchi"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Carchi" ]
       }
     , { name = "Orellana"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Orellana" ]
       }
     , { name = "Esmeraldas"
-      , code = ""
+      , code = "E"
       , unofficialNames = [ "Esmeraldas" ]
       }
     , { name = "Cañar"
-      , code = ""
+      , code = "F"
       , unofficialNames = [ "Cañar" ]
       }
     , { name = "Guayas"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Guayas" ]
       }
     , { name = "Chimborazo"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Chimborazo" ]
       }
     , { name = "Imbabura"
-      , code = ""
+      , code = "I"
       , unofficialNames = [ "Imbabura" ]
       }
     , { name = "Loja"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Loja" ]
       }
     , { name = "Manabí"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Manabí" ]
       }
     , { name = "Napo"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Napo" ]
       }
     , { name = "El Oro"
-      , code = ""
+      , code = "O"
       , unofficialNames = [ "El Oro" ]
       }
     , { name = "Pichincha"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Pichincha" ]
       }
     , { name = "Los Ríos"
-      , code = ""
+      , code = "R"
       , unofficialNames = [ "Los Ríos" ]
       }
     , { name = "Morona-Santiago"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Morona-Santiago" ]
       }
     , { name = "Tungurahua"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Tungurahua" ]
       }
     , { name = "Sucumbíos"
-      , code = ""
+      , code = "U"
       , unofficialNames = [ "Sucumbíos" ]
       }
     , { name = "Galápagos"
-      , code = ""
+      , code = "W"
       , unofficialNames = [ "Galápagos" ]
       }
     , { name = "Cotopaxi"
-      , code = ""
+      , code = "X"
       , unofficialNames = [ "Cotopaxi" ]
       }
     , { name = "Pastaza"
-      , code = ""
+      , code = "Y"
       , unofficialNames = [ "Pastaza" ]
       }
     , { name = "Zamora-Chinchipe"
-      , code = ""
+      , code = "Z"
       , unofficialNames = [ "Zamora-Chinchipe" ]
       }
     , { name = "Santo Domingo de los Tsachilas"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Santo Domingo de los Tsachilas" ]
       }
     , { name = "Santa Elena"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Santa Elena" ]
       }
     ]
@@ -13709,63 +13709,63 @@ ecuadorSubdivisions =
 estoniaSubdivisions : List Subdivision
 estoniaSubdivisions =
     [ { name = "Harjumaa"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Harjumaa" ]
       }
     , { name = "Hiiumaa"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Dagden", "Dagö" ]
       }
     , { name = "Ida-Virumaa"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Ida-Virumaa" ]
       }
     , { name = "Jõgevamaa"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Jogevamaa" ]
       }
     , { name = "Järvamaa"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Järvamaa" ]
       }
     , { name = "Läänemaa"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Läänemaa" ]
       }
     , { name = "Lääne-Virumaa"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Lääne-Virumaa" ]
       }
     , { name = "Põlvamaa"
-      , code = ""
+      , code = "65"
       , unofficialNames = [ "Polvamaa" ]
       }
     , { name = "Pärnumaa"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "Pärnumaa" ]
       }
     , { name = "Raplamaa"
-      , code = ""
+      , code = "70"
       , unofficialNames = [ "Raplamaa" ]
       }
     , { name = "Saaremaa"
-      , code = ""
+      , code = "74"
       , unofficialNames = [ "Saare", "Ösel" ]
       }
     , { name = "Tartumaa"
-      , code = ""
+      , code = "78"
       , unofficialNames = [ "Tartumaa" ]
       }
     , { name = "Valgamaa"
-      , code = ""
+      , code = "82"
       , unofficialNames = [ "Valgamaa" ]
       }
     , { name = "Viljandimaa"
-      , code = ""
+      , code = "84"
       , unofficialNames = [ "Viljandimaa" ]
       }
     , { name = "Võrumaa"
-      , code = ""
+      , code = "86"
       , unofficialNames = [ "Vorumaa" ]
       }
     ]
@@ -13775,111 +13775,111 @@ estoniaSubdivisions =
 egyptSubdivisions : List Subdivision
 egyptSubdivisions =
     [ { name = "Al Iskandariyah"
-      , code = ""
+      , code = "ALX"
       , unofficialNames = [ "El Iskandariya", "al-Iskandariyah", "al-Iskandarīyah", "Alexandria", "Alexandrie", "Alexandria" ]
       }
     , { name = "Aswan"
-      , code = ""
+      , code = "ASN"
       , unofficialNames = [ "Aswān", "Assuan", "Assouan" ]
       }
     , { name = "Asyut"
-      , code = ""
+      , code = "AST"
       , unofficialNames = [ "Asiut", "Assyût", "Siut", "Asyūţ", "Assiut", "Assiout" ]
       }
     , { name = "Al Bahr al Ahmar"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "El Bahr el Ahmar" ]
       }
     , { name = "Al Buhayrah"
-      , code = ""
+      , code = "BH"
       , unofficialNames = [ "El Buhayra", "al-Buh̨ayrah" ]
       }
     , { name = "Bani Suwayf"
-      , code = ""
+      , code = "BNS"
       , unofficialNames = [ "Bani Suwayf", "Banī Suwayf" ]
       }
     , { name = "Al Qahirah"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "El Qahira", "Le Caire-sur-Mer", "al-Qāhirah", "Kairo", "Caire", "Cairo" ]
       }
     , { name = "Ad Daqahliyah"
-      , code = ""
+      , code = "DK"
       , unofficialNames = [ "Dakahlia", "El Daqahliya", "ad-Daqahliyah" ]
       }
     , { name = "Dumyat"
-      , code = ""
+      , code = "DT"
       , unofficialNames = [ "Damiat", "Dumyat", "Dumyāţ", "Damiette" ]
       }
     , { name = "Al Fayyum"
-      , code = ""
+      , code = "FYM"
       , unofficialNames = [ "El Faiyūm", "al-Fayyum", "al-Fayyūm" ]
       }
     , { name = "Al Gharbiyah"
-      , code = ""
+      , code = "GH"
       , unofficialNames = [ "El Gharbiya", "Gharbiya", "al-Garbiyah", "al-Ġarbīyah" ]
       }
     , { name = "Al Jizah"
-      , code = ""
+      , code = "GZ"
       , unofficialNames = [ "El Giza", "Gise", "Giza", "Gizah", "Jiza", "Jizah", "al-Jīzah", "Giseh", "Gîza" ]
       }
     , { name = "Al Ismā`īlīyah"
-      , code = ""
+      , code = "IS"
       , unofficialNames = [ "El Ismailia", "Ismaʿiliya", "al-Ismailiyah", "al-Ismāīlīyah" ]
       }
     , { name = "Janub Sina'"
-      , code = ""
+      , code = "JS"
       , unofficialNames = [ "Sina al-Janūbīyah", "Sinai al-Janubiyah", "South Sinai" ]
       }
     , { name = "Al Qalyubiyah"
-      , code = ""
+      , code = "KB"
       , unofficialNames = [ "El Qalubiya", "al-Qalyubiyah" ]
       }
     , { name = "Kafr ash Shaykh"
-      , code = ""
+      , code = "KFS"
       , unofficialNames = [ "Kafr-ash-Shaykh", "Kafr-aš-Šayẖ" ]
       }
     , { name = "Qina"
-      , code = ""
+      , code = "KN"
       , unofficialNames = [ "Qina", "Qinā" ]
       }
     , { name = "al-Uqsur"
-      , code = ""
+      , code = "LX"
       , unofficialNames = [ "al-Uqsur", "al-Uqşur", "Luxor", "Louxor" ]
       }
     , { name = "Al Minya"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "El Minya", "Minia", "al-Minya", "al-Minyā" ]
       }
     , { name = "Al Minufiyah"
-      , code = ""
+      , code = "MNF"
       , unofficialNames = [ "El Minufiya", "Menufiya", "al-Minufiyah", "al-Minūfīyah" ]
       }
     , { name = "Matrūh"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Matrah", "Matrūh" ]
       }
     , { name = "Būr Sa`īd"
-      , code = ""
+      , code = "PTS"
       , unofficialNames = [ "Bur Said", "Būr Saʿīd" ]
       }
     , { name = "Suhaj"
-      , code = ""
+      , code = "SHG"
       , unofficialNames = [ "Sawhaj", "Suhag", "Suhaj", "Sūhaj", "Sawhāj" ]
       }
     , { name = "Ash Sharqiyah"
-      , code = ""
+      , code = "SHR"
       , unofficialNames = [ "ash-Sharqiyah", "aš-Šarqīyah" ]
       }
     , { name = "Shamal Sina'"
-      , code = ""
+      , code = "SIN"
       , unofficialNames = [ "Shamal Sina", "Sina aš-Šamālīyah", "Sinai ash-Shamaliyah", "Šamāl Sīna" ]
       }
     , { name = "As Suways"
-      , code = ""
+      , code = "SUZ"
       , unofficialNames = [ "El Suweiz", "as-Suways" ]
       }
     , { name = "Al Wadi al Jadid"
-      , code = ""
+      , code = "WAD"
       , unofficialNames = [ "El Wadi el Jadid", "El Wadi el Jedid" ]
       }
     ]
@@ -13889,19 +13889,19 @@ egyptSubdivisions =
 westernSaharaSubdivisions : List Subdivision
 westernSaharaSubdivisions =
     [ { name = "Boujdour"
-      , code = ""
+      , code = "BOD"
       , unofficialNames = [ "Bojador", "Boujdour", "Bu Jaydur", "Bujdur", "Cabo Bojador" ]
       }
     , { name = "Es Semara"
-      , code = ""
+      , code = "ESM"
       , unofficialNames = [ "Es-Smara", "Essemara", "Semara", "Smara", "as-Samarah", "as-Smara" ]
       }
     , { name = "Laayoune"
-      , code = ""
+      , code = "LAA"
       , unofficialNames = [ "Aaiún", "Al Ayūn", "Al-Uyun", "Ayūn", "El Aaiún", "La Youne", "Laayoune", "Laʿyoun", "Lâayoun", "al-Ayun" ]
       }
     , { name = "Oued el Dahab"
-      , code = ""
+      , code = "OUD"
       , unofficialNames = [ "Oued edh Dheheb", "Wad adh-Dhahab" ]
       }
     ]
@@ -13911,27 +13911,27 @@ westernSaharaSubdivisions =
 eritreaSubdivisions : List Subdivision
 eritreaSubdivisions =
     [ { name = "Anseba"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Anseba" ]
       }
     , { name = "Debubawi Keyih Bahri [Debub-Keih-Bahri]"
-      , code = ""
+      , code = "DK"
       , unofficialNames = [ "Debubawi Keyih Bahri [Debub-Keih-Bahri]" ]
       }
     , { name = "Debub"
-      , code = ""
+      , code = "DU"
       , unofficialNames = [ "Debub" ]
       }
     , { name = "Gash-Barka"
-      , code = ""
+      , code = "GB"
       , unofficialNames = [ "Gash-Barka" ]
       }
     , { name = "Maakel [Maekel]"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Maakel [Maekel]" ]
       }
     , { name = "Semenawi Keyih Bahri [Semien-Keih-Bahri]"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "Semenawi Keyih Bahri [Semien-Keih-Bahri]" ]
       }
     ]
@@ -13941,211 +13941,211 @@ eritreaSubdivisions =
 spainSubdivisions : List Subdivision
 spainSubdivisions =
     [ { name = "Alicante/Alacant"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Alicante/Alacant", "Alacant/Alicante", "Alicante", "Alacant" ]
       }
     , { name = "Albacete"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Albacete" ]
       }
     , { name = "Almería"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Almería" ]
       }
     , { name = "Ávila"
-      , code = ""
+      , code = "AV"
       , unofficialNames = [ "Ávila" ]
       }
     , { name = "Barcelona"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Barcelona", "Barna" ]
       }
     , { name = "Badajoz"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Badajoz" ]
       }
     , { name = "Bizkaia"
-      , code = ""
+      , code = "BI"
       , unofficialNames = [ "Bizkaia", "Vizcaya" ]
       }
     , { name = "Burgos"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Burgos" ]
       }
     , { name = "Coruña, A"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Coruña, A", "A Coruña", "Corunna", "La Coruña", "Coruña" ]
       }
     , { name = "Cádiz"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Cádiz" ]
       }
     , { name = "Cáceres"
-      , code = ""
+      , code = "CC"
       , unofficialNames = [ "Cáceres" ]
       }
     , { name = "Ceuta"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Ceuta", "Sebta" ]
       }
     , { name = "Córdoba"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Córdoba" ]
       }
     , { name = "Ciudad Real"
-      , code = ""
+      , code = "CR"
       , unofficialNames = [ "Ciudad Real" ]
       }
     , { name = "Castellón/Castelló"
-      , code = ""
+      , code = "CS"
       , unofficialNames = [ "Castellón/Castelló", "Castelló/Castellón", "Castellón", "Castelló" ]
       }
     , { name = "Cuenca"
-      , code = ""
+      , code = "CU"
       , unofficialNames = [ "Cuenca" ]
       }
     , { name = "Palmas, Las"
-      , code = ""
+      , code = "GC"
       , unofficialNames = [ "Palmas, Las", "Las Palmas", "Las Palmas de Gran Canaria" ]
       }
     , { name = "Girona"
-      , code = ""
+      , code = "GI"
       , unofficialNames = [ "Girona", "Gerona" ]
       }
     , { name = "Granada"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Granada" ]
       }
     , { name = "Guadalajara"
-      , code = ""
+      , code = "GU"
       , unofficialNames = [ "Guadalajara" ]
       }
     , { name = "Huelva"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Huelva" ]
       }
     , { name = "Huesca"
-      , code = ""
+      , code = "HU"
       , unofficialNames = [ "Huesca" ]
       }
     , { name = "Jaén"
-      , code = ""
+      , code = "J"
       , unofficialNames = [ "Jaén" ]
       }
     , { name = "Lleida"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Lleida", "Lérida" ]
       }
     , { name = "León"
-      , code = ""
+      , code = "LE"
       , unofficialNames = [ "León" ]
       }
     , { name = "Rioja, La"
-      , code = ""
+      , code = "LO"
       , unofficialNames = [ "Rioja, La", "La Rioja", "Rioja", "Logroño" ]
       }
     , { name = "Lugo"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "Lugo" ]
       }
     , { name = "Madrid"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Madrid" ]
       }
     , { name = "Málaga"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Málaga" ]
       }
     , { name = "Melilla"
-      , code = ""
+      , code = "ML"
       , unofficialNames = [ "Melilla" ]
       }
     , { name = "Murcia"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "Murcia" ]
       }
     , { name = "Navarra"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Navarra", "Navarre", "Nafarroa" ]
       }
     , { name = "Asturias"
-      , code = ""
+      , code = "O"
       , unofficialNames = [ "Asturias", "Oviedo" ]
       }
     , { name = "Ourense"
-      , code = ""
+      , code = "OR"
       , unofficialNames = [ "Ourense", "Orense" ]
       }
     , { name = "Palencia"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Palencia" ]
       }
     , { name = "Balears, Illes"
-      , code = ""
+      , code = "PM"
       , unofficialNames = [ "Balears, Illes", "Baleares", "Illes Balears", "Islas Baleares", "Balearic Islands" ]
       }
     , { name = "Pontevedra"
-      , code = ""
+      , code = "PO"
       , unofficialNames = [ "Pontevedra" ]
       }
     , { name = "Cantabria"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Cantabria", "Santander" ]
       }
     , { name = "Salamanca"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Salamanca" ]
       }
     , { name = "Sevilla"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Sevilla" ]
       }
     , { name = "Segovia"
-      , code = ""
+      , code = "SG"
       , unofficialNames = [ "Segovia" ]
       }
     , { name = "Soria"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Soria" ]
       }
     , { name = "Gipuzkoa"
-      , code = ""
+      , code = "SS"
       , unofficialNames = [ "Gipuzkoa", "Guipúzcoa" ]
       }
     , { name = "Tarragona"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Tarragona" ]
       }
     , { name = "Teruel"
-      , code = ""
+      , code = "TE"
       , unofficialNames = [ "Teruel" ]
       }
     , { name = "Santa Cruz de Tenerife"
-      , code = ""
+      , code = "TF"
       , unofficialNames = [ "Santa Cruz de Tenerife", "Tenerife" ]
       }
     , { name = "Toledo"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Toledo" ]
       }
     , { name = "Valencia/València"
-      , code = ""
+      , code = "V"
       , unofficialNames = [ "Valencia/València", "València/Valencia", "Valencia", "València" ]
       }
     , { name = "Valladolid"
-      , code = ""
+      , code = "VA"
       , unofficialNames = [ "Valladolid" ]
       }
     , { name = "Araba/Álava"
-      , code = ""
+      , code = "VI"
       , unofficialNames = [ "Araba/Álava", "Araba", "Álava" ]
       }
     , { name = "Zaragoza"
-      , code = ""
+      , code = "Z"
       , unofficialNames = [ "Zaragoza" ]
       }
     , { name = "Zamora"
-      , code = ""
+      , code = "ZA"
       , unofficialNames = [ "Zamora" ]
       }
     ]
@@ -14155,47 +14155,47 @@ spainSubdivisions =
 ethiopiaSubdivisions : List Subdivision
 ethiopiaSubdivisions =
     [ { name = "Adis Abeba"
-      , code = ""
+      , code = "AA"
       , unofficialNames = [ "Adis Abeba" ]
       }
     , { name = "Afar"
-      , code = ""
+      , code = "AF"
       , unofficialNames = [ "Affar" ]
       }
     , { name = "Amara"
-      , code = ""
+      , code = "AM"
       , unofficialNames = [ "Amara" ]
       }
     , { name = "Binshangul Gumuz"
-      , code = ""
+      , code = "BE"
       , unofficialNames = [ "Binshangul Gumuz" ]
       }
     , { name = "Dire Dawa"
-      , code = ""
+      , code = "DD"
       , unofficialNames = [ "Dire Dawa" ]
       }
     , { name = "Gambela Hizboch"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Gambela" ]
       }
     , { name = "Hareri Hizb"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Hareri Hizb" ]
       }
     , { name = "Oromiya"
-      , code = ""
+      , code = "OR"
       , unofficialNames = [ "Oromiya" ]
       }
     , { name = "YeDebub Biheroch Bihereseboch na Hizboch"
-      , code = ""
+      , code = "SN"
       , unofficialNames = [ "YeDebub Biheroch Bihereseboch na Hizboch" ]
       }
     , { name = "Sumale"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Sumale" ]
       }
     , { name = "Tigray"
-      , code = ""
+      , code = "TI"
       , unofficialNames = [ "Tigray" ]
       }
     ]
@@ -14205,27 +14205,27 @@ ethiopiaSubdivisions =
 finlandSubdivisions : List Subdivision
 finlandSubdivisions =
     [ { name = "Ahvenanmaan lääni"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Åland" ]
       }
     , { name = "Etelä-Suomen lääni"
-      , code = ""
+      , code = "ES"
       , unofficialNames = [ "Etelä-Suomen lääni" ]
       }
     , { name = "Itä-Suomen lääni"
-      , code = ""
+      , code = "IS"
       , unofficialNames = [ "Östra Nyland", "Itä-Uusimaa", "Uusima de lʿEst" ]
       }
     , { name = "Lapin lääni"
-      , code = ""
+      , code = "LL"
       , unofficialNames = [ "Lappland", "Lappi", "Lappland", "Laponie" ]
       }
     , { name = "Länsi-Suomen lääni"
-      , code = ""
+      , code = "LS"
       , unofficialNames = [ "Länsi-Suomen lääni" ]
       }
     , { name = "Oulun lääni"
-      , code = ""
+      , code = "OL"
       , unofficialNames = [ "Oulun lääni" ]
       }
     ]
@@ -14235,23 +14235,23 @@ finlandSubdivisions =
 fijiSubdivisions : List Subdivision
 fijiSubdivisions =
     [ { name = "Central"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Eastern"
-      , code = ""
+      , code = "E"
       , unofficialNames = [ "Eastern" ]
       }
     , { name = "Northern"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Northern" ]
       }
     , { name = "Rotuma"
-      , code = ""
+      , code = "R"
       , unofficialNames = [ "Rotuma" ]
       }
     , { name = "Western"
-      , code = ""
+      , code = "W"
       , unofficialNames = [ "Western" ]
       }
     ]
@@ -14261,19 +14261,19 @@ fijiSubdivisions =
 micronesiaFederatedStatesOfSubdivisions : List Subdivision
 micronesiaFederatedStatesOfSubdivisions =
     [ { name = "Kosrae"
-      , code = ""
+      , code = "KSA"
       , unofficialNames = [ "Kosrae" ]
       }
     , { name = "Pohnpei"
-      , code = ""
+      , code = "PNI"
       , unofficialNames = [ "Ascension", "Ponape" ]
       }
     , { name = "Chuuk"
-      , code = ""
+      , code = "TRK"
       , unofficialNames = [ "Chuk", "Hogoley Islands", "Truk" ]
       }
     , { name = "Yap"
-      , code = ""
+      , code = "YAP"
       , unofficialNames = [ "Yap" ]
       }
     ]
@@ -14283,27 +14283,27 @@ micronesiaFederatedStatesOfSubdivisions =
 faroeIslandsSubdivisions : List Subdivision
 faroeIslandsSubdivisions =
     [ { name = "Nordoyar"
-      , code = ""
+      , code = "NO"
       , unofficialNames = [ "Nordoyar" ]
       }
     , { name = "Eysturoyar"
-      , code = ""
+      , code = "OS"
       , unofficialNames = [ "Eysturoyar" ]
       }
     , { name = "Sandoyar"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Sandoyar" ]
       }
     , { name = "Streymoyar"
-      , code = ""
+      , code = "ST"
       , unofficialNames = [ "Streymoyar" ]
       }
     , { name = "Suduroyar"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "Suduroyar" ]
       }
     , { name = "Vaga"
-      , code = ""
+      , code = "VG"
       , unofficialNames = [ "Vaga" ]
       }
     ]
@@ -14313,463 +14313,463 @@ faroeIslandsSubdivisions =
 franceSubdivisions : List Subdivision
 franceSubdivisions =
     [ { name = "Ain"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Ain" ]
       }
     , { name = "Aisne"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Aisne" ]
       }
     , { name = "Allier"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Allier" ]
       }
     , { name = "Alpes-de-Haute-Provence"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Alpes-de-Haute-Provence" ]
       }
     , { name = "Hautes-Alpes"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Hautes-Alpes" ]
       }
     , { name = "Alpes-Maritimes"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Alpes-Maritimes" ]
       }
     , { name = "Ardèche"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Ardèche" ]
       }
     , { name = "Ardennes"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Ardennes" ]
       }
     , { name = "Ariège"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Ariège" ]
       }
     , { name = "Aube"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Aube" ]
       }
     , { name = "Aude"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Aude" ]
       }
     , { name = "Aveyron"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Aveyron" ]
       }
     , { name = "Bouches-du-Rhône"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Bouches-du-Rhône" ]
       }
     , { name = "Calvados"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Calvados" ]
       }
     , { name = "Cantal"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Cantal" ]
       }
     , { name = "Charente"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Charente" ]
       }
     , { name = "Charente-Maritime"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Charente-Maritime" ]
       }
     , { name = "Cher"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Cher" ]
       }
     , { name = "Corrèze"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Corrèze" ]
       }
     , { name = "Côte-d'Or"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Côte-d'Or" ]
       }
     , { name = "Côtes-d'Armor"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Côtes-du-Nord" ]
       }
     , { name = "Creuse"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Creuse" ]
       }
     , { name = "Dordogne"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Dordogne" ]
       }
     , { name = "Doubs"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Doubs" ]
       }
     , { name = "Drôme"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Drôme" ]
       }
     , { name = "Eure"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Eure" ]
       }
     , { name = "Eure-et-Loir"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Eure-et-Loir" ]
       }
     , { name = "Finistère"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Finistère" ]
       }
     , { name = "Corse-du-Sud"
-      , code = ""
+      , code = "2A"
       , unofficialNames = [ "Corse-du-Sud" ]
       }
     , { name = "Haute-Corse"
-      , code = ""
+      , code = "2B"
       , unofficialNames = [ "Haute-Corse" ]
       }
     , { name = "Gard"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Gard" ]
       }
     , { name = "Haute-Garonne"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Haute-Garonne" ]
       }
     , { name = "Gers"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Gers" ]
       }
     , { name = "Gironde"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Gironde" ]
       }
     , { name = "Hérault"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Hérault" ]
       }
     , { name = "Ille-et-Vilaine"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Ille-et-Vilaine" ]
       }
     , { name = "Indre"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Indre" ]
       }
     , { name = "Indre-et-Loire"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Indre-et-Loire" ]
       }
     , { name = "Isère"
-      , code = ""
+      , code = "38"
       , unofficialNames = [ "Isère" ]
       }
     , { name = "Jura"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Jura" ]
       }
     , { name = "Landes"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Landes" ]
       }
     , { name = "Loir-et-Cher"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Loir-et-Cher" ]
       }
     , { name = "Loire"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Loire" ]
       }
     , { name = "Haute-Loire"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Haute-Loire" ]
       }
     , { name = "Loire-Atlantique"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Loire-Atlantique" ]
       }
     , { name = "Loiret"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Loiret" ]
       }
     , { name = "Lot"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Lot" ]
       }
     , { name = "Lot-et-Garonne"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Lot-et-Garonne" ]
       }
     , { name = "Lozère"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Lozère" ]
       }
     , { name = "Maine-et-Loire"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Maine-et-Loire" ]
       }
     , { name = "Manche"
-      , code = ""
+      , code = "50"
       , unofficialNames = [ "Manche" ]
       }
     , { name = "Marne"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Marne" ]
       }
     , { name = "Haute-Marne"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Haute-Marne" ]
       }
     , { name = "Mayenne"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Mayenne" ]
       }
     , { name = "Meurthe-et-Moselle"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Meurthe-et-Moselle" ]
       }
     , { name = "Meuse"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Meuse" ]
       }
     , { name = "Morbihan"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Morbihan" ]
       }
     , { name = "Moselle"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Moselle" ]
       }
     , { name = "Nièvre"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Nièvre" ]
       }
     , { name = "Nord"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Nord" ]
       }
     , { name = "Oise"
-      , code = ""
+      , code = "60"
       , unofficialNames = [ "Oise" ]
       }
     , { name = "Orne"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Orne" ]
       }
     , { name = "Pas-de-Calais"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Pas-de-Calais" ]
       }
     , { name = "Puy-de-Dôme"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Puy-de-Dôme" ]
       }
     , { name = "Pyrénées-Atlantiques"
-      , code = ""
+      , code = "64"
       , unofficialNames = [ "Pyrénées-Atlantiques" ]
       }
     , { name = "Hautes-Pyrénées"
-      , code = ""
+      , code = "65"
       , unofficialNames = [ "Hautes-Pyrénées" ]
       }
     , { name = "Pyrénées-Orientales"
-      , code = ""
+      , code = "66"
       , unofficialNames = [ "Pyrénées-Orientales" ]
       }
     , { name = "Bas-Rhin"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "Bas-Rhin" ]
       }
     , { name = "Haut-Rhin"
-      , code = ""
+      , code = "68"
       , unofficialNames = [ "Haut-Rhin" ]
       }
     , { name = "Rhône"
-      , code = ""
+      , code = "69"
       , unofficialNames = [ "Rhône" ]
       }
     , { name = "Haute-Saône"
-      , code = ""
+      , code = "70"
       , unofficialNames = [ "Haute-Saône" ]
       }
     , { name = "Saône-et-Loire"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Saône-et-Loire" ]
       }
     , { name = "Sarthe"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Sarthe" ]
       }
     , { name = "Savoie"
-      , code = ""
+      , code = "73"
       , unofficialNames = [ "Savoie" ]
       }
     , { name = "Haute-Savoie"
-      , code = ""
+      , code = "74"
       , unofficialNames = [ "Haute-Savoie" ]
       }
     , { name = "Paris"
-      , code = ""
+      , code = "75"
       , unofficialNames = [ "Paris" ]
       }
     , { name = "Seine-Maritime"
-      , code = ""
+      , code = "76"
       , unofficialNames = [ "Seine-Maritime" ]
       }
     , { name = "Seine-et-Marne"
-      , code = ""
+      , code = "77"
       , unofficialNames = [ "Seine-et-Marne" ]
       }
     , { name = "Yvelines"
-      , code = ""
+      , code = "78"
       , unofficialNames = [ "Yvelines" ]
       }
     , { name = "Deux-Sèvres"
-      , code = ""
+      , code = "79"
       , unofficialNames = [ "Deux-Sèvres" ]
       }
     , { name = "Somme"
-      , code = ""
+      , code = "80"
       , unofficialNames = [ "Somme" ]
       }
     , { name = "Tarn"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Tarn" ]
       }
     , { name = "Tarn-et-Garonne"
-      , code = ""
+      , code = "82"
       , unofficialNames = [ "Tarn-et-Garonne" ]
       }
     , { name = "Var"
-      , code = ""
+      , code = "83"
       , unofficialNames = [ "Var" ]
       }
     , { name = "Vaucluse"
-      , code = ""
+      , code = "84"
       , unofficialNames = [ "Vaucluse" ]
       }
     , { name = "Vendée"
-      , code = ""
+      , code = "85"
       , unofficialNames = [ "Vendée" ]
       }
     , { name = "Vienne"
-      , code = ""
+      , code = "86"
       , unofficialNames = [ "Vienne" ]
       }
     , { name = "Haute-Vienne"
-      , code = ""
+      , code = "87"
       , unofficialNames = [ "Haute-Vienne" ]
       }
     , { name = "Vosges"
-      , code = ""
+      , code = "88"
       , unofficialNames = [ "Vosges" ]
       }
     , { name = "Yonne"
-      , code = ""
+      , code = "89"
       , unofficialNames = [ "Yonne" ]
       }
     , { name = "Territoire de Belfort"
-      , code = ""
+      , code = "90"
       , unofficialNames = [ "Territoire de Belfort" ]
       }
     , { name = "Essonne"
-      , code = ""
+      , code = "91"
       , unofficialNames = [ "Essonne" ]
       }
     , { name = "Hauts-de-Seine"
-      , code = ""
+      , code = "92"
       , unofficialNames = [ "Hauts-de-Seine" ]
       }
     , { name = "Seine-Saint-Denis"
-      , code = ""
+      , code = "93"
       , unofficialNames = [ "Seine-Saint-Denis" ]
       }
     , { name = "Val-de-Marne"
-      , code = ""
+      , code = "94"
       , unofficialNames = [ "Val-de-Marne" ]
       }
     , { name = "Val-d'Oise"
-      , code = ""
+      , code = "95"
       , unofficialNames = [ "Val-d'Oise" ]
       }
     , { name = "Nouvelle-Calédonie"
-      , code = ""
+      , code = "NC"
       , unofficialNames = [ "Nouvelle-Calédonie" ]
       }
     , { name = "Polynésie française"
-      , code = ""
+      , code = "PF"
       , unofficialNames = [ "Polynésie française" ]
       }
     , { name = "Saint-Pierre-et-Miquelon"
-      , code = ""
+      , code = "PM"
       , unofficialNames = [ "Saint-Pierre-et-Miquelon" ]
       }
     , { name = "Terres Australes Françaises"
-      , code = ""
+      , code = "TF"
       , unofficialNames = [ "Terres Australes Françaises" ]
       }
     , { name = "Wallis et Futuna"
-      , code = ""
+      , code = "WF"
       , unofficialNames = [ "Wallis et Futuna" ]
       }
     , { name = "Mayotte"
-      , code = ""
+      , code = "YT"
       , unofficialNames = [ "Mayotte" ]
       }
     , { name = "Auvergne-Rhône-Alpes"
-      , code = ""
+      , code = "ARA"
       , unofficialNames = [ "Auvergne-Rhône-Alpes", "Auvèrnhe-Ròse-Aups", "Ôvèrgne-Rôno-Arpes" ]
       }
     , { name = "Bourgogne-Franche-Comté"
-      , code = ""
+      , code = "BFC"
       , unofficialNames = [ "Bourgogne-Franche-Comté", "Borgogne-Franche-Comtât" ]
       }
     , { name = "Bretagne"
-      , code = ""
+      , code = "BRE"
       , unofficialNames = [ "Bretagne", "Breizh" ]
       }
     , { name = "Centre-Val de Loire"
-      , code = ""
+      , code = "CVL"
       , unofficialNames = [ "Centre-Val de Loire" ]
       }
     , { name = "Corse"
-      , code = ""
+      , code = "COR"
       , unofficialNames = [ "Corse", "Corsica" ]
       }
     , { name = "Grand Est"
-      , code = ""
+      , code = "GES"
       , unofficialNames = [ "Grand Est" ]
       }
     , { name = "Hauts-de-France"
-      , code = ""
+      , code = "HDF"
       , unofficialNames = [ "Hauts-de-France" ]
       }
     , { name = "Île-de-France"
-      , code = ""
+      , code = "IDF"
       , unofficialNames = [ "Île-de-France", "Région Parisienne" ]
       }
     , { name = "Normandie"
-      , code = ""
+      , code = "NOR"
       , unofficialNames = [ "Normandie", "Normaundie" ]
       }
     , { name = "Nouvelle-Aquitaine"
-      , code = ""
+      , code = "NAQ"
       , unofficialNames = [ "Nouvelle-Aquitaine" ]
       }
     , { name = "Occitanie"
-      , code = ""
+      , code = "OCC"
       , unofficialNames = [ "Occitanie", "Occitània" ]
       }
     , { name = "Pays de la Loire"
-      , code = ""
+      , code = "PDL"
       , unofficialNames = [ "Pays de la Loire", "Broioù al Liger" ]
       }
     , { name = "Provence-Alpes-Côte d'Azur"
-      , code = ""
+      , code = "PAC"
       , unofficialNames = [ "Provence-Alpes-Côte d'Azur", "PACA" ]
       }
     ]
@@ -14779,39 +14779,39 @@ franceSubdivisions =
 gabonSubdivisions : List Subdivision
 gabonSubdivisions =
     [ { name = "Estuaire"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Estuaire" ]
       }
     , { name = "Haut-Ogooué"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Haut-Ogooué" ]
       }
     , { name = "Moyen-Ogooué"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Moyen-Ogooué" ]
       }
     , { name = "Ngounié"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Nʿgounié" ]
       }
     , { name = "Nyanga"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Nyanga" ]
       }
     , { name = "Ogooué-Ivindo"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Ogooué-Ivindo" ]
       }
     , { name = "Ogooué-Lolo"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Ogooué-Lolo" ]
       }
     , { name = "Ogooué-Maritime"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Ogooué-Maritime" ]
       }
     , { name = "Woleu-Ntem"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Woleu-Nʿtem" ]
       }
     ]
@@ -14821,923 +14821,923 @@ gabonSubdivisions =
 unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions : List Subdivision
 unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions =
     [ { name = "Aberdeenshire"
-      , code = ""
+      , code = "ABD"
       , unofficialNames = [ "Siorrachd Obar Dheathain" ]
       }
     , { name = "Aberdeen City"
-      , code = ""
+      , code = "ABE"
       , unofficialNames = [ "Aberdeen City" ]
       }
     , { name = "Argyll and Bute"
-      , code = ""
+      , code = "AGB"
       , unofficialNames = [ "Argyll and Bute" ]
       }
     , { name = "Isle of Anglesey [Sir Ynys Môn GB-YNM]"
-      , code = ""
+      , code = "AGY"
       , unofficialNames = [ "Ynys MÃ´n" ]
       }
     , { name = "Angus"
-      , code = ""
+      , code = "ANS"
       , unofficialNames = [ "Angus" ]
       }
     , { name = "Antrim"
-      , code = ""
+      , code = "ANT"
       , unofficialNames = [ "Antrim" ]
       }
     , { name = "Ards"
-      , code = ""
+      , code = "ARD"
       , unofficialNames = [ "Ards" ]
       }
     , { name = "Armagh"
-      , code = ""
+      , code = "ARM"
       , unofficialNames = [ "Armagh" ]
       }
     , { name = "Bath and North East Somerset"
-      , code = ""
+      , code = "BAS"
       , unofficialNames = [ "Bath and North East Somerset" ]
       }
     , { name = "Blackburn with Darwen"
-      , code = ""
+      , code = "BBD"
       , unofficialNames = [ "Blackburn with Darwen" ]
       }
     , { name = "Bedfordshire"
-      , code = ""
+      , code = "BDF"
       , unofficialNames = [ "Bedfordshire" ]
       }
     , { name = "Barking and Dagenham"
-      , code = ""
+      , code = "BDG"
       , unofficialNames = [ "Barking and Dagenham" ]
       }
     , { name = "Brent"
-      , code = ""
+      , code = "BEN"
       , unofficialNames = [ "Brent" ]
       }
     , { name = "Bexley"
-      , code = ""
+      , code = "BEX"
       , unofficialNames = [ "Bexley" ]
       }
     , { name = "Belfast"
-      , code = ""
+      , code = "BFS"
       , unofficialNames = [ "Belfast" ]
       }
     , { name = "Bridgend [Pen-y-bont ar Ogwr GB-POG]"
-      , code = ""
+      , code = "BGE"
       , unofficialNames = [ "Pen-y-bont ar Ogwr" ]
       }
     , { name = "Blaenau Gwent"
-      , code = ""
+      , code = "BGW"
       , unofficialNames = [ "Blaenau Gwent" ]
       }
     , { name = "Birmingham"
-      , code = ""
+      , code = "BIR"
       , unofficialNames = [ "Birmingham" ]
       }
     , { name = "Buckinghamshire"
-      , code = ""
+      , code = "BKM"
       , unofficialNames = [ "Buckinghamshire" ]
       }
     , { name = "Ballymena"
-      , code = ""
+      , code = "BLA"
       , unofficialNames = [ "Ballymena" ]
       }
     , { name = "Ballymoney"
-      , code = ""
+      , code = "BLY"
       , unofficialNames = [ "Ballymoney" ]
       }
     , { name = "Bournemouth"
-      , code = ""
+      , code = "BMH"
       , unofficialNames = [ "Bournemouth" ]
       }
     , { name = "Banbridge"
-      , code = ""
+      , code = "BNB"
       , unofficialNames = [ "Banbridge" ]
       }
     , { name = "Barnet"
-      , code = ""
+      , code = "BNE"
       , unofficialNames = [ "Barnet" ]
       }
     , { name = "Brighton and Hove"
-      , code = ""
+      , code = "BNH"
       , unofficialNames = [ "Brighton and Hove" ]
       }
     , { name = "Barnsley"
-      , code = ""
+      , code = "BNS"
       , unofficialNames = [ "Barnsley" ]
       }
     , { name = "Bolton"
-      , code = ""
+      , code = "BOL"
       , unofficialNames = [ "Bolton" ]
       }
     , { name = "Blackpool"
-      , code = ""
+      , code = "BPL"
       , unofficialNames = [ "Blackpool" ]
       }
     , { name = "Bracknell Forest"
-      , code = ""
+      , code = "BRC"
       , unofficialNames = [ "Bracknell Forest" ]
       }
     , { name = "Bradford"
-      , code = ""
+      , code = "BRD"
       , unofficialNames = [ "Bradford" ]
       }
     , { name = "Bromley"
-      , code = ""
+      , code = "BRY"
       , unofficialNames = [ "Bromley" ]
       }
     , { name = "Bristol, City of"
-      , code = ""
+      , code = "BST"
       , unofficialNames = [ "City of Bristol" ]
       }
     , { name = "Bury"
-      , code = ""
+      , code = "BUR"
       , unofficialNames = [ "Bury" ]
       }
     , { name = "Cambridgeshire"
-      , code = ""
+      , code = "CAM"
       , unofficialNames = [ "Cambridgeshire" ]
       }
     , { name = "Caerphilly [Caerffili GB-CAF]"
-      , code = ""
+      , code = "CAY"
       , unofficialNames = [ "Caerffili" ]
       }
     , { name = "Ceredigion [Sir Ceredigion]"
-      , code = ""
+      , code = "CGN"
       , unofficialNames = [ "Ceredigion [Sir Ceredigion]" ]
       }
     , { name = "Craigavon"
-      , code = ""
+      , code = "CGV"
       , unofficialNames = [ "Craigavon" ]
       }
     , { name = "Cheshire"
-      , code = ""
+      , code = "CHS"
       , unofficialNames = [ "Cheshire" ]
       }
     , { name = "Carrickfergus"
-      , code = ""
+      , code = "CKF"
       , unofficialNames = [ "Carrickfergus" ]
       }
     , { name = "Cookstown"
-      , code = ""
+      , code = "CKT"
       , unofficialNames = [ "Cookstown" ]
       }
     , { name = "Calderdale"
-      , code = ""
+      , code = "CLD"
       , unofficialNames = [ "Calderdale" ]
       }
     , { name = "Clackmannanshire"
-      , code = ""
+      , code = "CLK"
       , unofficialNames = [ "Clackmannanshire" ]
       }
     , { name = "Coleraine"
-      , code = ""
+      , code = "CLR"
       , unofficialNames = [ "Coleraine" ]
       }
     , { name = "Cumbria"
-      , code = ""
+      , code = "CMA"
       , unofficialNames = [ "Cumbria" ]
       }
     , { name = "Camden"
-      , code = ""
+      , code = "CMD"
       , unofficialNames = [ "Camden" ]
       }
     , { name = "Carmarthenshire [Sir Gaerfyrddin GB-GFY]"
-      , code = ""
+      , code = "CMN"
       , unofficialNames = [ "Sir Gaerfyrddin" ]
       }
     , { name = "Cornwall"
-      , code = ""
+      , code = "CON"
       , unofficialNames = [ "Cornwall and Isles of Scilly" ]
       }
     , { name = "Coventry"
-      , code = ""
+      , code = "COV"
       , unofficialNames = [ "Coventry" ]
       }
     , { name = "Cardiff [Caerdydd GB-CRD]"
-      , code = ""
+      , code = "CRF"
       , unofficialNames = [ "Caerdydd" ]
       }
     , { name = "Croydon"
-      , code = ""
+      , code = "CRY"
       , unofficialNames = [ "Croydon" ]
       }
     , { name = "Castlereagh"
-      , code = ""
+      , code = "CSR"
       , unofficialNames = [ "Castlereagh" ]
       }
     , { name = "Conwy"
-      , code = ""
+      , code = "CWY"
       , unofficialNames = [ "Aberconwy and Colwyn" ]
       }
     , { name = "Darlington"
-      , code = ""
+      , code = "DAL"
       , unofficialNames = [ "Darlington" ]
       }
     , { name = "Derbyshire"
-      , code = ""
+      , code = "DBY"
       , unofficialNames = [ "Derbyshire" ]
       }
     , { name = "Denbighshire [Sir Ddinbych GB-DDB]"
-      , code = ""
+      , code = "DEN"
       , unofficialNames = [ "Sir Ddinbych" ]
       }
     , { name = "Derby"
-      , code = ""
+      , code = "DER"
       , unofficialNames = [ "Derby" ]
       }
     , { name = "Devon"
-      , code = ""
+      , code = "DEV"
       , unofficialNames = [ "Devon" ]
       }
     , { name = "Dungannon"
-      , code = ""
+      , code = "DGN"
       , unofficialNames = [ "Dungannon" ]
       }
     , { name = "Dumfries and Galloway"
-      , code = ""
+      , code = "DGY"
       , unofficialNames = [ "Dumfries and Galloway" ]
       }
     , { name = "Doncaster"
-      , code = ""
+      , code = "DNC"
       , unofficialNames = [ "Doncaster" ]
       }
     , { name = "Dundee City"
-      , code = ""
+      , code = "DND"
       , unofficialNames = [ "Dundee City" ]
       }
     , { name = "Dorset"
-      , code = ""
+      , code = "DOR"
       , unofficialNames = [ "Dorset" ]
       }
     , { name = "Down"
-      , code = ""
+      , code = "DOW"
       , unofficialNames = [ "Down" ]
       }
     , { name = "Derry"
-      , code = ""
+      , code = "DRY"
       , unofficialNames = [ "Derry" ]
       }
     , { name = "Dudley"
-      , code = ""
+      , code = "DUD"
       , unofficialNames = [ "Dudley" ]
       }
     , { name = "Durham"
-      , code = ""
+      , code = "DUR"
       , unofficialNames = [ "Durham" ]
       }
     , { name = "Ealing"
-      , code = ""
+      , code = "EAL"
       , unofficialNames = [ "Ealing" ]
       }
     , { name = "East Ayrshire"
-      , code = ""
+      , code = "EAY"
       , unofficialNames = [ "East Ayrshire" ]
       }
     , { name = "Edinburgh, City of"
-      , code = ""
+      , code = "EDH"
       , unofficialNames = [ "City of Edinburgh" ]
       }
     , { name = "East Dunbartonshire"
-      , code = ""
+      , code = "EDU"
       , unofficialNames = [ "East Dunbartonshire" ]
       }
     , { name = "East Lothian"
-      , code = ""
+      , code = "ELN"
       , unofficialNames = [ "East Lothian" ]
       }
     , { name = "Eilean Siar"
-      , code = ""
+      , code = "ELS"
       , unofficialNames = [ "Western Isles" ]
       }
     , { name = "Enfield"
-      , code = ""
+      , code = "ENF"
       , unofficialNames = [ "Enfield" ]
       }
     , { name = "East Renfrewshire"
-      , code = ""
+      , code = "ERW"
       , unofficialNames = [ "East Renfrewshire" ]
       }
     , { name = "East Riding of Yorkshire"
-      , code = ""
+      , code = "ERY"
       , unofficialNames = [ "East Riding of Yorkshire", "East Yorkshire", "East Riding" ]
       }
     , { name = "Essex"
-      , code = ""
+      , code = "ESS"
       , unofficialNames = [ "Essex" ]
       }
     , { name = "East Sussex"
-      , code = ""
+      , code = "ESX"
       , unofficialNames = [ "East Sussex" ]
       }
     , { name = "Falkirk"
-      , code = ""
+      , code = "FAL"
       , unofficialNames = [ "Falkirk" ]
       }
     , { name = "Fermanagh"
-      , code = ""
+      , code = "FER"
       , unofficialNames = [ "Fermanagh" ]
       }
     , { name = "Fife"
-      , code = ""
+      , code = "FIF"
       , unofficialNames = [ "Fife" ]
       }
     , { name = "Flintshire [Sir y Fflint GB-FFL]"
-      , code = ""
+      , code = "FLN"
       , unofficialNames = [ "Sir y Fflint" ]
       }
     , { name = "Gateshead"
-      , code = ""
+      , code = "GAT"
       , unofficialNames = [ "Gateshead" ]
       }
     , { name = "Glasgow City"
-      , code = ""
+      , code = "GLG"
       , unofficialNames = [ "Glasgow City" ]
       }
     , { name = "Gloucestershire"
-      , code = ""
+      , code = "GLS"
       , unofficialNames = [ "Gloucestershire" ]
       }
     , { name = "Greenwich"
-      , code = ""
+      , code = "GRE"
       , unofficialNames = [ "Greenwich" ]
       }
     , { name = "Gwynedd"
-      , code = ""
+      , code = "GWN"
       , unofficialNames = [ "Gwynedd" ]
       }
     , { name = "Halton"
-      , code = ""
+      , code = "HAL"
       , unofficialNames = [ "Halton" ]
       }
     , { name = "Hampshire"
-      , code = ""
+      , code = "HAM"
       , unofficialNames = [ "Hampshire" ]
       }
     , { name = "Havering"
-      , code = ""
+      , code = "HAV"
       , unofficialNames = [ "Havering" ]
       }
     , { name = "Hackney"
-      , code = ""
+      , code = "HCK"
       , unofficialNames = [ "Hackney" ]
       }
     , { name = "Herefordshire, County of"
-      , code = ""
+      , code = "HEF"
       , unofficialNames = [ "County of Herefordshire" ]
       }
     , { name = "Hillingdon"
-      , code = ""
+      , code = "HIL"
       , unofficialNames = [ "Hillingdon" ]
       }
     , { name = "Highland"
-      , code = ""
+      , code = "HLD"
       , unofficialNames = [ "Highland" ]
       }
     , { name = "Hammersmith and Fulham"
-      , code = ""
+      , code = "HMF"
       , unofficialNames = [ "Hammersmith and Fulham" ]
       }
     , { name = "Hounslow"
-      , code = ""
+      , code = "HNS"
       , unofficialNames = [ "Hounslow" ]
       }
     , { name = "Hartlepool"
-      , code = ""
+      , code = "HPL"
       , unofficialNames = [ "Hartlepool" ]
       }
     , { name = "Hertfordshire"
-      , code = ""
+      , code = "HRT"
       , unofficialNames = [ "Hertfordshire" ]
       }
     , { name = "Harrow"
-      , code = ""
+      , code = "HRW"
       , unofficialNames = [ "Harrow" ]
       }
     , { name = "Haringey"
-      , code = ""
+      , code = "HRY"
       , unofficialNames = [ "Haringey" ]
       }
     , { name = "Isles of Scilly"
-      , code = ""
+      , code = "IOS"
       , unofficialNames = [ "Isles of Scilly" ]
       }
     , { name = "Isle of Wight"
-      , code = ""
+      , code = "IOW"
       , unofficialNames = [ "Isle of Wight" ]
       }
     , { name = "Islington"
-      , code = ""
+      , code = "ISL"
       , unofficialNames = [ "Islington" ]
       }
     , { name = "Inverclyde"
-      , code = ""
+      , code = "IVC"
       , unofficialNames = [ "Inverclyde" ]
       }
     , { name = "Kensington and Chelsea"
-      , code = ""
+      , code = "KEC"
       , unofficialNames = [ "Kensington and Chelsea" ]
       }
     , { name = "Kent"
-      , code = ""
+      , code = "KEN"
       , unofficialNames = [ "Kent" ]
       }
     , { name = "Kingston upon Hull, City of"
-      , code = ""
+      , code = "KHL"
       , unofficialNames = [ "City of Kingston upon Hull" ]
       }
     , { name = "Kirklees"
-      , code = ""
+      , code = "KIR"
       , unofficialNames = [ "Kirklees" ]
       }
     , { name = "Kingston upon Thames"
-      , code = ""
+      , code = "KTT"
       , unofficialNames = [ "Kingston upon Thames" ]
       }
     , { name = "Knowsley"
-      , code = ""
+      , code = "KWL"
       , unofficialNames = [ "Knowsley" ]
       }
     , { name = "Lancashire"
-      , code = ""
+      , code = "LAN"
       , unofficialNames = [ "Lancashire" ]
       }
     , { name = "Lambeth"
-      , code = ""
+      , code = "LBH"
       , unofficialNames = [ "Lambeth" ]
       }
     , { name = "Leicester"
-      , code = ""
+      , code = "LCE"
       , unofficialNames = [ "Leicester" ]
       }
     , { name = "Leeds"
-      , code = ""
+      , code = "LDS"
       , unofficialNames = [ "Leeds" ]
       }
     , { name = "Leicestershire"
-      , code = ""
+      , code = "LEC"
       , unofficialNames = [ "Leicestershire" ]
       }
     , { name = "Lewisham"
-      , code = ""
+      , code = "LEW"
       , unofficialNames = [ "Lewisham" ]
       }
     , { name = "Lincolnshire"
-      , code = ""
+      , code = "LIN"
       , unofficialNames = [ "Lincolnshire" ]
       }
     , { name = "Liverpool"
-      , code = ""
+      , code = "LIV"
       , unofficialNames = [ "Liverpool" ]
       }
     , { name = "Limavady"
-      , code = ""
+      , code = "LMV"
       , unofficialNames = [ "Limavady" ]
       }
     , { name = "London, City of"
-      , code = ""
+      , code = "LND"
       , unofficialNames = [ "London, City of" ]
       }
     , { name = "Larne"
-      , code = ""
+      , code = "LRN"
       , unofficialNames = [ "Larne" ]
       }
     , { name = "Lisburn"
-      , code = ""
+      , code = "LSB"
       , unofficialNames = [ "Lisburn" ]
       }
     , { name = "Luton"
-      , code = ""
+      , code = "LUT"
       , unofficialNames = [ "Luton" ]
       }
     , { name = "Manchester"
-      , code = ""
+      , code = "MAN"
       , unofficialNames = [ "Manchester" ]
       }
     , { name = "Middlesbrough"
-      , code = ""
+      , code = "MDB"
       , unofficialNames = [ "Middlesbrough" ]
       }
     , { name = "Medway"
-      , code = ""
+      , code = "MDW"
       , unofficialNames = [ "Medway" ]
       }
     , { name = "Magherafelt"
-      , code = ""
+      , code = "MFT"
       , unofficialNames = [ "Magherafelt" ]
       }
     , { name = "Milton Keynes"
-      , code = ""
+      , code = "MIK"
       , unofficialNames = [ "Milton Keynes" ]
       }
     , { name = "Midlothian"
-      , code = ""
+      , code = "MLN"
       , unofficialNames = [ "Midlothian" ]
       }
     , { name = "Monmouthshire [Sir Fynwy GB-FYN]"
-      , code = ""
+      , code = "MON"
       , unofficialNames = [ "Sir Fynwy" ]
       }
     , { name = "Merton"
-      , code = ""
+      , code = "MRT"
       , unofficialNames = [ "Merton" ]
       }
     , { name = "Moray"
-      , code = ""
+      , code = "MRY"
       , unofficialNames = [ "Moray" ]
       }
     , { name = "Merthyr Tydfil [Merthyr Tudful GB-MTU]"
-      , code = ""
+      , code = "MTY"
       , unofficialNames = [ "Merthyr Tudful" ]
       }
     , { name = "Moyle"
-      , code = ""
+      , code = "MYL"
       , unofficialNames = [ "Moyle" ]
       }
     , { name = "North Ayrshire"
-      , code = ""
+      , code = "NAY"
       , unofficialNames = [ "North Ayrshire" ]
       }
     , { name = "Northumberland"
-      , code = ""
+      , code = "NBL"
       , unofficialNames = [ "Northumberland" ]
       }
     , { name = "North Down"
-      , code = ""
+      , code = "NDN"
       , unofficialNames = [ "North Down" ]
       }
     , { name = "North East Lincolnshire"
-      , code = ""
+      , code = "NEL"
       , unofficialNames = [ "North East Lincolnshire" ]
       }
     , { name = "Newcastle upon Tyne"
-      , code = ""
+      , code = "NET"
       , unofficialNames = [ "Newcastle upon Tyne" ]
       }
     , { name = "Norfolk"
-      , code = ""
+      , code = "NFK"
       , unofficialNames = [ "Norfolk" ]
       }
     , { name = "Nottingham"
-      , code = ""
+      , code = "NGM"
       , unofficialNames = [ "Nottingham" ]
       }
     , { name = "North Lanarkshire"
-      , code = ""
+      , code = "NLK"
       , unofficialNames = [ "North Lanarkshire" ]
       }
     , { name = "North Lincolnshire"
-      , code = ""
+      , code = "NLN"
       , unofficialNames = [ "North Lincolnshire" ]
       }
     , { name = "North Somerset"
-      , code = ""
+      , code = "NSM"
       , unofficialNames = [ "North Somerset" ]
       }
     , { name = "Newtownabbey"
-      , code = ""
+      , code = "NTA"
       , unofficialNames = [ "Newtownabbey" ]
       }
     , { name = "Northamptonshire"
-      , code = ""
+      , code = "NTH"
       , unofficialNames = [ "Northamptonshire" ]
       }
     , { name = "Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]"
-      , code = ""
+      , code = "NTL"
       , unofficialNames = [ "Castell-nedd Porth Talbot" ]
       }
     , { name = "Nottinghamshire"
-      , code = ""
+      , code = "NTT"
       , unofficialNames = [ "Nottinghamshire" ]
       }
     , { name = "North Tyneside"
-      , code = ""
+      , code = "NTY"
       , unofficialNames = [ "North Tyneside" ]
       }
     , { name = "Newham"
-      , code = ""
+      , code = "NWM"
       , unofficialNames = [ "Newham" ]
       }
     , { name = "Newport [Casnewydd GB-CNW]"
-      , code = ""
+      , code = "NWP"
       , unofficialNames = [ "Casnewydd" ]
       }
     , { name = "North Yorkshire"
-      , code = ""
+      , code = "NYK"
       , unofficialNames = [ "North Yorkshire" ]
       }
     , { name = "Newry and Mourne"
-      , code = ""
+      , code = "NYM"
       , unofficialNames = [ "Newry and Mourne" ]
       }
     , { name = "Oldham"
-      , code = ""
+      , code = "OLD"
       , unofficialNames = [ "Oldham" ]
       }
     , { name = "Omagh"
-      , code = ""
+      , code = "OMH"
       , unofficialNames = [ "Omagh" ]
       }
     , { name = "Orkney Islands"
-      , code = ""
+      , code = "ORK"
       , unofficialNames = [ "Orkney Islands" ]
       }
     , { name = "Oxfordshire"
-      , code = ""
+      , code = "OXF"
       , unofficialNames = [ "Oxfordshire" ]
       }
     , { name = "Pembrokeshire [Sir Benfro GB-BNF]"
-      , code = ""
+      , code = "PEM"
       , unofficialNames = [ "Sir Benfro" ]
       }
     , { name = "Perth and Kinross"
-      , code = ""
+      , code = "PKN"
       , unofficialNames = [ "Perth and Kinross" ]
       }
     , { name = "Plymouth"
-      , code = ""
+      , code = "PLY"
       , unofficialNames = [ "Plymouth" ]
       }
     , { name = "Poole"
-      , code = ""
+      , code = "POL"
       , unofficialNames = [ "Poole" ]
       }
     , { name = "Portsmouth"
-      , code = ""
+      , code = "POR"
       , unofficialNames = [ "Portsmouth" ]
       }
     , { name = "Powys"
-      , code = ""
+      , code = "POW"
       , unofficialNames = [ "Powys" ]
       }
     , { name = "Peterborough"
-      , code = ""
+      , code = "PTE"
       , unofficialNames = [ "Peterborough" ]
       }
     , { name = "Redcar and Cleveland"
-      , code = ""
+      , code = "RCC"
       , unofficialNames = [ "Redcar and Cleveland" ]
       }
     , { name = "Rochdale"
-      , code = ""
+      , code = "RCH"
       , unofficialNames = [ "Rochdale" ]
       }
     , { name = "Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]"
-      , code = ""
+      , code = "RCT"
       , unofficialNames = [ "Rhondda Cynon TÃ¢f" ]
       }
     , { name = "Redbridge"
-      , code = ""
+      , code = "RDB"
       , unofficialNames = [ "Redbridge" ]
       }
     , { name = "Reading"
-      , code = ""
+      , code = "RDG"
       , unofficialNames = [ "Reading" ]
       }
     , { name = "Renfrewshire"
-      , code = ""
+      , code = "RFW"
       , unofficialNames = [ "Renfrewshire" ]
       }
     , { name = "Richmond upon Thames"
-      , code = ""
+      , code = "RIC"
       , unofficialNames = [ "Richmond upon Thames" ]
       }
     , { name = "Rotherham"
-      , code = ""
+      , code = "ROT"
       , unofficialNames = [ "Rotherham" ]
       }
     , { name = "Rutland"
-      , code = ""
+      , code = "RUT"
       , unofficialNames = [ "Rutland" ]
       }
     , { name = "Sandwell"
-      , code = ""
+      , code = "SAW"
       , unofficialNames = [ "Sandwell" ]
       }
     , { name = "South Ayrshire"
-      , code = ""
+      , code = "SAY"
       , unofficialNames = [ "South Ayrshire" ]
       }
     , { name = "Scottish Borders, The"
-      , code = ""
+      , code = "SCB"
       , unofficialNames = [ "The Scottish Border" ]
       }
     , { name = "Suffolk"
-      , code = ""
+      , code = "SFK"
       , unofficialNames = [ "Suffolk" ]
       }
     , { name = "Sefton"
-      , code = ""
+      , code = "SFT"
       , unofficialNames = [ "Sefton" ]
       }
     , { name = "South Gloucestershire"
-      , code = ""
+      , code = "SGC"
       , unofficialNames = [ "South Gloucestershire" ]
       }
     , { name = "Sheffield"
-      , code = ""
+      , code = "SHF"
       , unofficialNames = [ "Sheffield" ]
       }
     , { name = "St. Helens"
-      , code = ""
+      , code = "SHN"
       , unofficialNames = [ "St. Helens" ]
       }
     , { name = "Shropshire"
-      , code = ""
+      , code = "SHR"
       , unofficialNames = [ "Shropshire" ]
       }
     , { name = "Stockport"
-      , code = ""
+      , code = "SKP"
       , unofficialNames = [ "Stockport" ]
       }
     , { name = "Salford"
-      , code = ""
+      , code = "SLF"
       , unofficialNames = [ "Salford" ]
       }
     , { name = "Slough"
-      , code = ""
+      , code = "SLG"
       , unofficialNames = [ "Slough" ]
       }
     , { name = "South Lanarkshire"
-      , code = ""
+      , code = "SLK"
       , unofficialNames = [ "South Lanarkshire" ]
       }
     , { name = "Sunderland"
-      , code = ""
+      , code = "SND"
       , unofficialNames = [ "Sunderland" ]
       }
     , { name = "Solihull"
-      , code = ""
+      , code = "SOL"
       , unofficialNames = [ "Solihull" ]
       }
     , { name = "Somerset"
-      , code = ""
+      , code = "SOM"
       , unofficialNames = [ "Somerset" ]
       }
     , { name = "Southend-on-Sea"
-      , code = ""
+      , code = "SOS"
       , unofficialNames = [ "Southend-on-Sea" ]
       }
     , { name = "Surrey"
-      , code = ""
+      , code = "SRY"
       , unofficialNames = [ "Surrey" ]
       }
     , { name = "Strabane"
-      , code = ""
+      , code = "STB"
       , unofficialNames = [ "Strabane" ]
       }
     , { name = "Stoke-on-Trent"
-      , code = ""
+      , code = "STE"
       , unofficialNames = [ "Stoke-on-Trent" ]
       }
     , { name = "Stirling"
-      , code = ""
+      , code = "STG"
       , unofficialNames = [ "Stirling" ]
       }
     , { name = "Southampton"
-      , code = ""
+      , code = "STH"
       , unofficialNames = [ "Southampton" ]
       }
     , { name = "Sutton"
-      , code = ""
+      , code = "STN"
       , unofficialNames = [ "Sutton" ]
       }
     , { name = "Staffordshire"
-      , code = ""
+      , code = "STS"
       , unofficialNames = [ "Staffordshire" ]
       }
     , { name = "Stockton-on-Tees"
-      , code = ""
+      , code = "STT"
       , unofficialNames = [ "Stockton-on-Tees" ]
       }
     , { name = "South Tyneside"
-      , code = ""
+      , code = "STY"
       , unofficialNames = [ "South Tyneside" ]
       }
     , { name = "Swansea [Abertawe GB-ATA]"
-      , code = ""
+      , code = "SWA"
       , unofficialNames = [ "Abertawe" ]
       }
     , { name = "Swindon"
-      , code = ""
+      , code = "SWD"
       , unofficialNames = [ "Swindon" ]
       }
     , { name = "Southwark"
-      , code = ""
+      , code = "SWK"
       , unofficialNames = [ "Southwark" ]
       }
     , { name = "Tameside"
-      , code = ""
+      , code = "TAM"
       , unofficialNames = [ "Tameside" ]
       }
     , { name = "Telford and Wrekin"
-      , code = ""
+      , code = "TFW"
       , unofficialNames = [ "Telford and Wrekin" ]
       }
     , { name = "Thurrock"
-      , code = ""
+      , code = "THR"
       , unofficialNames = [ "Thurrock" ]
       }
     , { name = "Torbay"
-      , code = ""
+      , code = "TOB"
       , unofficialNames = [ "Torbay" ]
       }
     , { name = "Torfaen [Tor-faen]"
-      , code = ""
+      , code = "TOF"
       , unofficialNames = [ "Tor-faen" ]
       }
     , { name = "Trafford"
-      , code = ""
+      , code = "TRF"
       , unofficialNames = [ "Trafford" ]
       }
     , { name = "Tower Hamlets"
-      , code = ""
+      , code = "TWH"
       , unofficialNames = [ "Tower Hamlets" ]
       }
     , { name = "Vale of Glamorgan, The [Bro Morgannwg GB-BMG]"
-      , code = ""
+      , code = "VGL"
       , unofficialNames = [ "The Vale of Glamorgan" ]
       }
     , { name = "Warwickshire"
-      , code = ""
+      , code = "WAR"
       , unofficialNames = [ "Warwickshire" ]
       }
     , { name = "West Berkshire"
-      , code = ""
+      , code = "WBK"
       , unofficialNames = [ "West Berkshire" ]
       }
     , { name = "West Dunbartonshire"
-      , code = ""
+      , code = "WDU"
       , unofficialNames = [ "West Dunbartonshire" ]
       }
     , { name = "Waltham Forest"
-      , code = ""
+      , code = "WFT"
       , unofficialNames = [ "Waltham Forest" ]
       }
     , { name = "Wigan"
-      , code = ""
+      , code = "WGN"
       , unofficialNames = [ "Wigan" ]
       }
     , { name = "Wiltshire"
-      , code = ""
+      , code = "WIL"
       , unofficialNames = [ "Wiltshire" ]
       }
     , { name = "Wakefield"
-      , code = ""
+      , code = "WKF"
       , unofficialNames = [ "Wakefield" ]
       }
     , { name = "Walsall"
-      , code = ""
+      , code = "WLL"
       , unofficialNames = [ "Walsall" ]
       }
     , { name = "West Lothian"
-      , code = ""
+      , code = "WLN"
       , unofficialNames = [ "West Lothian" ]
       }
     , { name = "Wolverhampton"
-      , code = ""
+      , code = "WLV"
       , unofficialNames = [ "Wolverhampton" ]
       }
     , { name = "Wandsworth"
-      , code = ""
+      , code = "WND"
       , unofficialNames = [ "Wandsworth" ]
       }
     , { name = "Windsor and Maidenhead"
-      , code = ""
+      , code = "WNM"
       , unofficialNames = [ "Windsor and Maidenhead" ]
       }
     , { name = "Wokingham"
-      , code = ""
+      , code = "WOK"
       , unofficialNames = [ "Wokingham" ]
       }
     , { name = "Worcestershire"
-      , code = ""
+      , code = "WOR"
       , unofficialNames = [ "Worcestershire" ]
       }
     , { name = "Wirral"
-      , code = ""
+      , code = "WRL"
       , unofficialNames = [ "Wirral" ]
       }
     , { name = "Warrington"
-      , code = ""
+      , code = "WRT"
       , unofficialNames = [ "Warrington" ]
       }
     , { name = "Wrexham [Wrecsam GB-WRC]"
-      , code = ""
+      , code = "WRX"
       , unofficialNames = [ "Wrecsam" ]
       }
     , { name = "Westminster"
-      , code = ""
+      , code = "WSM"
       , unofficialNames = [ "Westminster" ]
       }
     , { name = "West Sussex"
-      , code = ""
+      , code = "WSX"
       , unofficialNames = [ "West Sussex" ]
       }
     , { name = "York"
-      , code = ""
+      , code = "YOR"
       , unofficialNames = [ "York" ]
       }
     , { name = "Shetland Islands"
-      , code = ""
+      , code = "ZET"
       , unofficialNames = [ "Shetland Islands" ]
       }
     ]
@@ -15747,31 +15747,31 @@ unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions =
 grenadaSubdivisions : List Subdivision
 grenadaSubdivisions =
     [ { name = "Saint Andrew"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Saint Andrew" ]
       }
     , { name = "Saint David"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Saint David" ]
       }
     , { name = "Saint George"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Saint George" ]
       }
     , { name = "Saint John"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Saint John" ]
       }
     , { name = "Saint Mark"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Saint Mark" ]
       }
     , { name = "Saint Patrick"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Saint Patrick" ]
       }
     , { name = "Southern Grenadine Islands"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Southern Grenadine Islands" ]
       }
     ]
@@ -15781,51 +15781,51 @@ grenadaSubdivisions =
 georgiaSubdivisions : List Subdivision
 georgiaSubdivisions =
     [ { name = "Abkhazia"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Abhasia" ]
       }
     , { name = "Ajaria"
-      , code = ""
+      , code = "AJ"
       , unofficialNames = [ "Achara", "Adzharia", "Adžaria" ]
       }
     , { name = "Guria"
-      , code = ""
+      , code = "GU"
       , unofficialNames = [ "Guria" ]
       }
     , { name = "Imereti"
-      , code = ""
+      , code = "IM"
       , unofficialNames = [ "Imereti" ]
       }
     , { name = "Kakheti"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Kaheti" ]
       }
     , { name = "Kvemo Kartli"
-      , code = ""
+      , code = "KK"
       , unofficialNames = [ "Kvemo Kartli" ]
       }
     , { name = "Mtskheta-Mtianeti"
-      , code = ""
+      , code = "MM"
       , unofficialNames = [ "Mcheta-Mtianeti" ]
       }
     , { name = "Racha-Lechkhumi [and] Kvemo Svaneti"
-      , code = ""
+      , code = "RL"
       , unofficialNames = [ "Racha", "Racha-Lechkumi and Kverno Svaneti" ]
       }
     , { name = "Samtskhe-Javakheti"
-      , code = ""
+      , code = "SJ"
       , unofficialNames = [ "Samche-Žavaheti" ]
       }
     , { name = "Shida Kartli"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "Šida Kartli" ]
       }
     , { name = "Samegrelo-Zemo Svaneti"
-      , code = ""
+      , code = "SZ"
       , unofficialNames = [ "Samegrelo-Zemo Svaneti" ]
       }
     , { name = "Tbilisi"
-      , code = ""
+      , code = "TB"
       , unofficialNames = [ "Tiflis" ]
       }
     ]
@@ -15841,47 +15841,47 @@ frenchGuianaSubdivisions =
 guernseySubdivisions : List Subdivision
 guernseySubdivisions =
     [ { name = "Saint Pierre du Bois"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Saint Pierre du Bois" ]
       }
     , { name = "Torteval"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Torteval" ]
       }
     , { name = "Saint Saviour"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Saint Saviour" ]
       }
     , { name = "Forest"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Forest" ]
       }
     , { name = "Saint Martin"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Saint Martin" ]
       }
     , { name = "Saint Andrew"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Saint Andrew" ]
       }
     , { name = "Saint Peter Port"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Saint Peter Port" ]
       }
     , { name = "Castel"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Castel" ]
       }
     , { name = "Vale"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Vale" ]
       }
     , { name = "Saint Sampson"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Saint Sampson" ]
       }
     , { name = "Alderney"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Alderney" ]
       }
     ]
@@ -15891,43 +15891,43 @@ guernseySubdivisions =
 ghanaSubdivisions : List Subdivision
 ghanaSubdivisions =
     [ { name = "Greater Accra"
-      , code = ""
+      , code = "AA"
       , unofficialNames = [ "Greater Accra" ]
       }
     , { name = "Ashanti"
-      , code = ""
+      , code = "AH"
       , unofficialNames = [ "Asante" ]
       }
     , { name = "Brong-Ahafo"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Brong-Ahafo" ]
       }
     , { name = "Central"
-      , code = ""
+      , code = "CP"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Eastern"
-      , code = ""
+      , code = "EP"
       , unofficialNames = [ "Eastern" ]
       }
     , { name = "Northern"
-      , code = ""
+      , code = "NP"
       , unofficialNames = [ "Northern" ]
       }
     , { name = "Volta"
-      , code = ""
+      , code = "TV"
       , unofficialNames = [ "Volta" ]
       }
     , { name = "Upper East"
-      , code = ""
+      , code = "UE"
       , unofficialNames = [ "Upper East" ]
       }
     , { name = "Upper West"
-      , code = ""
+      , code = "UW"
       , unofficialNames = [ "Upper West" ]
       }
     , { name = "Western"
-      , code = ""
+      , code = "WP"
       , unofficialNames = [ "Western" ]
       }
     ]
@@ -15943,27 +15943,27 @@ greenlandSubdivisions =
 gambiaSubdivisions : List Subdivision
 gambiaSubdivisions =
     [ { name = "Banjul"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Banjul" ]
       }
     , { name = "Lower River"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Lower River" ]
       }
     , { name = "MacCarthy Island"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "MacCarthy Island" ]
       }
     , { name = "North Bank"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "North Bank" ]
       }
     , { name = "Upper River"
-      , code = ""
+      , code = "U"
       , unofficialNames = [ "Upper River" ]
       }
     , { name = "Western"
-      , code = ""
+      , code = "W"
       , unofficialNames = [ "Western" ]
       }
     ]
@@ -15973,139 +15973,139 @@ gambiaSubdivisions =
 guineaSubdivisions : List Subdivision
 guineaSubdivisions =
     [ { name = "Beyla"
-      , code = ""
+      , code = "BE"
       , unofficialNames = [ "Beyla" ]
       }
     , { name = "Boffa"
-      , code = ""
+      , code = "BF"
       , unofficialNames = [ "Boffa" ]
       }
     , { name = "Boké"
-      , code = ""
+      , code = "BK"
       , unofficialNames = [ "Boké" ]
       }
     , { name = "Conakry"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Conakry" ]
       }
     , { name = "Coyah"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Coyah" ]
       }
     , { name = "Dabola"
-      , code = ""
+      , code = "DB"
       , unofficialNames = [ "Dabola" ]
       }
     , { name = "Dinguiraye"
-      , code = ""
+      , code = "DI"
       , unofficialNames = [ "Dinguiraye" ]
       }
     , { name = "Dalaba"
-      , code = ""
+      , code = "DL"
       , unofficialNames = [ "Dalaba" ]
       }
     , { name = "Dubréka"
-      , code = ""
+      , code = "DU"
       , unofficialNames = [ "Dubréka" ]
       }
     , { name = "Faranah"
-      , code = ""
+      , code = "FA"
       , unofficialNames = [ "Faranah" ]
       }
     , { name = "Forécariah"
-      , code = ""
+      , code = "FO"
       , unofficialNames = [ "Forécaria" ]
       }
     , { name = "Fria"
-      , code = ""
+      , code = "FR"
       , unofficialNames = [ "Fria" ]
       }
     , { name = "Gaoual"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Gaoual" ]
       }
     , { name = "Guékédou"
-      , code = ""
+      , code = "GU"
       , unofficialNames = [ "Guékédou" ]
       }
     , { name = "Kankan"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Kankan" ]
       }
     , { name = "Koubia"
-      , code = ""
+      , code = "KB"
       , unofficialNames = [ "Koubia" ]
       }
     , { name = "Kindia"
-      , code = ""
+      , code = "KD"
       , unofficialNames = [ "Kindia" ]
       }
     , { name = "Kérouané"
-      , code = ""
+      , code = "KE"
       , unofficialNames = [ "Kérouané" ]
       }
     , { name = "Koundara"
-      , code = ""
+      , code = "KN"
       , unofficialNames = [ "Koundara" ]
       }
     , { name = "Kouroussa"
-      , code = ""
+      , code = "KO"
       , unofficialNames = [ "Kouroussa" ]
       }
     , { name = "Kissidougou"
-      , code = ""
+      , code = "KS"
       , unofficialNames = [ "Kissidougou" ]
       }
     , { name = "Labé"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Labé" ]
       }
     , { name = "Lélouma"
-      , code = ""
+      , code = "LE"
       , unofficialNames = [ "Lélouma" ]
       }
     , { name = "Lola"
-      , code = ""
+      , code = "LO"
       , unofficialNames = [ "Lola" ]
       }
     , { name = "Macenta"
-      , code = ""
+      , code = "MC"
       , unofficialNames = [ "Macenta" ]
       }
     , { name = "Mandiana"
-      , code = ""
+      , code = "MD"
       , unofficialNames = [ "Mandiana" ]
       }
     , { name = "Mali"
-      , code = ""
+      , code = "ML"
       , unofficialNames = [ "Mali" ]
       }
     , { name = "Mamou"
-      , code = ""
+      , code = "MM"
       , unofficialNames = [ "Mamou" ]
       }
     , { name = "Nzérékoré"
-      , code = ""
+      , code = "NZ"
       , unofficialNames = [ "Nzérékoré" ]
       }
     , { name = "Pita"
-      , code = ""
+      , code = "PI"
       , unofficialNames = [ "Pita" ]
       }
     , { name = "Siguiri"
-      , code = ""
+      , code = "SI"
       , unofficialNames = [ "Siguiri" ]
       }
     , { name = "Télimélé"
-      , code = ""
+      , code = "TE"
       , unofficialNames = [ "Télimélé" ]
       }
     , { name = "Tougué"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Tougué" ]
       }
     , { name = "Yomou"
-      , code = ""
+      , code = "YO"
       , unofficialNames = [ "Yomou" ]
       }
     ]
@@ -16121,39 +16121,39 @@ guadeloupeSubdivisions =
 equatorialGuineaSubdivisions : List Subdivision
 equatorialGuineaSubdivisions =
     [ { name = "Annobón"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Annobón" ]
       }
     , { name = "Bioko Norte"
-      , code = ""
+      , code = "BN"
       , unofficialNames = [ "Bioko Norte" ]
       }
     , { name = "Bioko Sur"
-      , code = ""
+      , code = "BS"
       , unofficialNames = [ "Bioko Sur" ]
       }
     , { name = "Región Continental"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Región Continental" ]
       }
     , { name = "Centro Sur"
-      , code = ""
+      , code = "CS"
       , unofficialNames = [ "Centro Sur" ]
       }
     , { name = "Región Insular"
-      , code = ""
+      , code = "I"
       , unofficialNames = [ "Región Insular" ]
       }
     , { name = "Kie-Ntem"
-      , code = ""
+      , code = "KN"
       , unofficialNames = [ "Kie-Ntem" ]
       }
     , { name = "Litoral"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Litoral" ]
       }
     , { name = "Wele-Nzás"
-      , code = ""
+      , code = "WN"
       , unofficialNames = [ "Wele-Nzás" ]
       }
     ]
@@ -16163,211 +16163,211 @@ equatorialGuineaSubdivisions =
 greeceSubdivisions : List Subdivision
 greeceSubdivisions =
     [ { name = "Aitolia-Akarnania"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Aetolia and Acarnania", "Áitoloakarnanía" ]
       }
     , { name = "Voiotia"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Boeotia" ]
       }
     , { name = "Evvoia"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Euboea", "Evvoia" ]
       }
     , { name = "Evrytania"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Evrytania" ]
       }
     , { name = "Fthiotis"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Phtiotis" ]
       }
     , { name = "Fokis"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Phocis", "Phokis" ]
       }
     , { name = "Argolis"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Argolis" ]
       }
     , { name = "Arkadia"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Arcadia" ]
       }
     , { name = "Achaïa"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Achaia", "Akhaia" ]
       }
     , { name = "Ileia"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Elia" ]
       }
     , { name = "Korinthia"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Corinth", "Korinth", "Kórinthos" ]
       }
     , { name = "Lakonia"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Laconia" ]
       }
     , { name = "Messinia"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Messenia" ]
       }
     , { name = "Zakynthos"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Zakynthos", "Zante", "Zanti" ]
       }
     , { name = "Kerkyra"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Corfu", "Kerkyra", "Korfu" ]
       }
     , { name = "Kefallinia"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Cephalonia", "Kefallinia" ]
       }
     , { name = "Lefkas"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Leucas", "Levkáda", "Santa Maura" ]
       }
     , { name = "Arta"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Arta" ]
       }
     , { name = "Thesprotia"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Thesprotia" ]
       }
     , { name = "Ioannina"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Yannina" ]
       }
     , { name = "Preveza"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Preveza" ]
       }
     , { name = "Karditsa"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Karditsa" ]
       }
     , { name = "Larisa"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Larissa" ]
       }
     , { name = "Magnisia"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Magnesia", "Magnessia" ]
       }
     , { name = "Trikala"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Trikala", "Trikkala" ]
       }
     , { name = "Grevena"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Grevena" ]
       }
     , { name = "Drama"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Drama" ]
       }
     , { name = "Imathia"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Imathia" ]
       }
     , { name = "Thessaloniki"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Salonika", "Salonike", "Saloniki", "Thessalonike" ]
       }
     , { name = "Kavalla"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Cavalla", "Kaválla" ]
       }
     , { name = "Kastoria"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Kastoria" ]
       }
     , { name = "Kilkis"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Kilkis" ]
       }
     , { name = "Kozani"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Kozani" ]
       }
     , { name = "Pella"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Pella" ]
       }
     , { name = "Pieria"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Pieria" ]
       }
     , { name = "Serrai"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Serres" ]
       }
     , { name = "Florina"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Florina" ]
       }
     , { name = "Chalkidiki"
-      , code = ""
+      , code = "64"
       , unofficialNames = [ "Chalcidice", "Khalkikdiki" ]
       }
     , { name = "Agio Oros"
-      , code = ""
+      , code = "69"
       , unofficialNames = [ "Aghion Oros", "Agion Oros", "Akte", "Aktí", "Athos", "Mount Athos" ]
       }
     , { name = "Evros"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Evros" ]
       }
     , { name = "Xanthi"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Xanthi" ]
       }
     , { name = "Rodopi"
-      , code = ""
+      , code = "73"
       , unofficialNames = [ "Rhodope" ]
       }
     , { name = "Dodekanisos"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Dodecanese", "Dodekanes" ]
       }
     , { name = "Kyklades"
-      , code = ""
+      , code = "82"
       , unofficialNames = [ "Cyclades", "Kykladen" ]
       }
     , { name = "Lesvos"
-      , code = ""
+      , code = "83"
       , unofficialNames = [ "Lesbos" ]
       }
     , { name = "Samos"
-      , code = ""
+      , code = "84"
       , unofficialNames = [ "Samos" ]
       }
     , { name = "Chios"
-      , code = ""
+      , code = "85"
       , unofficialNames = [ "Chios", "Khios" ]
       }
     , { name = "Irakleion"
-      , code = ""
+      , code = "91"
       , unofficialNames = [ "Candia", "Herakleion", "Heraklion", "Iraclion", "Iraklio" ]
       }
     , { name = "Lasithion"
-      , code = ""
+      , code = "92"
       , unofficialNames = [ "Lassithi" ]
       }
     , { name = "Rethymnon"
-      , code = ""
+      , code = "93"
       , unofficialNames = [ "Rethymnon" ]
       }
     , { name = "Chania"
-      , code = ""
+      , code = "94"
       , unofficialNames = [ "Canea", "Chania", "Khaniá", "La Canée" ]
       }
     , { name = "Attiki"
-      , code = ""
+      , code = "A1"
       , unofficialNames = [ "Attica", "Attika" ]
       }
     ]
@@ -16377,91 +16377,91 @@ greeceSubdivisions =
 guatemalaSubdivisions : List Subdivision
 guatemalaSubdivisions =
     [ { name = "Alta Verapaz"
-      , code = ""
+      , code = "AV"
       , unofficialNames = [ "Alta Verapaz" ]
       }
     , { name = "Baja Verapaz"
-      , code = ""
+      , code = "BV"
       , unofficialNames = [ "Baja Verapaz" ]
       }
     , { name = "Chimaltenango"
-      , code = ""
+      , code = "CM"
       , unofficialNames = [ "Chimaltenango" ]
       }
     , { name = "Chiquimula"
-      , code = ""
+      , code = "CQ"
       , unofficialNames = [ "Chiquimula" ]
       }
     , { name = "Escuintla"
-      , code = ""
+      , code = "ES"
       , unofficialNames = [ "Escuintla" ]
       }
     , { name = "Guatemala"
-      , code = ""
+      , code = "GU"
       , unofficialNames = [ "Guatemala" ]
       }
     , { name = "Huehuetenango"
-      , code = ""
+      , code = "HU"
       , unofficialNames = [ "Huehuetenango" ]
       }
     , { name = "Izabal"
-      , code = ""
+      , code = "IZ"
       , unofficialNames = [ "Izabal" ]
       }
     , { name = "Jalapa"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "Jalapa" ]
       }
     , { name = "Jutiapa"
-      , code = ""
+      , code = "JU"
       , unofficialNames = [ "Jutiapa" ]
       }
     , { name = "Petén"
-      , code = ""
+      , code = "PE"
       , unofficialNames = [ "Petén" ]
       }
     , { name = "El Progreso"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "El Progreso" ]
       }
     , { name = "Quiché"
-      , code = ""
+      , code = "QC"
       , unofficialNames = [ "Quiché" ]
       }
     , { name = "Quetzaltenango"
-      , code = ""
+      , code = "QZ"
       , unofficialNames = [ "Quetzaltenango" ]
       }
     , { name = "Retalhuleu"
-      , code = ""
+      , code = "RE"
       , unofficialNames = [ "Retalhuleu" ]
       }
     , { name = "Sacatepéquez"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Sacatepéquez" ]
       }
     , { name = "San Marcos"
-      , code = ""
+      , code = "SM"
       , unofficialNames = [ "San Marcos" ]
       }
     , { name = "Sololá"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Sololá" ]
       }
     , { name = "Santa Rosa"
-      , code = ""
+      , code = "SR"
       , unofficialNames = [ "Santa Rosa" ]
       }
     , { name = "Suchitepéquez"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "Suchitepéquez" ]
       }
     , { name = "Totonicapán"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Totonicapán" ]
       }
     , { name = "Zacapa"
-      , code = ""
+      , code = "ZA"
       , unofficialNames = [ "Zacapa" ]
       }
     ]
@@ -16471,79 +16471,79 @@ guatemalaSubdivisions =
 guamSubdivisions : List Subdivision
 guamSubdivisions =
     [ { name = "Agana Heights"
-      , code = ""
+      , code = "AH"
       , unofficialNames = [ "Agana Heights" ]
       }
     , { name = "Hagatna"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Hagatna" ]
       }
     , { name = "Asan-Maina"
-      , code = ""
+      , code = "AS"
       , unofficialNames = [ "Asan-Maina" ]
       }
     , { name = "Agat"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Agat" ]
       }
     , { name = "Barrigada"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Barrigada" ]
       }
     , { name = "Chalan Pago-Ordot"
-      , code = ""
+      , code = "CP"
       , unofficialNames = [ "Chalan Pago-Ordot" ]
       }
     , { name = "Dededo"
-      , code = ""
+      , code = "DD"
       , unofficialNames = [ "Dededo" ]
       }
     , { name = "Inarajan"
-      , code = ""
+      , code = "IN"
       , unofficialNames = [ "Inarajan" ]
       }
     , { name = "Mangilao"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Mangilao" ]
       }
     , { name = "Merizo"
-      , code = ""
+      , code = "ME"
       , unofficialNames = [ "Merizo" ]
       }
     , { name = "Mongmong-Toto-Maite"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Mongmong-Toto-Maite" ]
       }
     , { name = "Piti"
-      , code = ""
+      , code = "PI"
       , unofficialNames = [ "Piti" ]
       }
     , { name = "Sinajana"
-      , code = ""
+      , code = "SJ"
       , unofficialNames = [ "Sinajana" ]
       }
     , { name = "Santa Rita"
-      , code = ""
+      , code = "SR"
       , unofficialNames = [ "Santa Rita" ]
       }
     , { name = "Talofofo"
-      , code = ""
+      , code = "TF"
       , unofficialNames = [ "Talofofo" ]
       }
     , { name = "Tamuning"
-      , code = ""
+      , code = "TM"
       , unofficialNames = [ "Tamuning" ]
       }
     , { name = "Umatac"
-      , code = ""
+      , code = "UM"
       , unofficialNames = [ "Umatac" ]
       }
     , { name = "Yigo"
-      , code = ""
+      , code = "YG"
       , unofficialNames = [ "Yigo" ]
       }
     , { name = "Yona"
-      , code = ""
+      , code = "YN"
       , unofficialNames = [ "Yona" ]
       }
     ]
@@ -16553,39 +16553,39 @@ guamSubdivisions =
 guineaBissauSubdivisions : List Subdivision
 guineaBissauSubdivisions =
     [ { name = "Bafatá"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Bafatá" ]
       }
     , { name = "Bolama"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Bolama" ]
       }
     , { name = "Biombo"
-      , code = ""
+      , code = "BM"
       , unofficialNames = [ "Biombo" ]
       }
     , { name = "Bissau"
-      , code = ""
+      , code = "BS"
       , unofficialNames = [ "Bissau" ]
       }
     , { name = "Cacheu"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Cacheo" ]
       }
     , { name = "Gabú"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Gabú" ]
       }
     , { name = "Oio"
-      , code = ""
+      , code = "OI"
       , unofficialNames = [ "Oio" ]
       }
     , { name = "Quinara"
-      , code = ""
+      , code = "QU"
       , unofficialNames = [ "Quinara" ]
       }
     , { name = "Tombali"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Tombali" ]
       }
     ]
@@ -16595,43 +16595,43 @@ guineaBissauSubdivisions =
 guyanaSubdivisions : List Subdivision
 guyanaSubdivisions =
     [ { name = "Barima-Waini"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Barima-Waini" ]
       }
     , { name = "Cuyuni-Mazaruni"
-      , code = ""
+      , code = "CU"
       , unofficialNames = [ "Cuyuni-Mazaruni" ]
       }
     , { name = "Demerara-Mahaica"
-      , code = ""
+      , code = "DE"
       , unofficialNames = [ "Demerara-Mahaica" ]
       }
     , { name = "East Berbice-Corentyne"
-      , code = ""
+      , code = "EB"
       , unofficialNames = [ "East Berbice-Corentyne" ]
       }
     , { name = "Essequibo Islands-West Demerara"
-      , code = ""
+      , code = "ES"
       , unofficialNames = [ "Essequibo Islands-West Demerara" ]
       }
     , { name = "Mahaica-Berbice"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Mahaica-Berbice" ]
       }
     , { name = "Pomeroon-Supenaam"
-      , code = ""
+      , code = "PM"
       , unofficialNames = [ "Pomeroon-Supenaam" ]
       }
     , { name = "Potaro-Siparuni"
-      , code = ""
+      , code = "PT"
       , unofficialNames = [ "Potaro-Siparuni" ]
       }
     , { name = "Upper Demerara-Berbice"
-      , code = ""
+      , code = "UD"
       , unofficialNames = [ "Upper Demerara-Berbice" ]
       }
     , { name = "Upper Takutu-Upper Essequibo"
-      , code = ""
+      , code = "UT"
       , unofficialNames = [ "Upper Takutu-Upper Essequibo" ]
       }
     ]
@@ -16641,75 +16641,75 @@ guyanaSubdivisions =
 hongKongSubdivisions : List Subdivision
 hongKongSubdivisions =
     [ { name = "Central and Western District"
-      , code = ""
+      , code = "HCW"
       , unofficialNames = [ "Central and Western District" ]
       }
     , { name = "Eastern"
-      , code = ""
+      , code = "HEA"
       , unofficialNames = [ "Eastern" ]
       }
     , { name = "Southern"
-      , code = ""
+      , code = "HSO"
       , unofficialNames = [ "Southern" ]
       }
     , { name = "Wan Chai"
-      , code = ""
+      , code = "HWC"
       , unofficialNames = [ "Wan Chai" ]
       }
     , { name = "Sham Shui Po"
-      , code = ""
+      , code = "KSS"
       , unofficialNames = [ "Sham Shui Po" ]
       }
     , { name = "Kowloon City"
-      , code = ""
+      , code = "KKC"
       , unofficialNames = [ "Kowloon City" ]
       }
     , { name = "Kwun Tong"
-      , code = ""
+      , code = "KKT"
       , unofficialNames = [ "Kwun Tong" ]
       }
     , { name = "Wong Tai Sin"
-      , code = ""
+      , code = "KWT"
       , unofficialNames = [ "Wong Tai Sin" ]
       }
     , { name = "Yau Tsim Mong"
-      , code = ""
+      , code = "KYT"
       , unofficialNames = [ "Yau Tsim Mong" ]
       }
     , { name = "Islands District"
-      , code = ""
+      , code = "NIS"
       , unofficialNames = [ "Islands District" ]
       }
     , { name = "Kwai Tsing"
-      , code = ""
+      , code = "NKT"
       , unofficialNames = [ "Kwai Tsing" ]
       }
     , { name = "North"
-      , code = ""
+      , code = "NNO"
       , unofficialNames = [ "North" ]
       }
     , { name = "Sai Kung District"
-      , code = ""
+      , code = "NSK"
       , unofficialNames = [ "Sai Kung District" ]
       }
     , { name = "Sha Tin"
-      , code = ""
+      , code = "NST"
       , unofficialNames = [ "Sha Tin" ]
       }
     , { name = "Tuen Mun"
-      , code = ""
+      , code = "NTM"
       , unofficialNames = [ "Tuen Mun" ]
       }
     , { name = "Tai Po District"
-      , code = ""
+      , code = "NTP"
       , unofficialNames = [ "Tai Po District" ]
       }
     , { name = "Tsuen Wan District"
-      , code = ""
+      , code = "NTW"
       , unofficialNames = [ "Tsuen Wan District" ]
       }
     , { name = "Yuen Long District"
-      , code = ""
+      , code = "NYL"
       , unofficialNames = [ "Yuen Long District" ]
       }
     ]
@@ -16719,75 +16719,75 @@ hongKongSubdivisions =
 hondurasSubdivisions : List Subdivision
 hondurasSubdivisions =
     [ { name = "Atlántida"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Atlántida" ]
       }
     , { name = "Choluteca"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Choluteca" ]
       }
     , { name = "Colón"
-      , code = ""
+      , code = "CL"
       , unofficialNames = [ "Colón" ]
       }
     , { name = "Comayagua"
-      , code = ""
+      , code = "CM"
       , unofficialNames = [ "Comayagua" ]
       }
     , { name = "Copán"
-      , code = ""
+      , code = "CP"
       , unofficialNames = [ "Copán" ]
       }
     , { name = "Cortés"
-      , code = ""
+      , code = "CR"
       , unofficialNames = [ "Cortés" ]
       }
     , { name = "El Paraíso"
-      , code = ""
+      , code = "EP"
       , unofficialNames = [ "El Paraíso" ]
       }
     , { name = "Francisco Morazán"
-      , code = ""
+      , code = "FM"
       , unofficialNames = [ "Francisco Morazán" ]
       }
     , { name = "Gracias a Dios"
-      , code = ""
+      , code = "GD"
       , unofficialNames = [ "Gracias a Dios" ]
       }
     , { name = "Islas de la Bahía"
-      , code = ""
+      , code = "IB"
       , unofficialNames = [ "Islas de la Bahía" ]
       }
     , { name = "Intibucá"
-      , code = ""
+      , code = "IN"
       , unofficialNames = [ "Intibucá" ]
       }
     , { name = "Lempira"
-      , code = ""
+      , code = "LE"
       , unofficialNames = [ "Lempira" ]
       }
     , { name = "La Paz"
-      , code = ""
+      , code = "LP"
       , unofficialNames = [ "La Paz" ]
       }
     , { name = "Ocotepeque"
-      , code = ""
+      , code = "OC"
       , unofficialNames = [ "Ocotepeque" ]
       }
     , { name = "Olancho"
-      , code = ""
+      , code = "OL"
       , unofficialNames = [ "Olancho" ]
       }
     , { name = "Santa Bárbara"
-      , code = ""
+      , code = "SB"
       , unofficialNames = [ "Santa Bárbara" ]
       }
     , { name = "Valle"
-      , code = ""
+      , code = "VA"
       , unofficialNames = [ "Valle" ]
       }
     , { name = "Yoro"
-      , code = ""
+      , code = "YO"
       , unofficialNames = [ "Yoro" ]
       }
     ]
@@ -16797,87 +16797,87 @@ hondurasSubdivisions =
 croatiaSubdivisions : List Subdivision
 croatiaSubdivisions =
     [ { name = "Zagrebačka županija"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Zagreb County" ]
       }
     , { name = "Krapinsko-zagorska županija"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Krapina-Zagorje" ]
       }
     , { name = "Sisačko-moslavačka županija"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Sisak-Moslavina" ]
       }
     , { name = "Karlovačka županija"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Karlovac" ]
       }
     , { name = "Varaždinska županija"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Varaždin" ]
       }
     , { name = "Koprivničko-križevačka županija"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Koprivnica-Križevci" ]
       }
     , { name = "Bjelovarsko-bilogorska županija"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Bjelovar-Bilogora" ]
       }
     , { name = "Primorsko-goranska županija"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Primorje-Gorski Kotar" ]
       }
     , { name = "Ličko-senjska županija"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Lika-Senj" ]
       }
     , { name = "Virovitičko-podravska županija"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Virovitica-Podravina" ]
       }
     , { name = "Požeško-slavonska županija"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Požega-Slavonia" ]
       }
     , { name = "Brodsko-posavska županija"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Brod-Posavina" ]
       }
     , { name = "Zadarska županija"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Zadar" ]
       }
     , { name = "Osječko-baranjska županija"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Osijek-Baranja" ]
       }
     , { name = "Šibensko-kninska županija"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Šibenik-Knin" ]
       }
     , { name = "Vukovarsko-srijemska županija"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Vukovar-Sirmium" ]
       }
     , { name = "Splitsko-dalmatinska županija"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Split-Dalmatia" ]
       }
     , { name = "Istarska županija"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Istria" ]
       }
     , { name = "Dubrovačko-neretvanska županija"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Dubrovnik-Neretva" ]
       }
     , { name = "Međimurska županija"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Međimurje" ]
       }
     , { name = "Grad Zagreb"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "City of Zagreb" ]
       }
     ]
@@ -16887,39 +16887,39 @@ croatiaSubdivisions =
 haitiSubdivisions : List Subdivision
 haitiSubdivisions =
     [ { name = "Artibonite"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "LʿArtibonite" ]
       }
     , { name = "Centre"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Centre" ]
       }
     , { name = "Grande-Anse"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Grande Anse" ]
       }
     , { name = "Nord"
-      , code = ""
+      , code = "ND"
       , unofficialNames = [ "Nord" ]
       }
     , { name = "Nord-Est"
-      , code = ""
+      , code = "NE"
       , unofficialNames = [ "Nord-Est" ]
       }
     , { name = "Nord-Ouest"
-      , code = ""
+      , code = "NO"
       , unofficialNames = [ "Nord-Ouest" ]
       }
     , { name = "Ouest"
-      , code = ""
+      , code = "OU"
       , unofficialNames = [ "Ouest" ]
       }
     , { name = "Sud"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Sud" ]
       }
     , { name = "Sud-Est"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Sud-Est" ]
       }
     ]
@@ -16929,175 +16929,175 @@ haitiSubdivisions =
 hungarySubdivisions : List Subdivision
 hungarySubdivisions =
     [ { name = "Baranya"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Baranya" ]
       }
     , { name = "Békéscsaba"
-      , code = ""
+      , code = "BC"
       , unofficialNames = [ "Békéscsaba" ]
       }
     , { name = "Békés"
-      , code = ""
+      , code = "BE"
       , unofficialNames = [ "Békés" ]
       }
     , { name = "Bács-Kiskun"
-      , code = ""
+      , code = "BK"
       , unofficialNames = [ "Bács-Kiskun" ]
       }
     , { name = "Budapest"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Budapest" ]
       }
     , { name = "Borsod-Abaúj-Zemplén"
-      , code = ""
+      , code = "BZ"
       , unofficialNames = [ "Borsod-Abaúj-Zemplén" ]
       }
     , { name = "Csongrád"
-      , code = ""
+      , code = "CS"
       , unofficialNames = [ "Csongrád" ]
       }
     , { name = "Debrecen"
-      , code = ""
+      , code = "DE"
       , unofficialNames = [ "Debrecen" ]
       }
     , { name = "Dunaújváros"
-      , code = ""
+      , code = "DU"
       , unofficialNames = [ "Dunaújváros" ]
       }
     , { name = "Eger"
-      , code = ""
+      , code = "EG"
       , unofficialNames = [ "Eger" ]
       }
     , { name = "Érd"
-      , code = ""
+      , code = "ER"
       , unofficialNames = [ "Érd" ]
       }
     , { name = "Fejér"
-      , code = ""
+      , code = "FE"
       , unofficialNames = [ "Fejér" ]
       }
     , { name = "Győr-Moson-Sopron"
-      , code = ""
+      , code = "GS"
       , unofficialNames = [ "Győr-Moson-Sopron" ]
       }
     , { name = "Győr"
-      , code = ""
+      , code = "GY"
       , unofficialNames = [ "Győr" ]
       }
     , { name = "Hajdú-Bihar"
-      , code = ""
+      , code = "HB"
       , unofficialNames = [ "Hajdú-Bihar" ]
       }
     , { name = "Heves"
-      , code = ""
+      , code = "HE"
       , unofficialNames = [ "Heves" ]
       }
     , { name = "Hódmezővásárhely"
-      , code = ""
+      , code = "HV"
       , unofficialNames = [ "Hódmezővásárhely" ]
       }
     , { name = "Jász-Nagykun-Szolnok"
-      , code = ""
+      , code = "JN"
       , unofficialNames = [ "Jász-Nagykun-Szolnok" ]
       }
     , { name = "Komárom-Esztergom"
-      , code = ""
+      , code = "KE"
       , unofficialNames = [ "Komárom-Esztergom" ]
       }
     , { name = "Kecskemét"
-      , code = ""
+      , code = "KM"
       , unofficialNames = [ "Kecskemét" ]
       }
     , { name = "Kaposvár"
-      , code = ""
+      , code = "KV"
       , unofficialNames = [ "Kaposvár" ]
       }
     , { name = "Miskolc"
-      , code = ""
+      , code = "MI"
       , unofficialNames = [ "Miskolc" ]
       }
     , { name = "Nagykanizsa"
-      , code = ""
+      , code = "NK"
       , unofficialNames = [ "Nagykanizsa" ]
       }
     , { name = "Nógrád"
-      , code = ""
+      , code = "NO"
       , unofficialNames = [ "Nógrád" ]
       }
     , { name = "Nyíregyháza"
-      , code = ""
+      , code = "NY"
       , unofficialNames = [ "Nyíregyháza" ]
       }
     , { name = "Pest"
-      , code = ""
+      , code = "PE"
       , unofficialNames = [ "Pest" ]
       }
     , { name = "Pécs"
-      , code = ""
+      , code = "PS"
       , unofficialNames = [ "Pécs" ]
       }
     , { name = "Szeged"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Szeged" ]
       }
     , { name = "Székesfehérvár"
-      , code = ""
+      , code = "SF"
       , unofficialNames = [ "Székesfehérvár" ]
       }
     , { name = "Szombathely"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Szombathely" ]
       }
     , { name = "Szolnok"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "Szolnok" ]
       }
     , { name = "Sopron"
-      , code = ""
+      , code = "SN"
       , unofficialNames = [ "Sopron" ]
       }
     , { name = "Somogy"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Somogy" ]
       }
     , { name = "Szekszárd"
-      , code = ""
+      , code = "SS"
       , unofficialNames = [ "Szekszárd" ]
       }
     , { name = "Salgótarján"
-      , code = ""
+      , code = "ST"
       , unofficialNames = [ "Salgótarján" ]
       }
     , { name = "Szabolcs-Szatmár-Bereg"
-      , code = ""
+      , code = "SZ"
       , unofficialNames = [ "Szabolcs-Szatmár-Bereg" ]
       }
     , { name = "Tatabánya"
-      , code = ""
+      , code = "TB"
       , unofficialNames = [ "Tatabánya" ]
       }
     , { name = "Tolna"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Tolna" ]
       }
     , { name = "Vas"
-      , code = ""
+      , code = "VA"
       , unofficialNames = [ "Vas" ]
       }
     , { name = "Veszprém"
-      , code = ""
+      , code = "VE"
       , unofficialNames = [ "Veszprém" ]
       }
     , { name = "Veszprém"
-      , code = ""
+      , code = "VM"
       , unofficialNames = [ "Veszprém" ]
       }
     , { name = "Zala"
-      , code = ""
+      , code = "ZA"
       , unofficialNames = [ "Zala" ]
       }
     , { name = "Zalaegerszeg"
-      , code = ""
+      , code = "ZE"
       , unofficialNames = [ "Zalaegerszeg" ]
       }
     ]
@@ -17113,111 +17113,111 @@ indonesiaSubdivisions =
 irelandSubdivisions : List Subdivision
 irelandSubdivisions =
     [ { name = "Connacht"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Connaught" ]
       }
     , { name = "Clare"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "An Clár" ]
       }
     , { name = "Cavan"
-      , code = ""
+      , code = "CN"
       , unofficialNames = [ "An Cabhán" ]
       }
     , { name = "Carlow"
-      , code = ""
+      , code = "CW"
       , unofficialNames = [ "Ceatharlach" ]
       }
     , { name = "Dublin"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Átha Cliath" ]
       }
     , { name = "Donegal"
-      , code = ""
+      , code = "DL"
       , unofficialNames = [ "Dún na nGall" ]
       }
     , { name = "Galway"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Gaillimh" ]
       }
     , { name = "Kildare"
-      , code = ""
+      , code = "KE"
       , unofficialNames = [ "Cill Dara" ]
       }
     , { name = "Kilkenny"
-      , code = ""
+      , code = "KK"
       , unofficialNames = [ "Cill Chainnigh" ]
       }
     , { name = "Kerry"
-      , code = ""
+      , code = "KY"
       , unofficialNames = [ "Ciarraighe", "Ciarraí" ]
       }
     , { name = "Longford"
-      , code = ""
+      , code = "LD"
       , unofficialNames = [ "Longphort", "Longphuirt" ]
       }
     , { name = "Louth"
-      , code = ""
+      , code = "LH"
       , unofficialNames = [ "Lughbhadh", "Lú" ]
       }
     , { name = "Limerick"
-      , code = ""
+      , code = "LK"
       , unofficialNames = [ "Luimneach" ]
       }
     , { name = "Leitrim"
-      , code = ""
+      , code = "LM"
       , unofficialNames = [ "Liathdroim" ]
       }
     , { name = "Laois"
-      , code = ""
+      , code = "LS"
       , unofficialNames = [ "Laoighis", "Queenʿs" ]
       }
     , { name = "Meath"
-      , code = ""
+      , code = "MH"
       , unofficialNames = [ "An Mhí", "An Mhídhe" ]
       }
     , { name = "Monaghan"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "Muineachán" ]
       }
     , { name = "Mayo"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Maigh Eo" ]
       }
     , { name = "Offaly"
-      , code = ""
+      , code = "OY"
       , unofficialNames = [ "Kingʿs", "Kingʿs County", "Ua Uíbh Fhailí", "Uí Fáilghe" ]
       }
     , { name = "Roscommon"
-      , code = ""
+      , code = "RN"
       , unofficialNames = [ "Ros Comáin" ]
       }
     , { name = "Sligo"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Sligeach" ]
       }
     , { name = "Tipperary"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tiobraid Árann" ]
       }
     , { name = "Waterford"
-      , code = ""
+      , code = "WD"
       , unofficialNames = [ "Port Láirge" ]
       }
     , { name = "Westmeath"
-      , code = ""
+      , code = "WH"
       , unofficialNames = [ "An Iarmhidhe" ]
       }
     , { name = "Wicklow"
-      , code = ""
+      , code = "WW"
       , unofficialNames = [ "Cill Maintain", "Cill Mhanntáin" ]
       }
     , { name = "Wexford"
-      , code = ""
+      , code = "WX"
       , unofficialNames = [ "Loch Garman" ]
       }
     , { name = "Cork"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Corcaigh", "County Cork" ]
       }
     ]
@@ -17227,27 +17227,27 @@ irelandSubdivisions =
 israelSubdivisions : List Subdivision
 israelSubdivisions =
     [ { name = "HaDarom"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Southern" ]
       }
     , { name = "Haifa"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Hefa", "H̱efa", "Haifa", "Haifa", "Haifa" ]
       }
     , { name = "Yerushalayim"
-      , code = ""
+      , code = "JM"
       , unofficialNames = [ "al-Quds", "Yerushalayim", "Jerusalem", "Jérusalem", "Jerusalén" ]
       }
     , { name = "HaMerkaz"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Tel-Aviv"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tel-Aviv" ]
       }
     , { name = "HaZafon"
-      , code = ""
+      , code = "Z"
       , unofficialNames = [ "Northern" ]
       }
     ]
@@ -17257,99 +17257,99 @@ israelSubdivisions =
 isleOfManSubdivisions : List Subdivision
 isleOfManSubdivisions =
     [ { name = "Andreas"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Andreas" ]
       }
     , { name = "Arbory"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Arbory" ]
       }
     , { name = "Ballaugh"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Ballaugh" ]
       }
     , { name = "Braddan"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Braddan" ]
       }
     , { name = "Bride"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Bride" ]
       }
     , { name = "Castletown"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Castletown" ]
       }
     , { name = "Douglas"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Douglas" ]
       }
     , { name = "German"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "German" ]
       }
     , { name = "Jurby"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Jurby" ]
       }
     , { name = "Laxey"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Laxey" ]
       }
     , { name = "Lezayre"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Lezayre" ]
       }
     , { name = "Lonan"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Lonan" ]
       }
     , { name = "Malew"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Malew" ]
       }
     , { name = "Marown"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Marown" ]
       }
     , { name = "Maughold"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Maughold" ]
       }
     , { name = "Michael"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Michael" ]
       }
     , { name = "Onchan"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Onchan" ]
       }
     , { name = "Patrick"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Patrick" ]
       }
     , { name = "Peel"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Peel" ]
       }
     , { name = "Port Erin"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Port Erin" ]
       }
     , { name = "Port St Mary"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Port St Mary" ]
       }
     , { name = "Ramsey"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Ramsey" ]
       }
     , { name = "Rushen"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Rushen" ]
       }
     , { name = "Santon"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Santon" ]
       }
     ]
@@ -17359,147 +17359,147 @@ isleOfManSubdivisions =
 indiaSubdivisions : List Subdivision
 indiaSubdivisions =
     [ { name = "Andaman and Nicobar Islands"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Andaman and Nicobar Islands" ]
       }
     , { name = "Andhra Pradesh"
-      , code = ""
+      , code = "AP"
       , unofficialNames = [ "Andhra Pradesh" ]
       }
     , { name = "Arunachal Pradesh"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Arunachal Pradesh" ]
       }
     , { name = "Assam"
-      , code = ""
+      , code = "AS"
       , unofficialNames = [ "Assam" ]
       }
     , { name = "Bihar"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Bihar" ]
       }
     , { name = "Chandigarh"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Chandigarh" ]
       }
     , { name = "Chhattisgarh"
-      , code = ""
+      , code = "CT"
       , unofficialNames = [ "Chhattisgarh" ]
       }
     , { name = "Daman and Diu"
-      , code = ""
+      , code = "DD"
       , unofficialNames = [ "Daman and Diu" ]
       }
     , { name = "Delhi"
-      , code = ""
+      , code = "DL"
       , unofficialNames = [ "Delhi" ]
       }
     , { name = "Dadra and Nagar Haveli"
-      , code = ""
+      , code = "DN"
       , unofficialNames = [ "Dadra and Nagar Haveli" ]
       }
     , { name = "Goa"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Goa" ]
       }
     , { name = "Gujarat"
-      , code = ""
+      , code = "GJ"
       , unofficialNames = [ "Gujarat" ]
       }
     , { name = "Himachal Pradesh"
-      , code = ""
+      , code = "HP"
       , unofficialNames = [ "Himachal Pradesh" ]
       }
     , { name = "Haryana"
-      , code = ""
+      , code = "HR"
       , unofficialNames = [ "Haryana" ]
       }
     , { name = "Jharkhand"
-      , code = ""
+      , code = "JH"
       , unofficialNames = [ "Vananchal" ]
       }
     , { name = "Jammu and Kashmir"
-      , code = ""
+      , code = "JK"
       , unofficialNames = [ "Jammu and Kashmir" ]
       }
     , { name = "Karnataka"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Kanara" ]
       }
     , { name = "Kerala"
-      , code = ""
+      , code = "KL"
       , unofficialNames = [ "Kerala" ]
       }
     , { name = "Lakshadweep"
-      , code = ""
+      , code = "LD"
       , unofficialNames = [ "Laccadive", "Lakkadiven" ]
       }
     , { name = "Maharashtra"
-      , code = ""
+      , code = "MH"
       , unofficialNames = [ "Maharashtra" ]
       }
     , { name = "Meghalaya"
-      , code = ""
+      , code = "ML"
       , unofficialNames = [ "Meghalaya" ]
       }
     , { name = "Manipur"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "Manipur" ]
       }
     , { name = "Madhya Pradesh"
-      , code = ""
+      , code = "MP"
       , unofficialNames = [ "Madhya Pradesh" ]
       }
     , { name = "Mizoram"
-      , code = ""
+      , code = "MZ"
       , unofficialNames = [ "Mizoram" ]
       }
     , { name = "Nagaland"
-      , code = ""
+      , code = "NL"
       , unofficialNames = [ "Nagaland" ]
       }
     , { name = "Orissa"
-      , code = ""
+      , code = "OR"
       , unofficialNames = [ "Orissa" ]
       }
     , { name = "Punjab"
-      , code = ""
+      , code = "PB"
       , unofficialNames = [ "Punjab" ]
       }
     , { name = "Pondicherry"
-      , code = ""
+      , code = "PY"
       , unofficialNames = [ "Pondicherry" ]
       }
     , { name = "Rajasthan"
-      , code = ""
+      , code = "RJ"
       , unofficialNames = [ "Rajasthan" ]
       }
     , { name = "Sikkim"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "Denjong" ]
       }
     , { name = "Tamil Nadu"
-      , code = ""
+      , code = "TN"
       , unofficialNames = [ "Tamil Nadu" ]
       }
     , { name = "Tripura"
-      , code = ""
+      , code = "TR"
       , unofficialNames = [ "Tripura" ]
       }
     , { name = "Telangana"
-      , code = ""
+      , code = "TS"
       , unofficialNames = [ "Telangana" ]
       }
     , { name = "Uttaranchal"
-      , code = ""
+      , code = "UL"
       , unofficialNames = [ "Uttaranchal" ]
       }
     , { name = "Uttar Pradesh"
-      , code = ""
+      , code = "UP"
       , unofficialNames = [ "Uttar Pradesh" ]
       }
     , { name = "West Bengal"
-      , code = ""
+      , code = "WB"
       , unofficialNames = [ "West Bengal" ]
       }
     ]
@@ -17509,75 +17509,75 @@ indiaSubdivisions =
 iraqSubdivisions : List Subdivision
 iraqSubdivisions =
     [ { name = "Al Anbar"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "al-Anbar" ]
       }
     , { name = "Arbil"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Arbil", "Erbil", "Irbil" ]
       }
     , { name = "Al Basrah"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Basra", "Bassora", "al-Basrah" ]
       }
     , { name = "Babil"
-      , code = ""
+      , code = "BB"
       , unofficialNames = [ "Babil", "Babylon" ]
       }
     , { name = "Baghdad"
-      , code = ""
+      , code = "BG"
       , unofficialNames = [ "Baġdād", "Bagdad", "Bagdad" ]
       }
     , { name = "Dahuk"
-      , code = ""
+      , code = "DA"
       , unofficialNames = [ "Dahuk" ]
       }
     , { name = "Diyalá"
-      , code = ""
+      , code = "DI"
       , unofficialNames = [ "Diyala" ]
       }
     , { name = "Dhi Qar"
-      , code = ""
+      , code = "DQ"
       , unofficialNames = [ "Dhi Qar", "Thi Qar" ]
       }
     , { name = "Karbala'"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Karbala", "Kerbala", "Kerbela" ]
       }
     , { name = "Maysan"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Maysan" ]
       }
     , { name = "Al Muthanná"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "al-Muthanna" ]
       }
     , { name = "An Najaf"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Najaf", "Nedjef", "Nejef" ]
       }
     , { name = "Ninawá"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Nineveh", "Niniveh" ]
       }
     , { name = "Al Qadisiyah"
-      , code = ""
+      , code = "QA"
       , unofficialNames = [ "al-Qadisiyah" ]
       }
     , { name = "Salah ad Din"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Salah-ad-Din" ]
       }
     , { name = "As Sulaymaniyah"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "Sulaymaniya", "Sulaymānīyah", "as-Sulaymaniyah" ]
       }
     , { name = "At Ta'mim"
-      , code = ""
+      , code = "TS"
       , unofficialNames = [ "at-Tamim" ]
       }
     , { name = "Wasit"
-      , code = ""
+      , code = "WA"
       , unofficialNames = [ "Wasit" ]
       }
     ]
@@ -17587,127 +17587,127 @@ iraqSubdivisions =
 iranIslamicRepublicOfSubdivisions : List Subdivision
 iranIslamicRepublicOfSubdivisions =
     [ { name = "Az¯arbayjan-e Sharqi"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Azarbayjān-e Khavari", "East Azerbaijan" ]
       }
     , { name = "Az¯arbayjan-e Gharbi"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Azarbayjān-e Bakhtari", "West Azerbaijan" ]
       }
     , { name = "Ardabil"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Ardabil", "Ardebil" ]
       }
     , { name = "Esfahan"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Isfahan" ]
       }
     , { name = "Ilam"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Ilam" ]
       }
     , { name = "Bushehr"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Bushehr" ]
       }
     , { name = "Tehran"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Teheran" ]
       }
     , { name = "Chahar Mah¸all va Bakhtiari"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Chaharmahal Bakhtiari" ]
       }
     , { name = "Khorasan"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Khorasan" ]
       }
     , { name = "Khuzestan"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Arabistan" ]
       }
     , { name = "Zanjan"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Zanjan" ]
       }
     , { name = "Semnan"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Semnan" ]
       }
     , { name = "Sistan va Baluchestan"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Sistan-e Baluchistan" ]
       }
     , { name = "Fars"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Fars" ]
       }
     , { name = "Kerman"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Kerman" ]
       }
     , { name = "Kordestan"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Kurdestan", "Kurdistan" ]
       }
     , { name = "Kermanshah"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Bakhtaran" ]
       }
     , { name = "Kohkiluyeh va Buyer Ahmad"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Boyer Ahmad-e Kohkiluyeh", "Kohkilouyeh" ]
       }
     , { name = "Gilan"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Gilan" ]
       }
     , { name = "Lorestan"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Lorestan" ]
       }
     , { name = "Mazandaran"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Mazandaran" ]
       }
     , { name = "Markazi"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Markazi" ]
       }
     , { name = "Hormozgan"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Hormozgan" ]
       }
     , { name = "Hamadan"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Hamedan" ]
       }
     , { name = "Yazd"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Yazd" ]
       }
     , { name = "Qom"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Qom" ]
       }
     , { name = "Golestan"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Golestan" ]
       }
     , { name = "Qazvin"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Qazvin" ]
       }
     , { name = "Khorasan-e Janubi"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Khorasan-e Janubi" ]
       }
     , { name = "Khorasan-e Razavi"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Khorasan-e Razavi" ]
       }
     , { name = "Khorasan-e Shemali"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Khorasan-e Shemali" ]
       }
     ]
@@ -17717,39 +17717,39 @@ iranIslamicRepublicOfSubdivisions =
 icelandSubdivisions : List Subdivision
 icelandSubdivisions =
     [ { name = "Reykjavík"
-      , code = ""
+      , code = "0"
       , unofficialNames = [ "Reykjavík" ]
       }
     , { name = "Höfuðborgarsvæði utan Reykjavíkur"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Höfuðborgarsvæði utan Reykjavíkur" ]
       }
     , { name = "Suðurnes"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Suðurnes" ]
       }
     , { name = "Vesturland"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Vesturland" ]
       }
     , { name = "Vestfirðir"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Vestfirðir" ]
       }
     , { name = "Norðurland vestra"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Norðurland vestra" ]
       }
     , { name = "Norðurland eystra"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Norðurland eystra" ]
       }
     , { name = "Austurland"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Austurland" ]
       }
     , { name = "Suðurland"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Suðurland" ]
       }
     ]
@@ -17759,443 +17759,443 @@ icelandSubdivisions =
 italySubdivisions : List Subdivision
 italySubdivisions =
     [ { name = "Agrigento"
-      , code = ""
+      , code = "AG"
       , unofficialNames = [ "Agrigento" ]
       }
     , { name = "Alessandria"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Alessandria" ]
       }
     , { name = "Ancona"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Ancona" ]
       }
     , { name = "Aosta"
-      , code = ""
+      , code = "AO"
       , unofficialNames = [ "Aosta" ]
       }
     , { name = "Ascoli Piceno"
-      , code = ""
+      , code = "AP"
       , unofficialNames = [ "Ascoli Piceno" ]
       }
     , { name = "L'Aquila"
-      , code = ""
+      , code = "AQ"
       , unofficialNames = [ "L'Aquila" ]
       }
     , { name = "Arezzo"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Arezzo" ]
       }
     , { name = "Asti"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Asti" ]
       }
     , { name = "Avellino"
-      , code = ""
+      , code = "AV"
       , unofficialNames = [ "Avellino" ]
       }
     , { name = "Bari"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Bari" ]
       }
     , { name = "Bergamo"
-      , code = ""
+      , code = "BG"
       , unofficialNames = [ "Bergamo" ]
       }
     , { name = "Biella"
-      , code = ""
+      , code = "BI"
       , unofficialNames = [ "Biella" ]
       }
     , { name = "Belluno"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Belluno" ]
       }
     , { name = "Benevento"
-      , code = ""
+      , code = "BN"
       , unofficialNames = [ "Benevento" ]
       }
     , { name = "Bologna"
-      , code = ""
+      , code = "BO"
       , unofficialNames = [ "Bologna" ]
       }
     , { name = "Brindisi"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Brindisi" ]
       }
     , { name = "Brescia"
-      , code = ""
+      , code = "BS"
       , unofficialNames = [ "Brescia" ]
       }
     , { name = "Barletta-Andria-Trani"
-      , code = ""
+      , code = "BT"
       , unofficialNames = [ "Barletta-Andria-Trani" ]
       }
     , { name = "Bolzano"
-      , code = ""
+      , code = "BZ"
       , unofficialNames = [ "Bolzano" ]
       }
     , { name = "Cagliari"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Cagliari" ]
       }
     , { name = "Campobasso"
-      , code = ""
+      , code = "CB"
       , unofficialNames = [ "Campobasso" ]
       }
     , { name = "Caserta"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Caserta" ]
       }
     , { name = "Chieti"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Chieti" ]
       }
     , { name = "Carbonia-Iglesias"
-      , code = ""
+      , code = "CI"
       , unofficialNames = [ "Carbonia-Iglesias" ]
       }
     , { name = "Caltanissetta"
-      , code = ""
+      , code = "CL"
       , unofficialNames = [ "Caltanissetta" ]
       }
     , { name = "Cuneo"
-      , code = ""
+      , code = "CN"
       , unofficialNames = [ "Cuneo" ]
       }
     , { name = "Como"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Como" ]
       }
     , { name = "Cremona"
-      , code = ""
+      , code = "CR"
       , unofficialNames = [ "Cremona" ]
       }
     , { name = "Cosenza"
-      , code = ""
+      , code = "CS"
       , unofficialNames = [ "Cosenza" ]
       }
     , { name = "Catania"
-      , code = ""
+      , code = "CT"
       , unofficialNames = [ "Catania" ]
       }
     , { name = "Catanzaro"
-      , code = ""
+      , code = "CZ"
       , unofficialNames = [ "Catanzaro" ]
       }
     , { name = "Enna"
-      , code = ""
+      , code = "EN"
       , unofficialNames = [ "Enna" ]
       }
     , { name = "Ferrara"
-      , code = ""
+      , code = "FE"
       , unofficialNames = [ "Ferrara" ]
       }
     , { name = "Foggia"
-      , code = ""
+      , code = "FG"
       , unofficialNames = [ "Foggia" ]
       }
     , { name = "Firenze"
-      , code = ""
+      , code = "FI"
       , unofficialNames = [ "Firenze" ]
       }
     , { name = "Forlì-Cesena"
-      , code = ""
+      , code = "FC"
       , unofficialNames = [ "Forlì-Cesena" ]
       }
     , { name = "Fermo"
-      , code = ""
+      , code = "FM"
       , unofficialNames = [ "Fermo" ]
       }
     , { name = "Frosinone"
-      , code = ""
+      , code = "FR"
       , unofficialNames = [ "Frosinone" ]
       }
     , { name = "Genova"
-      , code = ""
+      , code = "GE"
       , unofficialNames = [ "Genova" ]
       }
     , { name = "Gorizia"
-      , code = ""
+      , code = "GO"
       , unofficialNames = [ "Gorizia" ]
       }
     , { name = "Grosseto"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Grosseto" ]
       }
     , { name = "Imperia"
-      , code = ""
+      , code = "IM"
       , unofficialNames = [ "Imperia" ]
       }
     , { name = "Isernia"
-      , code = ""
+      , code = "IS"
       , unofficialNames = [ "Isernia" ]
       }
     , { name = "Crotone"
-      , code = ""
+      , code = "KR"
       , unofficialNames = [ "Crotone" ]
       }
     , { name = "Lecco"
-      , code = ""
+      , code = "LC"
       , unofficialNames = [ "Lecco" ]
       }
     , { name = "Lecce"
-      , code = ""
+      , code = "LE"
       , unofficialNames = [ "Lecce" ]
       }
     , { name = "Livorno"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Livorno" ]
       }
     , { name = "Lodi"
-      , code = ""
+      , code = "LO"
       , unofficialNames = [ "Lodi" ]
       }
     , { name = "Latina"
-      , code = ""
+      , code = "LT"
       , unofficialNames = [ "Latina" ]
       }
     , { name = "Lucca"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "Lucca" ]
       }
     , { name = "Monza e Brianza"
-      , code = ""
+      , code = "MB"
       , unofficialNames = [ "Monza e Brianza" ]
       }
     , { name = "Macerata"
-      , code = ""
+      , code = "MC"
       , unofficialNames = [ "Macerata" ]
       }
     , { name = "Messina"
-      , code = ""
+      , code = "ME"
       , unofficialNames = [ "Messina" ]
       }
     , { name = "Milano"
-      , code = ""
+      , code = "MI"
       , unofficialNames = [ "Milano" ]
       }
     , { name = "Mantova"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "Mantova" ]
       }
     , { name = "Modena"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Modena" ]
       }
     , { name = "Massa-Carrara"
-      , code = ""
+      , code = "MS"
       , unofficialNames = [ "Massa-Carrara" ]
       }
     , { name = "Matera"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Matera" ]
       }
     , { name = "Napoli"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Napoli" ]
       }
     , { name = "Novara"
-      , code = ""
+      , code = "NO"
       , unofficialNames = [ "Novara" ]
       }
     , { name = "Nuoro"
-      , code = ""
+      , code = "NU"
       , unofficialNames = [ "Nuoro" ]
       }
     , { name = "Ogliastra"
-      , code = ""
+      , code = "OG"
       , unofficialNames = [ "Ogliastra" ]
       }
     , { name = "Oristano"
-      , code = ""
+      , code = "OR"
       , unofficialNames = [ "Oristano" ]
       }
     , { name = "Olbia-Tempio"
-      , code = ""
+      , code = "OT"
       , unofficialNames = [ "Olbia-Tempio" ]
       }
     , { name = "Palermo"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Palermo" ]
       }
     , { name = "Piacenza"
-      , code = ""
+      , code = "PC"
       , unofficialNames = [ "Piacenza" ]
       }
     , { name = "Padova"
-      , code = ""
+      , code = "PD"
       , unofficialNames = [ "Padova" ]
       }
     , { name = "Pescara"
-      , code = ""
+      , code = "PE"
       , unofficialNames = [ "Pescara" ]
       }
     , { name = "Perugia"
-      , code = ""
+      , code = "PG"
       , unofficialNames = [ "Perugia" ]
       }
     , { name = "Pisa"
-      , code = ""
+      , code = "PI"
       , unofficialNames = [ "Pisa" ]
       }
     , { name = "Pordenone"
-      , code = ""
+      , code = "PN"
       , unofficialNames = [ "Pordenone" ]
       }
     , { name = "Prato"
-      , code = ""
+      , code = "PO"
       , unofficialNames = [ "Prato" ]
       }
     , { name = "Parma"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Parma" ]
       }
     , { name = "Pesaro e Urbino"
-      , code = ""
+      , code = "PU"
       , unofficialNames = [ "Pesaro e Urbino" ]
       }
     , { name = "Pistoia"
-      , code = ""
+      , code = "PT"
       , unofficialNames = [ "Pistoia" ]
       }
     , { name = "Pavia"
-      , code = ""
+      , code = "PV"
       , unofficialNames = [ "Pavia" ]
       }
     , { name = "Potenza"
-      , code = ""
+      , code = "PZ"
       , unofficialNames = [ "Potenza" ]
       }
     , { name = "Ravenna"
-      , code = ""
+      , code = "RA"
       , unofficialNames = [ "Ravenna" ]
       }
     , { name = "Reggio Calabria"
-      , code = ""
+      , code = "RC"
       , unofficialNames = [ "Reggio Calabria" ]
       }
     , { name = "Reggio Emilia"
-      , code = ""
+      , code = "RE"
       , unofficialNames = [ "Reggio Emilia" ]
       }
     , { name = "Ragusa"
-      , code = ""
+      , code = "RG"
       , unofficialNames = [ "Ragusa" ]
       }
     , { name = "Rieti"
-      , code = ""
+      , code = "RI"
       , unofficialNames = [ "Rieti" ]
       }
     , { name = "Roma"
-      , code = ""
+      , code = "RM"
       , unofficialNames = [ "Roma" ]
       }
     , { name = "Rimini"
-      , code = ""
+      , code = "RN"
       , unofficialNames = [ "Rimini" ]
       }
     , { name = "Rovigo"
-      , code = ""
+      , code = "RO"
       , unofficialNames = [ "Rovigo" ]
       }
     , { name = "Salerno"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Salerno" ]
       }
     , { name = "Siena"
-      , code = ""
+      , code = "SI"
       , unofficialNames = [ "Siena" ]
       }
     , { name = "Sondrio"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Sondrio" ]
       }
     , { name = "La Spezia"
-      , code = ""
+      , code = "SP"
       , unofficialNames = [ "La Spezia" ]
       }
     , { name = "Siracusa"
-      , code = ""
+      , code = "SR"
       , unofficialNames = [ "Siracusa" ]
       }
     , { name = "Sassari"
-      , code = ""
+      , code = "SS"
       , unofficialNames = [ "Sassari" ]
       }
     , { name = "Savona"
-      , code = ""
+      , code = "SV"
       , unofficialNames = [ "Savona" ]
       }
     , { name = "Taranto"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Taranto" ]
       }
     , { name = "Teramo"
-      , code = ""
+      , code = "TE"
       , unofficialNames = [ "Teramo" ]
       }
     , { name = "Trento"
-      , code = ""
+      , code = "TN"
       , unofficialNames = [ "Trento" ]
       }
     , { name = "Torino"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Torino" ]
       }
     , { name = "Trapani"
-      , code = ""
+      , code = "TP"
       , unofficialNames = [ "Trapani" ]
       }
     , { name = "Terni"
-      , code = ""
+      , code = "TR"
       , unofficialNames = [ "Terni" ]
       }
     , { name = "Trieste"
-      , code = ""
+      , code = "TS"
       , unofficialNames = [ "Trieste" ]
       }
     , { name = "Treviso"
-      , code = ""
+      , code = "TV"
       , unofficialNames = [ "Treviso" ]
       }
     , { name = "Udine"
-      , code = ""
+      , code = "UD"
       , unofficialNames = [ "Udine" ]
       }
     , { name = "Varese"
-      , code = ""
+      , code = "VA"
       , unofficialNames = [ "Varese" ]
       }
     , { name = "Verbano-Cusio-Ossola"
-      , code = ""
+      , code = "VB"
       , unofficialNames = [ "Verbano-Cusio-Ossola" ]
       }
     , { name = "Vercelli"
-      , code = ""
+      , code = "VC"
       , unofficialNames = [ "Vercelli" ]
       }
     , { name = "Venezia"
-      , code = ""
+      , code = "VE"
       , unofficialNames = [ "Venezia" ]
       }
     , { name = "Vicenza"
-      , code = ""
+      , code = "VI"
       , unofficialNames = [ "Vicenza" ]
       }
     , { name = "Verona"
-      , code = ""
+      , code = "VR"
       , unofficialNames = [ "Verona" ]
       }
     , { name = "Medio Campidano"
-      , code = ""
+      , code = "VS"
       , unofficialNames = [ "Medio Campidano" ]
       }
     , { name = "Viterbo"
-      , code = ""
+      , code = "VT"
       , unofficialNames = [ "Viterbo" ]
       }
     , { name = "Vibo Valentia"
-      , code = ""
+      , code = "VV"
       , unofficialNames = [ "Vibo Valentia" ]
       }
     ]
@@ -18205,51 +18205,51 @@ italySubdivisions =
 jerseySubdivisions : List Subdivision
 jerseySubdivisions =
     [ { name = "Saint Clement"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Saint Clement" ]
       }
     , { name = "Saint Saviour"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Saint Saviour" ]
       }
     , { name = "Saint Brelade"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Saint Brelade" ]
       }
     , { name = "Grouville"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Grouville" ]
       }
     , { name = "Saint Mary"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Saint Mary" ]
       }
     , { name = "Saint Lawrence"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Saint Lawrence" ]
       }
     , { name = "Saint Peter"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Saint Peter" ]
       }
     , { name = "Saint Ouen"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Saint Ouen" ]
       }
     , { name = "Saint John"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Saint John" ]
       }
     , { name = "Trinity"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Trinity" ]
       }
     , { name = "Saint Martin"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Saint Martin" ]
       }
     , { name = "Saint Helier"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Saint Helier" ]
       }
     ]
@@ -18259,59 +18259,59 @@ jerseySubdivisions =
 jamaicaSubdivisions : List Subdivision
 jamaicaSubdivisions =
     [ { name = "Kingston"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Kingston" ]
       }
     , { name = "Saint Andrew"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Saint Andrew" ]
       }
     , { name = "Saint Thomas"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Saint Thomas" ]
       }
     , { name = "Portland"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Portland" ]
       }
     , { name = "Saint Mary"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Saint Mary" ]
       }
     , { name = "Saint Ann"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Saint Ann" ]
       }
     , { name = "Trelawny"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Trelawny" ]
       }
     , { name = "Saint James"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Saint James" ]
       }
     , { name = "Hanover"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Hanover" ]
       }
     , { name = "Westmoreland"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Westmoreland" ]
       }
     , { name = "Saint Elizabeth"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Saint Elizabeth" ]
       }
     , { name = "Manchester"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Manchester" ]
       }
     , { name = "Clarendon"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Clarendon" ]
       }
     , { name = "Saint Catherine"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Saint Catherine" ]
       }
     ]
@@ -18321,51 +18321,51 @@ jamaicaSubdivisions =
 jordanSubdivisions : List Subdivision
 jordanSubdivisions =
     [ { name = "Ajlun"
-      , code = ""
+      , code = "AJ"
       , unofficialNames = [ "Ajloan", "Ajlun" ]
       }
     , { name = "Amman"
-      , code = ""
+      , code = "AM"
       , unofficialNames = [ "Amman" ]
       }
     , { name = "Aqaba"
-      , code = ""
+      , code = "AQ"
       , unofficialNames = [ "Akaba", "Aqaba", "Aqqaba", "al-Aqaba" ]
       }
     , { name = "At Tafilah"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Tafiela", "Tafileh", "at-Tafilah" ]
       }
     , { name = "Az Zarqa'"
-      , code = ""
+      , code = "AZ"
       , unofficialNames = [ "Zarka", "Zarqa", "Zerka" ]
       }
     , { name = "Al Balqa'"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Al Balqa'" ]
       }
     , { name = "Irbid"
-      , code = ""
+      , code = "IR"
       , unofficialNames = [ "Irbit" ]
       }
     , { name = "Jarash"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "Jarash", "Jerash" ]
       }
     , { name = "Al Karak"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Karak", "Kerak" ]
       }
     , { name = "Al Mafraq"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Mafraq" ]
       }
     , { name = "Madaba"
-      , code = ""
+      , code = "MD"
       , unofficialNames = [ "Madaba", "Maʿdaba", "Maʿdabâ" ]
       }
     , { name = "Ma`an"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "Maan", "Maʿan" ]
       }
     ]
@@ -18375,191 +18375,191 @@ jordanSubdivisions =
 japanSubdivisions : List Subdivision
 japanSubdivisions =
     [ { name = "Hokkaido"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Hokkaidô", "Hokkaido" ]
       }
     , { name = "Aomori"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Aomori" ]
       }
     , { name = "Iwate"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Iwate" ]
       }
     , { name = "Miyagi"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Miyagi" ]
       }
     , { name = "Akita"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Akita" ]
       }
     , { name = "Yamagata"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Yamagata" ]
       }
     , { name = "Fukushima"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Hukusima", "Fukushima" ]
       }
     , { name = "Ibaraki"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Ibaraki" ]
       }
     , { name = "Tochigi"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Totigi", "Tochigi" ]
       }
     , { name = "Gunma"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Gunma" ]
       }
     , { name = "Saitama"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Saitama" ]
       }
     , { name = "Chiba"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Tiba", "Chiba" ]
       }
     , { name = "Tokyo"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Tokyo", "Tokio" ]
       }
     , { name = "Kanagawa"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Kanagawa" ]
       }
     , { name = "Niigata"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Niigata" ]
       }
     , { name = "Toyama"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Toyama" ]
       }
     , { name = "Ishikawa"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Isikawa", "Ishikawa" ]
       }
     , { name = "Fukui"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Hukui", "Fukui" ]
       }
     , { name = "Yamanashi"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Yamanasi", "Yamanashi" ]
       }
     , { name = "Nagano"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Nagano" ]
       }
     , { name = "Gifu"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Gihu", "Gifu" ]
       }
     , { name = "Shizuoka"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Sizuoka", "Shizuoka" ]
       }
     , { name = "Aichi"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Aiti", "Aichi" ]
       }
     , { name = "Mie"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Mie" ]
       }
     , { name = "Shiga"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Siga", "Shiga" ]
       }
     , { name = "Kyoto"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Kyoto" ]
       }
     , { name = "Osaka"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Osaka" ]
       }
     , { name = "Hyogo"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Hyogo" ]
       }
     , { name = "Nara"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Nara" ]
       }
     , { name = "Wakayama"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Wakayama" ]
       }
     , { name = "Tottori"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Tottori" ]
       }
     , { name = "Shimane"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Simane", "Shimane" ]
       }
     , { name = "Okayama"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Okayama" ]
       }
     , { name = "Hiroshima"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Hirosima", "Hiroshima" ]
       }
     , { name = "Yamaguchi"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Yamaguti", "Yamaguchi" ]
       }
     , { name = "Tokushima"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Tokusima", "Tokushima" ]
       }
     , { name = "Kagawa"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Kagawa" ]
       }
     , { name = "Ehime"
-      , code = ""
+      , code = "38"
       , unofficialNames = [ "Ehime" ]
       }
     , { name = "Kochi"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Kochi" ]
       }
     , { name = "Fukuoka"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Hukuoka", "Fukuoka" ]
       }
     , { name = "Saga"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Saga" ]
       }
     , { name = "Nagasaki"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Nagasaki" ]
       }
     , { name = "Kumamoto"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Kumamoto" ]
       }
     , { name = "Oita"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Oita" ]
       }
     , { name = "Miyazaki"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Miyazaki" ]
       }
     , { name = "Kagoshima"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Kagosima", "Kagoshima" ]
       }
     , { name = "Okinawa"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Okinawa" ]
       }
     ]
@@ -18569,35 +18569,35 @@ japanSubdivisions =
 kenyaSubdivisions : List Subdivision
 kenyaSubdivisions =
     [ { name = "Nairobi Municipality"
-      , code = ""
+      , code = "110"
       , unofficialNames = [ "Nairobi Municipality" ]
       }
     , { name = "Central"
-      , code = ""
+      , code = "200"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Coast"
-      , code = ""
+      , code = "300"
       , unofficialNames = [ "Coast" ]
       }
     , { name = "Eastern"
-      , code = ""
+      , code = "400"
       , unofficialNames = [ "Eastern" ]
       }
     , { name = "North-Eastern"
-      , code = ""
+      , code = "500"
       , unofficialNames = [ "North-Eastern" ]
       }
     , { name = "Nyanza"
-      , code = ""
+      , code = "600"
       , unofficialNames = [ "Nyanza" ]
       }
     , { name = "Rift Valley"
-      , code = ""
+      , code = "700"
       , unofficialNames = [ "Rift Valley" ]
       }
     , { name = "Western"
-      , code = ""
+      , code = "900"
       , unofficialNames = [ "Western" ]
       }
     ]
@@ -18607,35 +18607,35 @@ kenyaSubdivisions =
 kyrgyzstanSubdivisions : List Subdivision
 kyrgyzstanSubdivisions =
     [ { name = "Batken"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Batken" ]
       }
     , { name = "Chü"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Chu", "Chui", "Chuy", "Çüy" ]
       }
     , { name = "Bishkek"
-      , code = ""
+      , code = "GB"
       , unofficialNames = [ "Bishkek", "Kenesh Bishkek" ]
       }
     , { name = "Jalal-Abad"
-      , code = ""
+      , code = "J"
       , unofficialNames = [ "Jalal-Abad" ]
       }
     , { name = "Naryn"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Naryn" ]
       }
     , { name = "Osh"
-      , code = ""
+      , code = "O"
       , unofficialNames = [ "Osh" ]
       }
     , { name = "Talas"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Talas" ]
       }
     , { name = "Ysyk-Köl"
-      , code = ""
+      , code = "Y"
       , unofficialNames = [ "Balikchi", "Balykchy", "Balıkçı", "Issyk-Kul" ]
       }
     ]
@@ -18645,99 +18645,99 @@ kyrgyzstanSubdivisions =
 cambodiaSubdivisions : List Subdivision
 cambodiaSubdivisions =
     [ { name = "Banteay Mean Chey [Bântéay Méanchey]"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Banteay Mean Chey [Bântéay Méanchey]", "banteay meanchey", "b.chey", "bm", "b.m" ]
       }
     , { name = "Kracheh [Krâchéh]"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Kratié", "Kratie", "kr.ch", "kr", "k.r" ]
       }
     , { name = "Mondol Kiri [Môndól Kiri]"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Mondolkiri", "Mondulkiri", "m.ri", "mk", "m.k" ]
       }
     , { name = "Phnom Penh [Phnum Pénh]"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Phnom Penh", "pp", "p.p" ]
       }
     , { name = "Preah Vihear [Preah Vihéar]"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Preah Vihear [Preah Vihéar]", "pr.h", "ph", "p.h" ]
       }
     , { name = "Prey Veaeng [Prey Vêng]"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Prey Vêng", "Prey Veng", "pr.v", "pv", "p.v" ]
       }
     , { name = "Pousaat [Pouthisat]"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Poŭthĭsăt", "Pursat", "p.s", "ps" ]
       }
     , { name = "Rotanak Kiri [Rôtânôkiri]"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Ratanakiri", "Rotanokiri", "Rôtanah Kiri", "r.r", "rr", "rk", "r.k" ]
       }
     , { name = "Siem Reab [Siemréab]"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Siem Reap", "Siemréab", "s.r", "sr" ]
       }
     , { name = "Krong Preah Sihanouk [Krong Preah Sihanouk]"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Preah Seihânu", "Sihanoukville", "Kompong Som", "Kampong Som", "Kompong Saom", "Kampong Saom", "k.som", "k.saom", "s.v" ]
       }
     , { name = "Stueng Traeng"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Stoeng Trêng", "Stung Treng", "s.t", "st" ]
       }
     , { name = "Baat Dambang [Batdâmbâng]"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Batdâmbâng", "Battambang", "bb", "b.b" ]
       }
     , { name = "Svaay Rieng [Svay Rieng]"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Svaay Rieng [Svay Rieng]", "svay rieng", "sv.r", "svr" ]
       }
     , { name = "Taakaev [Takêv]"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Takeo", "Takêv", "tk", "t.k" ]
       }
     , { name = "Otdar Mean Chey [Otdâr Méanchey] "
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Otdar Mean Chey [Otdâr Méanchey] ", "Oddar Meanchey", "o.chey", "om", "o.m" ]
       }
     , { name = "Krong Kep [Krong Kêb]"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Krong Kep [Krong Kêb]", "Kep" ]
       }
     , { name = "Krong Pailin [Krong Pailin]"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Krong Pailin [Krong Pailin]", "Pailin", "pl", "p.l" ]
       }
     , { name = "Kampong Chaam [Kâmpóng Cham]"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Kompong Cham", "Kompong Chaam", "Kampong Cham", "k.cham", "kc", "k.c" ]
       }
     , { name = "Kampong Chhnang [Kâmpóng Chhnang]"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Kompong Chhnang", "k.chhnang", "kn", "k.n" ]
       }
     , { name = "Kampong Spueu [Kâmpóng Spœ]"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Kompong Speu", "Kompong Spoe", "Kampong Speu", "Kampong Spoe", "k.speu", "ks", "k.s" ]
       }
     , { name = "Kampong Thum [Kâmpóng Thum]"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Kompong Thom", "Kompong Thum", "Kampong Thom", "Kampong Thum", "k.thom", "kt", "k.t" ]
       }
     , { name = "Kampot [Kâmpôt]"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Kampot [Kâmpôt]", "k.pot", "kp", "k.p" ]
       }
     , { name = "Kandaal [Kândal]"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Kandaal [Kândal]", "Kandal", "Kondal", "kd", "k.d" ]
       }
     , { name = "Kaoh Kong [Kaôh Kong]"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Koh Kong", "kk", "k.k" ]
       }
     ]
@@ -18747,15 +18747,15 @@ cambodiaSubdivisions =
 kiribatiSubdivisions : List Subdivision
 kiribatiSubdivisions =
     [ { name = "Gilbert Islands"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Gilbert Islands" ]
       }
     , { name = "Line Islands"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Line Islands" ]
       }
     , { name = "Phoenix Islands"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Abariringa", "Canton", "Gardner", "Hull", "Kanton", "Kemins", "Manra", "Mary Island", "Nikumaroro", "Orona", "Phoenix", "Rawaki", "Sydney" ]
       }
     ]
@@ -18765,15 +18765,15 @@ kiribatiSubdivisions =
 comorosSubdivisions : List Subdivision
 comorosSubdivisions =
     [ { name = "Anjouan"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Anjouan", "Ndzuwani", "Nzwani" ]
       }
     , { name = "Grande Comore"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Grande Comore", "Njazídja" ]
       }
     , { name = "Mohéli"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Mohilla", "Mohéli", "Moili" ]
       }
     ]
@@ -18783,59 +18783,59 @@ comorosSubdivisions =
 saintKittsAndNevisSubdivisions : List Subdivision
 saintKittsAndNevisSubdivisions =
     [ { name = "Christ Church Nichola Town"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Christ Church Nichola Town" ]
       }
     , { name = "Saint Anne Sandy Point"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Saint Anne Sandy Point" ]
       }
     , { name = "Saint George Basseterre"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Saint George Basseterre" ]
       }
     , { name = "Saint George Gingerland"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Saint George Gingerland" ]
       }
     , { name = "Saint James Windward"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Saint James Windward" ]
       }
     , { name = "Saint John Capisterre"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Saint John Capisterre" ]
       }
     , { name = "Saint John Figtree"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Saint John Figtree" ]
       }
     , { name = "Saint Mary Cayon"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Saint Mary Cayon" ]
       }
     , { name = "Saint Paul Capisterre"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Saint Paul Capisterre" ]
       }
     , { name = "Saint Paul Charlestown"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Saint Paul Charlestown" ]
       }
     , { name = "Saint Peter Basseterre"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Saint Peter Basseterre" ]
       }
     , { name = "Saint Thomas Lowland"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Saint Thomas Lowland" ]
       }
     , { name = "Saint Thomas Middle Island"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Saint Thomas Middle Island" ]
       }
     , { name = "Trinity Palmetto Point"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Trinity Palmetto Point" ]
       }
     ]
@@ -18845,59 +18845,59 @@ saintKittsAndNevisSubdivisions =
 koreaDemocraticPeopleSRepublicOfSubdivisions : List Subdivision
 koreaDemocraticPeopleSRepublicOfSubdivisions =
     [ { name = "Chagang-do"
-      , code = ""
+      , code = "CHA"
       , unofficialNames = [ "Chagang", "Jagang" ]
       }
     , { name = "Hamgyongbuk-do"
-      , code = ""
+      , code = "HAB"
       , unofficialNames = [ "Hamgyongbukto", "North Hamgyong" ]
       }
     , { name = "Hamgyongnam-do"
-      , code = ""
+      , code = "HAN"
       , unofficialNames = [ "Hamgyongnamdo", "South Hamgyong" ]
       }
     , { name = "Hwanghaebuk-do"
-      , code = ""
+      , code = "HWB"
       , unofficialNames = [ "North Hwanghae" ]
       }
     , { name = "Hwanghaenam-do"
-      , code = ""
+      , code = "HWN"
       , unofficialNames = [ "South Hwanghae" ]
       }
     , { name = "Kaesong-si"
-      , code = ""
+      , code = "KAE"
       , unofficialNames = [ "Kaesong-si" ]
       }
     , { name = "Kangwon-do"
-      , code = ""
+      , code = "KAN"
       , unofficialNames = [ "Gangweon", "Kangweon", "Kangwon" ]
       }
     , { name = "Najin Sonbong-si"
-      , code = ""
+      , code = "NAJ"
       , unofficialNames = [ "Najin Sonbong-si" ]
       }
     , { name = "Nampo-si"
-      , code = ""
+      , code = "NAM"
       , unofficialNames = [ "Nampo-si" ]
       }
     , { name = "Pyonganbuk-do"
-      , code = ""
+      , code = "PYB"
       , unofficialNames = [ "North Phyongan", "North Pyongan", "Pyonganbukto" ]
       }
     , { name = "Pyongannam-do"
-      , code = ""
+      , code = "PYN"
       , unofficialNames = [ "Pyongannamdo", "South Phyongan", "South Pyongan" ]
       }
     , { name = "Pyongyang-si"
-      , code = ""
+      , code = "PYO"
       , unofficialNames = [ "Pyongyang" ]
       }
     , { name = "Rason"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Rason" ]
       }
     , { name = "Yanggang-do"
-      , code = ""
+      , code = "YAN"
       , unofficialNames = [ "Ryanggang" ]
       }
     ]
@@ -18907,67 +18907,67 @@ koreaDemocraticPeopleSRepublicOfSubdivisions =
 koreaRepublicOfSubdivisions : List Subdivision
 koreaRepublicOfSubdivisions =
     [ { name = "Seoul Teugbyeolsi [Seoul-T'ukpyolshi]"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Seoul", "Soul" ]
       }
     , { name = "Busan Gwang'yeogsi [Pusan-Kwangyokshi]"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Busan" ]
       }
     , { name = "Daegu Gwang'yeogsi [Taegu-Kwangyokshi]"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Daegu" ]
       }
     , { name = "Incheon Gwang'yeogsi [Inch'n-Kwangyokshi]"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Incheon", "Inchon" ]
       }
     , { name = "Gwangju Gwang'yeogsi [Kwangju-Kwangyokshi]"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Gwangju" ]
       }
     , { name = "Daejeon Gwang'yeogsi [Taejon-Kwangyokshi]"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Daejeon", "Taejeon", "Taejon" ]
       }
     , { name = "Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Ulsan Gwang'yeogsi [Ulsan-Kwangyokshi]" ]
       }
     , { name = "Gyeonggido [Kyonggi-do]"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Gyeonggido [Kyonggi-do]" ]
       }
     , { name = "Gang'weondo [Kang-won-do]"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Kangwon" ]
       }
     , { name = "Chungcheongbugdo [Ch'ungch'ongbuk-do]"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "North Chungchong" ]
       }
     , { name = "Chungcheongnamdo [Ch'ungch'ongnam-do]"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "South Chungchong" ]
       }
     , { name = "Jeonrabugdo[Chollabuk-do]"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Chollapuk", "North Cholla" ]
       }
     , { name = "Jeonranamdo [Chollanam-do]"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "South Cholla" ]
       }
     , { name = "Gyeongsangbugdo [Kyongsangbuk-do]"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "North Kyongsang" ]
       }
     , { name = "Gyeongsangnamdo [Kyongsangnam-do]"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Gyeongsangnamdo/ Kyongsang-namdo/ South Kyongsang" ]
       }
     , { name = "Jejudo [Cheju-do]"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Jeju", "Quelpart" ]
       }
     ]
@@ -18977,27 +18977,27 @@ koreaRepublicOfSubdivisions =
 kuwaitSubdivisions : List Subdivision
 kuwaitSubdivisions =
     [ { name = "Al Ahmadi"
-      , code = ""
+      , code = "AH"
       , unofficialNames = [ "Ahmadi" ]
       }
     , { name = "Al Farwaniyah"
-      , code = ""
+      , code = "FA"
       , unofficialNames = [ "Farwaniyah" ]
       }
     , { name = "Hawalli"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Hawalli" ]
       }
     , { name = "Al Jahrah"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "Al Jahra", "Jahra", "Jahrah", "al-Jahra", "al-Jahraʿ" ]
       }
     , { name = "Al Kuwayt"
-      , code = ""
+      , code = "KU"
       , unofficialNames = [ "Capital", "Koweit", "Kuwait", "Kuwayt", "al-Kuwayt" ]
       }
     , { name = "Mubarak al-Kabir"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "Mubarak al-Kabir" ]
       }
     ]
@@ -19007,27 +19007,27 @@ kuwaitSubdivisions =
 caymanIslandsSubdivisions : List Subdivision
 caymanIslandsSubdivisions =
     [ { name = "Bodden Town"
-      , code = ""
+      , code = "01~"
       , unofficialNames = [ "Bodden Town" ]
       }
     , { name = "Cayman Brac"
-      , code = ""
+      , code = "02~"
       , unofficialNames = [ "Cayman Brac" ]
       }
     , { name = "East End"
-      , code = ""
+      , code = "03~"
       , unofficialNames = [ "East End" ]
       }
     , { name = "George Town"
-      , code = ""
+      , code = "04~"
       , unofficialNames = [ "George Town" ]
       }
     , { name = "North Side"
-      , code = ""
+      , code = "06~"
       , unofficialNames = [ "North Side" ]
       }
     , { name = "West Bay"
-      , code = ""
+      , code = "07~"
       , unofficialNames = [ "West Bay" ]
       }
     ]
@@ -19037,71 +19037,71 @@ caymanIslandsSubdivisions =
 kazakhstanSubdivisions : List Subdivision
 kazakhstanSubdivisions =
     [ { name = "Aqmola oblysy"
-      , code = ""
+      , code = "AKM"
       , unofficialNames = [ "Akmola", "Akmolinsk", "Aķmola", "Celinograd", "Tselinograd" ]
       }
     , { name = "Aqtöbe oblysy"
-      , code = ""
+      , code = "AKT"
       , unofficialNames = [ "Aktjubinsk", "Aktyubinsk", "Aktöbe", "Aktʿubinsk" ]
       }
     , { name = "Almaty"
-      , code = ""
+      , code = "ALA"
       , unofficialNames = [ "Almati Oblasti", "Almaty Oblasty", "Almatı" ]
       }
     , { name = "Almaty oblysy"
-      , code = ""
+      , code = "ALM"
       , unofficialNames = [ "Almaty oblysy" ]
       }
     , { name = "Astana"
-      , code = ""
+      , code = "AST"
       , unofficialNames = [ "Astana" ]
       }
     , { name = "Atyrau oblysy"
-      , code = ""
+      , code = "ATY"
       , unofficialNames = [ "Ateransk", "Aterau", "Atirau", "Atırau", "Gurjev", "Guryev" ]
       }
     , { name = "Bayqongyr"
-      , code = ""
+      , code = "BAY"
       , unofficialNames = [ "Bayqongyr" ]
       }
     , { name = "Qaraghandy oblysy"
-      , code = ""
+      , code = "KAR"
       , unofficialNames = [ "Karaganda", "Karagandi", "Karagandy", "Qaraghandy", "Ķaragandı" ]
       }
     , { name = "Qostanay oblysy"
-      , code = ""
+      , code = "KUS"
       , unofficialNames = [ "Kostanay", "Kustanai", "Kustanaj", "Kustanay", "Ķostanay" ]
       }
     , { name = "Qyzylorda oblysy"
-      , code = ""
+      , code = "KZY"
       , unofficialNames = [ "Ak-Mechet", "Kizilorda", "Kyzyl-Orda", "Kyzylorda", "Kzyl-Orda", "Qyzylorda", "Ķızılorda" ]
       }
     , { name = "Mangghystau oblysy"
-      , code = ""
+      , code = "MAN"
       , unofficialNames = [ "Mangghystau", "Mangistau", "Mangkistau", "Mangqystau" ]
       }
     , { name = "Pavlodar oblysy"
-      , code = ""
+      , code = "PAV"
       , unofficialNames = [ "Pavlodar oblysy" ]
       }
     , { name = "Soltüstik Qazaqstan oblysy"
-      , code = ""
+      , code = "SEV"
       , unofficialNames = [ "Northern Kazakhstan", "Soltüstik Kazakstan", "Soltüstik Qazaqstan" ]
       }
     , { name = "Shyghys Qazaqstan oblysy"
-      , code = ""
+      , code = "VOS"
       , unofficialNames = [ "Eastern Kazakhstan", "Shyghys Qazaqstan", "Sigis Kazakstan" ]
       }
     , { name = "Ongtüstik Qazaqstan oblysy"
-      , code = ""
+      , code = "YUZ"
       , unofficialNames = [ "Ongtüstik Qazaqstan", "Ongtüstük Kazakstan", "Southern Kazakhstan" ]
       }
     , { name = "Batys Qazaqstan oblysy"
-      , code = ""
+      , code = "ZAP"
       , unofficialNames = [ "Batis Kazakstan", "Batys Qazaqstan", "Uralsk", "Uralskaya Oblast", "Western Kazakhstan" ]
       }
     , { name = "Zhambyl oblysy"
-      , code = ""
+      , code = "ZHA"
       , unofficialNames = [ "Aulie-Ata", "Auliye-Ata", "Cambil", "Cambıl", "Djambul", "Dzhambul", "Zhambul", "Zhambyl", "Zhambül" ]
       }
     ]
@@ -19111,75 +19111,75 @@ kazakhstanSubdivisions =
 laoPeopleSDemocraticRepublicSubdivisions : List Subdivision
 laoPeopleSDemocraticRepublicSubdivisions =
     [ { name = "Attapu [Attopeu]"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Attapu", "Attopei", "Attopeu" ]
       }
     , { name = "Bokèo"
-      , code = ""
+      , code = "BK"
       , unofficialNames = [ "Bokèo" ]
       }
     , { name = "Bolikhamxai [Borikhane]"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Bolikhamsai", "Bolikhamxai", "Borikhamxai" ]
       }
     , { name = "Champasak [Champassak]"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Champasack", "Champassak" ]
       }
     , { name = "Houaphan"
-      , code = ""
+      , code = "HO"
       , unofficialNames = [ "Houaphan" ]
       }
     , { name = "Khammouan"
-      , code = ""
+      , code = "KH"
       , unofficialNames = [ "Khammouan" ]
       }
     , { name = "Louang Namtha"
-      , code = ""
+      , code = "LM"
       , unofficialNames = [ "Louang Namtha", "Louangnamtha", "Luang Namtha", "Luong Nam Tha" ]
       }
     , { name = "Louangphabang [Louang Prabang]"
-      , code = ""
+      , code = "LP"
       , unofficialNames = [ "Louang Phrabang", "Louang Prabang", "Louangphrabang", "Luang Phrabang" ]
       }
     , { name = "Oudômxai [Oudomsai]"
-      , code = ""
+      , code = "OU"
       , unofficialNames = [ "Oudomsai", "Oudomsay" ]
       }
     , { name = "Phôngsali [Phong Saly]"
-      , code = ""
+      , code = "PH"
       , unofficialNames = [ "Phongsali" ]
       }
     , { name = "Salavan [Saravane]"
-      , code = ""
+      , code = "SL"
       , unofficialNames = [ "Saravane" ]
       }
     , { name = "Savannakhét"
-      , code = ""
+      , code = "SV"
       , unofficialNames = [ "Savannakhét" ]
       }
     , { name = "Vientiane"
-      , code = ""
+      , code = "VI"
       , unofficialNames = [ "Vientiane Province" ]
       }
     , { name = "Vientiane Prefecture"
-      , code = ""
+      , code = "VT"
       , unofficialNames = [ "Viangchan City", "Vientiane City" ]
       }
     , { name = "Xaignabouli [Sayaboury]"
-      , code = ""
+      , code = "XA"
       , unofficialNames = [ "Sayaboury", "Sayabury", "Xaignaboury" ]
       }
     , { name = "Xékong [Sékong]"
-      , code = ""
+      , code = "XE"
       , unofficialNames = [ "Xékong" ]
       }
     , { name = "Xiangkhoang [Xieng Khouang]"
-      , code = ""
+      , code = "XI"
       , unofficialNames = [ "Xiang Khouang", "Xiangkhouang", "Xiangkhuang", "Xieng Khouang" ]
       }
     , { name = "Xaisômboun"
-      , code = ""
+      , code = "XN"
       , unofficialNames = [ "Xaisômboun" ]
       }
     ]
@@ -19189,27 +19189,27 @@ laoPeopleSDemocraticRepublicSubdivisions =
 lebanonSubdivisions : List Subdivision
 lebanonSubdivisions =
     [ { name = "Loubnâne ech Chemâli"
-      , code = ""
+      , code = "AS"
       , unofficialNames = [ "Ash Shamal", "North" ]
       }
     , { name = "Beirut"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Bayrout", "Bayrut", "Beirut", "Beyrout", "Beyrouth", "Beyrût" ]
       }
     , { name = "El Béqaa"
-      , code = ""
+      , code = "BI"
       , unofficialNames = [ "Bekaa" ]
       }
     , { name = "Loubnâne ej Jnoûbi"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "South" ]
       }
     , { name = "Jabal Loubnâne"
-      , code = ""
+      , code = "JL"
       , unofficialNames = [ "Mount Lebanon" ]
       }
     , { name = "Nabatîyé"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Nabatiyeh" ]
       }
     ]
@@ -19225,47 +19225,47 @@ saintLuciaSubdivisions =
 liechtensteinSubdivisions : List Subdivision
 liechtensteinSubdivisions =
     [ { name = "Balzers"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Balzers" ]
       }
     , { name = "Eschen"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Eschen" ]
       }
     , { name = "Gamprin"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Gamprin" ]
       }
     , { name = "Mauren"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Mauren" ]
       }
     , { name = "Planken"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Planken" ]
       }
     , { name = "Ruggell"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Ruggel" ]
       }
     , { name = "Schaan"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Schaan" ]
       }
     , { name = "Schellenberg"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Schellenberg" ]
       }
     , { name = "Triesen"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Triesen" ]
       }
     , { name = "Triesenberg"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Triesenberg" ]
       }
     , { name = "Vaduz"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Vaduz" ]
       }
     ]
@@ -19275,103 +19275,103 @@ liechtensteinSubdivisions =
 sriLankaSubdivisions : List Subdivision
 sriLankaSubdivisions =
     [ { name = "Colombo"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Kolamba", "Colombo", "Colombo" ]
       }
     , { name = "Gampaha"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Gampaha" ]
       }
     , { name = "Kalutara"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Kalutara" ]
       }
     , { name = "Kandy"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Mahe Nuwara", "Maha Nuwara" ]
       }
     , { name = "Matale"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Matale" ]
       }
     , { name = "Nuwara Eliya"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Nuwara Eliya" ]
       }
     , { name = "Galle"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Gālla" ]
       }
     , { name = "Matara"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Matara" ]
       }
     , { name = "Hambantota"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Hambantota" ]
       }
     , { name = "Jaffna"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Yapnaya", "Yāpanaya" ]
       }
     , { name = "Kilinochchi"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Kilinochchi" ]
       }
     , { name = "Mannar"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Manar", "Mannar", "Mannerama" ]
       }
     , { name = "Vavuniya"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Vavuniyāwa" ]
       }
     , { name = "Mullaittivu"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Mulativu" ]
       }
     , { name = "Batticaloa"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Mad̨akalpūwa" ]
       }
     , { name = "Ampara"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Ampara" ]
       }
     , { name = "Trincomalee"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Trinkomali", "Tirikunāmalaya" ]
       }
     , { name = "Kurunegala"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Kurunegala" ]
       }
     , { name = "Puttalam"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Puttalam" ]
       }
     , { name = "Anuradhapura"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Anuradhapur", "Anurādhapūraya" ]
       }
     , { name = "Polonnaruwa"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Polonaruwa", "Polunnaruwa" ]
       }
     , { name = "Badulla"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Badulla" ]
       }
     , { name = "Monaragala"
-      , code = ""
+      , code = "82"
       , unofficialNames = [ "Monaragalla", "Moneragala" ]
       }
     , { name = "Ratnapura"
-      , code = ""
+      , code = "91"
       , unofficialNames = [ "Ratnapūraya" ]
       }
     , { name = "Kegalla"
-      , code = ""
+      , code = "92"
       , unofficialNames = [ "Kegalle" ]
       }
     ]
@@ -19381,63 +19381,63 @@ sriLankaSubdivisions =
 liberiaSubdivisions : List Subdivision
 liberiaSubdivisions =
     [ { name = "Bong"
-      , code = ""
+      , code = "BG"
       , unofficialNames = [ "Bong" ]
       }
     , { name = "Bomi"
-      , code = ""
+      , code = "BM"
       , unofficialNames = [ "Bomi" ]
       }
     , { name = "Grand Cape Mount"
-      , code = ""
+      , code = "CM"
       , unofficialNames = [ "Grand Cape Mount" ]
       }
     , { name = "Grand Bassa"
-      , code = ""
+      , code = "GB"
       , unofficialNames = [ "Grand Bassa" ]
       }
     , { name = "Grand Gedeh"
-      , code = ""
+      , code = "GG"
       , unofficialNames = [ "Grand Gedah" ]
       }
     , { name = "Grand Kru"
-      , code = ""
+      , code = "GK"
       , unofficialNames = [ "Grand Kru" ]
       }
     , { name = "Lofa"
-      , code = ""
+      , code = "LO"
       , unofficialNames = [ "Lofa" ]
       }
     , { name = "Margibi"
-      , code = ""
+      , code = "MG"
       , unofficialNames = [ "Margibi" ]
       }
     , { name = "Montserrado"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Montserrado" ]
       }
     , { name = "Maryland"
-      , code = ""
+      , code = "MY"
       , unofficialNames = [ "Maryland" ]
       }
     , { name = "Nimba"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Nimba" ]
       }
     , { name = "Rivercess"
-      , code = ""
+      , code = "RI"
       , unofficialNames = [ "Rivercess" ]
       }
     , { name = "Sinoe"
-      , code = ""
+      , code = "SI"
       , unofficialNames = [ "Sinoe" ]
       }
     , { name = "Gbarpolu"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Gbarpolu" ]
       }
     , { name = "River Gee"
-      , code = ""
+      , code = "X2~"
       , unofficialNames = [ "River Gee" ]
       }
     ]
@@ -19447,43 +19447,43 @@ liberiaSubdivisions =
 lesothoSubdivisions : List Subdivision
 lesothoSubdivisions =
     [ { name = "Maseru"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Maseru" ]
       }
     , { name = "Butha-Buthe"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Butha-Buthe" ]
       }
     , { name = "Leribe"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Leribe" ]
       }
     , { name = "Berea"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Berea" ]
       }
     , { name = "Mafeteng"
-      , code = ""
+      , code = "E"
       , unofficialNames = [ "Mafeteng" ]
       }
     , { name = "Mohale's Hoek"
-      , code = ""
+      , code = "F"
       , unofficialNames = [ "Mohale's Hoek" ]
       }
     , { name = "Quthing"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Quthing" ]
       }
     , { name = "Qacha's Nek"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Qacha's Nek" ]
       }
     , { name = "Mokhotlong"
-      , code = ""
+      , code = "J"
       , unofficialNames = [ "Mokhotlong" ]
       }
     , { name = "Thaba-Tseka"
-      , code = ""
+      , code = "K"
       , unofficialNames = [ "Thaba-Tseka" ]
       }
     ]
@@ -19493,43 +19493,43 @@ lesothoSubdivisions =
 lithuaniaSubdivisions : List Subdivision
 lithuaniaSubdivisions =
     [ { name = "Alytaus Apskritis"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Alytaus Apskritis" ]
       }
     , { name = "Klaipedos Apskritis"
-      , code = ""
+      , code = "KL"
       , unofficialNames = [ "Klaipedos" ]
       }
     , { name = "Kauno Apskritis"
-      , code = ""
+      , code = "KU"
       , unofficialNames = [ "Kauno Apskritis" ]
       }
     , { name = "Marijampoles Apskritis"
-      , code = ""
+      , code = "MR"
       , unofficialNames = [ "Mariampoles" ]
       }
     , { name = "Panevežio Apskritis"
-      , code = ""
+      , code = "PN"
       , unofficialNames = [ "Panevezhio" ]
       }
     , { name = "Šiauliu Apskritis"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Shiauliu" ]
       }
     , { name = "Taurages Apskritis"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Taurages" ]
       }
     , { name = "Telšiu Apskritis"
-      , code = ""
+      , code = "TE"
       , unofficialNames = [ "Telshiu" ]
       }
     , { name = "Utenos Apskritis"
-      , code = ""
+      , code = "UT"
       , unofficialNames = [ "Utenos Apskritis" ]
       }
     , { name = "Vilniaus Apskritis"
-      , code = ""
+      , code = "VL"
       , unofficialNames = [ "Vilniaus Apskritis" ]
       }
     ]
@@ -19539,15 +19539,15 @@ lithuaniaSubdivisions =
 luxembourgSubdivisions : List Subdivision
 luxembourgSubdivisions =
     [ { name = "Diekirch"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Diekirch" ]
       }
     , { name = "Grevenmacher"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Grevenmacher" ]
       }
     , { name = "Luxembourg (fr)"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Luxemburg" ]
       }
     ]
@@ -19557,135 +19557,135 @@ luxembourgSubdivisions =
 latviaSubdivisions : List Subdivision
 latviaSubdivisions =
     [ { name = "Aizkraukles Aprinkis"
-      , code = ""
+      , code = "AI"
       , unofficialNames = [ "Aizkraukles Aprinkis" ]
       }
     , { name = "Aluksnes Aprinkis"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Aluksnes Aprinkis" ]
       }
     , { name = "Balvu Aprinkis"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Balvu Aprinkis" ]
       }
     , { name = "Bauskas Aprinkis"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Bauskas Aprinkis" ]
       }
     , { name = "Cesu Aprinkis"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Cesu Aprinkis" ]
       }
     , { name = "Daugavpils Aprinkis"
-      , code = ""
+      , code = "DA"
       , unofficialNames = [ "Daugavpils Aprinkis" ]
       }
     , { name = "Daugavpils"
-      , code = ""
+      , code = "DGV"
       , unofficialNames = [ "Daugavpils" ]
       }
     , { name = "Dobeles Aprinkis"
-      , code = ""
+      , code = "DO"
       , unofficialNames = [ "Dobeles Aprinkis" ]
       }
     , { name = "Gulbenes Aprinkis"
-      , code = ""
+      , code = "GU"
       , unofficialNames = [ "Gulbenes Aprinkis" ]
       }
     , { name = "Jelgava"
-      , code = ""
+      , code = "JEL"
       , unofficialNames = [ "Jelgava" ]
       }
     , { name = "Jekabpils Aprinkis"
-      , code = ""
+      , code = "JK"
       , unofficialNames = [ "Jekabpils Aprinkis" ]
       }
     , { name = "Jelgavas Aprinkis"
-      , code = ""
+      , code = "JL"
       , unofficialNames = [ "Jelgavas Aprinkis" ]
       }
     , { name = "Jurmala"
-      , code = ""
+      , code = "JUR"
       , unofficialNames = [ "Jurmala" ]
       }
     , { name = "Kraslavas Aprinkis"
-      , code = ""
+      , code = "KR"
       , unofficialNames = [ "Kraslavas Aprinkis" ]
       }
     , { name = "Kuldigas Aprinkis"
-      , code = ""
+      , code = "KU"
       , unofficialNames = [ "Kuldigas Aprinkis" ]
       }
     , { name = "Liepajas Aprinkis"
-      , code = ""
+      , code = "LE"
       , unofficialNames = [ "Liepajas Aprinkis" ]
       }
     , { name = "Limbažu Aprinkis"
-      , code = ""
+      , code = "LM"
       , unofficialNames = [ "Limbažu Aprinkis" ]
       }
     , { name = "Liepaja"
-      , code = ""
+      , code = "LPX"
       , unofficialNames = [ "Liepaja" ]
       }
     , { name = "Ludzas Aprinkis"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "Ludzas Aprinkis" ]
       }
     , { name = "Madonas Aprinkis"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Madonas Aprinkis" ]
       }
     , { name = "Ogres Aprinkis"
-      , code = ""
+      , code = "OG"
       , unofficialNames = [ "Ogres Aprinkis" ]
       }
     , { name = "Preilu Aprinkis"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Preiju" ]
       }
     , { name = "Rezeknes Aprinkis"
-      , code = ""
+      , code = "RE"
       , unofficialNames = [ "Rezeknes Aprinkis" ]
       }
     , { name = "Rezekne"
-      , code = ""
+      , code = "REZ"
       , unofficialNames = [ "Rezekne" ]
       }
     , { name = "Rigas Aprinkis"
-      , code = ""
+      , code = "RI"
       , unofficialNames = [ "Rigas Aprinkis" ]
       }
     , { name = "Riga"
-      , code = ""
+      , code = "RIX"
       , unofficialNames = [ "Riga" ]
       }
     , { name = "Saldus Aprinkis"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Saldus Aprinkis" ]
       }
     , { name = "Talsu Aprinkis"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Talsu Aprinkis" ]
       }
     , { name = "Tukuma Aprinkis"
-      , code = ""
+      , code = "TU"
       , unofficialNames = [ "Tukuma Aprinkis" ]
       }
     , { name = "Ventspils Aprinkis"
-      , code = ""
+      , code = "VE"
       , unofficialNames = [ "Ventspils Aprinkis" ]
       }
     , { name = "Ventspils"
-      , code = ""
+      , code = "VEN"
       , unofficialNames = [ "Ventspils" ]
       }
     , { name = "Valkas Aprinkis"
-      , code = ""
+      , code = "VK"
       , unofficialNames = [ "Valkas Aprinkis" ]
       }
     , { name = "Valmieras Aprinkis"
-      , code = ""
+      , code = "VM"
       , unofficialNames = [ "Valmieras Aprinkis" ]
       }
     ]
@@ -19695,91 +19695,91 @@ latviaSubdivisions =
 libyaSubdivisions : List Subdivision
 libyaSubdivisions =
     [ { name = "Banghazi"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Banghazi" ]
       }
     , { name = "Al Butnan"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Al Butnan" ]
       }
     , { name = "Darnah"
-      , code = ""
+      , code = "DR"
       , unofficialNames = [ "Darnah" ]
       }
     , { name = "Ghat"
-      , code = ""
+      , code = "GT"
       , unofficialNames = [ "Ghat" ]
       }
     , { name = "Al Jabal al Akhḑar"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "Al Jabal al Akhḑar" ]
       }
     , { name = "Al Jabal al Gharbī"
-      , code = ""
+      , code = "JG"
       , unofficialNames = [ "Al Jabal al Gharbī" ]
       }
     , { name = "Al Jifarah"
-      , code = ""
+      , code = "JI"
       , unofficialNames = [ "Al Jifarah" ]
       }
     , { name = "Al Jufrah"
-      , code = ""
+      , code = "JU"
       , unofficialNames = [ "Al Jufrah", "Jofra" ]
       }
     , { name = "Al Kufrah"
-      , code = ""
+      , code = "KF"
       , unofficialNames = [ "Al Kufrah", "Kofra", "Kufra", "Cufra" ]
       }
     , { name = "Al Murqub"
-      , code = ""
+      , code = "MB"
       , unofficialNames = [ "Al Murqub", "Al Marqab", "al-Morqib" ]
       }
     , { name = "Mişrātah"
-      , code = ""
+      , code = "MI"
       , unofficialNames = [ "Mişrātah", "Misurata", "Misratah" ]
       }
     , { name = "Al Marj"
-      , code = ""
+      , code = "MJ"
       , unofficialNames = [ "Al Marj", "The Meadows", "Marj" ]
       }
     , { name = "Murzuq"
-      , code = ""
+      , code = "MQ"
       , unofficialNames = [ "Murzuq" ]
       }
     , { name = "Nālūt"
-      , code = ""
+      , code = "NL"
       , unofficialNames = [ "Nālūt" ]
       }
     , { name = "An Nuqaţ al Khams"
-      , code = ""
+      , code = "NQ"
       , unofficialNames = [ "An Nuqaţ al Khams", "Nuqāṭ al Ḫams" ]
       }
     , { name = "Sabhā"
-      , code = ""
+      , code = "SB"
       , unofficialNames = [ "Sabhā" ]
       }
     , { name = "Sirte"
-      , code = ""
+      , code = "SR"
       , unofficialNames = [ "Sirt", "Surt" ]
       }
     , { name = "Tarabulus"
-      , code = ""
+      , code = "TB"
       , unofficialNames = [ "Ţarābulus", "Tripoli", "Tripoli" ]
       }
     , { name = "Al Wahat"
-      , code = ""
+      , code = "WA"
       , unofficialNames = [ "Al Wahat", "The Oases", "Al Wahad", "Al Wahah" ]
       }
     , { name = "Wādī al Ḩayāt"
-      , code = ""
+      , code = "WD"
       , unofficialNames = [ "Wādī al Ḩayāt" ]
       }
     , { name = "Wādī ash Shāţiʾ"
-      , code = ""
+      , code = "WS"
       , unofficialNames = [ "Wādī ash Shāţiʾ" ]
       }
     , { name = "Az Zawiyah"
-      , code = ""
+      , code = "ZA"
       , unofficialNames = [ "Az Zawiyah" ]
       }
     ]
@@ -19789,255 +19789,255 @@ libyaSubdivisions =
 moroccoSubdivisions : List Subdivision
 moroccoSubdivisions =
     [ { name = "Agadir*"
-      , code = ""
+      , code = "AGD"
       , unofficialNames = [ "Agadir*" ]
       }
     , { name = "Aousserd"
-      , code = ""
+      , code = "AOU"
       , unofficialNames = [ "Aousserd" ]
       }
     , { name = "Assa-Zag"
-      , code = ""
+      , code = "ASZ"
       , unofficialNames = [ "Assa-Zag" ]
       }
     , { name = "Azilal"
-      , code = ""
+      , code = "AZI"
       , unofficialNames = [ "Azilal" ]
       }
     , { name = "Aït Baha"
-      , code = ""
+      , code = "BAH"
       , unofficialNames = [ "Aït Baha" ]
       }
     , { name = "Beni Mellal"
-      , code = ""
+      , code = "BEM"
       , unofficialNames = [ "Beni Mellal" ]
       }
     , { name = "Berkane"
-      , code = ""
+      , code = "BER"
       , unofficialNames = [ "Berkane" ]
       }
     , { name = "Ben Slimane"
-      , code = ""
+      , code = "BES"
       , unofficialNames = [ "Ben Slimane" ]
       }
     , { name = "Boujdour (EH)"
-      , code = ""
+      , code = "BOD"
       , unofficialNames = [ "Boujdour (EH)" ]
       }
     , { name = "Boulemane"
-      , code = ""
+      , code = "BOM"
       , unofficialNames = [ "Boulemane" ]
       }
     , { name = "Casablanca [Dar el Beïda]*"
-      , code = ""
+      , code = "CAS"
       , unofficialNames = [ "Casablanca [Dar el Beïda]*" ]
       }
     , { name = "Chefchaouene"
-      , code = ""
+      , code = "CHE"
       , unofficialNames = [ "Chefchaouene" ]
       }
     , { name = "Chichaoua"
-      , code = ""
+      , code = "CHI"
       , unofficialNames = [ "Chichaoua" ]
       }
     , { name = "Chtouka-Ait Baha"
-      , code = ""
+      , code = "CHT"
       , unofficialNames = [ "Chtouka-Ait Baha" ]
       }
     , { name = "Errachidia"
-      , code = ""
+      , code = "ERR"
       , unofficialNames = [ "Errachidia" ]
       }
     , { name = "Essaouira"
-      , code = ""
+      , code = "ESI"
       , unofficialNames = [ "Essaouira" ]
       }
     , { name = "Es Smara (EH)"
-      , code = ""
+      , code = "ESM"
       , unofficialNames = [ "Es Smara (EH)" ]
       }
     , { name = "Fahs-Beni Makada"
-      , code = ""
+      , code = "FAH"
       , unofficialNames = [ "Fahs-Beni Makada" ]
       }
     , { name = "Fès*"
-      , code = ""
+      , code = "FES"
       , unofficialNames = [ "Fès*" ]
       }
     , { name = "Figuig"
-      , code = ""
+      , code = "FIG"
       , unofficialNames = [ "Figuig" ]
       }
     , { name = "Guelmim"
-      , code = ""
+      , code = "GUE"
       , unofficialNames = [ "Guelmim" ]
       }
     , { name = "El Hajeb"
-      , code = ""
+      , code = "HAJ"
       , unofficialNames = [ "El Hajeb" ]
       }
     , { name = "Al Haouz"
-      , code = ""
+      , code = "HAO"
       , unofficialNames = [ "Al Haouz" ]
       }
     , { name = "Al Hoceïma"
-      , code = ""
+      , code = "HOC"
       , unofficialNames = [ "Al Hoceïma" ]
       }
     , { name = "Ifrane"
-      , code = ""
+      , code = "IFR"
       , unofficialNames = [ "Ifrane" ]
       }
     , { name = "El Jadida"
-      , code = ""
+      , code = "JDI"
       , unofficialNames = [ "El Jadida" ]
       }
     , { name = "Jerada"
-      , code = ""
+      , code = "JRA"
       , unofficialNames = [ "Jerada" ]
       }
     , { name = "Kénitra"
-      , code = ""
+      , code = "KEN"
       , unofficialNames = [ "Kénitra" ]
       }
     , { name = "Kelaat Sraghna"
-      , code = ""
+      , code = "KES"
       , unofficialNames = [ "Kelaat Sraghna" ]
       }
     , { name = "Khemisset"
-      , code = ""
+      , code = "KHE"
       , unofficialNames = [ "Khemisset" ]
       }
     , { name = "Khenifra"
-      , code = ""
+      , code = "KHN"
       , unofficialNames = [ "Khenifra" ]
       }
     , { name = "Khouribga"
-      , code = ""
+      , code = "KHO"
       , unofficialNames = [ "Khouribga" ]
       }
     , { name = "Laâyoune* (EH)"
-      , code = ""
+      , code = "LAA"
       , unofficialNames = [ "Laâyoune* (EH)" ]
       }
     , { name = "Larache"
-      , code = ""
+      , code = "LAR"
       , unofficialNames = [ "Larache" ]
       }
     , { name = "Marrakech*"
-      , code = ""
+      , code = "MAR"
       , unofficialNames = [ "Marrakech*" ]
       }
     , { name = "Médiouna"
-      , code = ""
+      , code = "MED"
       , unofficialNames = [ "Médiouna" ]
       }
     , { name = "Meknès*"
-      , code = ""
+      , code = "MEK"
       , unofficialNames = [ "Meknès*" ]
       }
     , { name = "Aït Melloul"
-      , code = ""
+      , code = "MEL"
       , unofficialNames = [ "Aït Melloul" ]
       }
     , { name = "Moulay Yacoub"
-      , code = ""
+      , code = "MOU"
       , unofficialNames = [ "Moulay Yacoub" ]
       }
     , { name = "Nador"
-      , code = ""
+      , code = "NAD"
       , unofficialNames = [ "Nador" ]
       }
     , { name = "Nouaceur"
-      , code = ""
+      , code = "NOU"
       , unofficialNames = [ "Nouaceur" ]
       }
     , { name = "Ouarzazate"
-      , code = ""
+      , code = "OUA"
       , unofficialNames = [ "Ouarzazate" ]
       }
     , { name = "Oued ed Dahab (EH)"
-      , code = ""
+      , code = "OUD"
       , unofficialNames = [ "Oued ed Dahab (EH)" ]
       }
     , { name = "Oujda*"
-      , code = ""
+      , code = "OUJ"
       , unofficialNames = [ "Oujda*" ]
       }
     , { name = "Rabat-Salé*"
-      , code = ""
+      , code = "RBA"
       , unofficialNames = [ "Rabat-Salé*" ]
       }
     , { name = "Safi"
-      , code = ""
+      , code = "SAF"
       , unofficialNames = [ "Safi" ]
       }
     , { name = "Salé"
-      , code = ""
+      , code = "SAL"
       , unofficialNames = [ "Salé" ]
       }
     , { name = "Sefrou"
-      , code = ""
+      , code = "SEF"
       , unofficialNames = [ "Sefrou" ]
       }
     , { name = "Settat"
-      , code = ""
+      , code = "SET"
       , unofficialNames = [ "Settat" ]
       }
     , { name = "Sidi Kacem"
-      , code = ""
+      , code = "SIK"
       , unofficialNames = [ "Sidi Kacem" ]
       }
     , { name = "Skhirate-Témara"
-      , code = ""
+      , code = "SKH"
       , unofficialNames = [ "Skhirate-Témara" ]
       }
     , { name = "Sidi Youssef Ben Ali"
-      , code = ""
+      , code = "SYB"
       , unofficialNames = [ "Sidi Youssef Ben Ali" ]
       }
     , { name = "Taourirt"
-      , code = ""
+      , code = "TAI"
       , unofficialNames = [ "Taourirt" ]
       }
     , { name = "Taounate"
-      , code = ""
+      , code = "TAO"
       , unofficialNames = [ "Taounate" ]
       }
     , { name = "Taroudannt"
-      , code = ""
+      , code = "TAR"
       , unofficialNames = [ "Taroudannt" ]
       }
     , { name = "Tata"
-      , code = ""
+      , code = "TAT"
       , unofficialNames = [ "Tata" ]
       }
     , { name = "Taza"
-      , code = ""
+      , code = "TAZ"
       , unofficialNames = [ "Taza" ]
       }
     , { name = "Tétouan*"
-      , code = ""
+      , code = "TET"
       , unofficialNames = [ "Tétouan*" ]
       }
     , { name = "Tiznit"
-      , code = ""
+      , code = "TIZ"
       , unofficialNames = [ "Tiznit" ]
       }
     , { name = "Tanger"
-      , code = ""
+      , code = "TNG"
       , unofficialNames = [ "Tanger" ]
       }
     , { name = "Tan-Tan"
-      , code = ""
+      , code = "TNT"
       , unofficialNames = [ "Tan-Tan" ]
       }
     , { name = "Laayoune-Boujdour-Sakia El Hamra"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Laayoune-Boujdour-Sakia El Hamra" ]
       }
     , { name = "Zagora"
-      , code = ""
+      , code = "ZAG"
       , unofficialNames = [ "Zagora" ]
       }
     ]
@@ -20053,55 +20053,55 @@ monacoSubdivisions =
 moldovaRepublicOfSubdivisions : List Subdivision
 moldovaRepublicOfSubdivisions =
     [ { name = "Balti"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Balti" ]
       }
     , { name = "Cahul"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Cahul" ]
       }
     , { name = "Chisinau City"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Chisinau City" ]
       }
     , { name = "Chisinau"
-      , code = ""
+      , code = "CU"
       , unofficialNames = [ "Chisinau" ]
       }
     , { name = "Edinet"
-      , code = ""
+      , code = "ED"
       , unofficialNames = [ "Edinet" ]
       }
     , { name = "Gagauzia, Unitate Teritoriala Autonoma (UTAG)"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Gagauzia, Unitate Teritoriala Autonoma (UTAG)" ]
       }
     , { name = "Lapusna"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Lapusna" ]
       }
     , { name = "Orhei"
-      , code = ""
+      , code = "OR"
       , unofficialNames = [ "Orhei" ]
       }
     , { name = "Stînga Nistrului, unitatea teritoriala din"
-      , code = ""
+      , code = "SN"
       , unofficialNames = [ "Stînga Nistrului, unitatea teritoriala din" ]
       }
     , { name = "Soroca"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Soroca" ]
       }
     , { name = "Taraclia"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Taraclia" ]
       }
     , { name = "Tighina [Bender]"
-      , code = ""
+      , code = "TI"
       , unofficialNames = [ "Tighina [Bender]" ]
       }
     , { name = "Ungheni"
-      , code = ""
+      , code = "UN"
       , unofficialNames = [ "Ungheni" ]
       }
     ]
@@ -20111,87 +20111,87 @@ moldovaRepublicOfSubdivisions =
 montenegroSubdivisions : List Subdivision
 montenegroSubdivisions =
     [ { name = "Andrijevica"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Andrijevica" ]
       }
     , { name = "Bar"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Bar" ]
       }
     , { name = "Berane"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Berane" ]
       }
     , { name = "Bijelo Polje"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Bijelo Polje" ]
       }
     , { name = "Budva"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Budva" ]
       }
     , { name = "Cetinje"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Cetinje" ]
       }
     , { name = "Danilovgrad"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Danilovgrad" ]
       }
     , { name = "Herceg-Novi"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Herceg-Novi" ]
       }
     , { name = "Kolašin"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Kolašin" ]
       }
     , { name = "Kotor"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Kotor" ]
       }
     , { name = "Mojkovac"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Mojkovac" ]
       }
     , { name = "Nikšic´"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Nikšic´" ]
       }
     , { name = "Plav"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Plav" ]
       }
     , { name = "Pljevlja"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Pljevlja" ]
       }
     , { name = "Plužine"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Plužine" ]
       }
     , { name = "Podgorica"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Podgorica" ]
       }
     , { name = "Rožaje"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Rožaje" ]
       }
     , { name = "Šavnik"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Šavnik" ]
       }
     , { name = "Tivat"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Tivat" ]
       }
     , { name = "Ulcinj"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Ulcinj" ]
       }
     , { name = "Žabljak"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Žabljak" ]
       }
     ]
@@ -20207,27 +20207,27 @@ saintMartinFrenchPartSubdivisions =
 madagascarSubdivisions : List Subdivision
 madagascarSubdivisions =
     [ { name = "Toamasina"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Tamatave" ]
       }
     , { name = "Antsiranana"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Antseranana", "Diégo Suarez" ]
       }
     , { name = "Fianarantsoa"
-      , code = ""
+      , code = "F"
       , unofficialNames = [ "Fianar" ]
       }
     , { name = "Mahajanga"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Majunga" ]
       }
     , { name = "Antananarivo"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Tananarive" ]
       }
     , { name = "Toliara"
-      , code = ""
+      , code = "U"
       , unofficialNames = [ "Toliara", "Tuléar" ]
       }
     ]
@@ -20237,103 +20237,103 @@ madagascarSubdivisions =
 marshallIslandsSubdivisions : List Subdivision
 marshallIslandsSubdivisions =
     [ { name = "Ailuk"
-      , code = ""
+      , code = "ALK"
       , unofficialNames = [ "Ailuk" ]
       }
     , { name = "Ailinglapalap"
-      , code = ""
+      , code = "ALL"
       , unofficialNames = [ "Ailinglaplap" ]
       }
     , { name = "Arno"
-      , code = ""
+      , code = "ARN"
       , unofficialNames = [ "Arno" ]
       }
     , { name = "Aur"
-      , code = ""
+      , code = "AUR"
       , unofficialNames = [ "Aur" ]
       }
     , { name = "Ebon"
-      , code = ""
+      , code = "EBO"
       , unofficialNames = [ "Epoon" ]
       }
     , { name = "Eniwetok"
-      , code = ""
+      , code = "ENI"
       , unofficialNames = [ "Eniwetok" ]
       }
     , { name = "Jabat"
-      , code = ""
+      , code = "JAB"
       , unofficialNames = [ "Jabat" ]
       }
     , { name = "Jaluit"
-      , code = ""
+      , code = "JAL"
       , unofficialNames = [ "Jālwōj" ]
       }
     , { name = "Kili"
-      , code = ""
+      , code = "KIL"
       , unofficialNames = [ "Kōle" ]
       }
     , { name = "Kwajalein"
-      , code = ""
+      , code = "KWA"
       , unofficialNames = [ "Kuwajleen" ]
       }
     , { name = "Lae"
-      , code = ""
+      , code = "LAE"
       , unofficialNames = [ "Lae" ]
       }
     , { name = "Lib"
-      , code = ""
+      , code = "LIB"
       , unofficialNames = [ "Ellep" ]
       }
     , { name = "Likiep"
-      , code = ""
+      , code = "LIK"
       , unofficialNames = [ "Likiep" ]
       }
     , { name = "Majuro"
-      , code = ""
+      , code = "MAJ"
       , unofficialNames = [ "Mājro" ]
       }
     , { name = "Maloelap"
-      , code = ""
+      , code = "MAL"
       , unofficialNames = [ "Maloelap" ]
       }
     , { name = "Mejit"
-      , code = ""
+      , code = "MEJ"
       , unofficialNames = [ "Mājeej" ]
       }
     , { name = "Mili"
-      , code = ""
+      , code = "MIL"
       , unofficialNames = [ "Mili" ]
       }
     , { name = "Namorik"
-      , code = ""
+      , code = "NMK"
       , unofficialNames = [ "Namorik" ]
       }
     , { name = "Namu"
-      , code = ""
+      , code = "NMU"
       , unofficialNames = [ "Namo" ]
       }
     , { name = "Rongelap"
-      , code = ""
+      , code = "RON"
       , unofficialNames = [ "Rongelap" ]
       }
     , { name = "Ujae"
-      , code = ""
+      , code = "UJA"
       , unofficialNames = [ "Ujae" ]
       }
     , { name = "Ujelang"
-      , code = ""
+      , code = "UJL"
       , unofficialNames = [ "Ujelang" ]
       }
     , { name = "Utirik"
-      , code = ""
+      , code = "UTI"
       , unofficialNames = [ "Utirik", "Utrōk", "Utrōnk" ]
       }
     , { name = "Wotho"
-      , code = ""
+      , code = "WTH"
       , unofficialNames = [ "Wōtto" ]
       }
     , { name = "Wotje"
-      , code = ""
+      , code = "WTJ"
       , unofficialNames = [ "Wotje" ]
       }
     ]
@@ -20343,343 +20343,343 @@ marshallIslandsSubdivisions =
 northMacedoniaSubdivisions : List Subdivision
 northMacedoniaSubdivisions =
     [ { name = "Aerodrom *"
-      , code = ""
+      , code = "AD"
       , unofficialNames = [ "Aerodrom *" ]
       }
     , { name = "Saraj *"
-      , code = ""
+      , code = "AJ"
       , unofficialNames = [ "Saraj *" ]
       }
     , { name = "Aracinovo"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Aracinovo" ]
       }
     , { name = "Kavadarci"
-      , code = ""
+      , code = "AV"
       , unofficialNames = [ "Kavadarci" ]
       }
     , { name = "Bogdanci"
-      , code = ""
+      , code = "BG"
       , unofficialNames = [ "Bogdanci" ]
       }
     , { name = "Brvenica"
-      , code = ""
+      , code = "BN"
       , unofficialNames = [ "Brvenica" ]
       }
     , { name = "Berovo"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Berovo" ]
       }
     , { name = "Bosilovo"
-      , code = ""
+      , code = "BS"
       , unofficialNames = [ "Bosilovo" ]
       }
     , { name = "Butel *"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Butel *" ]
       }
     , { name = "Caška"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Caška" ]
       }
     , { name = "Centar *"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Centar *" ]
       }
     , { name = "Cešinovo-Obleševo"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Cešinovo-Obleševo" ]
       }
     , { name = "Cair *"
-      , code = ""
+      , code = "CI"
       , unofficialNames = [ "Cair *" ]
       }
     , { name = "Cucer Sandevo"
-      , code = ""
+      , code = "CS"
       , unofficialNames = [ "Cucer Sandevo" ]
       }
     , { name = "Centar Župa"
-      , code = ""
+      , code = "CZ"
       , unofficialNames = [ "Centar Župa" ]
       }
     , { name = "Debarca"
-      , code = ""
+      , code = "DA"
       , unofficialNames = [ "Debarca" ]
       }
     , { name = "Debar"
-      , code = ""
+      , code = "DB"
       , unofficialNames = [ "Debar" ]
       }
     , { name = "Dolneni"
-      , code = ""
+      , code = "DE"
       , unofficialNames = [ "Dolneni" ]
       }
     , { name = "Demir Kapija"
-      , code = ""
+      , code = "DK"
       , unofficialNames = [ "Demir Kapija" ]
       }
     , { name = "Delcevo"
-      , code = ""
+      , code = "DL"
       , unofficialNames = [ "Delcevo" ]
       }
     , { name = "Demir Hisar"
-      , code = ""
+      , code = "DM"
       , unofficialNames = [ "Murgaševo" ]
       }
     , { name = "Drugovo"
-      , code = ""
+      , code = "DR"
       , unofficialNames = [ "Drugovo" ]
       }
     , { name = "Tetovo"
-      , code = ""
+      , code = "ET"
       , unofficialNames = [ "Tetovo" ]
       }
     , { name = "Gazi Baba *"
-      , code = ""
+      , code = "GB"
       , unofficialNames = [ "Gazi Baba *" ]
       }
     , { name = "Gjorce Petrov *"
-      , code = ""
+      , code = "GP"
       , unofficialNames = [ "Gjorce Petrov *" ]
       }
     , { name = "Gradsko"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Gradsko" ]
       }
     , { name = "Gostivar"
-      , code = ""
+      , code = "GT"
       , unofficialNames = [ "Gostivar" ]
       }
     , { name = "Gevgelija"
-      , code = ""
+      , code = "GV"
       , unofficialNames = [ "Gevgelija" ]
       }
     , { name = "Ilinden"
-      , code = ""
+      , code = "IL"
       , unofficialNames = [ "Ilinden" ]
       }
     , { name = "Jegunovce"
-      , code = ""
+      , code = "JG"
       , unofficialNames = [ "Jegunovce" ]
       }
     , { name = "Karbinci"
-      , code = ""
+      , code = "KB"
       , unofficialNames = [ "Karbinci" ]
       }
     , { name = "Krivogaštani"
-      , code = ""
+      , code = "KG"
       , unofficialNames = [ "Krivogaštani" ]
       }
     , { name = "Kicevo"
-      , code = ""
+      , code = "KH"
       , unofficialNames = [ "Kicevo" ]
       }
     , { name = "Konce"
-      , code = ""
+      , code = "KN"
       , unofficialNames = [ "Konce" ]
       }
     , { name = "Kruševo"
-      , code = ""
+      , code = "KS"
       , unofficialNames = [ "Kruševo" ]
       }
     , { name = "Karpoš *"
-      , code = ""
+      , code = "KX"
       , unofficialNames = [ "Karpoš *" ]
       }
     , { name = "Kratovo"
-      , code = ""
+      , code = "KY"
       , unofficialNames = [ "Kratovo" ]
       }
     , { name = "Kriva Palanka"
-      , code = ""
+      , code = "KZ"
       , unofficialNames = [ "Kriva Palanka" ]
       }
     , { name = "Lipkovo"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Lipkovo" ]
       }
     , { name = "Lozovo"
-      , code = ""
+      , code = "LO"
       , unofficialNames = [ "Lozovo" ]
       }
     , { name = "Makedonski Brod"
-      , code = ""
+      , code = "MD"
       , unofficialNames = [ "Makedonski Brod" ]
       }
     , { name = "Mogila"
-      , code = ""
+      , code = "MG"
       , unofficialNames = [ "Mogila" ]
       }
     , { name = "Makedonska Kamenica"
-      , code = ""
+      , code = "MK"
       , unofficialNames = [ "Makedonska Kamenica" ]
       }
     , { name = "Mavrovo-i-Rostuša"
-      , code = ""
+      , code = "MR"
       , unofficialNames = [ "Mavrovo-i-Rostuša" ]
       }
     , { name = "Staro Nagoricane"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Staro Nagoricane" ]
       }
     , { name = "Negotino"
-      , code = ""
+      , code = "NG"
       , unofficialNames = [ "Negotino" ]
       }
     , { name = "Vinica"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Vinica" ]
       }
     , { name = "Novo Selo"
-      , code = ""
+      , code = "NS"
       , unofficialNames = [ "Novo Selo" ]
       }
     , { name = "Novaci"
-      , code = ""
+      , code = "NV"
       , unofficialNames = [ "Novaci" ]
       }
     , { name = "Kocani"
-      , code = ""
+      , code = "OC"
       , unofficialNames = [ "Kocani" ]
       }
     , { name = "Ohrid"
-      , code = ""
+      , code = "OD"
       , unofficialNames = [ "Ohrid" ]
       }
     , { name = "Oslomej"
-      , code = ""
+      , code = "OS"
       , unofficialNames = [ "Oslomej" ]
       }
     , { name = "Petrovec"
-      , code = ""
+      , code = "PE"
       , unofficialNames = [ "Petrovec" ]
       }
     , { name = "Pehcevo"
-      , code = ""
+      , code = "PH"
       , unofficialNames = [ "Pehcevo" ]
       }
     , { name = "Plasnica"
-      , code = ""
+      , code = "PN"
       , unofficialNames = [ "Plasnica" ]
       }
     , { name = "Prilep"
-      , code = ""
+      , code = "PP"
       , unofficialNames = [ "Prilep" ]
       }
     , { name = "Probištip"
-      , code = ""
+      , code = "PT"
       , unofficialNames = [ "Probištip" ]
       }
     , { name = "Resen"
-      , code = ""
+      , code = "RE"
       , unofficialNames = [ "Resen" ]
       }
     , { name = "Rosoman"
-      , code = ""
+      , code = "RM"
       , unofficialNames = [ "Rosoman" ]
       }
     , { name = "Rankovce"
-      , code = ""
+      , code = "RN"
       , unofficialNames = [ "Rankovce" ]
       }
     , { name = "Strumica"
-      , code = ""
+      , code = "RU"
       , unofficialNames = [ "Strumica" ]
       }
     , { name = "Radoviš"
-      , code = ""
+      , code = "RV"
       , unofficialNames = [ "Radoviš" ]
       }
     , { name = "Dojran"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Dojran" ]
       }
     , { name = "Sveti Nikole"
-      , code = ""
+      , code = "SL"
       , unofficialNames = [ "Sveti Nikole" ]
       }
     , { name = "Šuto Orizari *"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Šuto Orizari *" ]
       }
     , { name = "Sopište"
-      , code = ""
+      , code = "SS"
       , unofficialNames = [ "Sopište" ]
       }
     , { name = "Štip"
-      , code = ""
+      , code = "ST"
       , unofficialNames = [ "Štip" ]
       }
     , { name = "Studenicani"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "Studenicani" ]
       }
     , { name = "Bitola"
-      , code = ""
+      , code = "TL"
       , unofficialNames = [ "Bitola" ]
       }
     , { name = "Tearce"
-      , code = ""
+      , code = "TR"
       , unofficialNames = [ "Tearce" ]
       }
     , { name = "Struga"
-      , code = ""
+      , code = "UG"
       , unofficialNames = [ "Struga" ]
       }
     , { name = "Kumanovo"
-      , code = ""
+      , code = "UM"
       , unofficialNames = [ "Kumanovo" ]
       }
     , { name = "Valandovo"
-      , code = ""
+      , code = "VA"
       , unofficialNames = [ "Valandovo" ]
       }
     , { name = "Vraneštica"
-      , code = ""
+      , code = "VC"
       , unofficialNames = [ "Vraneštica" ]
       }
     , { name = "Kisela Voda *"
-      , code = ""
+      , code = "VD"
       , unofficialNames = [ "Kisela Voda *" ]
       }
     , { name = "Veles"
-      , code = ""
+      , code = "VE"
       , unofficialNames = [ "Veles" ]
       }
     , { name = "Vrapcište"
-      , code = ""
+      , code = "VH"
       , unofficialNames = [ "Vrapcište" ]
       }
     , { name = "Bogovinje"
-      , code = ""
+      , code = "VJ"
       , unofficialNames = [ "Bogovinje" ]
       }
     , { name = "Vasilevo"
-      , code = ""
+      , code = "VL"
       , unofficialNames = [ "Vasilevo" ]
       }
     , { name = "Vevcani"
-      , code = ""
+      , code = "VV"
       , unofficialNames = [ "Vevcani" ]
       }
     , { name = "Skopje"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Skopje" ]
       }
     , { name = "Zajas"
-      , code = ""
+      , code = "ZA"
       , unofficialNames = [ "Zajas" ]
       }
     , { name = "Želino"
-      , code = ""
+      , code = "ZE"
       , unofficialNames = [ "Želino" ]
       }
     , { name = "Zelenikovo"
-      , code = ""
+      , code = "ZK"
       , unofficialNames = [ "Zelenikovo" ]
       }
     , { name = "Zrnovci"
-      , code = ""
+      , code = "ZR"
       , unofficialNames = [ "Zrnovci" ]
       }
     ]
@@ -20689,39 +20689,39 @@ northMacedoniaSubdivisions =
 maliSubdivisions : List Subdivision
 maliSubdivisions =
     [ { name = "Kayes"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Kayes" ]
       }
     , { name = "Koulikoro"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Koulikoro" ]
       }
     , { name = "Sikasso"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Sikasso" ]
       }
     , { name = "Ségou"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Ségou" ]
       }
     , { name = "Mopti"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Mopti" ]
       }
     , { name = "Tombouctou"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Tombouctou" ]
       }
     , { name = "Gao"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Gao" ]
       }
     , { name = "Kidal"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Kidal" ]
       }
     , { name = "Bamako"
-      , code = ""
+      , code = "BKO"
       , unofficialNames = [ "Bamako" ]
       }
     ]
@@ -20731,59 +20731,59 @@ maliSubdivisions =
 myanmarSubdivisions : List Subdivision
 myanmarSubdivisions =
     [ { name = "Sagaing"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Sagaing" ]
       }
     , { name = "Bago"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Pegu" ]
       }
     , { name = "Magway"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Magwe" ]
       }
     , { name = "Mandalay"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Mandalay" ]
       }
     , { name = "Tanintharyi"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Tenasserim" ]
       }
     , { name = "Yangon"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Yangon", "Rangun", "Rangoun", "Rangún" ]
       }
     , { name = "Ayeyarwady"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Irrawaddy" ]
       }
     , { name = "Kachin"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Kachin" ]
       }
     , { name = "Kayah"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Kayah" ]
       }
     , { name = "Kayin"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Karen" ]
       }
     , { name = "Chin"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Chin" ]
       }
     , { name = "Mon"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Mon" ]
       }
     , { name = "Rakhine"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Arakan" ]
       }
     , { name = "Shan"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Shan" ]
       }
     ]
@@ -20793,91 +20793,91 @@ myanmarSubdivisions =
 mongoliaSubdivisions : List Subdivision
 mongoliaSubdivisions =
     [ { name = "Orhon"
-      , code = ""
+      , code = "035"
       , unofficialNames = [ "Orhon" ]
       }
     , { name = "Darhan uul"
-      , code = ""
+      , code = "037"
       , unofficialNames = [ "Darhan uul" ]
       }
     , { name = "Hentiy"
-      , code = ""
+      , code = "039"
       , unofficialNames = [ "Hentii", "Khentii" ]
       }
     , { name = "Hövsgöl"
-      , code = ""
+      , code = "041"
       , unofficialNames = [ "Hovsgol", "Khuvsgul" ]
       }
     , { name = "Hovd"
-      , code = ""
+      , code = "043"
       , unofficialNames = [ "Khovd" ]
       }
     , { name = "Uvs"
-      , code = ""
+      , code = "046"
       , unofficialNames = [ "Uvs" ]
       }
     , { name = "Töv"
-      , code = ""
+      , code = "047"
       , unofficialNames = [ "Tov" ]
       }
     , { name = "Selenge"
-      , code = ""
+      , code = "049"
       , unofficialNames = [ "Selenge" ]
       }
     , { name = "Sühbaatar"
-      , code = ""
+      , code = "051"
       , unofficialNames = [ "Sukhbaatar" ]
       }
     , { name = "Ömnögovi"
-      , code = ""
+      , code = "053"
       , unofficialNames = [ "Omnogobi" ]
       }
     , { name = "Övörhangay"
-      , code = ""
+      , code = "055"
       , unofficialNames = [ "Ovorhangai", "Uvurkhangai" ]
       }
     , { name = "Dzavhan"
-      , code = ""
+      , code = "057"
       , unofficialNames = [ "Zavkhan" ]
       }
     , { name = "Dundgovi"
-      , code = ""
+      , code = "059"
       , unofficialNames = [ "Dundgobi" ]
       }
     , { name = "Dornod"
-      , code = ""
+      , code = "061"
       , unofficialNames = [ "Dornod" ]
       }
     , { name = "Dornogovi"
-      , code = ""
+      , code = "063"
       , unofficialNames = [ "Dornogobi" ]
       }
     , { name = "Govi-Sümber"
-      , code = ""
+      , code = "064"
       , unofficialNames = [ "Gobisumber" ]
       }
     , { name = "Govi-Altay"
-      , code = ""
+      , code = "065"
       , unofficialNames = [ "Gobi-Altai", "Gobi-Altay" ]
       }
     , { name = "Bulgan"
-      , code = ""
+      , code = "067"
       , unofficialNames = [ "Bulgan" ]
       }
     , { name = "Bayanhongor"
-      , code = ""
+      , code = "069"
       , unofficialNames = [ "Bayanhongor", "Bayankhongor" ]
       }
     , { name = "Bayan-Ölgiy"
-      , code = ""
+      , code = "071"
       , unofficialNames = [ "Bayan-Olgii", "Bayan-Ulgii" ]
       }
     , { name = "Arhangay"
-      , code = ""
+      , code = "073"
       , unofficialNames = [ "Arhangai", "Arhangay", "Arkhangai" ]
       }
     , { name = "Ulaanbaatar"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Ulaanbaatar" ]
       }
     ]
@@ -20893,19 +20893,19 @@ macaoSubdivisions =
 northernMarianaIslandsSubdivisions : List Subdivision
 northernMarianaIslandsSubdivisions =
     [ { name = "Northern Islands"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Northern Islands" ]
       }
     , { name = "Rota"
-      , code = ""
+      , code = "R"
       , unofficialNames = [ "Rota" ]
       }
     , { name = "Saipan"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Saipan" ]
       }
     , { name = "Tinian"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Tinian" ]
       }
     ]
@@ -20921,55 +20921,55 @@ martiniqueSubdivisions =
 mauritaniaSubdivisions : List Subdivision
 mauritaniaSubdivisions =
     [ { name = "Hodh ech Chargui"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Hud-ash-Sharqi", "Huđ-aš-Šarqi", "Hodh ech Chargui" ]
       }
     , { name = "Hodh el Gharbi"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Hud-al-Garbi", "Huđ-al-Ġarbi", "Hodh el Gharbi" ]
       }
     , { name = "Assaba"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "aş-Şabah", "Açaba" ]
       }
     , { name = "Gorgol"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Gorgol" ]
       }
     , { name = "Brakna"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Brakna" ]
       }
     , { name = "Trarza"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Trarza" ]
       }
     , { name = "Adrar"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Adrar" ]
       }
     , { name = "Dakhlet Nouâdhibou"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Dakhlat Nawadibu", "Đaẖlat Nawadību", "Dakhlet Nouadhibou" ]
       }
     , { name = "Tagant"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Tagant" ]
       }
     , { name = "Guidimaka"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Guidimaka" ]
       }
     , { name = "Tiris Zemmour"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Tiris Zammur", "Tiris Zammūr", "Tiris Zemmour" ]
       }
     , { name = "Inchiri"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Inširi", "Inchiri" ]
       }
     , { name = "Nouakchott"
-      , code = ""
+      , code = "NKC"
       , unofficialNames = [ "Anwāksūţ", "Nawakshut", "Nawākšūţ", "Nouakchott" ]
       }
     ]
@@ -20979,15 +20979,15 @@ mauritaniaSubdivisions =
 montserratSubdivisions : List Subdivision
 montserratSubdivisions =
     [ { name = "Saint Anthony"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Saint Anthony" ]
       }
     , { name = "Saint Georges"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Saint Georges" ]
       }
     , { name = "Saint Peter"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Saint Peter" ]
       }
     ]
@@ -20997,275 +20997,275 @@ montserratSubdivisions =
 maltaSubdivisions : List Subdivision
 maltaSubdivisions =
     [ { name = "Attard"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Attard" ]
       }
     , { name = "Balzan"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Balzan" ]
       }
     , { name = "Birgu"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Birgu" ]
       }
     , { name = "Birkirkara"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Birkirkara" ]
       }
     , { name = "Birżebbuġa"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Birżebbuġa" ]
       }
     , { name = "Bormla"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Bormla" ]
       }
     , { name = "Dingli"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Dingli" ]
       }
     , { name = "Fgura"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Fgura" ]
       }
     , { name = "Floriana"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Floriana" ]
       }
     , { name = "Fontana"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Fontana" ]
       }
     , { name = "Gudja"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Gudja" ]
       }
     , { name = "Gżira"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Gżira" ]
       }
     , { name = "Għajnsielem"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Għajnsielem" ]
       }
     , { name = "Għarb"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Għarb" ]
       }
     , { name = "Għargħur"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Għargħur" ]
       }
     , { name = "Għasri"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Għasri" ]
       }
     , { name = "Għaxaq"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Għaxaq" ]
       }
     , { name = "Ħamrun"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Ħamrun" ]
       }
     , { name = "Iklin"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Iklin" ]
       }
     , { name = "Isla"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Isla" ]
       }
     , { name = "Kalkara"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Kalkara" ]
       }
     , { name = "Kerċem"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Kerċem" ]
       }
     , { name = "Kirkop"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Kirkop" ]
       }
     , { name = "Lija"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Lija" ]
       }
     , { name = "Luqa"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Luqa" ]
       }
     , { name = "Marsa"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Marsa" ]
       }
     , { name = "Marsaskala"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Marsaskala" ]
       }
     , { name = "Marsaxlokk"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Marsaxlokk" ]
       }
     , { name = "Mdina"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Mdina" ]
       }
     , { name = "Mellieħa"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Mellieħa" ]
       }
     , { name = "Mġarr"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Mġarr" ]
       }
     , { name = "Mosta"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Mosta" ]
       }
     , { name = "Mqabba"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Mqabba" ]
       }
     , { name = "Msida"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Msida" ]
       }
     , { name = "Mtarfa"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Mtarfa" ]
       }
     , { name = "Munxar"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Munxar" ]
       }
     , { name = "Nadur"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Nadur" ]
       }
     , { name = "Naxxar"
-      , code = ""
+      , code = "38"
       , unofficialNames = [ "Naxxar" ]
       }
     , { name = "Paola"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Paola" ]
       }
     , { name = "Pembroke"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Pembroke" ]
       }
     , { name = "Pietà"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Pietà" ]
       }
     , { name = "Qala"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Qala" ]
       }
     , { name = "Qormi"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Qormi" ]
       }
     , { name = "Qrendi"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Qrendi" ]
       }
     , { name = "Rabat Gozo"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Rabat Gozo", "Rabat Għawdex" ]
       }
     , { name = "Rabat Malta"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Rabat Malta" ]
       }
     , { name = "Safi"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Safi" ]
       }
     , { name = "Saint Julian's"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Saint Julian's", "San Ġiljan" ]
       }
     , { name = "Saint John"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Saint John", "San Ġwann" ]
       }
     , { name = "Saint Lawrence"
-      , code = ""
+      , code = "50"
       , unofficialNames = [ "Saint Lawrence", "San Lawrenz" ]
       }
     , { name = "Saint Paul's Bay"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Saint Paul's Bay", "San Pawl il-Baħar" ]
       }
     , { name = "Sannat"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Sannat" ]
       }
     , { name = "Saint Lucia's"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Saint Lucia's", "Santa Luċija" ]
       }
     , { name = "Santa Venera"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Santa Venera" ]
       }
     , { name = "Siġġiewi"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Siġġiewi" ]
       }
     , { name = "Sliema"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Sliema" ]
       }
     , { name = "Swieqi"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Swieqi" ]
       }
     , { name = "Ta' Xbiex"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Ta' Xbiex" ]
       }
     , { name = "Tarxien"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Tarxien" ]
       }
     , { name = "Valletta"
-      , code = ""
+      , code = "60"
       , unofficialNames = [ "Valletta" ]
       }
     , { name = "Xagħra"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Xagħra" ]
       }
     , { name = "Xewkija"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Xewkija" ]
       }
     , { name = "Xgħajra"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Xgħajra" ]
       }
     , { name = "Żabbar"
-      , code = ""
+      , code = "64"
       , unofficialNames = [ "Żabbar" ]
       }
     , { name = "Żebbuġ Gozo"
-      , code = ""
+      , code = "65"
       , unofficialNames = [ "Żebbuġ Gozo", "Żebbuġ Għawdex" ]
       }
     , { name = "Żebbuġ Malta"
-      , code = ""
+      , code = "66"
       , unofficialNames = [ "Żebbuġ Malta" ]
       }
     , { name = "Żejtun"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "Żejtun" ]
       }
     , { name = "Żurrieq"
-      , code = ""
+      , code = "68"
       , unofficialNames = [ "Żurrieq" ]
       }
     ]
@@ -21275,71 +21275,71 @@ maltaSubdivisions =
 mauritiusSubdivisions : List Subdivision
 mauritiusSubdivisions =
     [ { name = "Agalega Islands"
-      , code = ""
+      , code = "AG"
       , unofficialNames = [ "Agalega Islands" ]
       }
     , { name = "Black River"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Black River" ]
       }
     , { name = "Beau Bassin-Rose Hill"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Beau Bassin-Rose Hill" ]
       }
     , { name = "Cargados Carajos Shoals [Saint Brandon Islands]"
-      , code = ""
+      , code = "CC"
       , unofficialNames = [ "Cargados Carajos Shoals [Saint Brandon Islands]" ]
       }
     , { name = "Curepipe"
-      , code = ""
+      , code = "CU"
       , unofficialNames = [ "Curepipe" ]
       }
     , { name = "Flacq"
-      , code = ""
+      , code = "FL"
       , unofficialNames = [ "Flacq" ]
       }
     , { name = "Grand Port"
-      , code = ""
+      , code = "GP"
       , unofficialNames = [ "Grand Port" ]
       }
     , { name = "Moka"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Moka" ]
       }
     , { name = "Pamplemousses"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Pamplemousses" ]
       }
     , { name = "Port Louis City"
-      , code = ""
+      , code = "PL"
       , unofficialNames = [ "Port Louis City" ]
       }
     , { name = "Port Louis District"
-      , code = ""
+      , code = "PU"
       , unofficialNames = [ "Port Louis District" ]
       }
     , { name = "Plaines Wilhems"
-      , code = ""
+      , code = "PW"
       , unofficialNames = [ "Plaines Wilhems" ]
       }
     , { name = "Quatre Bornes"
-      , code = ""
+      , code = "QB"
       , unofficialNames = [ "Quatre Bornes" ]
       }
     , { name = "Rodrigues Island"
-      , code = ""
+      , code = "RO"
       , unofficialNames = [ "Rodrigues Island" ]
       }
     , { name = "Rivière du Rempart"
-      , code = ""
+      , code = "RR"
       , unofficialNames = [ "Rivière du Rempart" ]
       }
     , { name = "Savanne"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Savanne" ]
       }
     , { name = "Vacoas-Phoenix"
-      , code = ""
+      , code = "VP"
       , unofficialNames = [ "Vacoas-Phoenix" ]
       }
     ]
@@ -21349,87 +21349,87 @@ mauritiusSubdivisions =
 maldivesSubdivisions : List Subdivision
 maldivesSubdivisions =
     [ { name = "Seenu"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Addu", "Addu Atholhu", "Addu Atoll", "Seenu", "Sîn" ]
       }
     , { name = "Alif"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Alif Atoll Dhekunu", "Ari Atholhu Uthuruburi", "North Ari Atoll" ]
       }
     , { name = "Lhaviyani"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Faadhippolhu", "Fadiffolu", "Laviyani" ]
       }
     , { name = "Vaavu"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Felidhe Atholhu", "Felidhu Atoll", "Felidu", "Vaafu", "Vaavu", "Vâv" ]
       }
     , { name = "Laamu"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Haddumati", "Hadhdhunmathi", "Hadhunmathi", "Laamu", "Lâm" ]
       }
     , { name = "Haa Alif"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Haa Alifu", "Hâ Alif", "North Thiladhunmathi", "Thiladhunmathi Uthuruburi", "Tiladummati-North" ]
       }
     , { name = "Thaa"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Kolhumadhulu", "Kolhumadulu", "Kolumadulu", "Thâ" ]
       }
     , { name = "Meemu"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Meemu", "Mimu", "Mulakatholhu", "Mulaku", "Mulaku Atholhu", "Mîm" ]
       }
     , { name = "Raa"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Maalhosmadhulu Uthuruburi", "Malosmadulu-North", "North Maalhosmadhulu", "Râ" ]
       }
     , { name = "Faafu"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Faafu", "Faafu Atoll", "Fâf", "Nilandhe Atholhu Uthuruburi", "Nilandu-North", "North Nilandhe", "North Nilandhe Atoll" ]
       }
     , { name = "Dhaalu"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Dhaalu", "Dhâl", "Nilandhe Atholhu Dhekunuburi", "Nilandu-South", "South Nilandhe Atoll" ]
       }
     , { name = "Baa"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Bâ", "Maalhosmadhulu Dhekunuburi", "Malosmadulu-South", "South Maalhosmadhulu" ]
       }
     , { name = "Haa Dhaalu"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Haa Dhaalu", "Hâ Dhâl", "South Thiladhunmathi", "Thiladhunmathi Dhekunuburi", "Tiladummati-South" ]
       }
     , { name = "Shaviyani"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Miladhunmadhulu Uthuruburi", "Miladummadulu-North", "North Miladhunmadhulu" ]
       }
     , { name = "Noonu"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Miladhunmadhulu Dhekunuburi", "Miladummadulu-South", "Mulakatholhu", "Noonu", "Nûn", "South Miladhunmadhulu" ]
       }
     , { name = "Kaafu"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Kaafu", "Kâf", "Maleʿ Atholhu", "Malé Atoll" ]
       }
     , { name = "Gaaf Alif"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Gaafu Alifu", "Gâf Alif", "Huvadhu Atholhu Uthuruburi", "North Huvadhu Atoll", "Suvadiva-Huvadu-North" ]
       }
     , { name = "Gaafu Dhaalu"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Gaafu Dhaalu", "Gâf Dhâl", "Huvadhu Atholhu Dhekunuburi", "South Huvadhu", "Suvadiva-Huvadu-South" ]
       }
     , { name = "Gnaviyani"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Foah Mulah", "Foahmulah", "Foammulah", "Foamulah", "Fua Mulak", "Fuamulaku", "Fuvahmulah", "Gnyaviani" ]
       }
     , { name = "Male"
-      , code = ""
+      , code = "MLE"
       , unofficialNames = [ "Maale", "Mâle" ]
       }
     , { name = "Alif Dhaal"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Alif Atoll Uthuru", "Alif Dhâl", "Ari Atholhu Dhekunuburi", "South Ari Atoll" ]
       }
     ]
@@ -21439,111 +21439,111 @@ maldivesSubdivisions =
 malawiSubdivisions : List Subdivision
 malawiSubdivisions =
     [ { name = "Balaka"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Balaka" ]
       }
     , { name = "Blantyre"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Blantyre" ]
       }
     , { name = "Chikwawa"
-      , code = ""
+      , code = "CK"
       , unofficialNames = [ "Chikwawa" ]
       }
     , { name = "Chiradzulu"
-      , code = ""
+      , code = "CR"
       , unofficialNames = [ "Chiradzulu" ]
       }
     , { name = "Chitipa"
-      , code = ""
+      , code = "CT"
       , unofficialNames = [ "Chitipa" ]
       }
     , { name = "Dedza"
-      , code = ""
+      , code = "DE"
       , unofficialNames = [ "Dedza" ]
       }
     , { name = "Dowa"
-      , code = ""
+      , code = "DO"
       , unofficialNames = [ "Dowa" ]
       }
     , { name = "Karonga"
-      , code = ""
+      , code = "KR"
       , unofficialNames = [ "Karonga" ]
       }
     , { name = "Kasungu"
-      , code = ""
+      , code = "KS"
       , unofficialNames = [ "Kasungu" ]
       }
     , { name = "Lilongwe"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Lilongwe" ]
       }
     , { name = "Likoma Island"
-      , code = ""
+      , code = "LK"
       , unofficialNames = [ "Likoma Island" ]
       }
     , { name = "Mchinji"
-      , code = ""
+      , code = "MC"
       , unofficialNames = [ "Mchinji" ]
       }
     , { name = "Mangochi"
-      , code = ""
+      , code = "MG"
       , unofficialNames = [ "Mangochi" ]
       }
     , { name = "Machinga"
-      , code = ""
+      , code = "MH"
       , unofficialNames = [ "Machinga" ]
       }
     , { name = "Mulanje"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "Mulanje" ]
       }
     , { name = "Mwanza"
-      , code = ""
+      , code = "MW"
       , unofficialNames = [ "Mwanza" ]
       }
     , { name = "Mzimba"
-      , code = ""
+      , code = "MZ"
       , unofficialNames = [ "Mzimba" ]
       }
     , { name = "Nkhata Bay"
-      , code = ""
+      , code = "NB"
       , unofficialNames = [ "Nkhata Bay" ]
       }
     , { name = "Ntchisi"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Ntchisi" ]
       }
     , { name = "Nkhotakota"
-      , code = ""
+      , code = "NK"
       , unofficialNames = [ "Nkhotakota" ]
       }
     , { name = "Nsanje"
-      , code = ""
+      , code = "NS"
       , unofficialNames = [ "Nsanje" ]
       }
     , { name = "Ntcheu"
-      , code = ""
+      , code = "NU"
       , unofficialNames = [ "Ntcheu" ]
       }
     , { name = "Phalombe"
-      , code = ""
+      , code = "PH"
       , unofficialNames = [ "Phalombe" ]
       }
     , { name = "Rumphi"
-      , code = ""
+      , code = "RU"
       , unofficialNames = [ "Rumphi" ]
       }
     , { name = "Salima"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Salima" ]
       }
     , { name = "Thyolo"
-      , code = ""
+      , code = "TH"
       , unofficialNames = [ "Thyolo" ]
       }
     , { name = "Zomba"
-      , code = ""
+      , code = "ZO"
       , unofficialNames = [ "Zomba" ]
       }
     ]
@@ -21553,131 +21553,131 @@ malawiSubdivisions =
 mexicoSubdivisions : List Subdivision
 mexicoSubdivisions =
     [ { name = "Aguascalientes"
-      , code = ""
+      , code = "AGU"
       , unofficialNames = [ "Aguascalientes" ]
       }
     , { name = "Baja California"
-      , code = ""
+      , code = "BCN"
       , unofficialNames = [ "Baja California" ]
       }
     , { name = "Baja California Sur"
-      , code = ""
+      , code = "BCS"
       , unofficialNames = [ "Baja California Sur" ]
       }
     , { name = "Campeche"
-      , code = ""
+      , code = "CAM"
       , unofficialNames = [ "Campeche" ]
       }
     , { name = "Chihuahua"
-      , code = ""
+      , code = "CHH"
       , unofficialNames = [ "Chihuahua" ]
       }
     , { name = "Chiapas"
-      , code = ""
+      , code = "CHP"
       , unofficialNames = [ "Chiapas" ]
       }
     , { name = "Ciudad de México"
-      , code = ""
+      , code = "CMX"
       , unofficialNames = [ "Ciudad de México" ]
       }
     , { name = "Coahuila"
-      , code = ""
+      , code = "COA"
       , unofficialNames = [ "Coahuila" ]
       }
     , { name = "Colima"
-      , code = ""
+      , code = "COL"
       , unofficialNames = [ "Colima" ]
       }
     , { name = "Durango"
-      , code = ""
+      , code = "DUR"
       , unofficialNames = [ "Durango" ]
       }
     , { name = "Guerrero"
-      , code = ""
+      , code = "GRO"
       , unofficialNames = [ "Guerrero" ]
       }
     , { name = "Guanajuato"
-      , code = ""
+      , code = "GUA"
       , unofficialNames = [ "Guanajuato" ]
       }
     , { name = "Hidalgo"
-      , code = ""
+      , code = "HID"
       , unofficialNames = [ "Hidalgo" ]
       }
     , { name = "Jalisco"
-      , code = ""
+      , code = "JAL"
       , unofficialNames = [ "Jalisco" ]
       }
     , { name = "México"
-      , code = ""
+      , code = "MEX"
       , unofficialNames = [ "México" ]
       }
     , { name = "Michoacán"
-      , code = ""
+      , code = "MIC"
       , unofficialNames = [ "Michoacán" ]
       }
     , { name = "Morelos"
-      , code = ""
+      , code = "MOR"
       , unofficialNames = [ "Morelos" ]
       }
     , { name = "Nayarit"
-      , code = ""
+      , code = "NAY"
       , unofficialNames = [ "Nayarit" ]
       }
     , { name = "Nuevo León"
-      , code = ""
+      , code = "NLE"
       , unofficialNames = [ "Nuevo León" ]
       }
     , { name = "Oaxaca"
-      , code = ""
+      , code = "OAX"
       , unofficialNames = [ "Oaxaca" ]
       }
     , { name = "Puebla"
-      , code = ""
+      , code = "PUE"
       , unofficialNames = [ "Puebla" ]
       }
     , { name = "Querétaro"
-      , code = ""
+      , code = "QUE"
       , unofficialNames = [ "Querétaro" ]
       }
     , { name = "Quintana Roo"
-      , code = ""
+      , code = "ROO"
       , unofficialNames = [ "Quintana Roo" ]
       }
     , { name = "Sinaloa"
-      , code = ""
+      , code = "SIN"
       , unofficialNames = [ "Sinaloa" ]
       }
     , { name = "San Luis Potosí"
-      , code = ""
+      , code = "SLP"
       , unofficialNames = [ "San Luis Potosí" ]
       }
     , { name = "Sonora"
-      , code = ""
+      , code = "SON"
       , unofficialNames = [ "Sonora" ]
       }
     , { name = "Tabasco"
-      , code = ""
+      , code = "TAB"
       , unofficialNames = [ "Tabasco" ]
       }
     , { name = "Tamaulipas"
-      , code = ""
+      , code = "TAM"
       , unofficialNames = [ "Tamaulipas" ]
       }
     , { name = "Tlaxcala"
-      , code = ""
+      , code = "TLA"
       , unofficialNames = [ "Tlaxcala" ]
       }
     , { name = "Veracruz"
-      , code = ""
+      , code = "VER"
       , unofficialNames = [ "Veracruz" ]
       }
     , { name = "Yucatán"
-      , code = ""
+      , code = "YUC"
       , unofficialNames = [ "Yucatán" ]
       }
     , { name = "Zacatecas"
-      , code = ""
+      , code = "ZAC"
       , unofficialNames = [ "Zacatecas" ]
       }
     ]
@@ -21687,67 +21687,67 @@ mexicoSubdivisions =
 malaysiaSubdivisions : List Subdivision
 malaysiaSubdivisions =
     [ { name = "Johor"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Johor" ]
       }
     , { name = "Kedah"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Kedah" ]
       }
     , { name = "Kelantan"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Kelantan" ]
       }
     , { name = "Melaka"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Melaka" ]
       }
     , { name = "Negeri Sembilan"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Negri Sembilan" ]
       }
     , { name = "Pahang"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Pahang" ]
       }
     , { name = "Pulau Pinang"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Pulau Pinang" ]
       }
     , { name = "Perak"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Perak" ]
       }
     , { name = "Perlis"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Perlis" ]
       }
     , { name = "Selangor"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Selangor" ]
       }
     , { name = "Terengganu"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Terengganu" ]
       }
     , { name = "Sabah"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Sabah" ]
       }
     , { name = "Sarawak"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Sarawak" ]
       }
     , { name = "Wilayah Persekutuan Kuala Lumpur"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Wilayah Persekutuan Kuala Lumpur" ]
       }
     , { name = "Wilayah Persekutuan Labuan"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Wilayah Persekutuan Labuan" ]
       }
     , { name = "Wilayah Persekutuan Putrajaya"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Wilayah Persekutuan Putrajaya" ]
       }
     ]
@@ -21757,47 +21757,47 @@ malaysiaSubdivisions =
 mozambiqueSubdivisions : List Subdivision
 mozambiqueSubdivisions =
     [ { name = "Niassa"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Niassa" ]
       }
     , { name = "Manica"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Manica" ]
       }
     , { name = "Gaza"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Gaza" ]
       }
     , { name = "Inhambane"
-      , code = ""
+      , code = "I"
       , unofficialNames = [ "Inhambane" ]
       }
     , { name = "Maputo"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Maputo" ]
       }
     , { name = "Maputo City"
-      , code = ""
+      , code = "MPM"
       , unofficialNames = [ "Maputo City" ]
       }
     , { name = "Nampula"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Nampula" ]
       }
     , { name = "Cabo Delgado"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Cabo Delgado" ]
       }
     , { name = "Zambézia"
-      , code = ""
+      , code = "Q"
       , unofficialNames = [ "Zambézia" ]
       }
     , { name = "Sofala"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Sofala" ]
       }
     , { name = "Tete"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Tete" ]
       }
     ]
@@ -21807,59 +21807,59 @@ mozambiqueSubdivisions =
 namibiaSubdivisions : List Subdivision
 namibiaSubdivisions =
     [ { name = "Zambezi"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Zambezi" ]
       }
     , { name = "Erongo"
-      , code = ""
+      , code = "ER"
       , unofficialNames = [ "Erongo" ]
       }
     , { name = "Hardap"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Hardap" ]
       }
     , { name = "Karas"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Karas" ]
       }
     , { name = "Kavango East"
-      , code = ""
+      , code = "KE"
       , unofficialNames = [ "Kavango East" ]
       }
     , { name = "Kavango West"
-      , code = ""
+      , code = "KW"
       , unofficialNames = [ "Kavango West" ]
       }
     , { name = "Khomas"
-      , code = ""
+      , code = "KH"
       , unofficialNames = [ "Khomas" ]
       }
     , { name = "Kunene"
-      , code = ""
+      , code = "KU"
       , unofficialNames = [ "Kunene" ]
       }
     , { name = "Otjozondjupa"
-      , code = ""
+      , code = "OD"
       , unofficialNames = [ "Otjozondjupa" ]
       }
     , { name = "Omaheke"
-      , code = ""
+      , code = "OH"
       , unofficialNames = [ "Omaheke" ]
       }
     , { name = "Oshana"
-      , code = ""
+      , code = "ON"
       , unofficialNames = [ "Oshana" ]
       }
     , { name = "Omusati"
-      , code = ""
+      , code = "OS"
       , unofficialNames = [ "Omusati" ]
       }
     , { name = "Oshikoto"
-      , code = ""
+      , code = "OT"
       , unofficialNames = [ "Otjikoto" ]
       }
     , { name = "Ohangwena"
-      , code = ""
+      , code = "OW"
       , unofficialNames = [ "Ohangwena" ]
       }
     ]
@@ -21869,15 +21869,15 @@ namibiaSubdivisions =
 newCaledoniaSubdivisions : List Subdivision
 newCaledoniaSubdivisions =
     [ { name = "Nord"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Nord" ]
       }
     , { name = "Sud"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Sud" ]
       }
     , { name = "Iles Loyaute"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Iles Loyaute" ]
       }
     ]
@@ -21887,35 +21887,35 @@ newCaledoniaSubdivisions =
 nigerSubdivisions : List Subdivision
 nigerSubdivisions =
     [ { name = "Agadez"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Agadez" ]
       }
     , { name = "Diffa"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Diffa" ]
       }
     , { name = "Dosso"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Dosso" ]
       }
     , { name = "Maradi"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Maradi" ]
       }
     , { name = "Tahoua"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Tahoua" ]
       }
     , { name = "Tillabéri"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Tillaberi" ]
       }
     , { name = "Zinder"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Zinder" ]
       }
     , { name = "Niamey"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Niamey" ]
       }
     ]
@@ -21925,151 +21925,151 @@ nigerSubdivisions =
 nigeriaSubdivisions : List Subdivision
 nigeriaSubdivisions =
     [ { name = "Abia"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Abia" ]
       }
     , { name = "Adamawa"
-      , code = ""
+      , code = "AD"
       , unofficialNames = [ "Adamaoua", "Gongola" ]
       }
     , { name = "Akwa Ibom"
-      , code = ""
+      , code = "AK"
       , unofficialNames = [ "Akwa Ibom" ]
       }
     , { name = "Anambra"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Anambra" ]
       }
     , { name = "Bauchi"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Bauchi" ]
       }
     , { name = "Benue"
-      , code = ""
+      , code = "BE"
       , unofficialNames = [ "Benue" ]
       }
     , { name = "Borno"
-      , code = ""
+      , code = "BO"
       , unofficialNames = [ "Borno" ]
       }
     , { name = "Bayelsa"
-      , code = ""
+      , code = "BY"
       , unofficialNames = [ "Bayelsa" ]
       }
     , { name = "Cross River"
-      , code = ""
+      , code = "CR"
       , unofficialNames = [ "Cross River" ]
       }
     , { name = "Delta"
-      , code = ""
+      , code = "DE"
       , unofficialNames = [ "Delta" ]
       }
     , { name = "Ebonyi"
-      , code = ""
+      , code = "EB"
       , unofficialNames = [ "Ebonyi" ]
       }
     , { name = "Edo"
-      , code = ""
+      , code = "ED"
       , unofficialNames = [ "Bendel" ]
       }
     , { name = "Ekiti"
-      , code = ""
+      , code = "EK"
       , unofficialNames = [ "Ekiti" ]
       }
     , { name = "Enugu"
-      , code = ""
+      , code = "EN"
       , unofficialNames = [ "Enugu" ]
       }
     , { name = "Abuja Capital Territory"
-      , code = ""
+      , code = "FC"
       , unofficialNames = [ "Abuja Capital Territory" ]
       }
     , { name = "Gombe"
-      , code = ""
+      , code = "GO"
       , unofficialNames = [ "Gombe" ]
       }
     , { name = "Imo"
-      , code = ""
+      , code = "IM"
       , unofficialNames = [ "Imo" ]
       }
     , { name = "Jigawa"
-      , code = ""
+      , code = "JI"
       , unofficialNames = [ "Jigawa" ]
       }
     , { name = "Kaduna"
-      , code = ""
+      , code = "KD"
       , unofficialNames = [ "Kaduna" ]
       }
     , { name = "Kebbi"
-      , code = ""
+      , code = "KE"
       , unofficialNames = [ "Kebbi" ]
       }
     , { name = "Kano"
-      , code = ""
+      , code = "KN"
       , unofficialNames = [ "Kano" ]
       }
     , { name = "Kogi"
-      , code = ""
+      , code = "KO"
       , unofficialNames = [ "Kogi" ]
       }
     , { name = "Katsina"
-      , code = ""
+      , code = "KT"
       , unofficialNames = [ "Katsina" ]
       }
     , { name = "Kwara"
-      , code = ""
+      , code = "KW"
       , unofficialNames = [ "Kwara" ]
       }
     , { name = "Lagos"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Lagos" ]
       }
     , { name = "Nassarawa"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Nasarawa" ]
       }
     , { name = "Niger"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Niger" ]
       }
     , { name = "Ogun"
-      , code = ""
+      , code = "OG"
       , unofficialNames = [ "Ogun" ]
       }
     , { name = "Ondo"
-      , code = ""
+      , code = "ON"
       , unofficialNames = [ "Ondo" ]
       }
     , { name = "Osun"
-      , code = ""
+      , code = "OS"
       , unofficialNames = [ "Osun" ]
       }
     , { name = "Oyo"
-      , code = ""
+      , code = "OY"
       , unofficialNames = [ "Oyo" ]
       }
     , { name = "Plateau"
-      , code = ""
+      , code = "PL"
       , unofficialNames = [ "Plateau" ]
       }
     , { name = "Rivers"
-      , code = ""
+      , code = "RI"
       , unofficialNames = [ "Rivers" ]
       }
     , { name = "Sokoto"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Sokoto" ]
       }
     , { name = "Taraba"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Taraba" ]
       }
     , { name = "Yobe"
-      , code = ""
+      , code = "YO"
       , unofficialNames = [ "Yobe" ]
       }
     , { name = "Zamfara"
-      , code = ""
+      , code = "ZA"
       , unofficialNames = [ "Zamfara" ]
       }
     ]
@@ -22079,71 +22079,71 @@ nigeriaSubdivisions =
 nicaraguaSubdivisions : List Subdivision
 nicaraguaSubdivisions =
     [ { name = "Atlántico Norte*"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "RAAN", "Región Autónoma Atlántico Norte", "Zelaya Norte" ]
       }
     , { name = "Atlántico Sur*"
-      , code = ""
+      , code = "AS"
       , unofficialNames = [ "RAAS", "Región Autónoma Atlántico Sur", "Zelaya Sur" ]
       }
     , { name = "Boaco"
-      , code = ""
+      , code = "BO"
       , unofficialNames = [ "Boaco" ]
       }
     , { name = "Carazo"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Carazo" ]
       }
     , { name = "Chinandega"
-      , code = ""
+      , code = "CI"
       , unofficialNames = [ "Chinandega" ]
       }
     , { name = "Chontales"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Chontales" ]
       }
     , { name = "Estelí"
-      , code = ""
+      , code = "ES"
       , unofficialNames = [ "Estelí" ]
       }
     , { name = "Granada"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Granada" ]
       }
     , { name = "Jinotega"
-      , code = ""
+      , code = "JI"
       , unofficialNames = [ "Jinotega" ]
       }
     , { name = "León"
-      , code = ""
+      , code = "LE"
       , unofficialNames = [ "León" ]
       }
     , { name = "Madriz"
-      , code = ""
+      , code = "MD"
       , unofficialNames = [ "Madriz" ]
       }
     , { name = "Managua"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "Managua" ]
       }
     , { name = "Masaya"
-      , code = ""
+      , code = "MS"
       , unofficialNames = [ "Masaya" ]
       }
     , { name = "Matagalpa"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Matagalpa" ]
       }
     , { name = "Nueva Segovia"
-      , code = ""
+      , code = "NS"
       , unofficialNames = [ "Nueva Segovia" ]
       }
     , { name = "Rivas"
-      , code = ""
+      , code = "RI"
       , unofficialNames = [ "Rivas" ]
       }
     , { name = "Río San Juan"
-      , code = ""
+      , code = "SJ"
       , unofficialNames = [ "Río San Juan" ]
       }
     ]
@@ -22153,51 +22153,51 @@ nicaraguaSubdivisions =
 netherlandsSubdivisions : List Subdivision
 netherlandsSubdivisions =
     [ { name = "Drenthe"
-      , code = ""
+      , code = "DR"
       , unofficialNames = [ "Drenthe" ]
       }
     , { name = "Flevoland"
-      , code = ""
+      , code = "FL"
       , unofficialNames = [ "Flevoland" ]
       }
     , { name = "Friesland"
-      , code = ""
+      , code = "FR"
       , unofficialNames = [ "Friesland" ]
       }
     , { name = "Gelderland"
-      , code = ""
+      , code = "GE"
       , unofficialNames = [ "Gueldre" ]
       }
     , { name = "Groningen"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Groningue", "Groninga" ]
       }
     , { name = "Limburg"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Limburg" ]
       }
     , { name = "Noord-Brabant"
-      , code = ""
+      , code = "NB"
       , unofficialNames = [ "Noord-Brabant" ]
       }
     , { name = "Noord-Holland"
-      , code = ""
+      , code = "NH"
       , unofficialNames = [ "Noord-Holland" ]
       }
     , { name = "Overijssel"
-      , code = ""
+      , code = "OV"
       , unofficialNames = [ "Overijssel" ]
       }
     , { name = "Utrecht"
-      , code = ""
+      , code = "UT"
       , unofficialNames = [ "Utrecht" ]
       }
     , { name = "Zeeland"
-      , code = ""
+      , code = "ZE"
       , unofficialNames = [ "Zeeland" ]
       }
     , { name = "Zuid-Holland"
-      , code = ""
+      , code = "ZH"
       , unofficialNames = [ "Zuid-Holland" ]
       }
     ]
@@ -22207,55 +22207,55 @@ netherlandsSubdivisions =
 norwaySubdivisions : List Subdivision
 norwaySubdivisions =
     [ { name = "Oslo"
-      , code = ""
+      , code = "NO-03"
       , unofficialNames = [ "Oslo" ]
       }
     , { name = "Rogaland"
-      , code = ""
+      , code = "NO-11"
       , unofficialNames = [ "Rogaland" ]
       }
     , { name = "Møre og Romsdal"
-      , code = ""
+      , code = "NO-15"
       , unofficialNames = [ "Møre og Romsdal" ]
       }
     , { name = "Nordland"
-      , code = ""
+      , code = "NO-18"
       , unofficialNames = [ "Nordland" ]
       }
     , { name = "Svalbard (Arctic Region)"
-      , code = ""
+      , code = "NO-21"
       , unofficialNames = [ "Svalbard (Arctic Region)" ]
       }
     , { name = "Jan Mayen (Arctic Region)"
-      , code = ""
+      , code = "NO-22"
       , unofficialNames = [ "Jan Mayen (Arctic Region)" ]
       }
     , { name = "Viken"
-      , code = ""
+      , code = "NO-30"
       , unofficialNames = [ "" ]
       }
     , { name = "Innlandet"
-      , code = ""
+      , code = "NO-34"
       , unofficialNames = [ "" ]
       }
     , { name = "Vestfold og Telemark"
-      , code = ""
+      , code = "NO-38"
       , unofficialNames = [ "" ]
       }
     , { name = "Agder"
-      , code = ""
+      , code = "NO-42"
       , unofficialNames = [ "" ]
       }
     , { name = "Vestland"
-      , code = ""
+      , code = "NO-46"
       , unofficialNames = [ "" ]
       }
     , { name = "Trøndelag"
-      , code = ""
+      , code = "NO-50"
       , unofficialNames = [ "" ]
       }
     , { name = "Troms og Finnmark"
-      , code = ""
+      , code = "NO-54"
       , unofficialNames = [ "" ]
       }
     ]
@@ -22265,59 +22265,59 @@ norwaySubdivisions =
 nepalSubdivisions : List Subdivision
 nepalSubdivisions =
     [ { name = "Bagmati"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Bagmati" ]
       }
     , { name = "Bheri"
-      , code = ""
+      , code = "BH"
       , unofficialNames = [ "Bheri" ]
       }
     , { name = "Dhawalagiri"
-      , code = ""
+      , code = "DH"
       , unofficialNames = [ "Dhawalagiri" ]
       }
     , { name = "Gandaki"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Gandaki" ]
       }
     , { name = "Janakpur"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "Janakpur" ]
       }
     , { name = "Karnali"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Karnali" ]
       }
     , { name = "Kosi [Koshi]"
-      , code = ""
+      , code = "KO"
       , unofficialNames = [ "Kosi [Koshi]" ]
       }
     , { name = "Lumbini"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "Lumbini" ]
       }
     , { name = "Mahakali"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Mahakali" ]
       }
     , { name = "Mechi"
-      , code = ""
+      , code = "ME"
       , unofficialNames = [ "Mechi" ]
       }
     , { name = "Narayani"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Narayani" ]
       }
     , { name = "Rapti"
-      , code = ""
+      , code = "RA"
       , unofficialNames = [ "Rapti" ]
       }
     , { name = "Sagarmatha"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Sagarmatha" ]
       }
     , { name = "Seti"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Seti" ]
       }
     ]
@@ -22327,59 +22327,59 @@ nepalSubdivisions =
 nauruSubdivisions : List Subdivision
 nauruSubdivisions =
     [ { name = "Aiwo"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Aiwo" ]
       }
     , { name = "Anabar"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Anabar" ]
       }
     , { name = "Anetan"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Anetan" ]
       }
     , { name = "Anibare"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Anibare" ]
       }
     , { name = "Baiti"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Baiti" ]
       }
     , { name = "Boe"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Boe" ]
       }
     , { name = "Buada"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Buada" ]
       }
     , { name = "Denigomodu"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Denigomodu" ]
       }
     , { name = "Ewa"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Ewa" ]
       }
     , { name = "Ijuw"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Ijuw" ]
       }
     , { name = "Meneng"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Meneng" ]
       }
     , { name = "Nibok"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Nibok" ]
       }
     , { name = "Uaboe"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Uaboe" ]
       }
     , { name = "Yaren"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Yaren" ]
       }
     ]
@@ -22389,71 +22389,71 @@ nauruSubdivisions =
 newZealandSubdivisions : List Subdivision
 newZealandSubdivisions =
     [ { name = "Auckland"
-      , code = ""
+      , code = "AUK"
       , unofficialNames = [ "Auckland" ]
       }
     , { name = "Bay of Plenty"
-      , code = ""
+      , code = "BOP"
       , unofficialNames = [ "Bay of Plenty" ]
       }
     , { name = "Canterbury"
-      , code = ""
+      , code = "CAN"
       , unofficialNames = [ "Canterbury" ]
       }
     , { name = "Gisborne"
-      , code = ""
+      , code = "GIS"
       , unofficialNames = [ "Gisborne" ]
       }
     , { name = "Hawke's Bay"
-      , code = ""
+      , code = "HKB"
       , unofficialNames = [ "Hawke's Bay" ]
       }
     , { name = "Marlborough"
-      , code = ""
+      , code = "MBH"
       , unofficialNames = [ "Marlborough" ]
       }
     , { name = "Manawatu-Wanganui"
-      , code = ""
+      , code = "MWT"
       , unofficialNames = [ "Wanganui-Manawatu" ]
       }
     , { name = "Nelson"
-      , code = ""
+      , code = "NSN"
       , unofficialNames = [ "Nelson" ]
       }
     , { name = "Northland"
-      , code = ""
+      , code = "NTL"
       , unofficialNames = [ "Northland" ]
       }
     , { name = "Otago"
-      , code = ""
+      , code = "OTA"
       , unofficialNames = [ "Otago" ]
       }
     , { name = "Southland"
-      , code = ""
+      , code = "STL"
       , unofficialNames = [ "Southland" ]
       }
     , { name = "Tasman"
-      , code = ""
+      , code = "TAS"
       , unofficialNames = [ "Tasman" ]
       }
     , { name = "Taranaki"
-      , code = ""
+      , code = "TKI"
       , unofficialNames = [ "Taranaki" ]
       }
     , { name = "Wellington"
-      , code = ""
+      , code = "WGN"
       , unofficialNames = [ "Wellington" ]
       }
     , { name = "Waikato"
-      , code = ""
+      , code = "WKO"
       , unofficialNames = [ "Waikato" ]
       }
     , { name = "West Coast"
-      , code = ""
+      , code = "WTC"
       , unofficialNames = [ "West Coast" ]
       }
     , { name = "Chatham Islands"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Chatham Islands" ]
       }
     ]
@@ -22463,39 +22463,39 @@ newZealandSubdivisions =
 omanSubdivisions : List Subdivision
 omanSubdivisions =
     [ { name = "Al Batinah"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Al Batinah" ]
       }
     , { name = "Ad Dakhiliyah"
-      , code = ""
+      , code = "DA"
       , unofficialNames = [ "Ad Dakhiliya" ]
       }
     , { name = "Dhofar"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "Dhofar", "Dhufar", "Janubiyah" ]
       }
     , { name = "Masqat"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Masqaţ", "Maskat", "Mascate" ]
       }
     , { name = "Musandam"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "Musandam" ]
       }
     , { name = "Ash Sharqiyah"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Ash Sharqiyah" ]
       }
     , { name = "Al Wustá"
-      , code = ""
+      , code = "WU"
       , unofficialNames = [ "Al Wustá" ]
       }
     , { name = "Al Buraymi"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Al Buraymi" ]
       }
     , { name = "Adh Dhahirah"
-      , code = ""
+      , code = "ZA"
       , unofficialNames = [ "Adh Dhahirah" ]
       }
     ]
@@ -22505,55 +22505,55 @@ omanSubdivisions =
 panamaSubdivisions : List Subdivision
 panamaSubdivisions =
     [ { name = "Bocas del Toro"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Bocas del Toro" ]
       }
     , { name = "Coclé"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Coclé" ]
       }
     , { name = "Colón"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Colón" ]
       }
     , { name = "Chiriquí"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Chiriquí" ]
       }
     , { name = "Darién"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Darién" ]
       }
     , { name = "Herrera"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Herrera" ]
       }
     , { name = "Los Santos"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Los Santos" ]
       }
     , { name = "Panamá"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Panamá" ]
       }
     , { name = "Veraguas"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Veraguas" ]
       }
     , { name = "Panamá Oeste"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Panamá Oeste" ]
       }
     , { name = "Emberá-Wounaan"
-      , code = ""
+      , code = "EM"
       , unofficialNames = [ "Emberá-Wounaan" ]
       }
     , { name = "Guna Yala"
-      , code = ""
+      , code = "KY"
       , unofficialNames = [ "Guna Yala" ]
       }
     , { name = "Ngäbe-Buglé"
-      , code = ""
+      , code = "NB"
       , unofficialNames = [ "Ngäbe-Buglé" ]
       }
     ]
@@ -22563,107 +22563,107 @@ panamaSubdivisions =
 peruSubdivisions : List Subdivision
 peruSubdivisions =
     [ { name = "Amazonas"
-      , code = ""
+      , code = "AMA"
       , unofficialNames = [ "Amazonas" ]
       }
     , { name = "Ancash"
-      , code = ""
+      , code = "ANC"
       , unofficialNames = [ "Anqas" ]
       }
     , { name = "Apurímac"
-      , code = ""
+      , code = "APU"
       , unofficialNames = [ "Apurímac" ]
       }
     , { name = "Arequipa"
-      , code = ""
+      , code = "ARE"
       , unofficialNames = [ "Areqepa" ]
       }
     , { name = "Ayacucho"
-      , code = ""
+      , code = "AYA"
       , unofficialNames = [ "Ayakuchu" ]
       }
     , { name = "Cajamarca"
-      , code = ""
+      , code = "CAJ"
       , unofficialNames = [ "Cajamarca" ]
       }
     , { name = "El Callao"
-      , code = ""
+      , code = "CAL"
       , unofficialNames = [ "El Callao" ]
       }
     , { name = "Cuzco [Cusco]"
-      , code = ""
+      , code = "CUS"
       , unofficialNames = [ "Cuzco", "Qosqo" ]
       }
     , { name = "Huánuco"
-      , code = ""
+      , code = "HUC"
       , unofficialNames = [ "Huánuco" ]
       }
     , { name = "Huancavelica"
-      , code = ""
+      , code = "HUV"
       , unofficialNames = [ "Huancavelica" ]
       }
     , { name = "Ica"
-      , code = ""
+      , code = "ICA"
       , unofficialNames = [ "Ica" ]
       }
     , { name = "Junín"
-      , code = ""
+      , code = "JUN"
       , unofficialNames = [ "Junín" ]
       }
     , { name = "La Libertad"
-      , code = ""
+      , code = "LAL"
       , unofficialNames = [ "La Libertad" ]
       }
     , { name = "Lambayeque"
-      , code = ""
+      , code = "LAM"
       , unofficialNames = [ "Lambayeque" ]
       }
     , { name = "Lima"
-      , code = ""
+      , code = "LIM"
       , unofficialNames = [ "Lima" ]
       }
     , { name = "Loreto"
-      , code = ""
+      , code = "LOR"
       , unofficialNames = [ "Loreto" ]
       }
     , { name = "Madre de Dios"
-      , code = ""
+      , code = "MDD"
       , unofficialNames = [ "Madre de Dios" ]
       }
     , { name = "Moquegua"
-      , code = ""
+      , code = "MOQ"
       , unofficialNames = [ "Moquegua" ]
       }
     , { name = "Pasco"
-      , code = ""
+      , code = "PAS"
       , unofficialNames = [ "Pasco" ]
       }
     , { name = "Piura"
-      , code = ""
+      , code = "PIU"
       , unofficialNames = [ "Piura" ]
       }
     , { name = "Puno"
-      , code = ""
+      , code = "PUN"
       , unofficialNames = [ "Puno" ]
       }
     , { name = "San Martín"
-      , code = ""
+      , code = "SAM"
       , unofficialNames = [ "San Martín" ]
       }
     , { name = "Tacna"
-      , code = ""
+      , code = "TAC"
       , unofficialNames = [ "Tacna" ]
       }
     , { name = "Tumbes"
-      , code = ""
+      , code = "TUM"
       , unofficialNames = [ "Tumbes" ]
       }
     , { name = "Ucayali"
-      , code = ""
+      , code = "UCA"
       , unofficialNames = [ "Ucayali" ]
       }
     , { name = "Lima Metropolitana"
-      , code = ""
+      , code = "LMA"
       , unofficialNames = [ "Lima Metropolitana" ]
       }
     ]
@@ -22673,23 +22673,23 @@ peruSubdivisions =
 frenchPolynesiaSubdivisions : List Subdivision
 frenchPolynesiaSubdivisions =
     [ { name = "Austral Islands"
-      , code = ""
+      , code = "I"
       , unofficialNames = [ "Austral Islands" ]
       }
     , { name = "Marquesas Islands"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Marquesas Islands" ]
       }
     , { name = "Leeward Islands"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Leeward Islands" ]
       }
     , { name = "Iles Tuamotu-Gambier"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Iles Tuamotu-Gambier" ]
       }
     , { name = "Windward Islands"
-      , code = ""
+      , code = "V"
       , unofficialNames = [ "Windward Islands" ]
       }
     ]
@@ -22699,83 +22699,83 @@ frenchPolynesiaSubdivisions =
 papuaNewGuineaSubdivisions : List Subdivision
 papuaNewGuineaSubdivisions =
     [ { name = "Chimbu"
-      , code = ""
+      , code = "CPK"
       , unofficialNames = [ "Chimbu", "Simbúa" ]
       }
     , { name = "Central"
-      , code = ""
+      , code = "CPM"
       , unofficialNames = [ "Papua Central" ]
       }
     , { name = "East New Britain"
-      , code = ""
+      , code = "EBR"
       , unofficialNames = [ "New Britain East" ]
       }
     , { name = "Eastern Highlands"
-      , code = ""
+      , code = "EHG"
       , unofficialNames = [ "Highlands East" ]
       }
     , { name = "Enga"
-      , code = ""
+      , code = "EPW"
       , unofficialNames = [ "Enga" ]
       }
     , { name = "East Sepik"
-      , code = ""
+      , code = "ESW"
       , unofficialNames = [ "Sepik East" ]
       }
     , { name = "Gulf"
-      , code = ""
+      , code = "GPK"
       , unofficialNames = [ "Papua Gulf" ]
       }
     , { name = "Milne Bay"
-      , code = ""
+      , code = "MBA"
       , unofficialNames = [ "Milne Bay" ]
       }
     , { name = "Morobe"
-      , code = ""
+      , code = "MPL"
       , unofficialNames = [ "Morobe" ]
       }
     , { name = "Madang"
-      , code = ""
+      , code = "MPM"
       , unofficialNames = [ "Madang" ]
       }
     , { name = "Manus"
-      , code = ""
+      , code = "MRL"
       , unofficialNames = [ "Great Admiralty Island", "Mwanus" ]
       }
     , { name = "National Capital District (Port Moresby)"
-      , code = ""
+      , code = "NCD"
       , unofficialNames = [ "National Capital District (Port Moresby)" ]
       }
     , { name = "New Ireland"
-      , code = ""
+      , code = "NIK"
       , unofficialNames = [ "Niu Ailan" ]
       }
     , { name = "Northern"
-      , code = ""
+      , code = "NPP"
       , unofficialNames = [ "Northern" ]
       }
     , { name = "North Solomons"
-      , code = ""
+      , code = "NSA"
       , unofficialNames = [ "Bougainville", "Mekamui", "North Solomons" ]
       }
     , { name = "Sandaun [West Sepik]"
-      , code = ""
+      , code = "SAN"
       , unofficialNames = [ "West Sepik" ]
       }
     , { name = "Southern Highlands"
-      , code = ""
+      , code = "SHM"
       , unofficialNames = [ "Highlands South" ]
       }
     , { name = "West New Britain"
-      , code = ""
+      , code = "WBK"
       , unofficialNames = [ "New Britain West" ]
       }
     , { name = "Western Highlands"
-      , code = ""
+      , code = "WHM"
       , unofficialNames = [ "Highlands West" ]
       }
     , { name = "Western"
-      , code = ""
+      , code = "WPD"
       , unofficialNames = [ "Papua West", "Western" ]
       }
     ]
@@ -22785,339 +22785,339 @@ papuaNewGuineaSubdivisions =
 philippinesSubdivisions : List Subdivision
 philippinesSubdivisions =
     [ { name = "Abra"
-      , code = ""
+      , code = "ABR"
       , unofficialNames = [ "Abra" ]
       }
     , { name = "Agusan del Norte"
-      , code = ""
+      , code = "AGN"
       , unofficialNames = [ "Agusan del Norte" ]
       }
     , { name = "Agusan del Sur"
-      , code = ""
+      , code = "AGS"
       , unofficialNames = [ "Agusan del Sur" ]
       }
     , { name = "Aklan"
-      , code = ""
+      , code = "AKL"
       , unofficialNames = [ "Aklan" ]
       }
     , { name = "Albay"
-      , code = ""
+      , code = "ALB"
       , unofficialNames = [ "Albay" ]
       }
     , { name = "Antique"
-      , code = ""
+      , code = "ANT"
       , unofficialNames = [ "Antique" ]
       }
     , { name = "Apayao"
-      , code = ""
+      , code = "APA"
       , unofficialNames = [ "Apayao" ]
       }
     , { name = "Aurora"
-      , code = ""
+      , code = "AUR"
       , unofficialNames = [ "Aurora" ]
       }
     , { name = "Bataan"
-      , code = ""
+      , code = "BAN"
       , unofficialNames = [ "Bataan" ]
       }
     , { name = "Basilan"
-      , code = ""
+      , code = "BAS"
       , unofficialNames = [ "Basilan" ]
       }
     , { name = "Benguet"
-      , code = ""
+      , code = "BEN"
       , unofficialNames = [ "Benguet" ]
       }
     , { name = "Biliran"
-      , code = ""
+      , code = "BIL"
       , unofficialNames = [ "Biliran" ]
       }
     , { name = "Bohol"
-      , code = ""
+      , code = "BOH"
       , unofficialNames = [ "Bohol" ]
       }
     , { name = "Batangas"
-      , code = ""
+      , code = "BTG"
       , unofficialNames = [ "Batangas" ]
       }
     , { name = "Batanes"
-      , code = ""
+      , code = "BTN"
       , unofficialNames = [ "Batanes" ]
       }
     , { name = "Bukidnon"
-      , code = ""
+      , code = "BUK"
       , unofficialNames = [ "Bukidnon" ]
       }
     , { name = "Bulacan"
-      , code = ""
+      , code = "BUL"
       , unofficialNames = [ "Bulacan" ]
       }
     , { name = "Cagayan"
-      , code = ""
+      , code = "CAG"
       , unofficialNames = [ "Cagayan" ]
       }
     , { name = "Camiguin"
-      , code = ""
+      , code = "CAM"
       , unofficialNames = [ "Camiguin" ]
       }
     , { name = "Camarines Norte"
-      , code = ""
+      , code = "CAN"
       , unofficialNames = [ "Camarines Norte" ]
       }
     , { name = "Capiz"
-      , code = ""
+      , code = "CAP"
       , unofficialNames = [ "Capiz" ]
       }
     , { name = "Camarines Sur"
-      , code = ""
+      , code = "CAS"
       , unofficialNames = [ "Camarines Sur" ]
       }
     , { name = "Catanduanes"
-      , code = ""
+      , code = "CAT"
       , unofficialNames = [ "Catanduanes" ]
       }
     , { name = "Cavite"
-      , code = ""
+      , code = "CAV"
       , unofficialNames = [ "Cavite" ]
       }
     , { name = "Cebu"
-      , code = ""
+      , code = "CEB"
       , unofficialNames = [ "Cebu" ]
       }
     , { name = "Compostela Valley"
-      , code = ""
+      , code = "COM"
       , unofficialNames = [ "Compostela Valley" ]
       }
     , { name = "Davao Oriental"
-      , code = ""
+      , code = "DAO"
       , unofficialNames = [ "Davao Oriental" ]
       }
     , { name = "Davao del Sur"
-      , code = ""
+      , code = "DAS"
       , unofficialNames = [ "Davao del Sur" ]
       }
     , { name = "Davao del Norte"
-      , code = ""
+      , code = "DAV"
       , unofficialNames = [ "Davao" ]
       }
     , { name = "Dinagat Islands"
-      , code = ""
+      , code = "DIN"
       , unofficialNames = [ "Dinagat Islands" ]
       }
     , { name = "Davao Occidental"
-      , code = ""
+      , code = "DVO"
       , unofficialNames = [ "Davao Occidental" ]
       }
     , { name = "Eastern Samar"
-      , code = ""
+      , code = "EAS"
       , unofficialNames = [ "Eastern Samar" ]
       }
     , { name = "Guimaras"
-      , code = ""
+      , code = "GUI"
       , unofficialNames = [ "Guimaras" ]
       }
     , { name = "Ifugao"
-      , code = ""
+      , code = "IFU"
       , unofficialNames = [ "Ifugao" ]
       }
     , { name = "Iloilo"
-      , code = ""
+      , code = "ILI"
       , unofficialNames = [ "Iloilo" ]
       }
     , { name = "Ilocos Norte"
-      , code = ""
+      , code = "ILN"
       , unofficialNames = [ "Ilocos Norte" ]
       }
     , { name = "Ilocos Sur"
-      , code = ""
+      , code = "ILS"
       , unofficialNames = [ "Ilocos Sur" ]
       }
     , { name = "Isabela"
-      , code = ""
+      , code = "ISA"
       , unofficialNames = [ "Isabela" ]
       }
     , { name = "Kalinga"
-      , code = ""
+      , code = "KAL"
       , unofficialNames = [ "Kalinga" ]
       }
     , { name = "Laguna"
-      , code = ""
+      , code = "LAG"
       , unofficialNames = [ "Laguna" ]
       }
     , { name = "Lanao del Norte"
-      , code = ""
+      , code = "LAN"
       , unofficialNames = [ "Lanao del Norte" ]
       }
     , { name = "Lanao del Sur"
-      , code = ""
+      , code = "LAS"
       , unofficialNames = [ "Lanao del Sur" ]
       }
     , { name = "Leyte"
-      , code = ""
+      , code = "LEY"
       , unofficialNames = [ "Leyte" ]
       }
     , { name = "La Union"
-      , code = ""
+      , code = "LUN"
       , unofficialNames = [ "La Union" ]
       }
     , { name = "Marinduque"
-      , code = ""
+      , code = "MAD"
       , unofficialNames = [ "Marinduque" ]
       }
     , { name = "Maguindanao"
-      , code = ""
+      , code = "MAG"
       , unofficialNames = [ "Maguindanao" ]
       }
     , { name = "Masbate"
-      , code = ""
+      , code = "MAS"
       , unofficialNames = [ "Masbate" ]
       }
     , { name = "Mindoro Occidental"
-      , code = ""
+      , code = "MDC"
       , unofficialNames = [ "Mindoro Occidental" ]
       }
     , { name = "Mindoro Oriental"
-      , code = ""
+      , code = "MDR"
       , unofficialNames = [ "Mindoro Oriental" ]
       }
     , { name = "Mountain Province"
-      , code = ""
+      , code = "MOU"
       , unofficialNames = [ "Mountain Province" ]
       }
     , { name = "Misamis Occidental"
-      , code = ""
+      , code = "MSC"
       , unofficialNames = [ "Misamis Occidental" ]
       }
     , { name = "Misamis Oriental"
-      , code = ""
+      , code = "MSR"
       , unofficialNames = [ "Misamis Oriental" ]
       }
     , { name = "North Cotabato"
-      , code = ""
+      , code = "NCO"
       , unofficialNames = [ "North Cotabato" ]
       }
     , { name = "Negros Occidental"
-      , code = ""
+      , code = "NEC"
       , unofficialNames = [ "Negros Occidental" ]
       }
     , { name = "Negros Oriental"
-      , code = ""
+      , code = "NER"
       , unofficialNames = [ "Negros Oriental" ]
       }
     , { name = "Northern Samar"
-      , code = ""
+      , code = "NSA"
       , unofficialNames = [ "Northern Samar" ]
       }
     , { name = "Nueva Ecija"
-      , code = ""
+      , code = "NUE"
       , unofficialNames = [ "Nueva Ecija" ]
       }
     , { name = "Nueva Vizcaya"
-      , code = ""
+      , code = "NUV"
       , unofficialNames = [ "Nueva Vizcaya" ]
       }
     , { name = "Pampanga"
-      , code = ""
+      , code = "PAM"
       , unofficialNames = [ "Pampanga" ]
       }
     , { name = "Pangasinan"
-      , code = ""
+      , code = "PAN"
       , unofficialNames = [ "Pangasinan" ]
       }
     , { name = "Palawan"
-      , code = ""
+      , code = "PLW"
       , unofficialNames = [ "Palawan" ]
       }
     , { name = "Quezon"
-      , code = ""
+      , code = "QUE"
       , unofficialNames = [ "Quezon" ]
       }
     , { name = "Quirino"
-      , code = ""
+      , code = "QUI"
       , unofficialNames = [ "Angkaki" ]
       }
     , { name = "Rizal"
-      , code = ""
+      , code = "RIZ"
       , unofficialNames = [ "Rizal" ]
       }
     , { name = "Romblon"
-      , code = ""
+      , code = "ROM"
       , unofficialNames = [ "Romblon" ]
       }
     , { name = "Sarangani"
-      , code = ""
+      , code = "SAR"
       , unofficialNames = [ "Sarangani" ]
       }
     , { name = "South Cotabato"
-      , code = ""
+      , code = "SCO"
       , unofficialNames = [ "South Cotabato" ]
       }
     , { name = "Siquijor"
-      , code = ""
+      , code = "SIG"
       , unofficialNames = [ "Siquijor" ]
       }
     , { name = "Southern Leyte"
-      , code = ""
+      , code = "SLE"
       , unofficialNames = [ "Southern Leyte" ]
       }
     , { name = "Sulu"
-      , code = ""
+      , code = "SLU"
       , unofficialNames = [ "Sulu" ]
       }
     , { name = "Sorsogon"
-      , code = ""
+      , code = "SOR"
       , unofficialNames = [ "Sorsogon" ]
       }
     , { name = "Sultan Kudarat"
-      , code = ""
+      , code = "SUK"
       , unofficialNames = [ "Sultan Kudarat" ]
       }
     , { name = "Surigao del Norte"
-      , code = ""
+      , code = "SUN"
       , unofficialNames = [ "Surigao del Norte" ]
       }
     , { name = "Surigao del Sur"
-      , code = ""
+      , code = "SUR"
       , unofficialNames = [ "Surigao del Sur" ]
       }
     , { name = "Tarlac"
-      , code = ""
+      , code = "TAR"
       , unofficialNames = [ "Tarlac" ]
       }
     , { name = "Tawi-Tawi"
-      , code = ""
+      , code = "TAW"
       , unofficialNames = [ "Tawi-Tawi" ]
       }
     , { name = "Western Samar"
-      , code = ""
+      , code = "WSA"
       , unofficialNames = [ "Western Samar" ]
       }
     , { name = "Dinagat"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Dinagat" ]
       }
     , { name = "Shariff Kabunsuan"
-      , code = ""
+      , code = "X2~"
       , unofficialNames = [ "Shariff Kabunsuan" ]
       }
     , { name = "Zamboanga del Norte"
-      , code = ""
+      , code = "ZAN"
       , unofficialNames = [ "Zamboanga del Norte" ]
       }
     , { name = "Zamboanga del Sur"
-      , code = ""
+      , code = "ZAS"
       , unofficialNames = [ "Zamboanga del Sur" ]
       }
     , { name = "Zambales"
-      , code = ""
+      , code = "ZMB"
       , unofficialNames = [ "Zambales" ]
       }
     , { name = "Zamboanga Sibuguey [Zamboanga Sibugay]"
-      , code = ""
+      , code = "ZSI"
       , unofficialNames = [ "Zamboanga Sibuguey [Zamboanga Sibugay]" ]
       }
     , { name = "National Capital Region"
-      , code = ""
+      , code = "00"
       , unofficialNames = [ "National Capital Region", "Pambansang Punong Rehiyon" ]
       }
     ]
@@ -23127,35 +23127,35 @@ philippinesSubdivisions =
 pakistanSubdivisions : List Subdivision
 pakistanSubdivisions =
     [ { name = "Baluchistan (en)"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Baluchistan (en)" ]
       }
     , { name = "Islamabad"
-      , code = ""
+      , code = "IS"
       , unofficialNames = [ "Islamabad" ]
       }
     , { name = "Azad Kashmir"
-      , code = ""
+      , code = "JK"
       , unofficialNames = [ "Azad Kashmir" ]
       }
     , { name = "Northern Areas"
-      , code = ""
+      , code = "NA"
       , unofficialNames = [ "Northern Areas" ]
       }
     , { name = "North-West Frontier"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "North-West Frontier" ]
       }
     , { name = "Punjab"
-      , code = ""
+      , code = "PB"
       , unofficialNames = [ "Punjab" ]
       }
     , { name = "Sind (en)"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Sind (en)" ]
       }
     , { name = "Federally Administered Tribal Areas"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Federally Administered Tribal Areas" ]
       }
     ]
@@ -23165,67 +23165,67 @@ pakistanSubdivisions =
 polandSubdivisions : List Subdivision
 polandSubdivisions =
     [ { name = "Dolnośląskie"
-      , code = ""
+      , code = "DS"
       , unofficialNames = [ "dolnośląskie", "Dolnośląskie" ]
       }
     , { name = "Kujawsko-pomorskie"
-      , code = ""
+      , code = "KP"
       , unofficialNames = [ "kujawsko-pomorskie", "Kujawsko-pomorskie" ]
       }
     , { name = "Lubelskie"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "lubelskie", "Lubelskie" ]
       }
     , { name = "Lubuskie"
-      , code = ""
+      , code = "LB"
       , unofficialNames = [ "lubuskie", "Lubuskie" ]
       }
     , { name = "Łódzkie"
-      , code = ""
+      , code = "LD"
       , unofficialNames = [ "łódzkie", "Łódzkie" ]
       }
     , { name = "Małopolskie"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "małopolskie", "Małopolskie" ]
       }
     , { name = "Mazowieckie"
-      , code = ""
+      , code = "MZ"
       , unofficialNames = [ "mazowieckie", "Mazowieckie" ]
       }
     , { name = "Opolskie"
-      , code = ""
+      , code = "OP"
       , unofficialNames = [ "opolskie", "Opolskie" ]
       }
     , { name = "Podkarpackie"
-      , code = ""
+      , code = "PK"
       , unofficialNames = [ "podkarpackie", "Podkarpackie" ]
       }
     , { name = "Podlaskie"
-      , code = ""
+      , code = "PD"
       , unofficialNames = [ "podlaskie", "Podlaskie" ]
       }
     , { name = "Pomorskie"
-      , code = ""
+      , code = "PM"
       , unofficialNames = [ "pomorskie", "Pomorskie" ]
       }
     , { name = "Śląskie"
-      , code = ""
+      , code = "SL"
       , unofficialNames = [ "śląskie", "Śląskie" ]
       }
     , { name = "Świętokrzyskie"
-      , code = ""
+      , code = "SK"
       , unofficialNames = [ "świętokrzyskie", "Świętokrzyskie" ]
       }
     , { name = "Warmińsko-mazurskie"
-      , code = ""
+      , code = "WN"
       , unofficialNames = [ "warmińsko-mazurskie", "Warmińsko-mazurskie" ]
       }
     , { name = "Wielkopolskie"
-      , code = ""
+      , code = "WP"
       , unofficialNames = [ "wielkopolskie", "Wielkopolskie" ]
       }
     , { name = "Zachodniopomorskie"
-      , code = ""
+      , code = "ZP"
       , unofficialNames = [ "zachodniopomorskie", "Zachodniopomorskie" ]
       }
     ]
@@ -23235,11 +23235,11 @@ polandSubdivisions =
 saintPierreAndMiquelonSubdivisions : List Subdivision
 saintPierreAndMiquelonSubdivisions =
     [ { name = "Miquelon"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Miquelon" ]
       }
     , { name = "Saint Pierre"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Saint Pierre" ]
       }
     ]
@@ -23249,315 +23249,315 @@ saintPierreAndMiquelonSubdivisions =
 puertoRicoSubdivisions : List Subdivision
 puertoRicoSubdivisions =
     [ { name = "Adjuntas"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Adjuntas" ]
       }
     , { name = "Aguada"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Aguada" ]
       }
     , { name = "Aguadilla"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Aguadilla" ]
       }
     , { name = "Aguas Buenas"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Aguas Buenas" ]
       }
     , { name = "Aibonito"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Aibonito" ]
       }
     , { name = "Anasco"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Anasco" ]
       }
     , { name = "Arecibo"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Arecibo" ]
       }
     , { name = "Arroyo"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Arroyo" ]
       }
     , { name = "Barceloneta"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Barceloneta" ]
       }
     , { name = "Barranquitas"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Barranquitas" ]
       }
     , { name = "Bayamon"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Bayamon" ]
       }
     , { name = "Cabo Rojo"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Cabo Rojo" ]
       }
     , { name = "Caguas"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Caguas" ]
       }
     , { name = "Camuy"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Camuy" ]
       }
     , { name = "Canovanas"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Canovanas" ]
       }
     , { name = "Carolina"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Carolina" ]
       }
     , { name = "Catano"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Catano" ]
       }
     , { name = "Cayey"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Cayey" ]
       }
     , { name = "Ceiba"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Ceiba" ]
       }
     , { name = "Ciales"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Ciales" ]
       }
     , { name = "Cidra"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Cidra" ]
       }
     , { name = "Coamo"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Coamo" ]
       }
     , { name = "Comerio"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Comerio" ]
       }
     , { name = "Corozal"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Corozal" ]
       }
     , { name = "Culebra"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Culebra" ]
       }
     , { name = "Dorado"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Dorado" ]
       }
     , { name = "Fajardo"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Fajardo" ]
       }
     , { name = "Florida"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Florida" ]
       }
     , { name = "Guanica"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Guanica" ]
       }
     , { name = "Guayama"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Guayama" ]
       }
     , { name = "Guayanilla"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Guayanilla" ]
       }
     , { name = "Guaynabo"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Guaynabo" ]
       }
     , { name = "Gurabo"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Gurabo" ]
       }
     , { name = "Hatillo"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Hatillo" ]
       }
     , { name = "Hormigueros"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Hormigueros" ]
       }
     , { name = "Humacao"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Humacao" ]
       }
     , { name = "Isabela"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Isabela" ]
       }
     , { name = "Jayuya"
-      , code = ""
+      , code = "38"
       , unofficialNames = [ "Jayuya" ]
       }
     , { name = "Juana Diaz"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Juana Diaz" ]
       }
     , { name = "Juncos"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Juncos" ]
       }
     , { name = "Lajas"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Lajas" ]
       }
     , { name = "Lares"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Lares" ]
       }
     , { name = "Las Marias"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Las Marias" ]
       }
     , { name = "Las Piedras"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Las Piedras" ]
       }
     , { name = "Loiza"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Loiza" ]
       }
     , { name = "Luquillo"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Luquillo" ]
       }
     , { name = "Manati"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Manati" ]
       }
     , { name = "Maricao"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Maricao" ]
       }
     , { name = "Maunabo"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Maunabo" ]
       }
     , { name = "Mayaguez"
-      , code = ""
+      , code = "50"
       , unofficialNames = [ "Mayaguez" ]
       }
     , { name = "Moca"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Moca" ]
       }
     , { name = "Morovis"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Morovis" ]
       }
     , { name = "Naguabo"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Naguabo" ]
       }
     , { name = "Naranjito"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Naranjito" ]
       }
     , { name = "Orocovis"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Orocovis" ]
       }
     , { name = "Patillas"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Patillas" ]
       }
     , { name = "Penuelas"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Penuelas" ]
       }
     , { name = "Ponce"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Ponce" ]
       }
     , { name = "Quebradillas"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Quebradillas" ]
       }
     , { name = "Rincon"
-      , code = ""
+      , code = "60"
       , unofficialNames = [ "Rincon" ]
       }
     , { name = "Rio Grande"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Rio Grande" ]
       }
     , { name = "Sabana Grande"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Sabana Grande" ]
       }
     , { name = "Salinas"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Salinas" ]
       }
     , { name = "San German"
-      , code = ""
+      , code = "64"
       , unofficialNames = [ "San German" ]
       }
     , { name = "San Juan"
-      , code = ""
+      , code = "65"
       , unofficialNames = [ "San Juan" ]
       }
     , { name = "San Lorenzo"
-      , code = ""
+      , code = "66"
       , unofficialNames = [ "San Lorenzo" ]
       }
     , { name = "San Sebastian"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "San Sebastian" ]
       }
     , { name = "Santa Isabel"
-      , code = ""
+      , code = "68"
       , unofficialNames = [ "Santa Isabel" ]
       }
     , { name = "Toa Alta"
-      , code = ""
+      , code = "69"
       , unofficialNames = [ "Toa Alta" ]
       }
     , { name = "Toa Baja"
-      , code = ""
+      , code = "70"
       , unofficialNames = [ "Toa Baja" ]
       }
     , { name = "Trujillo Alto"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Trujillo Alto" ]
       }
     , { name = "Utuado"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Utuado" ]
       }
     , { name = "Vega Alta"
-      , code = ""
+      , code = "73"
       , unofficialNames = [ "Vega Alta" ]
       }
     , { name = "Vega Baja"
-      , code = ""
+      , code = "74"
       , unofficialNames = [ "Vega Baja" ]
       }
     , { name = "Vieques"
-      , code = ""
+      , code = "75"
       , unofficialNames = [ "Vieques" ]
       }
     , { name = "Villalba"
-      , code = ""
+      , code = "76"
       , unofficialNames = [ "Villalba" ]
       }
     , { name = "Yabucoa"
-      , code = ""
+      , code = "77"
       , unofficialNames = [ "Yabucoa" ]
       }
     , { name = "Yauco"
-      , code = ""
+      , code = "78"
       , unofficialNames = [ "Yauco" ]
       }
     ]
@@ -23573,83 +23573,83 @@ palestineStateOfSubdivisions =
 portugalSubdivisions : List Subdivision
 portugalSubdivisions =
     [ { name = "Aveiro"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Aveiro" ]
       }
     , { name = "Beja"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Beja" ]
       }
     , { name = "Braga"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Braga" ]
       }
     , { name = "Bragança"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Bragança" ]
       }
     , { name = "Castelo Branco"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Castelo Branco" ]
       }
     , { name = "Coimbra"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Coimbra" ]
       }
     , { name = "Évora"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Évora" ]
       }
     , { name = "Faro"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Faro" ]
       }
     , { name = "Guarda"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Guarda" ]
       }
     , { name = "Leiria"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Leiria" ]
       }
     , { name = "Lisboa"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Lisboa" ]
       }
     , { name = "Portalegre"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Portalegre" ]
       }
     , { name = "Porto"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Porto" ]
       }
     , { name = "Santarém"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Santarém" ]
       }
     , { name = "Setúbal"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Setúbal" ]
       }
     , { name = "Viana do Castelo"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Viana do Castelo" ]
       }
     , { name = "Vila Real"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Vila Real" ]
       }
     , { name = "Viseu"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Viseu" ]
       }
     , { name = "Açores"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Açores" ]
       }
     , { name = "Madeira"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Madeira" ]
       }
     ]
@@ -23659,67 +23659,67 @@ portugalSubdivisions =
 palauSubdivisions : List Subdivision
 palauSubdivisions =
     [ { name = "Aimeliik"
-      , code = ""
+      , code = "002"
       , unofficialNames = [ "Aimeliik" ]
       }
     , { name = "Airai"
-      , code = ""
+      , code = "004"
       , unofficialNames = [ "Airai" ]
       }
     , { name = "Angaur"
-      , code = ""
+      , code = "010"
       , unofficialNames = [ "Angaur" ]
       }
     , { name = "Hatobohei"
-      , code = ""
+      , code = "050"
       , unofficialNames = [ "Hatobohei" ]
       }
     , { name = "Kayangel"
-      , code = ""
+      , code = "100"
       , unofficialNames = [ "Kayangel" ]
       }
     , { name = "Koror"
-      , code = ""
+      , code = "150"
       , unofficialNames = [ "Koror" ]
       }
     , { name = "Melekeok"
-      , code = ""
+      , code = "212"
       , unofficialNames = [ "Melekeok" ]
       }
     , { name = "Ngaraard"
-      , code = ""
+      , code = "214"
       , unofficialNames = [ "Ngaraard" ]
       }
     , { name = "Ngarchelong"
-      , code = ""
+      , code = "218"
       , unofficialNames = [ "Ngarchelong" ]
       }
     , { name = "Ngardmau"
-      , code = ""
+      , code = "222"
       , unofficialNames = [ "Ngardmau" ]
       }
     , { name = "Ngatpang"
-      , code = ""
+      , code = "224"
       , unofficialNames = [ "Ngatpang" ]
       }
     , { name = "Ngchesar"
-      , code = ""
+      , code = "226"
       , unofficialNames = [ "Ngchesar" ]
       }
     , { name = "Ngeremlengui"
-      , code = ""
+      , code = "227"
       , unofficialNames = [ "Ngeremlengui" ]
       }
     , { name = "Ngiwal"
-      , code = ""
+      , code = "228"
       , unofficialNames = [ "Ngiwal" ]
       }
     , { name = "Peleliu"
-      , code = ""
+      , code = "350"
       , unofficialNames = [ "Peleliu" ]
       }
     , { name = "Sonsorol"
-      , code = ""
+      , code = "370"
       , unofficialNames = [ "Sonsorol" ]
       }
     ]
@@ -23729,75 +23729,75 @@ palauSubdivisions =
 paraguaySubdivisions : List Subdivision
 paraguaySubdivisions =
     [ { name = "Concepción"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Concepción" ]
       }
     , { name = "Alto Paraná"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Alto Paraná" ]
       }
     , { name = "Central"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Ñeembucú"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Neembucú" ]
       }
     , { name = "Amambay"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Amambay" ]
       }
     , { name = "Canindeyú"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Canindeyú", "Canindiyú" ]
       }
     , { name = "Presidente Hayes"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Presidente Hayes" ]
       }
     , { name = "Alto Paraguay"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Alto Paraguay" ]
       }
     , { name = "Boquerón"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Boquerón" ]
       }
     , { name = "San Pedro"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "San Pedro" ]
       }
     , { name = "Cordillera"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Cordillera" ]
       }
     , { name = "Guairá"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Guairá" ]
       }
     , { name = "Caaguazú"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Caaguazú" ]
       }
     , { name = "Caazapá"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Caazapá" ]
       }
     , { name = "Itapúa"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Itapúa" ]
       }
     , { name = "Misiones"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Misiones" ]
       }
     , { name = "Paraguarí"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Paraguarí" ]
       }
     , { name = "Asunción"
-      , code = ""
+      , code = "ASU"
       , unofficialNames = [ "Asunción" ]
       }
     ]
@@ -23807,43 +23807,43 @@ paraguaySubdivisions =
 qatarSubdivisions : List Subdivision
 qatarSubdivisions =
     [ { name = "Ad Dawhah"
-      , code = ""
+      , code = "DA"
       , unofficialNames = [ "Dawhah", "Doha", "ad-Dawhah", "ad-Dawh̨ah", "Doha", "Doha", "Doha" ]
       }
     , { name = "Al Ghuwayriyah"
-      , code = ""
+      , code = "GH"
       , unofficialNames = [ "al-Ghuwayriyah" ]
       }
     , { name = "Jariyan al Batnah"
-      , code = ""
+      , code = "JB"
       , unofficialNames = [ "Jariyan al Batnah" ]
       }
     , { name = "Al Jumayliyah"
-      , code = ""
+      , code = "JU"
       , unofficialNames = [ "al-Jumayliyah" ]
       }
     , { name = "Al Khawr"
-      , code = ""
+      , code = "KH"
       , unofficialNames = [ "H̱ūr", "al-Khawr", "al-Khour", "al-H̱awr" ]
       }
     , { name = "Madinat ash Shamal"
-      , code = ""
+      , code = "MS"
       , unofficialNames = [ "ash-Shamal" ]
       }
     , { name = "Ar Rayyan"
-      , code = ""
+      , code = "RA"
       , unofficialNames = [ "Rayyan", "ar-Rayyan" ]
       }
     , { name = "Umm Salal"
-      , code = ""
+      , code = "US"
       , unofficialNames = [ "Umm Shalal" ]
       }
     , { name = "Al Wakrah"
-      , code = ""
+      , code = "WA"
       , unofficialNames = [ "Wakra", "Wakrah" ]
       }
     , { name = "Umm Sa'id"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Mesaieed" ]
       }
     ]
@@ -23859,171 +23859,171 @@ reunionSubdivisions =
 romaniaSubdivisions : List Subdivision
 romaniaSubdivisions =
     [ { name = "Alba"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Alba" ]
       }
     , { name = "Arges"
-      , code = ""
+      , code = "AG"
       , unofficialNames = [ "Arges" ]
       }
     , { name = "Arad"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Arad" ]
       }
     , { name = "Bucuresti"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Bucuresti", "Bucureşti", "Bukarest", "Bucarest", "Bucarest" ]
       }
     , { name = "Bacau"
-      , code = ""
+      , code = "BC"
       , unofficialNames = [ "Bacau" ]
       }
     , { name = "Bihor"
-      , code = ""
+      , code = "BH"
       , unofficialNames = [ "Bihor" ]
       }
     , { name = "Bistrita-Nasaud"
-      , code = ""
+      , code = "BN"
       , unofficialNames = [ "Bistrita-Nasaud" ]
       }
     , { name = "Braila"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Braila" ]
       }
     , { name = "Botosani"
-      , code = ""
+      , code = "BT"
       , unofficialNames = [ "Botosani" ]
       }
     , { name = "Brasov"
-      , code = ""
+      , code = "BV"
       , unofficialNames = [ "Brasov" ]
       }
     , { name = "Buzau"
-      , code = ""
+      , code = "BZ"
       , unofficialNames = [ "Buzau" ]
       }
     , { name = "Cluj"
-      , code = ""
+      , code = "CJ"
       , unofficialNames = [ "Cluj" ]
       }
     , { name = "Calarasi"
-      , code = ""
+      , code = "CL"
       , unofficialNames = [ "Calarasi" ]
       }
     , { name = "Caras-Severin"
-      , code = ""
+      , code = "CS"
       , unofficialNames = [ "Caras-Severin" ]
       }
     , { name = "Constanta"
-      , code = ""
+      , code = "CT"
       , unofficialNames = [ "Constanta", "Konstanza" ]
       }
     , { name = "Covasna"
-      , code = ""
+      , code = "CV"
       , unofficialNames = [ "Covasna" ]
       }
     , { name = "Dâmbovita"
-      , code = ""
+      , code = "DB"
       , unofficialNames = [ "Dambovita", "Dimbovita", "Dîmboviţa" ]
       }
     , { name = "Dolj"
-      , code = ""
+      , code = "DJ"
       , unofficialNames = [ "Dolj" ]
       }
     , { name = "Gorj"
-      , code = ""
+      , code = "GJ"
       , unofficialNames = [ "Gorj" ]
       }
     , { name = "Galati"
-      , code = ""
+      , code = "GL"
       , unofficialNames = [ "Galati", "Galatz" ]
       }
     , { name = "Giurgiu"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Giurgiu" ]
       }
     , { name = "Hunedoara"
-      , code = ""
+      , code = "HD"
       , unofficialNames = [ "Hunedoara" ]
       }
     , { name = "Harghita"
-      , code = ""
+      , code = "HR"
       , unofficialNames = [ "Harghita" ]
       }
     , { name = "Ilfov"
-      , code = ""
+      , code = "IF"
       , unofficialNames = [ "Sectorul Agricol Ilfov" ]
       }
     , { name = "Ialomita"
-      , code = ""
+      , code = "IL"
       , unofficialNames = [ "Ialomita" ]
       }
     , { name = "Iasi"
-      , code = ""
+      , code = "IS"
       , unofficialNames = [ "Iasi", "Jasch", "Jassy", "Yassy" ]
       }
     , { name = "Mehedinti"
-      , code = ""
+      , code = "MH"
       , unofficialNames = [ "Mehedinti" ]
       }
     , { name = "Maramures"
-      , code = ""
+      , code = "MM"
       , unofficialNames = [ "Maramures" ]
       }
     , { name = "Mures"
-      , code = ""
+      , code = "MS"
       , unofficialNames = [ "Mures" ]
       }
     , { name = "Neamt"
-      , code = ""
+      , code = "NT"
       , unofficialNames = [ "Neamt" ]
       }
     , { name = "Olt"
-      , code = ""
+      , code = "OT"
       , unofficialNames = [ "Olt" ]
       }
     , { name = "Prahova"
-      , code = ""
+      , code = "PH"
       , unofficialNames = [ "Prahova" ]
       }
     , { name = "Sibiu"
-      , code = ""
+      , code = "SB"
       , unofficialNames = [ "Sibiu" ]
       }
     , { name = "Salaj"
-      , code = ""
+      , code = "SJ"
       , unofficialNames = [ "Salaj" ]
       }
     , { name = "Satu Mare"
-      , code = ""
+      , code = "SM"
       , unofficialNames = [ "Satu Mare" ]
       }
     , { name = "Suceava"
-      , code = ""
+      , code = "SV"
       , unofficialNames = [ "Suceava" ]
       }
     , { name = "Tulcea"
-      , code = ""
+      , code = "TL"
       , unofficialNames = [ "Tulcea" ]
       }
     , { name = "Timis"
-      , code = ""
+      , code = "TM"
       , unofficialNames = [ "Timis" ]
       }
     , { name = "Teleorman"
-      , code = ""
+      , code = "TR"
       , unofficialNames = [ "Teleorman" ]
       }
     , { name = "Vâlcea"
-      , code = ""
+      , code = "VL"
       , unofficialNames = [ "Vîlcea" ]
       }
     , { name = "Vrancea"
-      , code = ""
+      , code = "VN"
       , unofficialNames = [ "Vrancea" ]
       }
     , { name = "Vaslui"
-      , code = ""
+      , code = "VS"
       , unofficialNames = [ "Vaslui" ]
       }
     ]
@@ -24033,123 +24033,123 @@ romaniaSubdivisions =
 serbiaSubdivisions : List Subdivision
 serbiaSubdivisions =
     [ { name = "Belgrade"
-      , code = ""
+      , code = "00"
       , unofficialNames = [ "Belgrade" ]
       }
     , { name = "Severna Backa"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Severna Backa" ]
       }
     , { name = "Srednji Banat"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Srednji Banat" ]
       }
     , { name = "Severni Banat"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Severni Banat" ]
       }
     , { name = "Južni Banat"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Južni Banat" ]
       }
     , { name = "Zapadna Backa"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Zapadna Backa" ]
       }
     , { name = "Južna Backa"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Južna Backa" ]
       }
     , { name = "Srem"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Srem" ]
       }
     , { name = "Macva"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Macva" ]
       }
     , { name = "Kolubara"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Kolubara" ]
       }
     , { name = "Podunavlje"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Podunavlje" ]
       }
     , { name = "Branicevo"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Branicevo" ]
       }
     , { name = "Šumadija"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Šumadija" ]
       }
     , { name = "Pomoravlje"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Pomoravlje" ]
       }
     , { name = "Bor"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Bor" ]
       }
     , { name = "Zajecar"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Zajecar" ]
       }
     , { name = "Zlatibor"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Zlatibor" ]
       }
     , { name = "Moravica"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Moravica" ]
       }
     , { name = "Raška"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Raška" ]
       }
     , { name = "Rasina"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Rasina" ]
       }
     , { name = "Nišava"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Nišava" ]
       }
     , { name = "Toplica"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Toplica" ]
       }
     , { name = "Pirot"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Pirot" ]
       }
     , { name = "Jablanica"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Jablanica" ]
       }
     , { name = "Pcinja"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Pcinja" ]
       }
     , { name = "Kosovo"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Kosovo" ]
       }
     , { name = "Pec´"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Pec´" ]
       }
     , { name = "Prizren"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Prizren" ]
       }
     , { name = "Kosovska Mitrovica"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Kosovska Mitrovica" ]
       }
     , { name = "Kosovo-Pomoravlje"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Kosovo-Pomoravlje" ]
       }
     ]
@@ -24159,335 +24159,335 @@ serbiaSubdivisions =
 russianFederationSubdivisions : List Subdivision
 russianFederationSubdivisions =
     [ { name = "Adygeya, Respublika"
-      , code = ""
+      , code = "AD"
       , unofficialNames = [ "Adygei Republic", "Adygeja" ]
       }
     , { name = "Altay, Respublika"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Altaj", "Altay", "Gorno-Altaj" ]
       }
     , { name = "Altayskiy kray"
-      , code = ""
+      , code = "ALT"
       , unofficialNames = [ "Altai Kray", "Altajskij Kray", "Altajskiy Kraj", "Altaj" ]
       }
     , { name = "Amurskaya oblast'"
-      , code = ""
+      , code = "AMU"
       , unofficialNames = [ "Amurskaja Oblast" ]
       }
     , { name = "Arkhangel'skaya oblast'"
-      , code = ""
+      , code = "ARK"
       , unofficialNames = [ "Arhangelskaja Oblast", "Arhangelsk" ]
       }
     , { name = "Astrakhanskaya oblast'"
-      , code = ""
+      , code = "AST"
       , unofficialNames = [ "Astrahanska Oblast", "Astrahan" ]
       }
     , { name = "Bashkortostan, Respublika"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Baškortostan" ]
       }
     , { name = "Belgorodskaya oblast'"
-      , code = ""
+      , code = "BEL"
       , unofficialNames = [ "Belgorodskaja Oblast" ]
       }
     , { name = "Bryanskaya oblast'"
-      , code = ""
+      , code = "BRY"
       , unofficialNames = [ "Brjanskaja Oblast", "Brjansk" ]
       }
     , { name = "Buryatiya, Respublika"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Buryat Republic", "Burjatija" ]
       }
     , { name = "Chechenskaya Respublika"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Chechen", "Chechenia", "Ichkeria", "Ičkeria", "Čečens", "Čečenskaja Respublika", "Čečenija" ]
       }
     , { name = "Chelyabinskaya oblast'"
-      , code = ""
+      , code = "CHE"
       , unofficialNames = [ "Cheljabinsk", "Čeljabinskaja Oblast", "Čeljabinsk" ]
       }
     , { name = "Chukotskiy avtonomnyy okrug"
-      , code = ""
+      , code = "CHU"
       , unofficialNames = [ "Chuckchi", "Čukotskij Avtonomnyj Okrug", "Čukči", "Čukotka" ]
       }
     , { name = "Chuvashskaya Respublika"
-      , code = ""
+      , code = "CU"
       , unofficialNames = [ "Chuvash Republic", "Chuvashskaya Respublika", "Čuvašskaja Respublika", "Čuvašija" ]
       }
     , { name = "Dagestan, Respublika"
-      , code = ""
+      , code = "DA"
       , unofficialNames = [ "Dagestan, Respublika" ]
       }
     , { name = "Ingushskaya Respublika [Respublika Ingushetiya]"
-      , code = ""
+      , code = "IN"
       , unofficialNames = [ "Ingushetija", "Ingušetija" ]
       }
     , { name = "Irkutskaya oblast'"
-      , code = ""
+      , code = "IRK"
       , unofficialNames = [ "Irkutskaja Oblast" ]
       }
     , { name = "Ivanovskaya oblast'"
-      , code = ""
+      , code = "IVA"
       , unofficialNames = [ "Ivanovskaja Oblast" ]
       }
     , { name = "Kamchatskaya oblast'"
-      , code = ""
+      , code = "KAM"
       , unofficialNames = [ "Kamchatskaya Oblast", "Kamčatskaja Oblast", "Kamčatka" ]
       }
     , { name = "Kabardino-Balkarskaya Respublika"
-      , code = ""
+      , code = "KB"
       , unofficialNames = [ "Kabardino-Balkarian Republic", "Kabardino-Balkarskaja Respublika", "Kabardino-Balkarija" ]
       }
     , { name = "Karachayevo-Cherkesskaya Respublika"
-      , code = ""
+      , code = "KC"
       , unofficialNames = [ "Karachay-Cherkessian", "Karačajevo-Čerkesskaja Respublika", "Karačaj-Čerkessija" ]
       }
     , { name = "Krasnodarskiy kray"
-      , code = ""
+      , code = "KDA"
       , unofficialNames = [ "Krasnodarskij Kraj" ]
       }
     , { name = "Kemerovskaya oblast'"
-      , code = ""
+      , code = "KEM"
       , unofficialNames = [ "Kemerovskaja Oblast" ]
       }
     , { name = "Kaliningradskaya oblast'"
-      , code = ""
+      , code = "KGD"
       , unofficialNames = [ "Kaliningradskaja Oblast" ]
       }
     , { name = "Kurganskaya oblast'"
-      , code = ""
+      , code = "KGN"
       , unofficialNames = [ "Kurganskaja Oblast" ]
       }
     , { name = "Khabarovskiy kray"
-      , code = ""
+      , code = "KHA"
       , unofficialNames = [ "Habarovskij Kray", "Habarovsk" ]
       }
     , { name = "Khanty-Mansiyskiy avtonomnyy okrug [Yugra]"
-      , code = ""
+      , code = "KHM"
       , unofficialNames = [ "Hanty-Mansijskij Avtonomnyj Okrug", "Hanty-Mansija" ]
       }
     , { name = "Kirovskaya oblast'"
-      , code = ""
+      , code = "KIR"
       , unofficialNames = [ "Kirovskaja Oblast" ]
       }
     , { name = "Khakasiya, Respublika"
-      , code = ""
+      , code = "KK"
       , unofficialNames = [ "Khakass Republic", "Hakasija" ]
       }
     , { name = "Kalmykiya, Respublika"
-      , code = ""
+      , code = "KL"
       , unofficialNames = [ "Halmg-Tangč", "Kalmyk Republic", "Khalmg-Tangch", "Kalmykija" ]
       }
     , { name = "Kaluzhskaya oblast'"
-      , code = ""
+      , code = "KLU"
       , unofficialNames = [ "Kaluzhskaya Oblast", "Kalužskaja Oblast" ]
       }
     , { name = "Komi, Respublika"
-      , code = ""
+      , code = "KO"
       , unofficialNames = [ "Komi, Respublika" ]
       }
     , { name = "Kostromskaya oblast'"
-      , code = ""
+      , code = "KOS"
       , unofficialNames = [ "Kostromskaja Oblast" ]
       }
     , { name = "Kareliya, Respublika"
-      , code = ""
+      , code = "KR"
       , unofficialNames = [ "Karelian Republic", "Karelija" ]
       }
     , { name = "Kurskaya oblast'"
-      , code = ""
+      , code = "KRS"
       , unofficialNames = [ "Kurskaja Oblast" ]
       }
     , { name = "Krasnoyarskiy kray"
-      , code = ""
+      , code = "KYA"
       , unofficialNames = [ "Krasnojarsk", "Krasnojarskij Kraj", "Krasnojarsk" ]
       }
     , { name = "Leningradskaya oblast'"
-      , code = ""
+      , code = "LEN"
       , unofficialNames = [ "Leningradskaja Oblast" ]
       }
     , { name = "Lipetskaya oblast'"
-      , code = ""
+      , code = "LIP"
       , unofficialNames = [ "Lipeckaja Oblast", "Lipeck" ]
       }
     , { name = "Magadanskaya oblast'"
-      , code = ""
+      , code = "MAG"
       , unofficialNames = [ "Magadanskaja Oblast" ]
       }
     , { name = "Mariy El, Respublika"
-      , code = ""
+      , code = "ME"
       , unofficialNames = [ "Mariy El", "Marij El" ]
       }
     , { name = "Mordoviya, Respublika"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Mordovian Republic", "Mordovija" ]
       }
     , { name = "Moskovskaya oblast'"
-      , code = ""
+      , code = "MOS"
       , unofficialNames = [ "Moskovskaja Oblast" ]
       }
     , { name = "Moskva"
-      , code = ""
+      , code = "MOW"
       , unofficialNames = [ "Moskva", "Moskau", "Moscou", "Moscú" ]
       }
     , { name = "Murmanskaya oblast'"
-      , code = ""
+      , code = "MUR"
       , unofficialNames = [ "Murmanskaja Oblast" ]
       }
     , { name = "Nenetskiy avtonomnyy okrug"
-      , code = ""
+      , code = "NEN"
       , unofficialNames = [ "Nenetskij Avtonomnyj Okrug" ]
       }
     , { name = "Novgorodskaya oblast'"
-      , code = ""
+      , code = "NGR"
       , unofficialNames = [ "Novgorodskaja Oblast" ]
       }
     , { name = "Nizhegorodskaya oblast'"
-      , code = ""
+      , code = "NIZ"
       , unofficialNames = [ "Gorki", "Gorkij", "Gorky", "Nizhegorodskaya Oblast", "Nižegorodskaja Oblast", "Nižnij Novgorod" ]
       }
     , { name = "Novosibirskaya oblast'"
-      , code = ""
+      , code = "NVS"
       , unofficialNames = [ "Novosibirskaja Oblast" ]
       }
     , { name = "Omskaya oblast'"
-      , code = ""
+      , code = "OMS"
       , unofficialNames = [ "Omskaja Oblast" ]
       }
     , { name = "Orenburgskaya oblast'"
-      , code = ""
+      , code = "ORE"
       , unofficialNames = [ "Orenburgskaja Oblast" ]
       }
     , { name = "Orlovskaya oblast'"
-      , code = ""
+      , code = "ORL"
       , unofficialNames = [ "Orlovskaja Oblast", "Orjol" ]
       }
     , { name = "Perm"
-      , code = ""
+      , code = "PER"
       , unofficialNames = [ "Permskaja Oblast" ]
       }
     , { name = "Penzenskaya oblast'"
-      , code = ""
+      , code = "PNZ"
       , unofficialNames = [ "Penzenskaja Oblast" ]
       }
     , { name = "Primorskiy kray"
-      , code = ""
+      , code = "PRI"
       , unofficialNames = [ "Primorskij", "Primorskij Kraj", "Primorje" ]
       }
     , { name = "Pskovskaya oblast'"
-      , code = ""
+      , code = "PSK"
       , unofficialNames = [ "Pihkva", "Pleskau", "Pskovskaja Oblast" ]
       }
     , { name = "Rostovskaya oblast'"
-      , code = ""
+      , code = "ROS"
       , unofficialNames = [ "Rostovskaja Oblast" ]
       }
     , { name = "Ryazanskaya oblast'"
-      , code = ""
+      , code = "RYA"
       , unofficialNames = [ "Rjazanskaja Oblast", "Rjazan" ]
       }
     , { name = "Sakha, Respublika [Yakutiya]"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Jakutija", "Sakha", "Yakutsk-Sakha", "Saha" ]
       }
     , { name = "Sakhalinskaya oblast'"
-      , code = ""
+      , code = "SAK"
       , unofficialNames = [ "Sahalinskaya Oblast", "Sahalin" ]
       }
     , { name = "Samarskaya oblast'"
-      , code = ""
+      , code = "SAM"
       , unofficialNames = [ "Samarskaja Oblast" ]
       }
     , { name = "Saratovskaya oblast'"
-      , code = ""
+      , code = "SAR"
       , unofficialNames = [ "Saratovskaja Oblast" ]
       }
     , { name = "Severnaya Osetiya, Respublika [Alaniya] [Respublika Severnaya Osetiya-Alaniya]"
-      , code = ""
+      , code = "SE"
       , unofficialNames = [ "Alania", "North Ossetian Republic", "Osetija", "Alanija" ]
       }
     , { name = "Smolenskaya oblast'"
-      , code = ""
+      , code = "SMO"
       , unofficialNames = [ "Smolenskaja Oblast" ]
       }
     , { name = "Sankt-Peterburg"
-      , code = ""
+      , code = "SPE"
       , unofficialNames = [ "San Pietroburgo", "Sankt-Peterburg", "Sankt Petersburg", "Saint-Pétersbourg", "San Petersburgo" ]
       }
     , { name = "Stavropol'skiy kray"
-      , code = ""
+      , code = "STA"
       , unofficialNames = [ "Stavropolskij Kraj" ]
       }
     , { name = "Sverdlovskaya oblast'"
-      , code = ""
+      , code = "SVE"
       , unofficialNames = [ "Sverdlovskaja Oblast" ]
       }
     , { name = "Tatarstan, Respublika"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tatarstan, Respublika" ]
       }
     , { name = "Tambovskaya oblast'"
-      , code = ""
+      , code = "TAM"
       , unofficialNames = [ "Tambovskaja Oblast" ]
       }
     , { name = "Tomskaya oblast'"
-      , code = ""
+      , code = "TOM"
       , unofficialNames = [ "Tomskaja Oblast" ]
       }
     , { name = "Tul'skaya oblast'"
-      , code = ""
+      , code = "TUL"
       , unofficialNames = [ "Tulskaja Oblast" ]
       }
     , { name = "Tverskaya oblast'"
-      , code = ""
+      , code = "TVE"
       , unofficialNames = [ "Tverskaja Oblast" ]
       }
     , { name = "Tyva, Respublika [Tuva]"
-      , code = ""
+      , code = "TY"
       , unofficialNames = [ "Tuva" ]
       }
     , { name = "Tyumenskaya oblast'"
-      , code = ""
+      , code = "TYU"
       , unofficialNames = [ "Tjumenskaja Oblast", "Tumen", "Tjumen" ]
       }
     , { name = "Udmurtskaya Respublika"
-      , code = ""
+      , code = "UD"
       , unofficialNames = [ "Udmurt Republic", "Udmurtskaya Respublika", "Udmurtija" ]
       }
     , { name = "Ul'yanovskaya oblast'"
-      , code = ""
+      , code = "ULY"
       , unofficialNames = [ "Uljanovskaja Oblast", "Uljanovsk" ]
       }
     , { name = "Volgogradskaya oblast'"
-      , code = ""
+      , code = "VGG"
       , unofficialNames = [ "Volgogradskaja Oblast" ]
       }
     , { name = "Vladimirskaya oblast'"
-      , code = ""
+      , code = "VLA"
       , unofficialNames = [ "Vladimirskaja Oblast" ]
       }
     , { name = "Vologodskaya oblast'"
-      , code = ""
+      , code = "VLG"
       , unofficialNames = [ "Vologodskaja Oblast" ]
       }
     , { name = "Voronezhskaya oblast'"
-      , code = ""
+      , code = "VOR"
       , unofficialNames = [ "Voronežskaja Oblast", "Voronež" ]
       }
     , { name = "Yamalo-Nenetskiy avtonomnyy okrug"
-      , code = ""
+      , code = "YAN"
       , unofficialNames = [ "Jamalija", "Jamalo-Nenetskij Avtonomnyj Okrug", "Jamalo-Nenets" ]
       }
     , { name = "Yaroslavskaya oblast'"
-      , code = ""
+      , code = "YAR"
       , unofficialNames = [ "Jaroslavskaja Oblast", "Jaroslavl" ]
       }
     , { name = "Yevreyskaya avtonomnaya oblast'"
-      , code = ""
+      , code = "YEV"
       , unofficialNames = [ "Jevrejskaja Oblast", "Jevrejskaja Respublika", "Jewish Autonomous Oblast", "Yevreyskaya Oblast", "Jevrej" ]
       }
     , { name = "Zabaykal'skij kray"
-      , code = ""
+      , code = "ZAB"
       , unofficialNames = [ "Zabajkal'skij kraj", "Zabajkal'skij", "Zabaykal'skij kray" ]
       }
     ]
@@ -24497,23 +24497,23 @@ russianFederationSubdivisions =
 rwandaSubdivisions : List Subdivision
 rwandaSubdivisions =
     [ { name = "Ville de Kigali"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Ville de Kigali" ]
       }
     , { name = "Est"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Est" ]
       }
     , { name = "Nord"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Nord" ]
       }
     , { name = "Ouest"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Ouest" ]
       }
     , { name = "Sud"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Sud" ]
       }
     ]
@@ -24523,55 +24523,55 @@ rwandaSubdivisions =
 saudiArabiaSubdivisions : List Subdivision
 saudiArabiaSubdivisions =
     [ { name = "Ar Riyāḑ"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "ar-Riyad", "ar-Riyād̨", "Riad", "Riyadh", "Riad" ]
       }
     , { name = "Makkah al Mukarramah"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "La Meca", "Mecca" ]
       }
     , { name = "Al Madinah"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Medina", "Médine", "al-Madinah" ]
       }
     , { name = "Ash Sharqiyah"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Eastern", "ash-Sharqiyah" ]
       }
     , { name = "Al Qasim"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Qaseem" ]
       }
     , { name = "Ḩā'il"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Hail" ]
       }
     , { name = "Tabūk"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Tabook" ]
       }
     , { name = "Al Ḩudūd ash Shamālīyah"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Northern", "al-Hudud ash-Shamaliyah" ]
       }
     , { name = "Jāzān"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Jizan" ]
       }
     , { name = "Najrān"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Najran" ]
       }
     , { name = "Al Bāḩah"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Baha" ]
       }
     , { name = "Al Jawf"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Al-Jouf" ]
       }
     , { name = "'Asīr"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Aseer" ]
       }
     ]
@@ -24581,43 +24581,43 @@ saudiArabiaSubdivisions =
 solomonIslandsSubdivisions : List Subdivision
 solomonIslandsSubdivisions =
     [ { name = "Central"
-      , code = ""
+      , code = "CE"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Choiseul"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Lauru" ]
       }
     , { name = "Capital Territory (Honiara)"
-      , code = ""
+      , code = "CT"
       , unofficialNames = [ "Capital Territory (Honiara)" ]
       }
     , { name = "Guadalcanal"
-      , code = ""
+      , code = "GU"
       , unofficialNames = [ "Guadalcanal" ]
       }
     , { name = "Isabel"
-      , code = ""
+      , code = "IS"
       , unofficialNames = [ "Isabel" ]
       }
     , { name = "Makira"
-      , code = ""
+      , code = "MK"
       , unofficialNames = [ "San Cristóbal" ]
       }
     , { name = "Malaita"
-      , code = ""
+      , code = "ML"
       , unofficialNames = [ "Mala" ]
       }
     , { name = "Rennell and Bellona"
-      , code = ""
+      , code = "RB"
       , unofficialNames = [ "Rennell and Bellona" ]
       }
     , { name = "Temotu"
-      , code = ""
+      , code = "TE"
       , unofficialNames = [ "Eastern Islands" ]
       }
     , { name = "Western"
-      , code = ""
+      , code = "WE"
       , unofficialNames = [ "Western" ]
       }
     ]
@@ -24627,95 +24627,95 @@ solomonIslandsSubdivisions =
 seychellesSubdivisions : List Subdivision
 seychellesSubdivisions =
     [ { name = "Anse aux Pins"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Anse aux Pins" ]
       }
     , { name = "Anse Boileau"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Anse Boileau" ]
       }
     , { name = "Anse Étoile"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Anse Étoile" ]
       }
     , { name = "Anse Louis"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Anse Louis" ]
       }
     , { name = "Anse Royale"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Anse Royale" ]
       }
     , { name = "Baie Lazare"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Baie Lazare" ]
       }
     , { name = "Baie Sainte Anne"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Baie Sainte Anne" ]
       }
     , { name = "Beau Vallon"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Beau Vallon" ]
       }
     , { name = "Bel Air"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Bel Air" ]
       }
     , { name = "Bel Ombre"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Bel Ombre" ]
       }
     , { name = "Cascade"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Cascade" ]
       }
     , { name = "Glacis"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Glacis" ]
       }
     , { name = "Grand' Anse (Mahé)"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Grand' Anse (Mahé)" ]
       }
     , { name = "Grand' Anse (Praslin)"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Grand' Anse (Praslin)" ]
       }
     , { name = "La Digue"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "La Digue" ]
       }
     , { name = "La Rivière Anglaise"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "La Rivière Anglaise" ]
       }
     , { name = "Mont Buxton"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Mont Buxton" ]
       }
     , { name = "Mont Fleuri"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Mont Fleuri" ]
       }
     , { name = "Plaisance"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Plaisance" ]
       }
     , { name = "Pointe La Rue"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Pointe La Rue" ]
       }
     , { name = "Port Glaud"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Port Glaud" ]
       }
     , { name = "Saint Louis"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Saint Louis" ]
       }
     , { name = "Takamaka"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Takamaka" ]
       }
     ]
@@ -24725,75 +24725,75 @@ seychellesSubdivisions =
 sudanSubdivisions : List Subdivision
 sudanSubdivisions =
     [ { name = "Al Baḩr al Aḩmar"
-      , code = ""
+      , code = "RS"
       , unofficialNames = [ "" ]
       }
     , { name = "Al Jazīrah"
-      , code = ""
+      , code = "GZ"
       , unofficialNames = [ "" ]
       }
     , { name = "Al Kharţūm"
-      , code = ""
+      , code = "KH"
       , unofficialNames = [ "" ]
       }
     , { name = "Al Qaḑārif"
-      , code = ""
+      , code = "GD"
       , unofficialNames = [ "" ]
       }
     , { name = "Nahr an Nīl"
-      , code = ""
+      , code = "NR"
       , unofficialNames = [ "" ]
       }
     , { name = "An Nīl al Abyaḑ"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "" ]
       }
     , { name = "An Nīl al Azraq"
-      , code = ""
+      , code = "NB"
       , unofficialNames = [ "" ]
       }
     , { name = "Ash Shamālīyah"
-      , code = ""
+      , code = "NO"
       , unofficialNames = [ "" ]
       }
     , { name = "Gharb Dārfūr"
-      , code = ""
+      , code = "DW"
       , unofficialNames = [ "" ]
       }
     , { name = "Gharb Kurdufān"
-      , code = ""
+      , code = "GK"
       , unofficialNames = [ "" ]
       }
     , { name = "Janūb Dārfūr"
-      , code = ""
+      , code = "DS"
       , unofficialNames = [ "" ]
       }
     , { name = "Janūb Kurdufān"
-      , code = ""
+      , code = "KS"
       , unofficialNames = [ "" ]
       }
     , { name = "Kassalā"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "" ]
       }
     , { name = "Shamāl Dārfūr"
-      , code = ""
+      , code = "DN"
       , unofficialNames = [ "" ]
       }
     , { name = "Shiamāl Kurdufān"
-      , code = ""
+      , code = "KN"
       , unofficialNames = [ "" ]
       }
     , { name = "Sharq Dārfūr"
-      , code = ""
+      , code = "DE"
       , unofficialNames = [ "" ]
       }
     , { name = "Sinnār"
-      , code = ""
+      , code = "SI"
       , unofficialNames = [ "" ]
       }
     , { name = "Wasaţ Dārfūr Zālinjay"
-      , code = ""
+      , code = "DC"
       , unofficialNames = [ "" ]
       }
     ]
@@ -24803,87 +24803,87 @@ sudanSubdivisions =
 swedenSubdivisions : List Subdivision
 swedenSubdivisions =
     [ { name = "Stockholms län"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Stockholms län" ]
       }
     , { name = "Västerbottens län"
-      , code = ""
+      , code = "AC"
       , unofficialNames = [ "Västerbottens län" ]
       }
     , { name = "Norrbottens län"
-      , code = ""
+      , code = "BD"
       , unofficialNames = [ "Norrbottens län" ]
       }
     , { name = "Uppsala län"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Uppsala län" ]
       }
     , { name = "Södermanlands län"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Södermanlands län" ]
       }
     , { name = "Östergötlands län"
-      , code = ""
+      , code = "E"
       , unofficialNames = [ "Östergötlands län" ]
       }
     , { name = "Jönköpings län"
-      , code = ""
+      , code = "F"
       , unofficialNames = [ "Jönköpings län" ]
       }
     , { name = "Kronobergs län"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Kronobergs län" ]
       }
     , { name = "Kalmar län"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Calmar" ]
       }
     , { name = "Gotlands län"
-      , code = ""
+      , code = "I"
       , unofficialNames = [ "Gotlands län" ]
       }
     , { name = "Blekinge län"
-      , code = ""
+      , code = "K"
       , unofficialNames = [ "Blekinge län" ]
       }
     , { name = "Skåne län"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Scania" ]
       }
     , { name = "Hallands län"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Hallands län" ]
       }
     , { name = "Västra Götalands län"
-      , code = ""
+      , code = "O"
       , unofficialNames = [ "Västra Götalands län" ]
       }
     , { name = "Värmlands län"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Värmlands län" ]
       }
     , { name = "Örebro län"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Örebro län" ]
       }
     , { name = "Västmanlands län"
-      , code = ""
+      , code = "U"
       , unofficialNames = [ "Västmanlands län" ]
       }
     , { name = "Dalarnas län"
-      , code = ""
+      , code = "W"
       , unofficialNames = [ "Dalarnas", "Dalecarlia", "Kopparberg" ]
       }
     , { name = "Gävleborgs län"
-      , code = ""
+      , code = "X"
       , unofficialNames = [ "Gävleborgs län" ]
       }
     , { name = "Västernorrlands län"
-      , code = ""
+      , code = "Y"
       , unofficialNames = [ "Västernorrlands län" ]
       }
     , { name = "Jämtlands län"
-      , code = ""
+      , code = "Z"
       , unofficialNames = [ "Jämtlands län" ]
       }
     ]
@@ -24893,23 +24893,23 @@ swedenSubdivisions =
 singaporeSubdivisions : List Subdivision
 singaporeSubdivisions =
     [ { name = "Central Singapore"
-      , code = ""
+      , code = "SG-01"
       , unofficialNames = [ "Central Singapore" ]
       }
     , { name = "North East"
-      , code = ""
+      , code = "SG-02"
       , unofficialNames = [ "North East" ]
       }
     , { name = "North West"
-      , code = ""
+      , code = "SG-03"
       , unofficialNames = [ "North West" ]
       }
     , { name = "South East"
-      , code = ""
+      , code = "SG-04"
       , unofficialNames = [ "South East" ]
       }
     , { name = "South West"
-      , code = ""
+      , code = "SG-05"
       , unofficialNames = [ "South West" ]
       }
     ]
@@ -24919,15 +24919,15 @@ singaporeSubdivisions =
 saintHelenaAscensionAndTristanDaCunhaSubdivisions : List Subdivision
 saintHelenaAscensionAndTristanDaCunhaSubdivisions =
     [ { name = "Ascension"
-      , code = ""
+      , code = "AC"
       , unofficialNames = [ "Ascension" ]
       }
     , { name = "Saint Helena"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Saint Helena" ]
       }
     , { name = "Tristan da Cunha"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tristan da Cunha" ]
       }
     ]
@@ -24937,775 +24937,775 @@ saintHelenaAscensionAndTristanDaCunhaSubdivisions =
 sloveniaSubdivisions : List Subdivision
 sloveniaSubdivisions =
     [ { name = "Ajdovšcina"
-      , code = ""
+      , code = "001"
       , unofficialNames = [ "Ajdovšcina" ]
       }
     , { name = "Beltinci"
-      , code = ""
+      , code = "002"
       , unofficialNames = [ "Beltinci" ]
       }
     , { name = "Bled"
-      , code = ""
+      , code = "003"
       , unofficialNames = [ "Bled" ]
       }
     , { name = "Bohinj"
-      , code = ""
+      , code = "004"
       , unofficialNames = [ "Bohinj" ]
       }
     , { name = "Borovnica"
-      , code = ""
+      , code = "005"
       , unofficialNames = [ "Borovnica" ]
       }
     , { name = "Bovec"
-      , code = ""
+      , code = "006"
       , unofficialNames = [ "Bovec" ]
       }
     , { name = "Brda"
-      , code = ""
+      , code = "007"
       , unofficialNames = [ "Brda" ]
       }
     , { name = "Brezovica"
-      , code = ""
+      , code = "008"
       , unofficialNames = [ "Brezovica" ]
       }
     , { name = "Brežice"
-      , code = ""
+      , code = "009"
       , unofficialNames = [ "Brežice" ]
       }
     , { name = "Tišina"
-      , code = ""
+      , code = "010"
       , unofficialNames = [ "Tišina" ]
       }
     , { name = "Celje"
-      , code = ""
+      , code = "011"
       , unofficialNames = [ "Celje" ]
       }
     , { name = "Cerklje na Gorenjskem"
-      , code = ""
+      , code = "012"
       , unofficialNames = [ "Cerklje na Gorenjskem" ]
       }
     , { name = "Cerknica"
-      , code = ""
+      , code = "013"
       , unofficialNames = [ "Cerknica" ]
       }
     , { name = "Cerkno"
-      , code = ""
+      , code = "014"
       , unofficialNames = [ "Cerkno" ]
       }
     , { name = "Crenšovci"
-      , code = ""
+      , code = "015"
       , unofficialNames = [ "Crenšovci" ]
       }
     , { name = "Crna na Koroškem"
-      , code = ""
+      , code = "016"
       , unofficialNames = [ "Crna na Koroškem" ]
       }
     , { name = "Crnomelj"
-      , code = ""
+      , code = "017"
       , unofficialNames = [ "Crnomelj" ]
       }
     , { name = "Destrnik"
-      , code = ""
+      , code = "018"
       , unofficialNames = [ "Destrnik" ]
       }
     , { name = "Divaca"
-      , code = ""
+      , code = "019"
       , unofficialNames = [ "Divaca" ]
       }
     , { name = "Dobrepolje"
-      , code = ""
+      , code = "020"
       , unofficialNames = [ "Dobrepolje" ]
       }
     , { name = "Dobrova-Polhov Gradec"
-      , code = ""
+      , code = "021"
       , unofficialNames = [ "Dobrova-Polhov Gradec" ]
       }
     , { name = "Dol pri Ljubljani"
-      , code = ""
+      , code = "022"
       , unofficialNames = [ "Dol pri Ljubljani" ]
       }
     , { name = "Domžale"
-      , code = ""
+      , code = "023"
       , unofficialNames = [ "Domžale" ]
       }
     , { name = "Dornava"
-      , code = ""
+      , code = "024"
       , unofficialNames = [ "Dornava" ]
       }
     , { name = "Dravograd"
-      , code = ""
+      , code = "025"
       , unofficialNames = [ "Dravograd" ]
       }
     , { name = "Duplek"
-      , code = ""
+      , code = "026"
       , unofficialNames = [ "Duplek" ]
       }
     , { name = "Gorenja vas-Poljane"
-      , code = ""
+      , code = "027"
       , unofficialNames = [ "Gorenja vas-Poljane" ]
       }
     , { name = "Gorišnica"
-      , code = ""
+      , code = "028"
       , unofficialNames = [ "Gorišnica" ]
       }
     , { name = "Gornja Radgona"
-      , code = ""
+      , code = "029"
       , unofficialNames = [ "Gornja Radgona" ]
       }
     , { name = "Gornji Grad"
-      , code = ""
+      , code = "030"
       , unofficialNames = [ "Gornji Grad" ]
       }
     , { name = "Gornji Petrovci"
-      , code = ""
+      , code = "031"
       , unofficialNames = [ "Gornji Petrovci" ]
       }
     , { name = "Grosuplje"
-      , code = ""
+      , code = "032"
       , unofficialNames = [ "Grosuplje" ]
       }
     , { name = "Šalovci"
-      , code = ""
+      , code = "033"
       , unofficialNames = [ "Šalovci" ]
       }
     , { name = "Hrastnik"
-      , code = ""
+      , code = "034"
       , unofficialNames = [ "Hrastnik" ]
       }
     , { name = "Hrpelje-Kozina"
-      , code = ""
+      , code = "035"
       , unofficialNames = [ "Hrpelje-Kozina" ]
       }
     , { name = "Idrija"
-      , code = ""
+      , code = "036"
       , unofficialNames = [ "Idrija" ]
       }
     , { name = "Ig"
-      , code = ""
+      , code = "037"
       , unofficialNames = [ "Ig" ]
       }
     , { name = "Ilirska Bistrica"
-      , code = ""
+      , code = "038"
       , unofficialNames = [ "Ilirska Bistrica" ]
       }
     , { name = "Ivancna Gorica"
-      , code = ""
+      , code = "039"
       , unofficialNames = [ "Ivancna Gorica" ]
       }
     , { name = "Izola/Isola"
-      , code = ""
+      , code = "040"
       , unofficialNames = [ "Izola/Isola" ]
       }
     , { name = "Jesenice"
-      , code = ""
+      , code = "041"
       , unofficialNames = [ "Jesenice" ]
       }
     , { name = "Juršinci"
-      , code = ""
+      , code = "042"
       , unofficialNames = [ "Juršinci" ]
       }
     , { name = "Kamnik"
-      , code = ""
+      , code = "043"
       , unofficialNames = [ "Kamnik" ]
       }
     , { name = "Kanal"
-      , code = ""
+      , code = "044"
       , unofficialNames = [ "Kanal" ]
       }
     , { name = "Kidricevo"
-      , code = ""
+      , code = "045"
       , unofficialNames = [ "Kidricevo" ]
       }
     , { name = "Kobarid"
-      , code = ""
+      , code = "046"
       , unofficialNames = [ "Kobarid" ]
       }
     , { name = "Kobilje"
-      , code = ""
+      , code = "047"
       , unofficialNames = [ "Kobilje" ]
       }
     , { name = "Kocevje"
-      , code = ""
+      , code = "048"
       , unofficialNames = [ "Kocevje" ]
       }
     , { name = "Komen"
-      , code = ""
+      , code = "049"
       , unofficialNames = [ "Komen" ]
       }
     , { name = "Koper/Capodistria"
-      , code = ""
+      , code = "050"
       , unofficialNames = [ "Koper/Capodistria" ]
       }
     , { name = "Kozje"
-      , code = ""
+      , code = "051"
       , unofficialNames = [ "Kozje" ]
       }
     , { name = "Kranj"
-      , code = ""
+      , code = "052"
       , unofficialNames = [ "Kranj" ]
       }
     , { name = "Kranjska Gora"
-      , code = ""
+      , code = "053"
       , unofficialNames = [ "Kranjska Gora" ]
       }
     , { name = "Krško"
-      , code = ""
+      , code = "054"
       , unofficialNames = [ "Krško" ]
       }
     , { name = "Kungota"
-      , code = ""
+      , code = "055"
       , unofficialNames = [ "Kungota" ]
       }
     , { name = "Kuzma"
-      , code = ""
+      , code = "056"
       , unofficialNames = [ "Kuzma" ]
       }
     , { name = "Laško"
-      , code = ""
+      , code = "057"
       , unofficialNames = [ "Laško" ]
       }
     , { name = "Lenart"
-      , code = ""
+      , code = "058"
       , unofficialNames = [ "Lenart" ]
       }
     , { name = "Lendava/Lendva"
-      , code = ""
+      , code = "059"
       , unofficialNames = [ "Lendava/Lendva" ]
       }
     , { name = "Litija"
-      , code = ""
+      , code = "060"
       , unofficialNames = [ "Litija" ]
       }
     , { name = "Ljubljana"
-      , code = ""
+      , code = "061"
       , unofficialNames = [ "Ljubljana" ]
       }
     , { name = "Ljubno"
-      , code = ""
+      , code = "062"
       , unofficialNames = [ "Ljubno" ]
       }
     , { name = "Ljutomer"
-      , code = ""
+      , code = "063"
       , unofficialNames = [ "Ljutomer" ]
       }
     , { name = "Logatec"
-      , code = ""
+      , code = "064"
       , unofficialNames = [ "Logatec" ]
       }
     , { name = "Loška dolina"
-      , code = ""
+      , code = "065"
       , unofficialNames = [ "Loška dolina" ]
       }
     , { name = "Loški Potok"
-      , code = ""
+      , code = "066"
       , unofficialNames = [ "Loški Potok" ]
       }
     , { name = "Luce"
-      , code = ""
+      , code = "067"
       , unofficialNames = [ "Luce" ]
       }
     , { name = "Lukovica"
-      , code = ""
+      , code = "068"
       , unofficialNames = [ "Lukovica" ]
       }
     , { name = "Majšperk"
-      , code = ""
+      , code = "069"
       , unofficialNames = [ "Majšperk" ]
       }
     , { name = "Maribor"
-      , code = ""
+      , code = "070"
       , unofficialNames = [ "Maribor" ]
       }
     , { name = "Medvode"
-      , code = ""
+      , code = "071"
       , unofficialNames = [ "Medvode" ]
       }
     , { name = "Mengeš"
-      , code = ""
+      , code = "072"
       , unofficialNames = [ "Mengeš" ]
       }
     , { name = "Metlika"
-      , code = ""
+      , code = "073"
       , unofficialNames = [ "Metlika" ]
       }
     , { name = "Mežica"
-      , code = ""
+      , code = "074"
       , unofficialNames = [ "Mežica" ]
       }
     , { name = "Miren-Kostanjevica"
-      , code = ""
+      , code = "075"
       , unofficialNames = [ "Miren-Kostanjevica" ]
       }
     , { name = "Mislinja"
-      , code = ""
+      , code = "076"
       , unofficialNames = [ "Mislinja" ]
       }
     , { name = "Moravce"
-      , code = ""
+      , code = "077"
       , unofficialNames = [ "Moravce" ]
       }
     , { name = "Moravske Toplice"
-      , code = ""
+      , code = "078"
       , unofficialNames = [ "Moravske Toplice" ]
       }
     , { name = "Mozirje"
-      , code = ""
+      , code = "079"
       , unofficialNames = [ "Mozirje" ]
       }
     , { name = "Murska Sobota"
-      , code = ""
+      , code = "080"
       , unofficialNames = [ "Murska Sobota" ]
       }
     , { name = "Muta"
-      , code = ""
+      , code = "081"
       , unofficialNames = [ "Muta" ]
       }
     , { name = "Naklo"
-      , code = ""
+      , code = "082"
       , unofficialNames = [ "Naklo" ]
       }
     , { name = "Nazarje"
-      , code = ""
+      , code = "083"
       , unofficialNames = [ "Nazarje" ]
       }
     , { name = "Nova Gorica"
-      , code = ""
+      , code = "084"
       , unofficialNames = [ "Nova Gorica" ]
       }
     , { name = "Novo mesto"
-      , code = ""
+      , code = "085"
       , unofficialNames = [ "Novo mesto" ]
       }
     , { name = "Odranci"
-      , code = ""
+      , code = "086"
       , unofficialNames = [ "Odranci" ]
       }
     , { name = "Ormož"
-      , code = ""
+      , code = "087"
       , unofficialNames = [ "Ormož" ]
       }
     , { name = "Osilnica"
-      , code = ""
+      , code = "088"
       , unofficialNames = [ "Osilnica" ]
       }
     , { name = "Pesnica"
-      , code = ""
+      , code = "089"
       , unofficialNames = [ "Pesnica" ]
       }
     , { name = "Piran/Pirano"
-      , code = ""
+      , code = "090"
       , unofficialNames = [ "Piran/Pirano" ]
       }
     , { name = "Pivka"
-      , code = ""
+      , code = "091"
       , unofficialNames = [ "Pivka" ]
       }
     , { name = "Podcetrtek"
-      , code = ""
+      , code = "092"
       , unofficialNames = [ "Podcetrtek" ]
       }
     , { name = "Podvelka"
-      , code = ""
+      , code = "093"
       , unofficialNames = [ "Podvelka" ]
       }
     , { name = "Postojna"
-      , code = ""
+      , code = "094"
       , unofficialNames = [ "Postojna" ]
       }
     , { name = "Preddvor"
-      , code = ""
+      , code = "095"
       , unofficialNames = [ "Preddvor" ]
       }
     , { name = "Ptuj"
-      , code = ""
+      , code = "096"
       , unofficialNames = [ "Ptuj" ]
       }
     , { name = "Puconci"
-      , code = ""
+      , code = "097"
       , unofficialNames = [ "Puconci" ]
       }
     , { name = "Race-Fram"
-      , code = ""
+      , code = "098"
       , unofficialNames = [ "Race-Fram" ]
       }
     , { name = "Radece"
-      , code = ""
+      , code = "099"
       , unofficialNames = [ "Radece" ]
       }
     , { name = "Radenci"
-      , code = ""
+      , code = "100"
       , unofficialNames = [ "Radenci" ]
       }
     , { name = "Radlje ob Dravi"
-      , code = ""
+      , code = "101"
       , unofficialNames = [ "Radlje ob Dravi" ]
       }
     , { name = "Radovljica"
-      , code = ""
+      , code = "102"
       , unofficialNames = [ "Radovljica" ]
       }
     , { name = "Ravne na Koroškem"
-      , code = ""
+      , code = "103"
       , unofficialNames = [ "Ravne na Koroškem" ]
       }
     , { name = "Ribnica"
-      , code = ""
+      , code = "104"
       , unofficialNames = [ "Ribnica" ]
       }
     , { name = "Rogašovci"
-      , code = ""
+      , code = "105"
       , unofficialNames = [ "Rogašovci" ]
       }
     , { name = "Rogaška Slatina"
-      , code = ""
+      , code = "106"
       , unofficialNames = [ "Rogaška Slatina" ]
       }
     , { name = "Rogatec"
-      , code = ""
+      , code = "107"
       , unofficialNames = [ "Rogatec" ]
       }
     , { name = "Ruše"
-      , code = ""
+      , code = "108"
       , unofficialNames = [ "Ruše" ]
       }
     , { name = "Semic"
-      , code = ""
+      , code = "109"
       , unofficialNames = [ "Semic" ]
       }
     , { name = "Sevnica"
-      , code = ""
+      , code = "110"
       , unofficialNames = [ "Sevnica" ]
       }
     , { name = "Sežana"
-      , code = ""
+      , code = "111"
       , unofficialNames = [ "Sežana" ]
       }
     , { name = "Slovenj Gradec"
-      , code = ""
+      , code = "112"
       , unofficialNames = [ "Slovenj Gradec" ]
       }
     , { name = "Slovenska Bistrica"
-      , code = ""
+      , code = "113"
       , unofficialNames = [ "Slovenska Bistrica" ]
       }
     , { name = "Slovenske Konjice"
-      , code = ""
+      , code = "114"
       , unofficialNames = [ "Slovenske Konjice" ]
       }
     , { name = "Starše"
-      , code = ""
+      , code = "115"
       , unofficialNames = [ "Starše" ]
       }
     , { name = "Sveti Jurij"
-      , code = ""
+      , code = "116"
       , unofficialNames = [ "Sveti Jurij" ]
       }
     , { name = "Šencur"
-      , code = ""
+      , code = "117"
       , unofficialNames = [ "Šencur" ]
       }
     , { name = "Šentilj"
-      , code = ""
+      , code = "118"
       , unofficialNames = [ "Šentilj" ]
       }
     , { name = "Šentjernej"
-      , code = ""
+      , code = "119"
       , unofficialNames = [ "Šentjernej" ]
       }
     , { name = "Šentjur pri Celju"
-      , code = ""
+      , code = "120"
       , unofficialNames = [ "Šentjur pri Celju" ]
       }
     , { name = "Škocjan"
-      , code = ""
+      , code = "121"
       , unofficialNames = [ "Škocjan" ]
       }
     , { name = "Škofja Loka"
-      , code = ""
+      , code = "122"
       , unofficialNames = [ "Škofja Loka" ]
       }
     , { name = "Škofljica"
-      , code = ""
+      , code = "123"
       , unofficialNames = [ "Škofljica" ]
       }
     , { name = "Šmarje pri Jelšah"
-      , code = ""
+      , code = "124"
       , unofficialNames = [ "Šmarje pri Jelšah" ]
       }
     , { name = "Šmartno ob Paki"
-      , code = ""
+      , code = "125"
       , unofficialNames = [ "Šmartno ob Paki" ]
       }
     , { name = "Šoštanj"
-      , code = ""
+      , code = "126"
       , unofficialNames = [ "Šoštanj" ]
       }
     , { name = "Štore"
-      , code = ""
+      , code = "127"
       , unofficialNames = [ "Štore" ]
       }
     , { name = "Tolmin"
-      , code = ""
+      , code = "128"
       , unofficialNames = [ "Tolmin" ]
       }
     , { name = "Trbovlje"
-      , code = ""
+      , code = "129"
       , unofficialNames = [ "Trbovlje" ]
       }
     , { name = "Trebnje"
-      , code = ""
+      , code = "130"
       , unofficialNames = [ "Trebnje" ]
       }
     , { name = "Tržic"
-      , code = ""
+      , code = "131"
       , unofficialNames = [ "Tržic" ]
       }
     , { name = "Turnišce"
-      , code = ""
+      , code = "132"
       , unofficialNames = [ "Turnišce" ]
       }
     , { name = "Velenje"
-      , code = ""
+      , code = "133"
       , unofficialNames = [ "Velenje" ]
       }
     , { name = "Velike Lašce"
-      , code = ""
+      , code = "134"
       , unofficialNames = [ "Velike Lašce" ]
       }
     , { name = "Videm"
-      , code = ""
+      , code = "135"
       , unofficialNames = [ "Videm" ]
       }
     , { name = "Vipava"
-      , code = ""
+      , code = "136"
       , unofficialNames = [ "Vipava" ]
       }
     , { name = "Vitanje"
-      , code = ""
+      , code = "137"
       , unofficialNames = [ "Vitanje" ]
       }
     , { name = "Vodice"
-      , code = ""
+      , code = "138"
       , unofficialNames = [ "Vodice" ]
       }
     , { name = "Vojnik"
-      , code = ""
+      , code = "139"
       , unofficialNames = [ "Vojnik" ]
       }
     , { name = "Vrhnika"
-      , code = ""
+      , code = "140"
       , unofficialNames = [ "Vrhnika" ]
       }
     , { name = "Vuzenica"
-      , code = ""
+      , code = "141"
       , unofficialNames = [ "Vuzenica" ]
       }
     , { name = "Zagorje ob Savi"
-      , code = ""
+      , code = "142"
       , unofficialNames = [ "Zagorje ob Savi" ]
       }
     , { name = "Zavrc"
-      , code = ""
+      , code = "143"
       , unofficialNames = [ "Zavrc" ]
       }
     , { name = "Zrece"
-      , code = ""
+      , code = "144"
       , unofficialNames = [ "Zrece" ]
       }
     , { name = "Železniki"
-      , code = ""
+      , code = "146"
       , unofficialNames = [ "Železniki" ]
       }
     , { name = "Žiri"
-      , code = ""
+      , code = "147"
       , unofficialNames = [ "Žiri" ]
       }
     , { name = "Benedikt"
-      , code = ""
+      , code = "148"
       , unofficialNames = [ "Benedikt" ]
       }
     , { name = "Bistrica ob Sotli"
-      , code = ""
+      , code = "149"
       , unofficialNames = [ "Bistrica ob Sotli" ]
       }
     , { name = "Bloke"
-      , code = ""
+      , code = "150"
       , unofficialNames = [ "Bloke" ]
       }
     , { name = "Braslovce"
-      , code = ""
+      , code = "151"
       , unofficialNames = [ "Braslovce" ]
       }
     , { name = "Cankova"
-      , code = ""
+      , code = "152"
       , unofficialNames = [ "Cankova" ]
       }
     , { name = "Cerkvenjak"
-      , code = ""
+      , code = "153"
       , unofficialNames = [ "Cerkvenjak" ]
       }
     , { name = "Dobje"
-      , code = ""
+      , code = "154"
       , unofficialNames = [ "Dobje" ]
       }
     , { name = "Dobrna"
-      , code = ""
+      , code = "155"
       , unofficialNames = [ "Dobrna" ]
       }
     , { name = "Dobrovnik/Dobronak"
-      , code = ""
+      , code = "156"
       , unofficialNames = [ "Dobrovnik/Dobronak" ]
       }
     , { name = "Dolenjske Toplice"
-      , code = ""
+      , code = "157"
       , unofficialNames = [ "Dolenjske Toplice" ]
       }
     , { name = "Grad"
-      , code = ""
+      , code = "158"
       , unofficialNames = [ "Grad" ]
       }
     , { name = "Hajdina"
-      , code = ""
+      , code = "159"
       , unofficialNames = [ "Hajdina" ]
       }
     , { name = "Hoce-Slivnica"
-      , code = ""
+      , code = "160"
       , unofficialNames = [ "Hoce-Slivnica" ]
       }
     , { name = "Hodoš/Hodos"
-      , code = ""
+      , code = "161"
       , unofficialNames = [ "Hodoš/Hodos" ]
       }
     , { name = "Horjul"
-      , code = ""
+      , code = "162"
       , unofficialNames = [ "Horjul" ]
       }
     , { name = "Jezersko"
-      , code = ""
+      , code = "163"
       , unofficialNames = [ "Jezersko" ]
       }
     , { name = "Komenda"
-      , code = ""
+      , code = "164"
       , unofficialNames = [ "Komenda" ]
       }
     , { name = "Kostel"
-      , code = ""
+      , code = "165"
       , unofficialNames = [ "Kostel" ]
       }
     , { name = "Križevci"
-      , code = ""
+      , code = "166"
       , unofficialNames = [ "Križevci" ]
       }
     , { name = "Lovrenc na Pohorju"
-      , code = ""
+      , code = "167"
       , unofficialNames = [ "Lovrenc na Pohorju" ]
       }
     , { name = "Markovci"
-      , code = ""
+      , code = "168"
       , unofficialNames = [ "Markovci" ]
       }
     , { name = "Miklavž na Dravskem polju"
-      , code = ""
+      , code = "169"
       , unofficialNames = [ "Miklavž na Dravskem polju" ]
       }
     , { name = "Mirna Pec"
-      , code = ""
+      , code = "170"
       , unofficialNames = [ "Mirna Pec" ]
       }
     , { name = "Oplotnica"
-      , code = ""
+      , code = "171"
       , unofficialNames = [ "Oplotnica" ]
       }
     , { name = "Podlehnik"
-      , code = ""
+      , code = "172"
       , unofficialNames = [ "Podlehnik" ]
       }
     , { name = "Polzela"
-      , code = ""
+      , code = "173"
       , unofficialNames = [ "Polzela" ]
       }
     , { name = "Prebold"
-      , code = ""
+      , code = "174"
       , unofficialNames = [ "Prebold" ]
       }
     , { name = "Prevalje"
-      , code = ""
+      , code = "175"
       , unofficialNames = [ "Prevalje" ]
       }
     , { name = "Razkrižje"
-      , code = ""
+      , code = "176"
       , unofficialNames = [ "Razkrižje" ]
       }
     , { name = "Ribnica na Pohorju"
-      , code = ""
+      , code = "177"
       , unofficialNames = [ "Ribnica na Pohorju" ]
       }
     , { name = "Selnica ob Dravi"
-      , code = ""
+      , code = "178"
       , unofficialNames = [ "Selnica ob Dravi" ]
       }
     , { name = "Sodražica"
-      , code = ""
+      , code = "179"
       , unofficialNames = [ "Sodražica" ]
       }
     , { name = "Solcava"
-      , code = ""
+      , code = "180"
       , unofficialNames = [ "Solcava" ]
       }
     , { name = "Sveta Ana"
-      , code = ""
+      , code = "181"
       , unofficialNames = [ "Sveta Ana" ]
       }
     , { name = "Sveti Andraž v Slovenskih goricah"
-      , code = ""
+      , code = "182"
       , unofficialNames = [ "Sveti Andraž v Slovenskih goricah" ]
       }
     , { name = "Šempeter-Vrtojba"
-      , code = ""
+      , code = "183"
       , unofficialNames = [ "Šempeter-Vrtojba" ]
       }
     , { name = "Tabor"
-      , code = ""
+      , code = "184"
       , unofficialNames = [ "Tabor" ]
       }
     , { name = "Trnovska vas"
-      , code = ""
+      , code = "185"
       , unofficialNames = [ "Trnovska vas" ]
       }
     , { name = "Trzin"
-      , code = ""
+      , code = "186"
       , unofficialNames = [ "Trzin" ]
       }
     , { name = "Velika Polana"
-      , code = ""
+      , code = "187"
       , unofficialNames = [ "Velika Polana" ]
       }
     , { name = "Veržej"
-      , code = ""
+      , code = "188"
       , unofficialNames = [ "Veržej" ]
       }
     , { name = "Vransko"
-      , code = ""
+      , code = "189"
       , unofficialNames = [ "Vransko" ]
       }
     , { name = "Žalec"
-      , code = ""
+      , code = "190"
       , unofficialNames = [ "Žalec" ]
       }
     , { name = "Žetale"
-      , code = ""
+      , code = "191"
       , unofficialNames = [ "Žetale" ]
       }
     , { name = "Žirovnica"
-      , code = ""
+      , code = "192"
       , unofficialNames = [ "Žirovnica" ]
       }
     , { name = "Žužemberk"
-      , code = ""
+      , code = "193"
       , unofficialNames = [ "Žužemberk" ]
       }
     , { name = "Šmartno pri Litiji"
-      , code = ""
+      , code = "194"
       , unofficialNames = [ "Šmartno pri Litiji" ]
       }
     ]
@@ -25715,11 +25715,11 @@ sloveniaSubdivisions =
 svalbardAndJanMayenSubdivisions : List Subdivision
 svalbardAndJanMayenSubdivisions =
     [ { name = "Svalbard"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Svalbard" ]
       }
     , { name = "Jan Mayen"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Jan Mayen" ]
       }
     ]
@@ -25729,35 +25729,35 @@ svalbardAndJanMayenSubdivisions =
 slovakiaSubdivisions : List Subdivision
 slovakiaSubdivisions =
     [ { name = "Banskobystrický kraj"
-      , code = ""
+      , code = "BC"
       , unofficialNames = [ "Banskobystrický kraj" ]
       }
     , { name = "Bratislavský kraj"
-      , code = ""
+      , code = "BL"
       , unofficialNames = [ "Bratislavský kraj" ]
       }
     , { name = "Košický kraj"
-      , code = ""
+      , code = "KI"
       , unofficialNames = [ "Košický kraj" ]
       }
     , { name = "Nitriansky kraj"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Nitriansky kraj" ]
       }
     , { name = "Prešovský kraj"
-      , code = ""
+      , code = "PV"
       , unofficialNames = [ "Prešovský kraj" ]
       }
     , { name = "Trnavský kraj"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Trnavský kraj" ]
       }
     , { name = "Trenciansky kraj"
-      , code = ""
+      , code = "TC"
       , unofficialNames = [ "Trenciansky kraj" ]
       }
     , { name = "Žilinský kraj"
-      , code = ""
+      , code = "ZI"
       , unofficialNames = [ "Žilinský kraj" ]
       }
     ]
@@ -25767,19 +25767,19 @@ slovakiaSubdivisions =
 sierraLeoneSubdivisions : List Subdivision
 sierraLeoneSubdivisions =
     [ { name = "Eastern"
-      , code = ""
+      , code = "E"
       , unofficialNames = [ "Eastern" ]
       }
     , { name = "Northern"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Northern" ]
       }
     , { name = "Southern"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Southern" ]
       }
     , { name = "Western Area (Freetown)"
-      , code = ""
+      , code = "W"
       , unofficialNames = [ "Western Area (Freetown)" ]
       }
     ]
@@ -25789,39 +25789,39 @@ sierraLeoneSubdivisions =
 sanMarinoSubdivisions : List Subdivision
 sanMarinoSubdivisions =
     [ { name = "Acquaviva"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Acquaviva" ]
       }
     , { name = "Chiesanuova"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Poggio di Chiesanuova" ]
       }
     , { name = "Domagnano"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Domagnano" ]
       }
     , { name = "Faetano"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Faetano" ]
       }
     , { name = "Fiorentino"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Fiorentino" ]
       }
     , { name = "Borgo Maggiore"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Borgo Maggiore" ]
       }
     , { name = "San Marino"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Saint Marin" ]
       }
     , { name = "Montegiardino"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Montegiardino" ]
       }
     , { name = "Serravalle"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Serravalle" ]
       }
     ]
@@ -25831,47 +25831,47 @@ sanMarinoSubdivisions =
 senegalSubdivisions : List Subdivision
 senegalSubdivisions =
     [ { name = "Diourbel"
-      , code = ""
+      , code = "DB"
       , unofficialNames = [ "Diourbel" ]
       }
     , { name = "Dakar"
-      , code = ""
+      , code = "DK"
       , unofficialNames = [ "Dakar" ]
       }
     , { name = "Fatick"
-      , code = ""
+      , code = "FK"
       , unofficialNames = [ "Fatick" ]
       }
     , { name = "Kolda"
-      , code = ""
+      , code = "KD"
       , unofficialNames = [ "Kolda" ]
       }
     , { name = "Kaolack"
-      , code = ""
+      , code = "KL"
       , unofficialNames = [ "Kaolack" ]
       }
     , { name = "Louga"
-      , code = ""
+      , code = "LG"
       , unofficialNames = [ "Louga" ]
       }
     , { name = "Matam"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Matam" ]
       }
     , { name = "Saint-Louis"
-      , code = ""
+      , code = "SL"
       , unofficialNames = [ "Saint-Louis" ]
       }
     , { name = "Tambacounda"
-      , code = ""
+      , code = "TC"
       , unofficialNames = [ "Tambacounda" ]
       }
     , { name = "Thiès"
-      , code = ""
+      , code = "TH"
       , unofficialNames = [ "Thiès" ]
       }
     , { name = "Ziguinchor"
-      , code = ""
+      , code = "ZG"
       , unofficialNames = [ "Ziguinchor" ]
       }
     ]
@@ -25881,75 +25881,75 @@ senegalSubdivisions =
 somaliaSubdivisions : List Subdivision
 somaliaSubdivisions =
     [ { name = "Awdal"
-      , code = ""
+      , code = "AW"
       , unofficialNames = [ "Awdal" ]
       }
     , { name = "Bakool"
-      , code = ""
+      , code = "BK"
       , unofficialNames = [ "Bakool" ]
       }
     , { name = "Banaadir"
-      , code = ""
+      , code = "BN"
       , unofficialNames = [ "Banaadir" ]
       }
     , { name = "Bari"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Bari" ]
       }
     , { name = "Bay"
-      , code = ""
+      , code = "BY"
       , unofficialNames = [ "Bay" ]
       }
     , { name = "Galguduud"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Galguduud" ]
       }
     , { name = "Gedo"
-      , code = ""
+      , code = "GE"
       , unofficialNames = [ "Gedo" ]
       }
     , { name = "Hiiraan"
-      , code = ""
+      , code = "HI"
       , unofficialNames = [ "Hiiraan" ]
       }
     , { name = "Jubbada Dhexe"
-      , code = ""
+      , code = "JD"
       , unofficialNames = [ "Jubbada Dhexe" ]
       }
     , { name = "Jubbada Hoose"
-      , code = ""
+      , code = "JH"
       , unofficialNames = [ "Jubbada Hoose" ]
       }
     , { name = "Mudug"
-      , code = ""
+      , code = "MU"
       , unofficialNames = [ "Mudug" ]
       }
     , { name = "Nugaal"
-      , code = ""
+      , code = "NU"
       , unofficialNames = [ "Nugaal" ]
       }
     , { name = "Sanaag"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Sanaag" ]
       }
     , { name = "Shabeellaha Dhexe"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Shabeellaha Dhexe" ]
       }
     , { name = "Shabeellaha Hoose"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Shabeellaha Hoose" ]
       }
     , { name = "Sool"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Sool" ]
       }
     , { name = "Togdheer"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Togdheer" ]
       }
     , { name = "Woqooyi Galbeed"
-      , code = ""
+      , code = "WO"
       , unofficialNames = [ "Woqooyi Galbeed" ]
       }
     ]
@@ -25959,43 +25959,43 @@ somaliaSubdivisions =
 surinameSubdivisions : List Subdivision
 surinameSubdivisions =
     [ { name = "Brokopondo"
-      , code = ""
+      , code = "BR"
       , unofficialNames = [ "Brokopondo" ]
       }
     , { name = "Commewijne"
-      , code = ""
+      , code = "CM"
       , unofficialNames = [ "Commewijne" ]
       }
     , { name = "Coronie"
-      , code = ""
+      , code = "CR"
       , unofficialNames = [ "Coronie" ]
       }
     , { name = "Marowijne"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Marowijne" ]
       }
     , { name = "Nickerie"
-      , code = ""
+      , code = "NI"
       , unofficialNames = [ "Nickerie" ]
       }
     , { name = "Paramaribo"
-      , code = ""
+      , code = "PM"
       , unofficialNames = [ "Paramaribo" ]
       }
     , { name = "Para"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Para" ]
       }
     , { name = "Saramacca"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Saramacca" ]
       }
     , { name = "Sipaliwini"
-      , code = ""
+      , code = "SI"
       , unofficialNames = [ "Sipaliwini" ]
       }
     , { name = "Wanica"
-      , code = ""
+      , code = "WA"
       , unofficialNames = [ "Wanica" ]
       }
     ]
@@ -26011,11 +26011,11 @@ southSudanSubdivisions =
 saoTomeAndPrincipeSubdivisions : List Subdivision
 saoTomeAndPrincipeSubdivisions =
     [ { name = "Príncipe"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Príncipe" ]
       }
     , { name = "São Tomé"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "São Tomé" ]
       }
     ]
@@ -26025,59 +26025,59 @@ saoTomeAndPrincipeSubdivisions =
 elSalvadorSubdivisions : List Subdivision
 elSalvadorSubdivisions =
     [ { name = "Ahuachapán"
-      , code = ""
+      , code = "AH"
       , unofficialNames = [ "Ahuachapán" ]
       }
     , { name = "Cabañas"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Cabañas" ]
       }
     , { name = "Chalatenango"
-      , code = ""
+      , code = "CH"
       , unofficialNames = [ "Chalatenango" ]
       }
     , { name = "Cuscatlán"
-      , code = ""
+      , code = "CU"
       , unofficialNames = [ "Cuscatlán" ]
       }
     , { name = "La Libertad"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "La Libertad" ]
       }
     , { name = "Morazán"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Morazán" ]
       }
     , { name = "La Paz"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "La Paz" ]
       }
     , { name = "Santa Ana"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Santa Ana" ]
       }
     , { name = "San Miguel"
-      , code = ""
+      , code = "SM"
       , unofficialNames = [ "San Miguel" ]
       }
     , { name = "Sonsonate"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Sonsonate" ]
       }
     , { name = "San Salvador"
-      , code = ""
+      , code = "SS"
       , unofficialNames = [ "San Salvador" ]
       }
     , { name = "San Vicente"
-      , code = ""
+      , code = "SV"
       , unofficialNames = [ "San Vicente" ]
       }
     , { name = "La Unión"
-      , code = ""
+      , code = "UN"
       , unofficialNames = [ "La Unión" ]
       }
     , { name = "Usulután"
-      , code = ""
+      , code = "US"
       , unofficialNames = [ "Usulután" ]
       }
     ]
@@ -26093,59 +26093,59 @@ sintMaartenDutchPartSubdivisions =
 syrianArabRepublicSubdivisions : List Subdivision
 syrianArabRepublicSubdivisions =
     [ { name = "Dimashq"
-      , code = ""
+      , code = "DI"
       , unofficialNames = [ "Dimashq", "Madīnat Dimašq", "Damaskus", "Damas" ]
       }
     , { name = "Dar'ā"
-      , code = ""
+      , code = "DR"
       , unofficialNames = [ "Dara", "Darā", "Darʿa", "Deraa", "Dārayyā" ]
       }
     , { name = "Dayr az Zawr"
-      , code = ""
+      , code = "DY"
       , unofficialNames = [ "Deir El-Zor", "Deir-ez-Zor" ]
       }
     , { name = "Al Ḩasakah"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "El Haseke", "Hassetche", "H̨asakah", "al-Hasakah" ]
       }
     , { name = "Ḩimş"
-      , code = ""
+      , code = "HI"
       , unofficialNames = [ "Hims", "Homs" ]
       }
     , { name = "Ḩalab"
-      , code = ""
+      , code = "HL"
       , unofficialNames = [ "Halab", "Haleb", "H̨alab", "Alep" ]
       }
     , { name = "Ḩamāh"
-      , code = ""
+      , code = "HM"
       , unofficialNames = [ "Hama", "Hamah" ]
       }
     , { name = "Idlib"
-      , code = ""
+      , code = "ID"
       , unofficialNames = [ "Idlib" ]
       }
     , { name = "Al Ladhiqiyah"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Latakia", "Lattakia", "Lattaquié", "Lādhiqīyah", "al-Ladhiqiyah" ]
       }
     , { name = "Al Qunaytirah"
-      , code = ""
+      , code = "QU"
       , unofficialNames = [ "Quneitra", "al-Qunaytirah" ]
       }
     , { name = "Ar Raqqah"
-      , code = ""
+      , code = "RA"
       , unofficialNames = [ "Raqqah", "al-Rakka" ]
       }
     , { name = "Rif Dimashq"
-      , code = ""
+      , code = "RD"
       , unofficialNames = [ "Dimashq", "Dimašq", "Damaskus", "Damas", "Damascus" ]
       }
     , { name = "As Suwayda'"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "as-Suwayda" ]
       }
     , { name = "Tartus"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tartoûs", "Tartus" ]
       }
     ]
@@ -26155,19 +26155,19 @@ syrianArabRepublicSubdivisions =
 eswatiniSubdivisions : List Subdivision
 eswatiniSubdivisions =
     [ { name = "Hhohho"
-      , code = ""
+      , code = "HH"
       , unofficialNames = [ "Hhohho" ]
       }
     , { name = "Lubombo"
-      , code = ""
+      , code = "LU"
       , unofficialNames = [ "Lebombo" ]
       }
     , { name = "Manzini"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Manzini" ]
       }
     , { name = "Shiselweni"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Shiselweni" ]
       }
     ]
@@ -26177,75 +26177,75 @@ eswatiniSubdivisions =
 chadSubdivisions : List Subdivision
 chadSubdivisions =
     [ { name = "Batha"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Batha" ]
       }
     , { name = "Borkou-Ennedi-Tibesti"
-      , code = ""
+      , code = "BET"
       , unofficialNames = [ "Borkou-Ennedi-Tibesti" ]
       }
     , { name = "Chari-Baguirmi"
-      , code = ""
+      , code = "CB"
       , unofficialNames = [ "Chari-Baguirmi" ]
       }
     , { name = "Guéra"
-      , code = ""
+      , code = "GR"
       , unofficialNames = [ "Guéra" ]
       }
     , { name = "Hadjer Lamis"
-      , code = ""
+      , code = "HL"
       , unofficialNames = [ "Hadjer Lamis" ]
       }
     , { name = "Kanem"
-      , code = ""
+      , code = "KA"
       , unofficialNames = [ "Kanem" ]
       }
     , { name = "Lac"
-      , code = ""
+      , code = "LC"
       , unofficialNames = [ "Lac" ]
       }
     , { name = "Logone-Occidental"
-      , code = ""
+      , code = "LO"
       , unofficialNames = [ "Logone-Occidental" ]
       }
     , { name = "Logone-Oriental"
-      , code = ""
+      , code = "LR"
       , unofficialNames = [ "Logone-Oriental" ]
       }
     , { name = "Mandoul"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Mandoul" ]
       }
     , { name = "Moyen-Chari"
-      , code = ""
+      , code = "MC"
       , unofficialNames = [ "Moyen-Chari" ]
       }
     , { name = "Mayo-Kébbi-Est"
-      , code = ""
+      , code = "ME"
       , unofficialNames = [ "Mayo-Kébbi-Est" ]
       }
     , { name = "Mayo-Kébbi-Ouest"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Mayo-Kébbi-Ouest" ]
       }
     , { name = "Ndjamena"
-      , code = ""
+      , code = "ND"
       , unofficialNames = [ "Ndjamena" ]
       }
     , { name = "Ouaddaï"
-      , code = ""
+      , code = "OD"
       , unofficialNames = [ "Ouaddaï" ]
       }
     , { name = "Salamat"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Salamat" ]
       }
     , { name = "Tandjilé"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tandjilé" ]
       }
     , { name = "Wadi Fira"
-      , code = ""
+      , code = "WF"
       , unofficialNames = [ "Wadi Fira" ]
       }
     ]
@@ -26255,19 +26255,19 @@ chadSubdivisions =
 frenchSouthernTerritoriesSubdivisions : List Subdivision
 frenchSouthernTerritoriesSubdivisions =
     [ { name = "Ile Saint-Paul et Ile Amsterdam"
-      , code = ""
+      , code = "X1~"
       , unofficialNames = [ "Ile Saint-Paul et Ile Amsterdam" ]
       }
     , { name = "Crozet Islands"
-      , code = ""
+      , code = "X2~"
       , unofficialNames = [ "Crozet Islands" ]
       }
     , { name = "Kerguelen"
-      , code = ""
+      , code = "X3~"
       , unofficialNames = [ "Kerguelen" ]
       }
     , { name = "Iles Eparses"
-      , code = ""
+      , code = "X4~"
       , unofficialNames = [ "Iles Eparses" ]
       }
     ]
@@ -26277,23 +26277,23 @@ frenchSouthernTerritoriesSubdivisions =
 togoSubdivisions : List Subdivision
 togoSubdivisions =
     [ { name = "Centre"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Centre" ]
       }
     , { name = "Kara"
-      , code = ""
+      , code = "K"
       , unofficialNames = [ "Kara" ]
       }
     , { name = "Maritime (Région)"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Maritime (Région)" ]
       }
     , { name = "Plateaux"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Plateaux" ]
       }
     , { name = "Savannes"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Savannes" ]
       }
     ]
@@ -26303,311 +26303,311 @@ togoSubdivisions =
 thailandSubdivisions : List Subdivision
 thailandSubdivisions =
     [ { name = "Krung Thep Maha Nakhon [Bangkok]"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Krung Thep", "Bangkok", "BKK" ]
       }
     , { name = "Samut Prakan"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Samut Prakan" ]
       }
     , { name = "Nonthaburi"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Nonthaburi" ]
       }
     , { name = "Pathum Thani"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Pathum Thani" ]
       }
     , { name = "Phra Nakhon Si Ayutthaya"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Phra Nakhon Si Ayutthaya" ]
       }
     , { name = "Ang Thong"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Ang Thong" ]
       }
     , { name = "Lop Buri"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Lop Buri" ]
       }
     , { name = "Sing Buri"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Sing Buri" ]
       }
     , { name = "Chai Nat"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Chainat", "Jainat", "Jayanath" ]
       }
     , { name = "Saraburi"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Saraburi" ]
       }
     , { name = "Chon Buri"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Chon Buri" ]
       }
     , { name = "Rayong"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Rayong" ]
       }
     , { name = "Chanthaburi"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Chanthaburi" ]
       }
     , { name = "Trat"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Trat" ]
       }
     , { name = "Chachoengsao"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Chachoengsao" ]
       }
     , { name = "Prachin Buri"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Prachin Buri" ]
       }
     , { name = "Nakhon Nayok"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Nakhon Nayok" ]
       }
     , { name = "Sa Kaeo"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Sa Kaeo" ]
       }
     , { name = "Nakhon Ratchasima"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Nakhon Ratchasima" ]
       }
     , { name = "Buri Ram"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Buri Ram" ]
       }
     , { name = "Surin"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Surin" ]
       }
     , { name = "Si Sa Ket"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Si Sa Ket" ]
       }
     , { name = "Ubon Ratchathani"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Ubon Ratchathani" ]
       }
     , { name = "Yasothon"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Yasothon" ]
       }
     , { name = "Chaiyaphum"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Chaiyaphum" ]
       }
     , { name = "Amnat Charoen"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Amnat Charoen" ]
       }
     , { name = "Nong Bua Lam Phu"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Nong Bua Lam Phu" ]
       }
     , { name = "Khon Kaen"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Khon Kaen" ]
       }
     , { name = "Udon Thani"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Udon Thani" ]
       }
     , { name = "Loei"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Loei" ]
       }
     , { name = "Nong Khai"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Nong Khai" ]
       }
     , { name = "Maha Sarakham"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Maha Sarakham" ]
       }
     , { name = "Roi Et"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Roi Et" ]
       }
     , { name = "Kalasin"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Kalasin" ]
       }
     , { name = "Sakon Nakhon"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Sakon Nakhon" ]
       }
     , { name = "Nakhon Phanom"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Nakhon Phanom" ]
       }
     , { name = "Mukdahan"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Mukdahan" ]
       }
     , { name = "Chiang Mai"
-      , code = ""
+      , code = "50"
       , unofficialNames = [ "Chiangmai", "Chiengmai", "Kiangmai" ]
       }
     , { name = "Lamphun"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Lamphun" ]
       }
     , { name = "Lampang"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Lampang" ]
       }
     , { name = "Uttaradit"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Uttaradit" ]
       }
     , { name = "Phrae"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Phrae" ]
       }
     , { name = "Nan"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Nan" ]
       }
     , { name = "Phayao"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Phayao" ]
       }
     , { name = "Chiang Rai"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Chianpai", "Chienrai", "Muang Chiang Rai" ]
       }
     , { name = "Mae Hong Son"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Mae Hong Son" ]
       }
     , { name = "Nakhon Sawan"
-      , code = ""
+      , code = "60"
       , unofficialNames = [ "Nakhon Sawan" ]
       }
     , { name = "Uthai Thani"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Uthai Thani" ]
       }
     , { name = "Kamphaeng Phet"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Kamphaeng Phet" ]
       }
     , { name = "Tak"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Tak" ]
       }
     , { name = "Sukhothai"
-      , code = ""
+      , code = "64"
       , unofficialNames = [ "Sakhothai" ]
       }
     , { name = "Phitsanulok"
-      , code = ""
+      , code = "65"
       , unofficialNames = [ "Phitsanulok" ]
       }
     , { name = "Phichit"
-      , code = ""
+      , code = "66"
       , unofficialNames = [ "Phichit" ]
       }
     , { name = "Phetchabun"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "Phetchabun" ]
       }
     , { name = "Ratchaburi"
-      , code = ""
+      , code = "70"
       , unofficialNames = [ "Ratchaburi" ]
       }
     , { name = "Kanchanaburi"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Kanchanaburi" ]
       }
     , { name = "Suphan Buri"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Suphan Buri" ]
       }
     , { name = "Nakhon Pathom"
-      , code = ""
+      , code = "73"
       , unofficialNames = [ "Nakhon Pathom" ]
       }
     , { name = "Samut Sakhon"
-      , code = ""
+      , code = "74"
       , unofficialNames = [ "Samut Sakhon" ]
       }
     , { name = "Samut Songkhram"
-      , code = ""
+      , code = "75"
       , unofficialNames = [ "Samut Songkhram" ]
       }
     , { name = "Phetchaburi"
-      , code = ""
+      , code = "76"
       , unofficialNames = [ "Phetchaburi" ]
       }
     , { name = "Prachuap Khiri Khan"
-      , code = ""
+      , code = "77"
       , unofficialNames = [ "Prachuap Khiri Khan" ]
       }
     , { name = "Nakhon Si Thammarat"
-      , code = ""
+      , code = "80"
       , unofficialNames = [ "Nakhon Si Thammarat" ]
       }
     , { name = "Krabi"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Krabi" ]
       }
     , { name = "Phangnga"
-      , code = ""
+      , code = "82"
       , unofficialNames = [ "Phangnga" ]
       }
     , { name = "Phuket"
-      , code = ""
+      , code = "83"
       , unofficialNames = [ "Phuket" ]
       }
     , { name = "Surat Thani"
-      , code = ""
+      , code = "84"
       , unofficialNames = [ "Surat Thani" ]
       }
     , { name = "Ranong"
-      , code = ""
+      , code = "85"
       , unofficialNames = [ "Ranong" ]
       }
     , { name = "Chumphon"
-      , code = ""
+      , code = "86"
       , unofficialNames = [ "Chumphon" ]
       }
     , { name = "Songkhla"
-      , code = ""
+      , code = "90"
       , unofficialNames = [ "Songkhla" ]
       }
     , { name = "Satun"
-      , code = ""
+      , code = "91"
       , unofficialNames = [ "Satun" ]
       }
     , { name = "Trang"
-      , code = ""
+      , code = "92"
       , unofficialNames = [ "Trang" ]
       }
     , { name = "Phatthalung"
-      , code = ""
+      , code = "93"
       , unofficialNames = [ "Phatthalung" ]
       }
     , { name = "Pattani"
-      , code = ""
+      , code = "94"
       , unofficialNames = [ "Pattani" ]
       }
     , { name = "Yala"
-      , code = ""
+      , code = "95"
       , unofficialNames = [ "Yala" ]
       }
     , { name = "Narathiwat"
-      , code = ""
+      , code = "96"
       , unofficialNames = [ "Narathiwat" ]
       }
     , { name = "Phatthaya"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Phatthaya" ]
       }
     ]
@@ -26617,15 +26617,15 @@ thailandSubdivisions =
 tajikistanSubdivisions : List Subdivision
 tajikistanSubdivisions =
     [ { name = "Gorno-Badakhshan"
-      , code = ""
+      , code = "GB"
       , unofficialNames = [ "Gorno-Badahşan" ]
       }
     , { name = "Khatlon"
-      , code = ""
+      , code = "KT"
       , unofficialNames = [ "Hatlon" ]
       }
     , { name = "Sughd"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "Chudjand", "Hucand", "Hudžand", "Hücand", "Khodzent", "Khodzhent", "Khudzhand", "Leninabad" ]
       }
     ]
@@ -26635,15 +26635,15 @@ tajikistanSubdivisions =
 tokelauSubdivisions : List Subdivision
 tokelauSubdivisions =
     [ { name = "Atafu"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Atafu" ]
       }
     , { name = "Fakaofo"
-      , code = ""
+      , code = "F"
       , unofficialNames = [ "Fakaofo" ]
       }
     , { name = "Nukunonu"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Nukunonu" ]
       }
     ]
@@ -26653,55 +26653,55 @@ tokelauSubdivisions =
 timorLesteSubdivisions : List Subdivision
 timorLesteSubdivisions =
     [ { name = "Aileu"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Aileu" ]
       }
     , { name = "Ainaro"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Ainaro" ]
       }
     , { name = "Baucau"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Baukau" ]
       }
     , { name = "Bobonaro"
-      , code = ""
+      , code = "BO"
       , unofficialNames = [ "Bobonaro" ]
       }
     , { name = "Cova Lima"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Kova-Lima" ]
       }
     , { name = "Dili"
-      , code = ""
+      , code = "DI"
       , unofficialNames = [ "Dili" ]
       }
     , { name = "Ermera"
-      , code = ""
+      , code = "ER"
       , unofficialNames = [ "Ermera" ]
       }
     , { name = "Lautem"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Lautem" ]
       }
     , { name = "Liquiça"
-      , code = ""
+      , code = "LI"
       , unofficialNames = [ "Likisia" ]
       }
     , { name = "Manufahi"
-      , code = ""
+      , code = "MF"
       , unofficialNames = [ "Manufahi" ]
       }
     , { name = "Manatuto"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Manatuto" ]
       }
     , { name = "Oecussi"
-      , code = ""
+      , code = "OE"
       , unofficialNames = [ "Ambeno", "Ambino", "Oecusse" ]
       }
     , { name = "Viqueque"
-      , code = ""
+      , code = "VI"
       , unofficialNames = [ "Vikeke" ]
       }
     ]
@@ -26711,23 +26711,23 @@ timorLesteSubdivisions =
 turkmenistanSubdivisions : List Subdivision
 turkmenistanSubdivisions =
     [ { name = "Ahal"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Akhal" ]
       }
     , { name = "Balkan"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Balkan" ]
       }
     , { name = "Dasoguz"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Dashhovuz", "Dashhowuz", "Dashkhovuz", "Dashogus", "Dashoguz", "Daşhovuz", "Dašhovuz", "Tashauz", "Tašauz" ]
       }
     , { name = "Lebap"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Lebap" ]
       }
     , { name = "Mary"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Mary", "Merv" ]
       }
     ]
@@ -26737,99 +26737,99 @@ turkmenistanSubdivisions =
 tunisiaSubdivisions : List Subdivision
 tunisiaSubdivisions =
     [ { name = "Tunis"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Toûnis", "Tūnis", "Tunis", "Tunis", "Túnez" ]
       }
     , { name = "L'Ariana"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Ariano", "Iryanah", "Ariana" ]
       }
     , { name = "Ben Arous"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Bin Arus", "Ben Arous" ]
       }
     , { name = "La Manouba"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Manouba" ]
       }
     , { name = "Nabeul"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Nabul", "Nabeul" ]
       }
     , { name = "Zaghouan"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Zaghwan", "Zagwan", "Zaghouan" ]
       }
     , { name = "Bizerte"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Banzart", "Benzert", "Bizerta", "Bizerte" ]
       }
     , { name = "Béja"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Bajah", "Béja" ]
       }
     , { name = "Jendouba"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Jundubah", "Jendouba" ]
       }
     , { name = "Le Kef"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "El Kef", "Le Kef" ]
       }
     , { name = "Siliana"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Silyanah", "Siliana" ]
       }
     , { name = "Kairouan"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "al-Qayrawan", "Kairouan" ]
       }
     , { name = "Kasserine"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Qasrayn", "Kasserine" ]
       }
     , { name = "Sidi Bouzid"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Sidi Bu Zayd", "Sidi Bouzid" ]
       }
     , { name = "Sousse"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Susah", "Sousse" ]
       }
     , { name = "Monastir"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "al-Munastir", "Monastir" ]
       }
     , { name = "Mahdia"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Mahdia", "al-Mahdiyah", "Mehdia" ]
       }
     , { name = "Sfax"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Safaqis", "Sfax" ]
       }
     , { name = "Gafsa"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Gafsa" ]
       }
     , { name = "Tozeur"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Tozeur" ]
       }
     , { name = "Kebili"
-      , code = ""
+      , code = "73"
       , unofficialNames = [ "Qabili", "Qabilī", "Qibili", "Kébili" ]
       }
     , { name = "Gabès"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Qabis", "Gabès" ]
       }
     , { name = "Medenine"
-      , code = ""
+      , code = "82"
       , unofficialNames = [ "Madaniyin", "Medenine" ]
       }
     , { name = "Tataouine"
-      , code = ""
+      , code = "83"
       , unofficialNames = [ "Tatawin", "Tatouine" ]
       }
     ]
@@ -26839,23 +26839,23 @@ tunisiaSubdivisions =
 tongaSubdivisions : List Subdivision
 tongaSubdivisions =
     [ { name = "'Eua"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Middleburg Island", "ʿEua" ]
       }
     , { name = "Ha'apai"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Ha'apai" ]
       }
     , { name = "Niuas"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Niuas" ]
       }
     , { name = "Tongatapu"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Tongatapu" ]
       }
     , { name = "Vava'u"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Vava'u" ]
       }
     ]
@@ -26865,327 +26865,327 @@ tongaSubdivisions =
 turkeySubdivisions : List Subdivision
 turkeySubdivisions =
     [ { name = "Adana"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Seyhan" ]
       }
     , { name = "Adıyaman"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Adıyaman" ]
       }
     , { name = "Afyon"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Afyon" ]
       }
     , { name = "Ağrı"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Ağrı" ]
       }
     , { name = "Amasya"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Amasya" ]
       }
     , { name = "Ankara"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Ankara" ]
       }
     , { name = "Antalya"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Antalya" ]
       }
     , { name = "Artvin"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Artvin" ]
       }
     , { name = "Aydın"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Aydın" ]
       }
     , { name = "Balıkesir"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Balıkesir" ]
       }
     , { name = "Bilecik"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Bilecik" ]
       }
     , { name = "Bingöl"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Bingöl" ]
       }
     , { name = "Bitlis"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Bitlis" ]
       }
     , { name = "Bolu"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Bolu" ]
       }
     , { name = "Burdur"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Burdur" ]
       }
     , { name = "Bursa"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Bursa" ]
       }
     , { name = "Çanakkale"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Çanakkale" ]
       }
     , { name = "Çankırı"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Çankırı" ]
       }
     , { name = "Çorum"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Çorum" ]
       }
     , { name = "Denizli"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Denizli" ]
       }
     , { name = "Diyarbakır"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Diyarbakır" ]
       }
     , { name = "Edirne"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Edirne" ]
       }
     , { name = "Elazığ"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Elazığ" ]
       }
     , { name = "Erzincan"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Erzincan" ]
       }
     , { name = "Erzurum"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Erzurum" ]
       }
     , { name = "Eskişehir"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Eskişehir" ]
       }
     , { name = "Gaziantep"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Gaziantep" ]
       }
     , { name = "Giresun"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Giresun" ]
       }
     , { name = "Gümüşhane"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Gümüşhane" ]
       }
     , { name = "Hakkâri"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Hakkâri" ]
       }
     , { name = "Hatay"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Hatay" ]
       }
     , { name = "Isparta"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Isparta" ]
       }
     , { name = "İçel"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "İçel" ]
       }
     , { name = "İstanbul"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "İstanbul" ]
       }
     , { name = "İzmir"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "İzmir" ]
       }
     , { name = "Kars"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Kars" ]
       }
     , { name = "Kastamonu"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Kastamonu" ]
       }
     , { name = "Kayseri"
-      , code = ""
+      , code = "38"
       , unofficialNames = [ "Kayseri" ]
       }
     , { name = "Kırklareli"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Kirklareli" ]
       }
     , { name = "Kırşehir"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Kırşehir" ]
       }
     , { name = "Kocaeli"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Kocaeli" ]
       }
     , { name = "Konya"
-      , code = ""
+      , code = "42"
       , unofficialNames = [ "Konya" ]
       }
     , { name = "Kütahya"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Kütahya" ]
       }
     , { name = "Malatya"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "Malatya" ]
       }
     , { name = "Manisa"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Manisa" ]
       }
     , { name = "Kahramanmaraş"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Kahramanmaraş", "Maraş" ]
       }
     , { name = "Mardin"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Mardin" ]
       }
     , { name = "Muğla"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Muğla" ]
       }
     , { name = "Muş"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Muş" ]
       }
     , { name = "Nevşehir"
-      , code = ""
+      , code = "50"
       , unofficialNames = [ "Nevşehir" ]
       }
     , { name = "Niğde"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Niğde" ]
       }
     , { name = "Ordu"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Ordu" ]
       }
     , { name = "Rize"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Rize" ]
       }
     , { name = "Sakarya"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Sakarya" ]
       }
     , { name = "Samsun"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Samsun" ]
       }
     , { name = "Siirt"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Siirt" ]
       }
     , { name = "Sinop"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Sinop" ]
       }
     , { name = "Sivas"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Sivas" ]
       }
     , { name = "Tekirdağ"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Tekirdağ" ]
       }
     , { name = "Tokat"
-      , code = ""
+      , code = "60"
       , unofficialNames = [ "Tokat" ]
       }
     , { name = "Trabzon"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Trabzon" ]
       }
     , { name = "Tunceli"
-      , code = ""
+      , code = "62"
       , unofficialNames = [ "Tunceli" ]
       }
     , { name = "Şanlıurfa"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Şanlıurfa" ]
       }
     , { name = "Uşak"
-      , code = ""
+      , code = "64"
       , unofficialNames = [ "Uşak" ]
       }
     , { name = "Van"
-      , code = ""
+      , code = "65"
       , unofficialNames = [ "Van" ]
       }
     , { name = "Yozgat"
-      , code = ""
+      , code = "66"
       , unofficialNames = [ "Yozgat" ]
       }
     , { name = "Zonguldak"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "Zonguldak" ]
       }
     , { name = "Aksaray"
-      , code = ""
+      , code = "68"
       , unofficialNames = [ "Aksaray" ]
       }
     , { name = "Bayburt"
-      , code = ""
+      , code = "69"
       , unofficialNames = [ "Bayburt" ]
       }
     , { name = "Karaman"
-      , code = ""
+      , code = "70"
       , unofficialNames = [ "Karaman" ]
       }
     , { name = "Kırıkkale"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Kırıkkale" ]
       }
     , { name = "Batman"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Batman" ]
       }
     , { name = "Şırnak"
-      , code = ""
+      , code = "73"
       , unofficialNames = [ "Şırnak" ]
       }
     , { name = "Bartın"
-      , code = ""
+      , code = "74"
       , unofficialNames = [ "Bartın" ]
       }
     , { name = "Ardahan"
-      , code = ""
+      , code = "75"
       , unofficialNames = [ "Ardahan" ]
       }
     , { name = "Iğdır"
-      , code = ""
+      , code = "76"
       , unofficialNames = [ "Iğdır" ]
       }
     , { name = "Yalova"
-      , code = ""
+      , code = "77"
       , unofficialNames = [ "Yalova" ]
       }
     , { name = "Karabük"
-      , code = ""
+      , code = "78"
       , unofficialNames = [ "Karabük" ]
       }
     , { name = "Kilis"
-      , code = ""
+      , code = "79"
       , unofficialNames = [ "Kilis" ]
       }
     , { name = "Osmaniye"
-      , code = ""
+      , code = "80"
       , unofficialNames = [ "Osmaniye" ]
       }
     , { name = "Düzce"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Düzce" ]
       }
     ]
@@ -27195,67 +27195,67 @@ turkeySubdivisions =
 trinidadAndTobagoSubdivisions : List Subdivision
 trinidadAndTobagoSubdivisions =
     [ { name = "Arima"
-      , code = ""
+      , code = "ARI"
       , unofficialNames = [ "Arima" ]
       }
     , { name = "Chaguanas"
-      , code = ""
+      , code = "CHA"
       , unofficialNames = [ "Chaguanas" ]
       }
     , { name = "Couva-Tabaquite-Talparo"
-      , code = ""
+      , code = "CTT"
       , unofficialNames = [ "Couva-Tabaquite-Talparo" ]
       }
     , { name = "Diego Martin"
-      , code = ""
+      , code = "DMN"
       , unofficialNames = [ "Diego Martin" ]
       }
     , { name = "Eastern Tobago"
-      , code = ""
+      , code = "ETO"
       , unofficialNames = [ "Eastern Tobago" ]
       }
     , { name = "Penal-Debe"
-      , code = ""
+      , code = "PED"
       , unofficialNames = [ "Penal-Debe" ]
       }
     , { name = "Port of Spain"
-      , code = ""
+      , code = "POS"
       , unofficialNames = [ "Port of Spain" ]
       }
     , { name = "Princes Town"
-      , code = ""
+      , code = "PRT"
       , unofficialNames = [ "Princes Town" ]
       }
     , { name = "Point Fortin"
-      , code = ""
+      , code = "PTF"
       , unofficialNames = [ "Point Fortin" ]
       }
     , { name = "Rio Claro-Mayaro"
-      , code = ""
+      , code = "RCM"
       , unofficialNames = [ "Rio Claro-Mayaro" ]
       }
     , { name = "San Fernando"
-      , code = ""
+      , code = "SFO"
       , unofficialNames = [ "San Fernando" ]
       }
     , { name = "Sangre Grande"
-      , code = ""
+      , code = "SGE"
       , unofficialNames = [ "Sangre Grande" ]
       }
     , { name = "Siparia"
-      , code = ""
+      , code = "SIP"
       , unofficialNames = [ "Siparia" ]
       }
     , { name = "San Juan-Laventille"
-      , code = ""
+      , code = "SJL"
       , unofficialNames = [ "San Juan-Laventille" ]
       }
     , { name = "Tunapuna-Piarco"
-      , code = ""
+      , code = "TUP"
       , unofficialNames = [ "Tunapuna-Piarco" ]
       }
     , { name = "Western Tobago"
-      , code = ""
+      , code = "WTO"
       , unofficialNames = [ "Western Tobago" ]
       }
     ]
@@ -27265,35 +27265,35 @@ trinidadAndTobagoSubdivisions =
 tuvaluSubdivisions : List Subdivision
 tuvaluSubdivisions =
     [ { name = "Funafuti"
-      , code = ""
+      , code = "FUN"
       , unofficialNames = [ "Funafuti" ]
       }
     , { name = "Niutao"
-      , code = ""
+      , code = "NIT"
       , unofficialNames = [ "Niutao" ]
       }
     , { name = "Nui"
-      , code = ""
+      , code = "NIU"
       , unofficialNames = [ "Nui" ]
       }
     , { name = "Nukufetau"
-      , code = ""
+      , code = "NKF"
       , unofficialNames = [ "Nukufetau" ]
       }
     , { name = "Nukulaelae"
-      , code = ""
+      , code = "NKL"
       , unofficialNames = [ "Nukulailai" ]
       }
     , { name = "Nanumea"
-      , code = ""
+      , code = "NMA"
       , unofficialNames = [ "Nanumea" ]
       }
     , { name = "Nanumanga"
-      , code = ""
+      , code = "NMG"
       , unofficialNames = [ "Nanumaga" ]
       }
     , { name = "Vaitupu"
-      , code = ""
+      , code = "VAI"
       , unofficialNames = [ "Vaitupu" ]
       }
     ]
@@ -27303,95 +27303,95 @@ tuvaluSubdivisions =
 taiwanProvinceOfChinaSubdivisions : List Subdivision
 taiwanProvinceOfChinaSubdivisions =
     [ { name = "Changhua"
-      , code = ""
+      , code = "CHA"
       , unofficialNames = [ "Changhua" ]
       }
     , { name = "Chiayi Municipality"
-      , code = ""
+      , code = "CYI"
       , unofficialNames = [ "Chiai" ]
       }
     , { name = "Chiayi"
-      , code = ""
+      , code = "CYQ"
       , unofficialNames = [ "Chiayi" ]
       }
     , { name = "Hsinchu"
-      , code = ""
+      , code = "HSQ"
       , unofficialNames = [ "Hsinchu" ]
       }
     , { name = "Hsinchu Municipality"
-      , code = ""
+      , code = "HSZ"
       , unofficialNames = [ "Hsinchu Municipality" ]
       }
     , { name = "Hualien"
-      , code = ""
+      , code = "HUA"
       , unofficialNames = [ "Hualian" ]
       }
     , { name = "Ilan"
-      , code = ""
+      , code = "ILA"
       , unofficialNames = [ "Ilan" ]
       }
     , { name = "Keelung Municipality"
-      , code = ""
+      , code = "KEE"
       , unofficialNames = [ "Chilung Shih" ]
       }
     , { name = "Kaohsiung Special Municipality"
-      , code = ""
+      , code = "KHH"
       , unofficialNames = [ "Kaohsiung Special Municipality" ]
       }
     , { name = "Kaohsiung"
-      , code = ""
+      , code = "KHQ"
       , unofficialNames = [ "Kaohsiung" ]
       }
     , { name = "Miaoli"
-      , code = ""
+      , code = "MIA"
       , unofficialNames = [ "Miaoli" ]
       }
     , { name = "Nantou"
-      , code = ""
+      , code = "NAN"
       , unofficialNames = [ "Nantou" ]
       }
     , { name = "Penghu"
-      , code = ""
+      , code = "PEN"
       , unofficialNames = [ "Penghu" ]
       }
     , { name = "Pingtung"
-      , code = ""
+      , code = "PIF"
       , unofficialNames = [ "Pingtung" ]
       }
     , { name = "Taoyuan"
-      , code = ""
+      , code = "TAO"
       , unofficialNames = [ "Taoyuan" ]
       }
     , { name = "Tainan Municipality"
-      , code = ""
+      , code = "TNN"
       , unofficialNames = [ "Tainan Municipality" ]
       }
     , { name = "Tainan"
-      , code = ""
+      , code = "TNQ"
       , unofficialNames = [ "Tainan" ]
       }
     , { name = "Taipei Special Municipality"
-      , code = ""
+      , code = "TPE"
       , unofficialNames = [ "Taipei Special Municipality" ]
       }
     , { name = "Taipei"
-      , code = ""
+      , code = "TPQ"
       , unofficialNames = [ "Taipei" ]
       }
     , { name = "Taitung"
-      , code = ""
+      , code = "TTT"
       , unofficialNames = [ "Taidong" ]
       }
     , { name = "Taichung Municipality"
-      , code = ""
+      , code = "TXG"
       , unofficialNames = [ "Taichung Municipality" ]
       }
     , { name = "Taichung"
-      , code = ""
+      , code = "TXQ"
       , unofficialNames = [ "Taichung" ]
       }
     , { name = "Yunlin"
-      , code = ""
+      , code = "YUN"
       , unofficialNames = [ "Yunlin" ]
       }
     ]
@@ -27401,107 +27401,107 @@ taiwanProvinceOfChinaSubdivisions =
 tanzaniaUnitedRepublicOfSubdivisions : List Subdivision
 tanzaniaUnitedRepublicOfSubdivisions =
     [ { name = "Arusha"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Arusha" ]
       }
     , { name = "Dar es Salaam"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Daressalam" ]
       }
     , { name = "Dodoma"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Dodoma" ]
       }
     , { name = "Iringa"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Iringa" ]
       }
     , { name = "Kagera"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Akagera", "Ziwa Magharibi" ]
       }
     , { name = "Kaskazini Pemba"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Kaskazini Pemba" ]
       }
     , { name = "Kaskazini Unguja"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Unguja" ]
       }
     , { name = "Kigoma"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Kigoma" ]
       }
     , { name = "Kilimanjaro"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Kilimanjaro" ]
       }
     , { name = "Kusini Pemba"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Kusini Pemba" ]
       }
     , { name = "Kusini Unguja"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Kusini Unguja" ]
       }
     , { name = "Lindi"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Lindi" ]
       }
     , { name = "Mara"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Mara" ]
       }
     , { name = "Mbeya"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Mbeya" ]
       }
     , { name = "Mjini Magharibi"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Mjini Magharibi" ]
       }
     , { name = "Morogoro"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Morogoro" ]
       }
     , { name = "Mtwara"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Mtware" ]
       }
     , { name = "Mwanza"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Mwanza" ]
       }
     , { name = "Pwani"
-      , code = ""
+      , code = "19"
       , unofficialNames = [ "Coast" ]
       }
     , { name = "Rukwa"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Rukwa" ]
       }
     , { name = "Ruvuma"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Ruvuma" ]
       }
     , { name = "Shinyanga"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Shinyanga" ]
       }
     , { name = "Singida"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Singida" ]
       }
     , { name = "Tabora"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Tabora" ]
       }
     , { name = "Tanga"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Tanga" ]
       }
     , { name = "Manyara"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Manyara" ]
       }
     ]
@@ -27511,111 +27511,111 @@ tanzaniaUnitedRepublicOfSubdivisions =
 ukraineSubdivisions : List Subdivision
 ukraineSubdivisions =
     [ { name = "Vinnyts'ka Oblast'"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Vinnica", "Vinnitsa", "Vinnytska", "Vinnytsya" ]
       }
     , { name = "Volyns'ka Oblast'"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Volyn", "Volynska" ]
       }
     , { name = "Luhans'ka Oblast'"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Lugansk", "Luhanska", "Luhansʿk", "Voroshilovgrad", "Vorošilovgrad" ]
       }
     , { name = "Dnipropetrovs'ka Oblast'"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Dnepropetrovsk", "Dnipropetrovsk", "Dnipropetrovska", "Dnjepropetrovsk" ]
       }
     , { name = "Donets'ka Oblast'"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Doneck", "Donetska", "Donetsʿka" ]
       }
     , { name = "Zhytomyrs'ka Oblast'"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Zhitomir", "Zhytomyrska" ]
       }
     , { name = "Zakarpats'ka Oblast'"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Transcarpathia", "Zakarpatska", "Zakarpatsʿka Oblast" ]
       }
     , { name = "Zaporiz'ka Oblast'"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Zaporizhzhya", "Zaporizka", "Zaporozhye", "Zaporožje" ]
       }
     , { name = "Ivano-Frankivs'ka Oblast'"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Ivano-Frankivsk", "Ivano-Frankivska", "Ivano-Frankovsk" ]
       }
     , { name = "Kyïv"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Kyiv", "Kyyiv", "Kiev" ]
       }
     , { name = "Kyïvs'ka Oblast'"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Kyyivsʿka Oblast", "Kyyivsʿka Oblastʿ" ]
       }
     , { name = "Kirovohrads'ka Oblast'"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Kirovograd", "Kirovohrad", "Kirovohradska" ]
       }
     , { name = "Sevastopol'"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Sebastopol", "Sevastopol" ]
       }
     , { name = "Respublika Krym"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Crimea", "Krim" ]
       }
     , { name = "L'vivs'ka Oblast'"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Lvivska", "Lvov", "Lʿviv" ]
       }
     , { name = "Mykolaïvs'ka Oblast'"
-      , code = ""
+      , code = "48"
       , unofficialNames = [ "Mykolayivsk", "Mykolayivska", "Nikolajev", "Nikolayev" ]
       }
     , { name = "Odes'ka Oblast'"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Odesa", "Odeska", "Odessa" ]
       }
     , { name = "Poltavs'ka Oblast'"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Poltava", "Poltavska" ]
       }
     , { name = "Rivnens'ka Oblast'"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Rivne", "Rivnenska", "Rovno", "Równe" ]
       }
     , { name = "Sums'ka Oblast'"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Sumska", "Sumy" ]
       }
     , { name = "Ternopil's'ka Oblast'"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Ternopil", "Ternopilska", "Ternopol" ]
       }
     , { name = "Kharkivs'ka Oblast'"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Harkov", "Kharkiv", "Kharkivska", "Kharkov" ]
       }
     , { name = "Khersons'ka Oblast'"
-      , code = ""
+      , code = "65"
       , unofficialNames = [ "Herson", "Kherson", "Khersonska" ]
       }
     , { name = "Khmel'nyts'ka Oblast'"
-      , code = ""
+      , code = "68"
       , unofficialNames = [ "Hmelnickij", "Khmelnitsky", "Khmelnytska", "Khmelnytskyy" ]
       }
     , { name = "Cherkas'ka Oblast'"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Cherkask", "Cherkassy" ]
       }
     , { name = "Chernihivs'ka Oblast'"
-      , code = ""
+      , code = "74"
       , unofficialNames = [ "Chernigov", "Chernihiv", "Černigov" ]
       }
     , { name = "Chernivets'ka Oblast'"
-      , code = ""
+      , code = "77"
       , unofficialNames = [ "Cernăuţi", "Chernivtsi", "Chernivtsy", "Chernovtsy", "Czernowitz", "Tschernowitz", "Černovcy" ]
       }
     ]
@@ -27625,323 +27625,323 @@ ukraineSubdivisions =
 ugandaSubdivisions : List Subdivision
 ugandaSubdivisions =
     [ { name = "Kalangala"
-      , code = ""
+      , code = "101"
       , unofficialNames = [ "Kalangala" ]
       }
     , { name = "Kampala"
-      , code = ""
+      , code = "102"
       , unofficialNames = [ "Kampala" ]
       }
     , { name = "Kiboga"
-      , code = ""
+      , code = "103"
       , unofficialNames = [ "Kiboga" ]
       }
     , { name = "Luwero"
-      , code = ""
+      , code = "104"
       , unofficialNames = [ "Luwero" ]
       }
     , { name = "Masaka"
-      , code = ""
+      , code = "105"
       , unofficialNames = [ "Masaka" ]
       }
     , { name = "Mpigi"
-      , code = ""
+      , code = "106"
       , unofficialNames = [ "Mpigi" ]
       }
     , { name = "Mubende"
-      , code = ""
+      , code = "107"
       , unofficialNames = [ "Mubende" ]
       }
     , { name = "Mukono"
-      , code = ""
+      , code = "108"
       , unofficialNames = [ "Mukono" ]
       }
     , { name = "Nakasongola"
-      , code = ""
+      , code = "109"
       , unofficialNames = [ "Nakasongola" ]
       }
     , { name = "Rakai"
-      , code = ""
+      , code = "110"
       , unofficialNames = [ "Rakai" ]
       }
     , { name = "Sembabule"
-      , code = ""
+      , code = "111"
       , unofficialNames = [ "Sembabule" ]
       }
     , { name = "Kayunga"
-      , code = ""
+      , code = "112"
       , unofficialNames = [ "Kayunga" ]
       }
     , { name = "Wakiso"
-      , code = ""
+      , code = "113"
       , unofficialNames = [ "Wakiso" ]
       }
     , { name = "Mityana"
-      , code = ""
+      , code = "114"
       , unofficialNames = [ "Mityana" ]
       }
     , { name = "Nakaseke"
-      , code = ""
+      , code = "115"
       , unofficialNames = [ "Nakaseke" ]
       }
     , { name = "Lyantonde"
-      , code = ""
+      , code = "116"
       , unofficialNames = [ "Lyantonde" ]
       }
     , { name = "Bugiri"
-      , code = ""
+      , code = "201"
       , unofficialNames = [ "Bugiri" ]
       }
     , { name = "Busia"
-      , code = ""
+      , code = "202"
       , unofficialNames = [ "Busia" ]
       }
     , { name = "Iganga"
-      , code = ""
+      , code = "203"
       , unofficialNames = [ "Iganga" ]
       }
     , { name = "Jinja"
-      , code = ""
+      , code = "204"
       , unofficialNames = [ "Jinja" ]
       }
     , { name = "Kamuli"
-      , code = ""
+      , code = "205"
       , unofficialNames = [ "Kamuli" ]
       }
     , { name = "Kapchorwa"
-      , code = ""
+      , code = "206"
       , unofficialNames = [ "Kapchorwa" ]
       }
     , { name = "Katakwi"
-      , code = ""
+      , code = "207"
       , unofficialNames = [ "Katakwi" ]
       }
     , { name = "Kumi"
-      , code = ""
+      , code = "208"
       , unofficialNames = [ "Kumi" ]
       }
     , { name = "Mbale"
-      , code = ""
+      , code = "209"
       , unofficialNames = [ "Mbale" ]
       }
     , { name = "Pallisa"
-      , code = ""
+      , code = "210"
       , unofficialNames = [ "Pallisa" ]
       }
     , { name = "Soroti"
-      , code = ""
+      , code = "211"
       , unofficialNames = [ "Soroti" ]
       }
     , { name = "Tororo"
-      , code = ""
+      , code = "212"
       , unofficialNames = [ "Tororo" ]
       }
     , { name = "Kaberamaido"
-      , code = ""
+      , code = "213"
       , unofficialNames = [ "Kaberamaido" ]
       }
     , { name = "Mayuge"
-      , code = ""
+      , code = "214"
       , unofficialNames = [ "Mayuge" ]
       }
     , { name = "Sironko"
-      , code = ""
+      , code = "215"
       , unofficialNames = [ "Sironko" ]
       }
     , { name = "Amuria"
-      , code = ""
+      , code = "216"
       , unofficialNames = [ "Amuria" ]
       }
     , { name = "Budaka"
-      , code = ""
+      , code = "217"
       , unofficialNames = [ "Budaka" ]
       }
     , { name = "Bukwa"
-      , code = ""
+      , code = "218"
       , unofficialNames = [ "Bukwa" ]
       }
     , { name = "Butaleja"
-      , code = ""
+      , code = "219"
       , unofficialNames = [ "Butaleja" ]
       }
     , { name = "Kaliro"
-      , code = ""
+      , code = "220"
       , unofficialNames = [ "Kaliro" ]
       }
     , { name = "Manafwa"
-      , code = ""
+      , code = "221"
       , unofficialNames = [ "Manafwa" ]
       }
     , { name = "Namutumba"
-      , code = ""
+      , code = "222"
       , unofficialNames = [ "Namutumba" ]
       }
     , { name = "Bududa"
-      , code = ""
+      , code = "223"
       , unofficialNames = [ "Bududa" ]
       }
     , { name = "Bukedea"
-      , code = ""
+      , code = "224"
       , unofficialNames = [ "Bukedea" ]
       }
     , { name = "Adjumani"
-      , code = ""
+      , code = "301"
       , unofficialNames = [ "Adjumani" ]
       }
     , { name = "Apac"
-      , code = ""
+      , code = "302"
       , unofficialNames = [ "Apac" ]
       }
     , { name = "Arua"
-      , code = ""
+      , code = "303"
       , unofficialNames = [ "Arua" ]
       }
     , { name = "Gulu"
-      , code = ""
+      , code = "304"
       , unofficialNames = [ "Gulu" ]
       }
     , { name = "Kitgum"
-      , code = ""
+      , code = "305"
       , unofficialNames = [ "Kitgum" ]
       }
     , { name = "Kotido"
-      , code = ""
+      , code = "306"
       , unofficialNames = [ "Kotido" ]
       }
     , { name = "Lira"
-      , code = ""
+      , code = "307"
       , unofficialNames = [ "Lira" ]
       }
     , { name = "Moroto"
-      , code = ""
+      , code = "308"
       , unofficialNames = [ "Moroto" ]
       }
     , { name = "Moyo"
-      , code = ""
+      , code = "309"
       , unofficialNames = [ "Moyo" ]
       }
     , { name = "Nebbi"
-      , code = ""
+      , code = "310"
       , unofficialNames = [ "Nebbi" ]
       }
     , { name = "Nakapiripirit"
-      , code = ""
+      , code = "311"
       , unofficialNames = [ "Nakapiripirit" ]
       }
     , { name = "Pader"
-      , code = ""
+      , code = "312"
       , unofficialNames = [ "Pader" ]
       }
     , { name = "Yumbe"
-      , code = ""
+      , code = "313"
       , unofficialNames = [ "Yumbe" ]
       }
     , { name = "Amolatar"
-      , code = ""
+      , code = "314"
       , unofficialNames = [ "Amolatar" ]
       }
     , { name = "Kaabong"
-      , code = ""
+      , code = "315"
       , unofficialNames = [ "Kaabong" ]
       }
     , { name = "Koboko"
-      , code = ""
+      , code = "316"
       , unofficialNames = [ "Koboko" ]
       }
     , { name = "Abim"
-      , code = ""
+      , code = "317"
       , unofficialNames = [ "Abim" ]
       }
     , { name = "Dokolo"
-      , code = ""
+      , code = "318"
       , unofficialNames = [ "Dokolo" ]
       }
     , { name = "Amuru"
-      , code = ""
+      , code = "319"
       , unofficialNames = [ "Amuru" ]
       }
     , { name = "Maracha"
-      , code = ""
+      , code = "320"
       , unofficialNames = [ "Maracha" ]
       }
     , { name = "Oyam"
-      , code = ""
+      , code = "321"
       , unofficialNames = [ "Oyam" ]
       }
     , { name = "Bundibugyo"
-      , code = ""
+      , code = "401"
       , unofficialNames = [ "Bundibugyo" ]
       }
     , { name = "Bushenyi"
-      , code = ""
+      , code = "402"
       , unofficialNames = [ "Bushenyi" ]
       }
     , { name = "Hoima"
-      , code = ""
+      , code = "403"
       , unofficialNames = [ "Hoima" ]
       }
     , { name = "Kabale"
-      , code = ""
+      , code = "404"
       , unofficialNames = [ "Kabale" ]
       }
     , { name = "Kabarole"
-      , code = ""
+      , code = "405"
       , unofficialNames = [ "Kabarole" ]
       }
     , { name = "Kasese"
-      , code = ""
+      , code = "406"
       , unofficialNames = [ "Kasese" ]
       }
     , { name = "Kibaale"
-      , code = ""
+      , code = "407"
       , unofficialNames = [ "Kibaale" ]
       }
     , { name = "Kisoro"
-      , code = ""
+      , code = "408"
       , unofficialNames = [ "Kisoro" ]
       }
     , { name = "Masindi"
-      , code = ""
+      , code = "409"
       , unofficialNames = [ "Masindi" ]
       }
     , { name = "Mbarara"
-      , code = ""
+      , code = "410"
       , unofficialNames = [ "Mbarara" ]
       }
     , { name = "Ntungamo"
-      , code = ""
+      , code = "411"
       , unofficialNames = [ "Ntungamo" ]
       }
     , { name = "Rukungiri"
-      , code = ""
+      , code = "412"
       , unofficialNames = [ "Rukungiri" ]
       }
     , { name = "Kamwenge"
-      , code = ""
+      , code = "413"
       , unofficialNames = [ "Kamwenge" ]
       }
     , { name = "Kanungu"
-      , code = ""
+      , code = "414"
       , unofficialNames = [ "Kanungu" ]
       }
     , { name = "Kyenjojo"
-      , code = ""
+      , code = "415"
       , unofficialNames = [ "Kyenjojo" ]
       }
     , { name = "Ibanda"
-      , code = ""
+      , code = "416"
       , unofficialNames = [ "Ibanda" ]
       }
     , { name = "Isingiro"
-      , code = ""
+      , code = "417"
       , unofficialNames = [ "Isingiro" ]
       }
     , { name = "Kiruhura"
-      , code = ""
+      , code = "418"
       , unofficialNames = [ "Kiruhura" ]
       }
     , { name = "Buliisa"
-      , code = ""
+      , code = "419"
       , unofficialNames = [ "Buliisa" ]
       }
     ]
@@ -27951,39 +27951,39 @@ ugandaSubdivisions =
 unitedStatesMinorOutlyingIslandsSubdivisions : List Subdivision
 unitedStatesMinorOutlyingIslandsSubdivisions =
     [ { name = "Johnston Atoll"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "Johnston Atoll" ]
       }
     , { name = "Midway Islands"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Midway Islands" ]
       }
     , { name = "Navassa Island"
-      , code = ""
+      , code = "76"
       , unofficialNames = [ "Navassa Island" ]
       }
     , { name = "Wake Island"
-      , code = ""
+      , code = "79"
       , unofficialNames = [ "Wake Island" ]
       }
     , { name = "Baker Island"
-      , code = ""
+      , code = "81"
       , unofficialNames = [ "Baker Island" ]
       }
     , { name = "Howland Island"
-      , code = ""
+      , code = "84"
       , unofficialNames = [ "Howland Island" ]
       }
     , { name = "Jarvis Island"
-      , code = ""
+      , code = "86"
       , unofficialNames = [ "Jarvis Island" ]
       }
     , { name = "Kingman Reef"
-      , code = ""
+      , code = "89"
       , unofficialNames = [ "Kingman Reef" ]
       }
     , { name = "Palmyra Atoll"
-      , code = ""
+      , code = "95"
       , unofficialNames = [ "Palmyra Atoll" ]
       }
     ]
@@ -27993,243 +27993,243 @@ unitedStatesMinorOutlyingIslandsSubdivisions =
 unitedStatesOfAmericaSubdivisions : List Subdivision
 unitedStatesOfAmericaSubdivisions =
     [ { name = "Armed Forces Americas"
-      , code = ""
+      , code = "AA"
       , unofficialNames = [ "Armed Forces Americas" ]
       }
     , { name = "Armed Forces Europe"
-      , code = ""
+      , code = "AE"
       , unofficialNames = [ "Armed Forces Europe" ]
       }
     , { name = "Alaska"
-      , code = ""
+      , code = "AK"
       , unofficialNames = [ "Alaska" ]
       }
     , { name = "Alabama"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Alabama" ]
       }
     , { name = "Armed Forces Pacific"
-      , code = ""
+      , code = "AP"
       , unofficialNames = [ "Armed Forces Pacific" ]
       }
     , { name = "Arkansas"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Arkansas" ]
       }
     , { name = "American Samoa"
-      , code = ""
+      , code = "AS"
       , unofficialNames = [ "American Samoa" ]
       }
     , { name = "Arizona"
-      , code = ""
+      , code = "AZ"
       , unofficialNames = [ "Arizona" ]
       }
     , { name = "California"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "California" ]
       }
     , { name = "Colorado"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Colorado" ]
       }
     , { name = "Connecticut"
-      , code = ""
+      , code = "CT"
       , unofficialNames = [ "Connecticut" ]
       }
     , { name = "District of Columbia"
-      , code = ""
+      , code = "DC"
       , unofficialNames = [ "District of Columbia" ]
       }
     , { name = "Delaware"
-      , code = ""
+      , code = "DE"
       , unofficialNames = [ "Delaware" ]
       }
     , { name = "Florida"
-      , code = ""
+      , code = "FL"
       , unofficialNames = [ "Florida" ]
       }
     , { name = "Georgia"
-      , code = ""
+      , code = "GA"
       , unofficialNames = [ "Georgia" ]
       }
     , { name = "Guam"
-      , code = ""
+      , code = "GU"
       , unofficialNames = [ "Guam" ]
       }
     , { name = "Hawaii"
-      , code = ""
+      , code = "HI"
       , unofficialNames = [ "Hawaii" ]
       }
     , { name = "Iowa"
-      , code = ""
+      , code = "IA"
       , unofficialNames = [ "Iowa" ]
       }
     , { name = "Idaho"
-      , code = ""
+      , code = "ID"
       , unofficialNames = [ "Idaho" ]
       }
     , { name = "Illinois"
-      , code = ""
+      , code = "IL"
       , unofficialNames = [ "Illinois" ]
       }
     , { name = "Indiana"
-      , code = ""
+      , code = "IN"
       , unofficialNames = [ "Indiana" ]
       }
     , { name = "Kansas"
-      , code = ""
+      , code = "KS"
       , unofficialNames = [ "Kansas" ]
       }
     , { name = "Kentucky"
-      , code = ""
+      , code = "KY"
       , unofficialNames = [ "Kentucky" ]
       }
     , { name = "Louisiana"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Louisiana" ]
       }
     , { name = "Massachusetts"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Massachusetts" ]
       }
     , { name = "Maryland"
-      , code = ""
+      , code = "MD"
       , unofficialNames = [ "Maryland" ]
       }
     , { name = "Maine"
-      , code = ""
+      , code = "ME"
       , unofficialNames = [ "Maine" ]
       }
     , { name = "Michigan"
-      , code = ""
+      , code = "MI"
       , unofficialNames = [ "Michigan" ]
       }
     , { name = "Minnesota"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "Minnesota" ]
       }
     , { name = "Missouri"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Missouri" ]
       }
     , { name = "Northern Mariana Islands"
-      , code = ""
+      , code = "MP"
       , unofficialNames = [ "Northern Mariana Islands" ]
       }
     , { name = "Mississippi"
-      , code = ""
+      , code = "MS"
       , unofficialNames = [ "Mississippi" ]
       }
     , { name = "Montana"
-      , code = ""
+      , code = "MT"
       , unofficialNames = [ "Montana" ]
       }
     , { name = "North Carolina"
-      , code = ""
+      , code = "NC"
       , unofficialNames = [ "North Carolina" ]
       }
     , { name = "North Dakota"
-      , code = ""
+      , code = "ND"
       , unofficialNames = [ "North Dakota" ]
       }
     , { name = "Nebraska"
-      , code = ""
+      , code = "NE"
       , unofficialNames = [ "Nebraska" ]
       }
     , { name = "New Hampshire"
-      , code = ""
+      , code = "NH"
       , unofficialNames = [ "New Hampshire" ]
       }
     , { name = "New Jersey"
-      , code = ""
+      , code = "NJ"
       , unofficialNames = [ "New Jersey" ]
       }
     , { name = "New Mexico"
-      , code = ""
+      , code = "NM"
       , unofficialNames = [ "New Mexico" ]
       }
     , { name = "Nevada"
-      , code = ""
+      , code = "NV"
       , unofficialNames = [ "Nevada" ]
       }
     , { name = "New York"
-      , code = ""
+      , code = "NY"
       , unofficialNames = [ "New York" ]
       }
     , { name = "Ohio"
-      , code = ""
+      , code = "OH"
       , unofficialNames = [ "Ohio" ]
       }
     , { name = "Oklahoma"
-      , code = ""
+      , code = "OK"
       , unofficialNames = [ "Oklahoma" ]
       }
     , { name = "Oregon"
-      , code = ""
+      , code = "OR"
       , unofficialNames = [ "Oregon" ]
       }
     , { name = "Pennsylvania"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Pennsylvania" ]
       }
     , { name = "Puerto Rico"
-      , code = ""
+      , code = "PR"
       , unofficialNames = [ "Puerto Rico" ]
       }
     , { name = "Rhode Island"
-      , code = ""
+      , code = "RI"
       , unofficialNames = [ "Rhode Island" ]
       }
     , { name = "South Carolina"
-      , code = ""
+      , code = "SC"
       , unofficialNames = [ "South Carolina" ]
       }
     , { name = "South Dakota"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "South Dakota" ]
       }
     , { name = "Tennessee"
-      , code = ""
+      , code = "TN"
       , unofficialNames = [ "Tennessee" ]
       }
     , { name = "Texas"
-      , code = ""
+      , code = "TX"
       , unofficialNames = [ "Texas" ]
       }
     , { name = "United States Minor Outlying Islands"
-      , code = ""
+      , code = "UM"
       , unofficialNames = [ "United States Minor Outlying Islands" ]
       }
     , { name = "Utah"
-      , code = ""
+      , code = "UT"
       , unofficialNames = [ "Utah" ]
       }
     , { name = "Virginia"
-      , code = ""
+      , code = "VA"
       , unofficialNames = [ "Virginia" ]
       }
     , { name = "Virgin Islands, U.S."
-      , code = ""
+      , code = "VI"
       , unofficialNames = [ "Virgin Islands, U.S." ]
       }
     , { name = "Vermont"
-      , code = ""
+      , code = "VT"
       , unofficialNames = [ "Vermont" ]
       }
     , { name = "Washington"
-      , code = ""
+      , code = "WA"
       , unofficialNames = [ "Washington" ]
       }
     , { name = "Wisconsin"
-      , code = ""
+      , code = "WI"
       , unofficialNames = [ "Wisconsin" ]
       }
     , { name = "West Virginia"
-      , code = ""
+      , code = "WV"
       , unofficialNames = [ "West Virginia" ]
       }
     , { name = "Wyoming"
-      , code = ""
+      , code = "WY"
       , unofficialNames = [ "Wyoming" ]
       }
     ]
@@ -28239,79 +28239,79 @@ unitedStatesOfAmericaSubdivisions =
 uruguaySubdivisions : List Subdivision
 uruguaySubdivisions =
     [ { name = "Artigas"
-      , code = ""
+      , code = "AR"
       , unofficialNames = [ "Artigas" ]
       }
     , { name = "Canelones"
-      , code = ""
+      , code = "CA"
       , unofficialNames = [ "Canelones" ]
       }
     , { name = "Colonia"
-      , code = ""
+      , code = "CO"
       , unofficialNames = [ "Colonia" ]
       }
     , { name = "Cerro Lago"
-      , code = ""
+      , code = "CL"
       , unofficialNames = [ "Cerro Lago" ]
       }
     , { name = "Durazno"
-      , code = ""
+      , code = "DU"
       , unofficialNames = [ "Durazno" ]
       }
     , { name = "Florida"
-      , code = ""
+      , code = "FD"
       , unofficialNames = [ "FLorida" ]
       }
     , { name = "Flores"
-      , code = ""
+      , code = "FS"
       , unofficialNames = [ "Flores" ]
       }
     , { name = "Lavalleja"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Lavalleja" ]
       }
     , { name = "Maldonado"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Maldonado" ]
       }
     , { name = "Montevideo"
-      , code = ""
+      , code = "MO"
       , unofficialNames = [ "Montevideo" ]
       }
     , { name = "Paysandú"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Paysandú" ]
       }
     , { name = "Río Negro"
-      , code = ""
+      , code = "RN"
       , unofficialNames = [ "Río Negro" ]
       }
     , { name = "Rocha"
-      , code = ""
+      , code = "RO"
       , unofficialNames = [ "Rocha" ]
       }
     , { name = "Rivera"
-      , code = ""
+      , code = "RV"
       , unofficialNames = [ "Rivera" ]
       }
     , { name = "Salto"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Salto" ]
       }
     , { name = "San José"
-      , code = ""
+      , code = "SJ"
       , unofficialNames = [ "San José" ]
       }
     , { name = "Soriano"
-      , code = ""
+      , code = "SO"
       , unofficialNames = [ "Soriano" ]
       }
     , { name = "Tacuarembó"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Tacuarembó" ]
       }
     , { name = "Treinta y Tres"
-      , code = ""
+      , code = "TT"
       , unofficialNames = [ "Treinta y Tres" ]
       }
     ]
@@ -28321,59 +28321,59 @@ uruguaySubdivisions =
 uzbekistanSubdivisions : List Subdivision
 uzbekistanSubdivisions =
     [ { name = "Andijon"
-      , code = ""
+      , code = "AN"
       , unofficialNames = [ "Andijon", "Andizhan", "Andižan" ]
       }
     , { name = "Buxoro"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Boukhara", "Buchara", "Buhara", "Buhoro", "Bukhara", "Bukhoro" ]
       }
     , { name = "Farg‘ona"
-      , code = ""
+      , code = "FA"
       , unofficialNames = [ "Farghona", "Fergana", "Ferghana", "Ferghona" ]
       }
     , { name = "Jizzax"
-      , code = ""
+      , code = "JI"
       , unofficialNames = [ "Cizah", "Cizak", "Djizak", "Dzhizak", "Džizak", "Jizzakh" ]
       }
     , { name = "Namangan"
-      , code = ""
+      , code = "NG"
       , unofficialNames = [ "Namangan", "Namaņgan" ]
       }
     , { name = "Navoiy"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "Navoi", "Navoj", "Navoy" ]
       }
     , { name = "Qashqadaryo"
-      , code = ""
+      , code = "QA"
       , unofficialNames = [ "Kashkadar", "Kashkadaria", "Kashkadarya", "Kaskadar", "Qashqadar", "Qasqadar", "Qaşqadar", "Ķaşķadar" ]
       }
     , { name = "Qoraqalpog‘iston Respublikasi"
-      , code = ""
+      , code = "QR"
       , unofficialNames = [ "Karakalpakistan", "Qoraqalpoghiston", "Qoraqalpogiston" ]
       }
     , { name = "Samarqand"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Samarqand", "Samarķand", "Samarkand", "Samarkand" ]
       }
     , { name = "Sirdaryo"
-      , code = ""
+      , code = "SI"
       , unofficialNames = [ "Sirdare", "Syrdarja", "Syrdarya" ]
       }
     , { name = "Surxondaryo"
-      , code = ""
+      , code = "SU"
       , unofficialNames = [ "Surkhondar" ]
       }
     , { name = "Toshkent City"
-      , code = ""
+      , code = "TK"
       , unofficialNames = [ "Toshkent City" ]
       }
     , { name = "Toshkent"
-      , code = ""
+      , code = "TO"
       , unofficialNames = [ "Taškent", "Toshkent", "Toşkent", "Toshkent", "Taschkent", "Tachkent" ]
       }
     , { name = "Xorazm"
-      , code = ""
+      , code = "XO"
       , unofficialNames = [ "Khorazm" ]
       }
     ]
@@ -28383,27 +28383,27 @@ uzbekistanSubdivisions =
 saintVincentAndTheGrenadinesSubdivisions : List Subdivision
 saintVincentAndTheGrenadinesSubdivisions =
     [ { name = "Charlotte"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Charlotte" ]
       }
     , { name = "Saint Andrew"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Saint Andrew" ]
       }
     , { name = "Saint David"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Saint David" ]
       }
     , { name = "Saint George"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Saint George" ]
       }
     , { name = "Saint Patrick"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Saint Patrick" ]
       }
     , { name = "Grenadines"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Grenadines" ]
       }
     ]
@@ -28413,103 +28413,103 @@ saintVincentAndTheGrenadinesSubdivisions =
 venezuelaBolivarianRepublicOfSubdivisions : List Subdivision
 venezuelaBolivarianRepublicOfSubdivisions =
     [ { name = "Distrito Federal"
-      , code = ""
+      , code = "A"
       , unofficialNames = [ "Distrito Federal" ]
       }
     , { name = "Anzoátegui"
-      , code = ""
+      , code = "B"
       , unofficialNames = [ "Anzoátegui" ]
       }
     , { name = "Apure"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Apure" ]
       }
     , { name = "Aragua"
-      , code = ""
+      , code = "D"
       , unofficialNames = [ "Aragua" ]
       }
     , { name = "Barinas"
-      , code = ""
+      , code = "E"
       , unofficialNames = [ "Barinas" ]
       }
     , { name = "Bolívar"
-      , code = ""
+      , code = "F"
       , unofficialNames = [ "Bolívar" ]
       }
     , { name = "Carabobo"
-      , code = ""
+      , code = "G"
       , unofficialNames = [ "Carabobo" ]
       }
     , { name = "Cojedes"
-      , code = ""
+      , code = "H"
       , unofficialNames = [ "Cojedes" ]
       }
     , { name = "Falcón"
-      , code = ""
+      , code = "I"
       , unofficialNames = [ "Falcón" ]
       }
     , { name = "Guárico"
-      , code = ""
+      , code = "J"
       , unofficialNames = [ "Guárico" ]
       }
     , { name = "Lara"
-      , code = ""
+      , code = "K"
       , unofficialNames = [ "Lara" ]
       }
     , { name = "Mérida"
-      , code = ""
+      , code = "L"
       , unofficialNames = [ "Mérida" ]
       }
     , { name = "Miranda"
-      , code = ""
+      , code = "M"
       , unofficialNames = [ "Miranda" ]
       }
     , { name = "Monagas"
-      , code = ""
+      , code = "N"
       , unofficialNames = [ "Monagas" ]
       }
     , { name = "Nueva Esparta"
-      , code = ""
+      , code = "O"
       , unofficialNames = [ "Nueva Esparta" ]
       }
     , { name = "Portuguesa"
-      , code = ""
+      , code = "P"
       , unofficialNames = [ "Portuguesa" ]
       }
     , { name = "Sucre"
-      , code = ""
+      , code = "R"
       , unofficialNames = [ "Sucre" ]
       }
     , { name = "Táchira"
-      , code = ""
+      , code = "S"
       , unofficialNames = [ "Táchira" ]
       }
     , { name = "Trujillo"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Trujillo" ]
       }
     , { name = "Yaracuy"
-      , code = ""
+      , code = "U"
       , unofficialNames = [ "Yaracuy" ]
       }
     , { name = "Zulia"
-      , code = ""
+      , code = "V"
       , unofficialNames = [ "Zulia" ]
       }
     , { name = "Dependencias Federales"
-      , code = ""
+      , code = "W"
       , unofficialNames = [ "Dependencias Federales" ]
       }
     , { name = "Vargas"
-      , code = ""
+      , code = "X"
       , unofficialNames = [ "Vargas" ]
       }
     , { name = "Delta Amacuro"
-      , code = ""
+      , code = "Y"
       , unofficialNames = [ "Delta Amacuro" ]
       }
     , { name = "Amazonas"
-      , code = ""
+      , code = "Z"
       , unofficialNames = [ "Amazonas" ]
       }
     ]
@@ -28519,15 +28519,15 @@ venezuelaBolivarianRepublicOfSubdivisions =
 virginIslandsUSSubdivisions : List Subdivision
 virginIslandsUSSubdivisions =
     [ { name = "Saint Croix"
-      , code = ""
+      , code = "C"
       , unofficialNames = [ "Saint Croix" ]
       }
     , { name = "Saint John"
-      , code = ""
+      , code = "J"
       , unofficialNames = [ "Saint John" ]
       }
     , { name = "Saint Thomas"
-      , code = ""
+      , code = "T"
       , unofficialNames = [ "Saint Thomas" ]
       }
     ]
@@ -28537,255 +28537,255 @@ virginIslandsUSSubdivisions =
 vietNamSubdivisions : List Subdivision
 vietNamSubdivisions =
     [ { name = "Ho Chi Minh"
-      , code = ""
+      , code = "SG"
       , unofficialNames = [ "Sai Gon" ]
       }
     , { name = "Ha Noi"
-      , code = ""
+      , code = "HN"
       , unofficialNames = [ "Ha Noi, thu do" ]
       }
     , { name = "Can Tho"
-      , code = ""
+      , code = "CT"
       , unofficialNames = [ "Can Tho" ]
       }
     , { name = "Da Nang"
-      , code = ""
+      , code = "DN"
       , unofficialNames = [ "Da Nang, thanh pho" ]
       }
     , { name = "Hai Phong"
-      , code = ""
+      , code = "HP"
       , unofficialNames = [ "Hai Phong, thanh pho" ]
       }
     , { name = "An Giang"
-      , code = ""
+      , code = "44"
       , unofficialNames = [ "An Giang" ]
       }
     , { name = "Ba Ria - Vung Tau"
-      , code = ""
+      , code = "43"
       , unofficialNames = [ "Ba Ria - Vung Tau" ]
       }
     , { name = "Bac Giang"
-      , code = ""
+      , code = "54"
       , unofficialNames = [ "Bac Giang" ]
       }
     , { name = "Bac Can"
-      , code = ""
+      , code = "53"
       , unofficialNames = [ "Bac Can" ]
       }
     , { name = "Bac Lieu"
-      , code = ""
+      , code = "55"
       , unofficialNames = [ "Bac Lieu" ]
       }
     , { name = "Bac Ninh"
-      , code = ""
+      , code = "56"
       , unofficialNames = [ "Bac Ninh" ]
       }
     , { name = "Ben Tre"
-      , code = ""
+      , code = "50"
       , unofficialNames = [ "Ben Tre" ]
       }
     , { name = "Binh Dinh"
-      , code = ""
+      , code = "31"
       , unofficialNames = [ "Binh Dinh" ]
       }
     , { name = "Binh Duong"
-      , code = ""
+      , code = "57"
       , unofficialNames = [ "Binh Duong" ]
       }
     , { name = "Binh Phuoc"
-      , code = ""
+      , code = "58"
       , unofficialNames = [ "Binh Phuoc" ]
       }
     , { name = "Binh Thuan"
-      , code = ""
+      , code = "40"
       , unofficialNames = [ "Binh Thuan" ]
       }
     , { name = "Ca Mau"
-      , code = ""
+      , code = "59"
       , unofficialNames = [ "Ca Mau" ]
       }
     , { name = "Cao Bang"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Cao Bang" ]
       }
     , { name = "Dac Lac"
-      , code = ""
+      , code = "33"
       , unofficialNames = [ "Dac Lac" ]
       }
     , { name = "Dak Nong"
-      , code = ""
+      , code = "72"
       , unofficialNames = [ "Dak Nong" ]
       }
     , { name = "Dien Bien"
-      , code = ""
+      , code = "71"
       , unofficialNames = [ "Dien Bien" ]
       }
     , { name = "Dong Nai"
-      , code = ""
+      , code = "39"
       , unofficialNames = [ "Dong Nai" ]
       }
     , { name = "Dong Thap"
-      , code = ""
+      , code = "45"
       , unofficialNames = [ "Dong Thap" ]
       }
     , { name = "Gia Lai"
-      , code = ""
+      , code = "30"
       , unofficialNames = [ "Gia Lai" ]
       }
     , { name = "Ha Giang"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Ha Giang" ]
       }
     , { name = "Ha Nam"
-      , code = ""
+      , code = "63"
       , unofficialNames = [ "Ha Nam" ]
       }
     , { name = "Ha Tinh"
-      , code = ""
+      , code = "23"
       , unofficialNames = [ "Ha Tinh" ]
       }
     , { name = "Hai Duong"
-      , code = ""
+      , code = "61"
       , unofficialNames = [ "Hai Duong" ]
       }
     , { name = "Hau Giang"
-      , code = ""
+      , code = "73"
       , unofficialNames = [ "Hau Giang" ]
       }
     , { name = "Hoa Binh"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Hoa Binh" ]
       }
     , { name = "Hung Yen"
-      , code = ""
+      , code = "66"
       , unofficialNames = [ "Hung Yen" ]
       }
     , { name = "Khanh Hoa"
-      , code = ""
+      , code = "34"
       , unofficialNames = [ "Khanh Hoa" ]
       }
     , { name = "Kien Giang"
-      , code = ""
+      , code = "47"
       , unofficialNames = [ "Kien Giang" ]
       }
     , { name = "Kon Tum"
-      , code = ""
+      , code = "28"
       , unofficialNames = [ "Kon Tum" ]
       }
     , { name = "Lai Chau"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Lai Chau" ]
       }
     , { name = "Lam Dong"
-      , code = ""
+      , code = "35"
       , unofficialNames = [ "Lam Dong" ]
       }
     , { name = "Lang Son"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Lang Son" ]
       }
     , { name = "Lao Cai"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Lao Cai" ]
       }
     , { name = "Long An"
-      , code = ""
+      , code = "41"
       , unofficialNames = [ "Long An" ]
       }
     , { name = "Nam Dinh"
-      , code = ""
+      , code = "67"
       , unofficialNames = [ "Nam Dinh" ]
       }
     , { name = "Nghe An"
-      , code = ""
+      , code = "22"
       , unofficialNames = [ "Nghe An" ]
       }
     , { name = "Ninh Binh"
-      , code = ""
+      , code = "18"
       , unofficialNames = [ "Ninh Binh" ]
       }
     , { name = "Ninh Thuan"
-      , code = ""
+      , code = "36"
       , unofficialNames = [ "Ninh Thuan" ]
       }
     , { name = "Phu Tho"
-      , code = ""
+      , code = "68"
       , unofficialNames = [ "Phu Tho" ]
       }
     , { name = "Phu Yen"
-      , code = ""
+      , code = "32"
       , unofficialNames = [ "Phu Yen" ]
       }
     , { name = "Quang Binh"
-      , code = ""
+      , code = "24"
       , unofficialNames = [ "Quang Binh" ]
       }
     , { name = "Quang Nam"
-      , code = ""
+      , code = "27"
       , unofficialNames = [ "Quang Nam" ]
       }
     , { name = "Quang Ngai"
-      , code = ""
+      , code = "29"
       , unofficialNames = [ "Quang Ngai" ]
       }
     , { name = "Quang Ninh"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "Quang Ninh" ]
       }
     , { name = "Quang Tri"
-      , code = ""
+      , code = "25"
       , unofficialNames = [ "Quang Tri" ]
       }
     , { name = "Soc Trang"
-      , code = ""
+      , code = "52"
       , unofficialNames = [ "Soc Trang" ]
       }
     , { name = "Son La"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Son La" ]
       }
     , { name = "Tay Ninh"
-      , code = ""
+      , code = "37"
       , unofficialNames = [ "Tay Ninh" ]
       }
     , { name = "Thai Binh"
-      , code = ""
+      , code = "20"
       , unofficialNames = [ "Thai Binh" ]
       }
     , { name = "Thai Nguyen"
-      , code = ""
+      , code = "69"
       , unofficialNames = [ "Central Highlands" ]
       }
     , { name = "Thanh Hoa"
-      , code = ""
+      , code = "21"
       , unofficialNames = [ "Thanh Hoa" ]
       }
     , { name = "Thua Thien-Hue"
-      , code = ""
+      , code = "26"
       , unofficialNames = [ "Thua Thien-Hue" ]
       }
     , { name = "Tien Giang"
-      , code = ""
+      , code = "46"
       , unofficialNames = [ "Tien Giang" ]
       }
     , { name = "Tra Vinh"
-      , code = ""
+      , code = "51"
       , unofficialNames = [ "Tra Vinh" ]
       }
     , { name = "Tuyen Quang"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Tuyen Quang" ]
       }
     , { name = "Vinh Long"
-      , code = ""
+      , code = "49"
       , unofficialNames = [ "Vinh Long" ]
       }
     , { name = "Vinh Phuc"
-      , code = ""
+      , code = "70"
       , unofficialNames = [ "Vinh Phuc" ]
       }
     , { name = "Yen Bai"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "Yen Bai" ]
       }
     ]
@@ -28795,27 +28795,27 @@ vietNamSubdivisions =
 vanuatuSubdivisions : List Subdivision
 vanuatuSubdivisions =
     [ { name = "Malampa"
-      , code = ""
+      , code = "MAP"
       , unofficialNames = [ "Ambrim", "Ambrym", "Malakula", "Malekula", "Mallicollo", "Paama" ]
       }
     , { name = "Pénama"
-      , code = ""
+      , code = "PAM"
       , unofficialNames = [ "Ambae-Maewo", "Aoba-Maewo", "Omba-Aurora", "Omba-Maewo", "Pentecost" ]
       }
     , { name = "Sanma"
-      , code = ""
+      , code = "SAM"
       , unofficialNames = [ "Santo-Malo" ]
       }
     , { name = "Shéfa"
-      , code = ""
+      , code = "SEE"
       , unofficialNames = [ "Sandwich Island", "Vaté", "Éfaté" ]
       }
     , { name = "Taféa"
-      , code = ""
+      , code = "TAE"
       , unofficialNames = [ "Taféa" ]
       }
     , { name = "Torba"
-      , code = ""
+      , code = "TOB"
       , unofficialNames = [ "Banks-Torres" ]
       }
     ]
@@ -28831,47 +28831,47 @@ wallisAndFutunaSubdivisions =
 samoaSubdivisions : List Subdivision
 samoaSubdivisions =
     [ { name = "A'ana"
-      , code = ""
+      , code = "AA"
       , unofficialNames = [ "A'ana" ]
       }
     , { name = "Aiga-i-le-Tai"
-      , code = ""
+      , code = "AL"
       , unofficialNames = [ "Aiga-i-le-Tai" ]
       }
     , { name = "Atua"
-      , code = ""
+      , code = "AT"
       , unofficialNames = [ "Atua" ]
       }
     , { name = "Fa'asaleleaga"
-      , code = ""
+      , code = "FA"
       , unofficialNames = [ "Fa'asaleleaga" ]
       }
     , { name = "Gaga'emauga"
-      , code = ""
+      , code = "GE"
       , unofficialNames = [ "Gaga'emauga" ]
       }
     , { name = "Gagaifomauga"
-      , code = ""
+      , code = "GI"
       , unofficialNames = [ "Gagaifomauga" ]
       }
     , { name = "Palauli"
-      , code = ""
+      , code = "PA"
       , unofficialNames = [ "Palauli" ]
       }
     , { name = "Satupa'itea"
-      , code = ""
+      , code = "SA"
       , unofficialNames = [ "Satupa'itea" ]
       }
     , { name = "Tuamasaga"
-      , code = ""
+      , code = "TU"
       , unofficialNames = [ "Tuamasaga" ]
       }
     , { name = "Va'a-o-Fonoti"
-      , code = ""
+      , code = "VF"
       , unofficialNames = [ "Va'a-o-Fonoti" ]
       }
     , { name = "Vaisigano"
-      , code = ""
+      , code = "VS"
       , unofficialNames = [ "Vaisigano" ]
       }
     ]
@@ -28881,79 +28881,79 @@ samoaSubdivisions =
 yemenSubdivisions : List Subdivision
 yemenSubdivisions =
     [ { name = "Abyan"
-      , code = ""
+      , code = "AB"
       , unofficialNames = [ "Abyan" ]
       }
     , { name = "ʿAdan"
-      , code = ""
+      , code = "AD"
       , unofficialNames = [ "Adan", "ʿAdan", "Aden", "Aden", "Adén" ]
       }
     , { name = "'Amran"
-      , code = ""
+      , code = "AM"
       , unofficialNames = [ "'Amran" ]
       }
     , { name = "Al Bayḑā’"
-      , code = ""
+      , code = "BA"
       , unofficialNames = [ "Al Baida" ]
       }
     , { name = "Ad¸ D¸ali'"
-      , code = ""
+      , code = "DA"
       , unofficialNames = [ "Ad¸ D¸ali'" ]
       }
     , { name = "Dhamar"
-      , code = ""
+      , code = "DH"
       , unofficialNames = [ "Dhamar", "Dhomar", "Đomar" ]
       }
     , { name = "Hadramawt"
-      , code = ""
+      , code = "HD"
       , unofficialNames = [ "Hadramout" ]
       }
     , { name = "Hajjah"
-      , code = ""
+      , code = "HJ"
       , unofficialNames = [ "Hajjah" ]
       }
     , { name = "Al Ḩudaydah"
-      , code = ""
+      , code = "HU"
       , unofficialNames = [ "Hodeida", "Hodeidah", "Hodeïah", "H̨udaydah", "al-Hudaydah" ]
       }
     , { name = "Ibb"
-      , code = ""
+      , code = "IB"
       , unofficialNames = [ "Ibb" ]
       }
     , { name = "Al Jawf"
-      , code = ""
+      , code = "JA"
       , unofficialNames = [ "Al Jawf" ]
       }
     , { name = "Laḩij"
-      , code = ""
+      , code = "LA"
       , unofficialNames = [ "Lahej", "Lahj" ]
       }
     , { name = "Ma'rib"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Marab", "Mareb" ]
       }
     , { name = "Al Mahrah"
-      , code = ""
+      , code = "MR"
       , unofficialNames = [ "Al Mahrah" ]
       }
     , { name = "Al Mahwit"
-      , code = ""
+      , code = "MW"
       , unofficialNames = [ "Al Mahwit" ]
       }
     , { name = "Sa`dah"
-      , code = ""
+      , code = "SD"
       , unofficialNames = [ "Saʿadah" ]
       }
     , { name = "Shabwah"
-      , code = ""
+      , code = "SH"
       , unofficialNames = [ "Shabwah" ]
       }
     , { name = "Sanʿā"
-      , code = ""
+      , code = "SN"
       , unofficialNames = [ "Sana", "Sanaa", "Sanaʿa", "Sanaʿa City", "Sanʿaʿ" ]
       }
     , { name = "Taʿizz"
-      , code = ""
+      , code = "TA"
       , unofficialNames = [ "Taiz" ]
       }
     ]
@@ -28963,71 +28963,71 @@ yemenSubdivisions =
 mayotteSubdivisions : List Subdivision
 mayotteSubdivisions =
     [ { name = "Acoua"
-      , code = ""
+      , code = "1"
       , unofficialNames = [ "Acoua" ]
       }
     , { name = "Bandraboua"
-      , code = ""
+      , code = "2"
       , unofficialNames = [ "Bandraboua" ]
       }
     , { name = "Bandrele"
-      , code = ""
+      , code = "3"
       , unofficialNames = [ "Bandrele" ]
       }
     , { name = "Boueni"
-      , code = ""
+      , code = "4"
       , unofficialNames = [ "Boueni" ]
       }
     , { name = "Chiconi"
-      , code = ""
+      , code = "5"
       , unofficialNames = [ "Chiconi" ]
       }
     , { name = "Chirongui"
-      , code = ""
+      , code = "6"
       , unofficialNames = [ "Chirongui" ]
       }
     , { name = "Dembeni"
-      , code = ""
+      , code = "7"
       , unofficialNames = [ "Dembeni" ]
       }
     , { name = "Dzaoudzi"
-      , code = ""
+      , code = "8"
       , unofficialNames = [ "Dzaoudzi" ]
       }
     , { name = "Kani-Keli"
-      , code = ""
+      , code = "9"
       , unofficialNames = [ "Kani-Keli" ]
       }
     , { name = "Koungou"
-      , code = ""
+      , code = "10"
       , unofficialNames = [ "Koungou" ]
       }
     , { name = "Mamoudzou"
-      , code = ""
+      , code = "11"
       , unofficialNames = [ "Mamoudzou" ]
       }
     , { name = "Mtsamboro"
-      , code = ""
+      , code = "12"
       , unofficialNames = [ "Mtsamboro" ]
       }
     , { name = "M'Tsangamouji"
-      , code = ""
+      , code = "13"
       , unofficialNames = [ "M'Tsangamouji" ]
       }
     , { name = "Ouangani"
-      , code = ""
+      , code = "14"
       , unofficialNames = [ "Ouangani" ]
       }
     , { name = "Pamandzi"
-      , code = ""
+      , code = "15"
       , unofficialNames = [ "Pamandzi" ]
       }
     , { name = "Sada"
-      , code = ""
+      , code = "16"
       , unofficialNames = [ "Sada" ]
       }
     , { name = "Tsingoni"
-      , code = ""
+      , code = "17"
       , unofficialNames = [ "Tsingoni" ]
       }
     ]
@@ -29037,39 +29037,39 @@ mayotteSubdivisions =
 southAfricaSubdivisions : List Subdivision
 southAfricaSubdivisions =
     [ { name = "Eastern Cape"
-      , code = ""
+      , code = "EC"
       , unofficialNames = [ "Oos Kaap" ]
       }
     , { name = "Free State"
-      , code = ""
+      , code = "FS"
       , unofficialNames = [ "Foreistata", "Vrystaat" ]
       }
     , { name = "Gauteng"
-      , code = ""
+      , code = "GT"
       , unofficialNames = [ "Pretoria-Witwatersrand-Vereeniging" ]
       }
     , { name = "Limpopo"
-      , code = ""
+      , code = "LP"
       , unofficialNames = [ "Limpopo" ]
       }
     , { name = "Mpumalanga"
-      , code = ""
+      , code = "MP"
       , unofficialNames = [ "eMpumalanga" ]
       }
     , { name = "Northern Cape"
-      , code = ""
+      , code = "NC"
       , unofficialNames = [ "Northern Cape" ]
       }
     , { name = "Kwazulu-Natal"
-      , code = ""
+      , code = "NL"
       , unofficialNames = [ "Kwazulu-Natal" ]
       }
     , { name = "North-West"
-      , code = ""
+      , code = "NW"
       , unofficialNames = [ "North-West" ]
       }
     , { name = "Western Cape"
-      , code = ""
+      , code = "WC"
       , unofficialNames = [ "Wes Kaap" ]
       }
     ]
@@ -29079,39 +29079,39 @@ southAfricaSubdivisions =
 zambiaSubdivisions : List Subdivision
 zambiaSubdivisions =
     [ { name = "Western"
-      , code = ""
+      , code = "01"
       , unofficialNames = [ "Western" ]
       }
     , { name = "Central"
-      , code = ""
+      , code = "02"
       , unofficialNames = [ "Central" ]
       }
     , { name = "Eastern"
-      , code = ""
+      , code = "03"
       , unofficialNames = [ "Eastern" ]
       }
     , { name = "Luapula"
-      , code = ""
+      , code = "04"
       , unofficialNames = [ "Luapula" ]
       }
     , { name = "Northern"
-      , code = ""
+      , code = "05"
       , unofficialNames = [ "Northern" ]
       }
     , { name = "North-Western"
-      , code = ""
+      , code = "06"
       , unofficialNames = [ "North-Western" ]
       }
     , { name = "Southern"
-      , code = ""
+      , code = "07"
       , unofficialNames = [ "Southern" ]
       }
     , { name = "Copperbelt"
-      , code = ""
+      , code = "08"
       , unofficialNames = [ "Copperbelt" ]
       }
     , { name = "Lusaka"
-      , code = ""
+      , code = "09"
       , unofficialNames = [ "Lusaka" ]
       }
     ]
@@ -29121,43 +29121,43 @@ zambiaSubdivisions =
 zimbabweSubdivisions : List Subdivision
 zimbabweSubdivisions =
     [ { name = "Bulawayo"
-      , code = ""
+      , code = "BU"
       , unofficialNames = [ "Bulawayo" ]
       }
     , { name = "Harare"
-      , code = ""
+      , code = "HA"
       , unofficialNames = [ "Harare" ]
       }
     , { name = "Manicaland"
-      , code = ""
+      , code = "MA"
       , unofficialNames = [ "Manicaland" ]
       }
     , { name = "Mashonaland Central"
-      , code = ""
+      , code = "MC"
       , unofficialNames = [ "Mashonaland Central" ]
       }
     , { name = "Mashonaland East"
-      , code = ""
+      , code = "ME"
       , unofficialNames = [ "Mashonaland East" ]
       }
     , { name = "Midlands"
-      , code = ""
+      , code = "MI"
       , unofficialNames = [ "Midlands" ]
       }
     , { name = "Matabeleland North"
-      , code = ""
+      , code = "MN"
       , unofficialNames = [ "Matabeleland North" ]
       }
     , { name = "Matabeleland South"
-      , code = ""
+      , code = "MS"
       , unofficialNames = [ "Matabeleland South" ]
       }
     , { name = "Masvingo"
-      , code = ""
+      , code = "MV"
       , unofficialNames = [ "Masvingo" ]
       }
     , { name = "Mashonaland West"
-      , code = ""
+      , code = "MW"
       , unofficialNames = [ "Mashonaland West" ]
       }
     ]

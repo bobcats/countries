@@ -126,12 +126,12 @@ subdivision_funcs = ISO3166::Country.all.sort_by(&:alpha2).select(&:subdivisions
   country = ISO3166::Country[country.alpha2]
   function_name = "#{country.name.parameterize.underscore.camelize(:lower)}Subdivisions"
 
-  subdivisions = country.subdivisions.map do |_k, subdivision|
+  subdivisions = country.subdivisions.map do |code, subdivision|
     next if subdivision.name.blank?
 
     <<~TEMPLATE
       { name = "#{subdivision.name}"
-          , code = "#{subdivision.code}"
+          , code = "#{code}"
           , unofficialNames = ["#{Array.wrap(subdivision.unofficial_names).join('", "')}"]}
     TEMPLATE
   end.compact
