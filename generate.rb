@@ -218,7 +218,7 @@ end
 
 def iso3166_template
   ERB.new(<<~TEMPLATE)
-    module ISO3166 exposing (Country, Subdivision, all, findSubdivisionByCode, fromAlpha2, <%= (country_funcs + subdivision_funcs).map(&:name).join(', ') %>)
+    module ISO3166 exposing (Country, Subdivision, all, findSubdivisionByCode, fromAlpha2, fromAlpha3, <%= (country_funcs + subdivision_funcs).map(&:name).join(', ') %>)
 
     {-|
       Based upon the country data from https://github.com/countries/countries
@@ -230,7 +230,7 @@ def iso3166_template
 
       # Helpers
 
-      @docs all, fromAlpha2, findSubdivisionByCode
+      @docs all, fromAlpha2, fromAlpha3, findSubdivisionByCode
 
       # Countries
 
@@ -347,6 +347,17 @@ def iso3166_template
     fromAlpha2 alpha2 =
       all
         |> List.filter (\\c -> c.alpha2 == alpha2)
+        |> List.head
+
+    {-|
+      Find a country by it's alpha3 code.
+
+          ISO3166.fromAlpha3 "US" # => Just { name = "United States", alpha3 = "US", alpha3 = "USA", ... }
+    -}
+    fromAlpha3 : String -> Maybe Country
+    fromAlpha3 alpha3 =
+      all
+        |> List.filter (\\c -> c.alpha3 == alpha3)
         |> List.head
 
     {-|
