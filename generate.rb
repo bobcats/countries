@@ -214,7 +214,7 @@ end
 
 def iso3166_template
   ERB.new(<<~TEMPLATE)
-    module ISO3166 exposing (Country, all, fromAlpha2, <%= (country_funcs + subdivision_funcs).map(&:name).join(', ') %>)
+    module ISO3166 exposing (Country, Subdivision, all, fromAlpha2, <%= (country_funcs + subdivision_funcs).map(&:name).join(', ') %>)
 
     {-|
       Based upon the country data from https://github.com/countries/countries
@@ -222,7 +222,7 @@ def iso3166_template
 
       # Types
 
-      @docs Country
+      @docs Country, Subdivision
 
       # Helpers
 
@@ -317,6 +317,9 @@ def iso3166_template
         , worldRegion : WorldRegion
         }
 
+    {-|
+      Representation of a subdivision.
+    -}
     type alias Subdivision =
         { name : String
         , code : String

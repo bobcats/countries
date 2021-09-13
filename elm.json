@@ -1,6 +1,9 @@
 {
     "type": "package",
+    "name": "bobcats/countries",
+    "summary": "ISO3166 Data for Elm",
     "license": "MIT",
+    "version": "1.1.0",
     "exposed-modules": [
         "ISO3166",
         "ISO3166.Continent",
@@ -8,14 +11,10 @@
         "ISO3166.Region",
         "ISO3166.WorldRegion"
     ],
-    "summary": "ISO3166 Data for Elm",
-    "name": "bobcats/countries",
     "elm-version": "0.19.0 <= v < 0.20.0",
-    "version": "1.0.0",
     "dependencies": {
         "elm/core": "1.0.0 <= v < 2.0.0",
         "elm/time": "1.0.0 <= v < 2.0.0"
     },
-    "test-dependencies": {
-    }
+    "test-dependencies": {}
 }
