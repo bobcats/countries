@@ -43,6 +43,10 @@ def escape_quotes(s)
   s.gsub('"', '\"')
 end
 
+def country_to_func_name(country)
+  "country#{country.alpha2}"
+end
+
 continents = ISO3166::Country.all.map(&:continent).uniq.sort
 regions = ISO3166::Country.all.map(&:region).uniq.sort
 subregions = ISO3166::Country.all.map(&:subregion).uniq.sort
@@ -67,7 +71,7 @@ country_funcs = ISO3166::Country.all.sort_by(&:name).map do |country|
       TEMPLATE
     end
 
-  function_name = country.name.parameterize.underscore.camelize(:lower)
+  function_name = country_to_func_name(country)
 
   subdivision_function =
     if country.subdivisions?
@@ -124,7 +128,7 @@ end
 
 subdivision_funcs = ISO3166::Country.all.sort_by(&:alpha2).select(&:subdivisions?).map do |country|
   country = ISO3166::Country[country.alpha2]
-  function_name = "#{country.name.parameterize.underscore.camelize(:lower)}Subdivisions"
+  function_name = "#{country_to_func_name(country)}Subdivisions"
 
   subdivisions = country.subdivisions.map do |code, subdivision|
     next if subdivision.name.blank?
@@ -214,7 +218,7 @@ end
 
 def iso3166_template
   ERB.new(<<~TEMPLATE)
-    module ISO3166 exposing (Country, Subdivision, all, fromAlpha2, <%= (country_funcs + subdivision_funcs).map(&:name).join(', ') %>)
+    module ISO3166 exposing (Country, Subdivision, all, findSubdivisionByCode, fromAlpha2, <%= (country_funcs + subdivision_funcs).map(&:name).join(', ') %>)
 
     {-|
       Based upon the country data from https://github.com/countries/countries
@@ -226,7 +230,7 @@ def iso3166_template
 
       # Helpers
 
-      @docs all, fromAlpha2
+      @docs all, fromAlpha2, findSubdivisionByCode
 
       # Countries
 
@@ -344,6 +348,18 @@ def iso3166_template
       all
         |> List.filter (\\c -> c.alpha2 == alpha2)
         |> List.head
+
+    {-|
+      Find a subdivision by it's code.
+
+          ISO3166.findSubdivisionByCode ISO3166.countryUS "NY" # => Just { name = "New York", code = "NY", ... }
+    -}
+    findSubdivisionByCode : Country -> String -> Maybe Subdivision
+    findSubdivisionByCode country code =
+      country.subdivisions
+        |> List.filter (\\s -> s.code == code)
+        |> List.head
+
     <%= country_funcs.map(&:render).join("\n\n") %>
 
     <%= subdivision_funcs.map(&:render).join("\n\n") %>

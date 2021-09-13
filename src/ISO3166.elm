@@ -1,8 +1,8 @@
 module ISO3166 exposing
     ( Country, Subdivision
-    , all, fromAlpha2
-    , afghanistan, albania, algeria, americanSamoa, andorra, angola, anguilla, antarctica, antiguaAndBarbuda, argentina, armenia, aruba, australia, austria, azerbaijan, bahamas, bahrain, bangladesh, barbados, belarus, belgium, belize, benin, bermuda, bhutan, boliviaPlurinationalStateOf, bonaireSintEustatiusAndSaba, bosniaAndHerzegovina, botswana, bouvetIsland, brazil, britishIndianOceanTerritory, bruneiDarussalam, bulgaria, burkinaFaso, burundi, caboVerde, cambodia, cameroon, canada, caymanIslands, centralAfricanRepublic, chad, chile, china, christmasIsland, cocosKeelingIslands, colombia, comoros, congo, congoDemocraticRepublicOfThe, cookIslands, costaRica, croatia, cuba, curacao, cyprus, czechRepublic, coteDIvoire, denmark, djibouti, dominica, dominicanRepublic, ecuador, egypt, elSalvador, equatorialGuinea, eritrea, estonia, ethiopia, falklandIslandsMalvinas, faroeIslands, fiji, finland, france, frenchGuiana, frenchPolynesia, frenchSouthernTerritories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, grenada, guadeloupe, guam, guatemala, guernsey, guinea, guineaBissau, guyana, haiti, heardIslandAndMcdonaldIslands, holySee, honduras, hongKong, hungary, iceland, india, indonesia, iranIslamicRepublicOf, iraq, ireland, isleOfMan, israel, italy, jamaica, japan, jersey, jordan, kazakhstan, kenya, kiribati, koreaDemocraticPeopleSRepublicOf, koreaRepublicOf, kuwait, kyrgyzstan, laoPeopleSDemocraticRepublic, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, macao, madagascar, malawi, malaysia, maldives, mali, malta, marshallIslands, martinique, mauritania, mauritius, mayotte, mexico, micronesiaFederatedStatesOf, moldovaRepublicOf, monaco, mongolia, montenegro, montserrat, morocco, mozambique, myanmar, namibia, nauru, nepal, netherlands, newCaledonia, newZealand, nicaragua, niger, nigeria, niue, norfolkIsland, northMacedonia, northernMarianaIslands, norway, oman, pakistan, palau, palestineStateOf, panama, papuaNewGuinea, paraguay, peru, philippines, pitcairn, poland, portugal, puertoRico, qatar, romania, russianFederation, rwanda, reunion, saintBarthelemy, saintHelenaAscensionAndTristanDaCunha, saintKittsAndNevis, saintLucia, saintMartinFrenchPart, saintPierreAndMiquelon, saintVincentAndTheGrenadines, samoa, sanMarino, saoTomeAndPrincipe, saudiArabia, senegal, serbia, seychelles, sierraLeone, singapore, sintMaartenDutchPart, slovakia, slovenia, solomonIslands, somalia, southAfrica, southGeorgiaAndTheSouthSandwichIslands, southSudan, spain, sriLanka, sudan, suriname, svalbardAndJanMayen, sweden, switzerland, syrianArabRepublic, taiwanProvinceOfChina, tajikistan, tanzaniaUnitedRepublicOf, thailand, timorLeste, togo, tokelau, tonga, trinidadAndTobago, tunisia, turkey, turkmenistan, turksAndCaicosIslands, tuvalu, uganda, ukraine, unitedArabEmirates, unitedKingdomOfGreatBritainAndNorthernIreland, unitedStatesMinorOutlyingIslands, unitedStatesOfAmerica, uruguay, uzbekistan, vanuatu, venezuelaBolivarianRepublicOf, vietNam, virginIslandsBritish, virginIslandsUS, wallisAndFutuna, westernSahara, yemen, zambia, zimbabwe, eswatini, alandIslands
-    , andorraSubdivisions, unitedArabEmiratesSubdivisions, afghanistanSubdivisions, antiguaAndBarbudaSubdivisions, anguillaSubdivisions, albaniaSubdivisions, armeniaSubdivisions, angolaSubdivisions, argentinaSubdivisions, americanSamoaSubdivisions, austriaSubdivisions, australiaSubdivisions, arubaSubdivisions, alandIslandsSubdivisions, azerbaijanSubdivisions, bosniaAndHerzegovinaSubdivisions, barbadosSubdivisions, bangladeshSubdivisions, belgiumSubdivisions, burkinaFasoSubdivisions, bulgariaSubdivisions, bahrainSubdivisions, burundiSubdivisions, beninSubdivisions, saintBarthelemySubdivisions, bermudaSubdivisions, bruneiDarussalamSubdivisions, boliviaPlurinationalStateOfSubdivisions, bonaireSintEustatiusAndSabaSubdivisions, brazilSubdivisions, bahamasSubdivisions, bhutanSubdivisions, botswanaSubdivisions, belarusSubdivisions, belizeSubdivisions, canadaSubdivisions, congoDemocraticRepublicOfTheSubdivisions, centralAfricanRepublicSubdivisions, congoSubdivisions, switzerlandSubdivisions, coteDIvoireSubdivisions, cookIslandsSubdivisions, chileSubdivisions, cameroonSubdivisions, chinaSubdivisions, colombiaSubdivisions, costaRicaSubdivisions, cubaSubdivisions, caboVerdeSubdivisions, curacaoSubdivisions, cyprusSubdivisions, czechRepublicSubdivisions, germanySubdivisions, djiboutiSubdivisions, denmarkSubdivisions, dominicaSubdivisions, dominicanRepublicSubdivisions, algeriaSubdivisions, ecuadorSubdivisions, estoniaSubdivisions, egyptSubdivisions, westernSaharaSubdivisions, eritreaSubdivisions, spainSubdivisions, ethiopiaSubdivisions, finlandSubdivisions, fijiSubdivisions, micronesiaFederatedStatesOfSubdivisions, faroeIslandsSubdivisions, franceSubdivisions, gabonSubdivisions, unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions, grenadaSubdivisions, georgiaSubdivisions, frenchGuianaSubdivisions, guernseySubdivisions, ghanaSubdivisions, greenlandSubdivisions, gambiaSubdivisions, guineaSubdivisions, guadeloupeSubdivisions, equatorialGuineaSubdivisions, greeceSubdivisions, guatemalaSubdivisions, guamSubdivisions, guineaBissauSubdivisions, guyanaSubdivisions, hongKongSubdivisions, hondurasSubdivisions, croatiaSubdivisions, haitiSubdivisions, hungarySubdivisions, indonesiaSubdivisions, irelandSubdivisions, israelSubdivisions, isleOfManSubdivisions, indiaSubdivisions, iraqSubdivisions, iranIslamicRepublicOfSubdivisions, icelandSubdivisions, italySubdivisions, jerseySubdivisions, jamaicaSubdivisions, jordanSubdivisions, japanSubdivisions, kenyaSubdivisions, kyrgyzstanSubdivisions, cambodiaSubdivisions, kiribatiSubdivisions, comorosSubdivisions, saintKittsAndNevisSubdivisions, koreaDemocraticPeopleSRepublicOfSubdivisions, koreaRepublicOfSubdivisions, kuwaitSubdivisions, caymanIslandsSubdivisions, kazakhstanSubdivisions, laoPeopleSDemocraticRepublicSubdivisions, lebanonSubdivisions, saintLuciaSubdivisions, liechtensteinSubdivisions, sriLankaSubdivisions, liberiaSubdivisions, lesothoSubdivisions, lithuaniaSubdivisions, luxembourgSubdivisions, latviaSubdivisions, libyaSubdivisions, moroccoSubdivisions, monacoSubdivisions, moldovaRepublicOfSubdivisions, montenegroSubdivisions, saintMartinFrenchPartSubdivisions, madagascarSubdivisions, marshallIslandsSubdivisions, northMacedoniaSubdivisions, maliSubdivisions, myanmarSubdivisions, mongoliaSubdivisions, macaoSubdivisions, northernMarianaIslandsSubdivisions, martiniqueSubdivisions, mauritaniaSubdivisions, montserratSubdivisions, maltaSubdivisions, mauritiusSubdivisions, maldivesSubdivisions, malawiSubdivisions, mexicoSubdivisions, malaysiaSubdivisions, mozambiqueSubdivisions, namibiaSubdivisions, newCaledoniaSubdivisions, nigerSubdivisions, nigeriaSubdivisions, nicaraguaSubdivisions, netherlandsSubdivisions, norwaySubdivisions, nepalSubdivisions, nauruSubdivisions, newZealandSubdivisions, omanSubdivisions, panamaSubdivisions, peruSubdivisions, frenchPolynesiaSubdivisions, papuaNewGuineaSubdivisions, philippinesSubdivisions, pakistanSubdivisions, polandSubdivisions, saintPierreAndMiquelonSubdivisions, puertoRicoSubdivisions, palestineStateOfSubdivisions, portugalSubdivisions, palauSubdivisions, paraguaySubdivisions, qatarSubdivisions, reunionSubdivisions, romaniaSubdivisions, serbiaSubdivisions, russianFederationSubdivisions, rwandaSubdivisions, saudiArabiaSubdivisions, solomonIslandsSubdivisions, seychellesSubdivisions, sudanSubdivisions, swedenSubdivisions, singaporeSubdivisions, saintHelenaAscensionAndTristanDaCunhaSubdivisions, sloveniaSubdivisions, svalbardAndJanMayenSubdivisions, slovakiaSubdivisions, sierraLeoneSubdivisions, sanMarinoSubdivisions, senegalSubdivisions, somaliaSubdivisions, surinameSubdivisions, southSudanSubdivisions, saoTomeAndPrincipeSubdivisions, elSalvadorSubdivisions, sintMaartenDutchPartSubdivisions, syrianArabRepublicSubdivisions, eswatiniSubdivisions, chadSubdivisions, frenchSouthernTerritoriesSubdivisions, togoSubdivisions, thailandSubdivisions, tajikistanSubdivisions, tokelauSubdivisions, timorLesteSubdivisions, turkmenistanSubdivisions, tunisiaSubdivisions, tongaSubdivisions, turkeySubdivisions, trinidadAndTobagoSubdivisions, tuvaluSubdivisions, taiwanProvinceOfChinaSubdivisions, tanzaniaUnitedRepublicOfSubdivisions, ukraineSubdivisions, ugandaSubdivisions, unitedStatesMinorOutlyingIslandsSubdivisions, unitedStatesOfAmericaSubdivisions, uruguaySubdivisions, uzbekistanSubdivisions, saintVincentAndTheGrenadinesSubdivisions, venezuelaBolivarianRepublicOfSubdivisions, virginIslandsUSSubdivisions, vietNamSubdivisions, vanuatuSubdivisions, wallisAndFutunaSubdivisions, samoaSubdivisions, yemenSubdivisions, mayotteSubdivisions, southAfricaSubdivisions, zambiaSubdivisions, zimbabweSubdivisions
+    , all, fromAlpha2, findSubdivisionByCode
+    , countryAF, countryAL, countryDZ, countryAS, countryAD, countryAO, countryAI, countryAQ, countryAG, countryAR, countryAM, countryAW, countryAU, countryAT, countryAZ, countryBS, countryBH, countryBD, countryBB, countryBY, countryBE, countryBZ, countryBJ, countryBM, countryBT, countryBO, countryBQ, countryBA, countryBW, countryBV, countryBR, countryIO, countryBN, countryBG, countryBF, countryBI, countryCV, countryKH, countryCM, countryCA, countryKY, countryCF, countryTD, countryCL, countryCN, countryCX, countryCC, countryCO, countryKM, countryCG, countryCD, countryCK, countryCR, countryHR, countryCU, countryCW, countryCY, countryCZ, countryCI, countryDK, countryDJ, countryDM, countryDO, countryEC, countryEG, countrySV, countryGQ, countryER, countryEE, countryET, countryFK, countryFO, countryFJ, countryFI, countryFR, countryGF, countryPF, countryTF, countryGA, countryGM, countryGE, countryDE, countryGH, countryGI, countryGR, countryGL, countryGD, countryGP, countryGU, countryGT, countryGG, countryGN, countryGW, countryGY, countryHT, countryHM, countryVA, countryHN, countryHK, countryHU, countryIS, countryIN, countryID, countryIR, countryIQ, countryIE, countryIM, countryIL, countryIT, countryJM, countryJP, countryJE, countryJO, countryKZ, countryKE, countryKI, countryKP, countryKR, countryKW, countryKG, countryLA, countryLV, countryLB, countryLS, countryLR, countryLY, countryLI, countryLT, countryLU, countryMO, countryMG, countryMW, countryMY, countryMV, countryML, countryMT, countryMH, countryMQ, countryMR, countryMU, countryYT, countryMX, countryFM, countryMD, countryMC, countryMN, countryME, countryMS, countryMA, countryMZ, countryMM, countryNA, countryNR, countryNP, countryNL, countryNC, countryNZ, countryNI, countryNE, countryNG, countryNU, countryNF, countryMK, countryMP, countryNO, countryOM, countryPK, countryPW, countryPS, countryPA, countryPG, countryPY, countryPE, countryPH, countryPN, countryPL, countryPT, countryPR, countryQA, countryRO, countryRU, countryRW, countryRE, countryBL, countrySH, countryKN, countryLC, countryMF, countryPM, countryVC, countryWS, countrySM, countryST, countrySA, countrySN, countryRS, countrySC, countrySL, countrySG, countrySX, countrySK, countrySI, countrySB, countrySO, countryZA, countryGS, countrySS, countryES, countryLK, countrySD, countrySR, countrySJ, countrySE, countryCH, countrySY, countryTW, countryTJ, countryTZ, countryTH, countryTL, countryTG, countryTK, countryTO, countryTT, countryTN, countryTR, countryTM, countryTC, countryTV, countryUG, countryUA, countryAE, countryGB, countryUM, countryUS, countryUY, countryUZ, countryVU, countryVE, countryVN, countryVG, countryVI, countryWF, countryEH, countryYE, countryZM, countryZW, countrySZ, countryAX
+    , countryADSubdivisions, countryAESubdivisions, countryAFSubdivisions, countryAGSubdivisions, countryAISubdivisions, countryALSubdivisions, countryAMSubdivisions, countryAOSubdivisions, countryARSubdivisions, countryASSubdivisions, countryATSubdivisions, countryAUSubdivisions, countryAWSubdivisions, countryAXSubdivisions, countryAZSubdivisions, countryBASubdivisions, countryBBSubdivisions, countryBDSubdivisions, countryBESubdivisions, countryBFSubdivisions, countryBGSubdivisions, countryBHSubdivisions, countryBISubdivisions, countryBJSubdivisions, countryBLSubdivisions, countryBMSubdivisions, countryBNSubdivisions, countryBOSubdivisions, countryBQSubdivisions, countryBRSubdivisions, countryBSSubdivisions, countryBTSubdivisions, countryBWSubdivisions, countryBYSubdivisions, countryBZSubdivisions, countryCASubdivisions, countryCDSubdivisions, countryCFSubdivisions, countryCGSubdivisions, countryCHSubdivisions, countryCISubdivisions, countryCKSubdivisions, countryCLSubdivisions, countryCMSubdivisions, countryCNSubdivisions, countryCOSubdivisions, countryCRSubdivisions, countryCUSubdivisions, countryCVSubdivisions, countryCWSubdivisions, countryCYSubdivisions, countryCZSubdivisions, countryDESubdivisions, countryDJSubdivisions, countryDKSubdivisions, countryDMSubdivisions, countryDOSubdivisions, countryDZSubdivisions, countryECSubdivisions, countryEESubdivisions, countryEGSubdivisions, countryEHSubdivisions, countryERSubdivisions, countryESSubdivisions, countryETSubdivisions, countryFISubdivisions, countryFJSubdivisions, countryFMSubdivisions, countryFOSubdivisions, countryFRSubdivisions, countryGASubdivisions, countryGBSubdivisions, countryGDSubdivisions, countryGESubdivisions, countryGFSubdivisions, countryGGSubdivisions, countryGHSubdivisions, countryGLSubdivisions, countryGMSubdivisions, countryGNSubdivisions, countryGPSubdivisions, countryGQSubdivisions, countryGRSubdivisions, countryGTSubdivisions, countryGUSubdivisions, countryGWSubdivisions, countryGYSubdivisions, countryHKSubdivisions, countryHNSubdivisions, countryHRSubdivisions, countryHTSubdivisions, countryHUSubdivisions, countryIDSubdivisions, countryIESubdivisions, countryILSubdivisions, countryIMSubdivisions, countryINSubdivisions, countryIQSubdivisions, countryIRSubdivisions, countryISSubdivisions, countryITSubdivisions, countryJESubdivisions, countryJMSubdivisions, countryJOSubdivisions, countryJPSubdivisions, countryKESubdivisions, countryKGSubdivisions, countryKHSubdivisions, countryKISubdivisions, countryKMSubdivisions, countryKNSubdivisions, countryKPSubdivisions, countryKRSubdivisions, countryKWSubdivisions, countryKYSubdivisions, countryKZSubdivisions, countryLASubdivisions, countryLBSubdivisions, countryLCSubdivisions, countryLISubdivisions, countryLKSubdivisions, countryLRSubdivisions, countryLSSubdivisions, countryLTSubdivisions, countryLUSubdivisions, countryLVSubdivisions, countryLYSubdivisions, countryMASubdivisions, countryMCSubdivisions, countryMDSubdivisions, countryMESubdivisions, countryMFSubdivisions, countryMGSubdivisions, countryMHSubdivisions, countryMKSubdivisions, countryMLSubdivisions, countryMMSubdivisions, countryMNSubdivisions, countryMOSubdivisions, countryMPSubdivisions, countryMQSubdivisions, countryMRSubdivisions, countryMSSubdivisions, countryMTSubdivisions, countryMUSubdivisions, countryMVSubdivisions, countryMWSubdivisions, countryMXSubdivisions, countryMYSubdivisions, countryMZSubdivisions, countryNASubdivisions, countryNCSubdivisions, countryNESubdivisions, countryNGSubdivisions, countryNISubdivisions, countryNLSubdivisions, countryNOSubdivisions, countryNPSubdivisions, countryNRSubdivisions, countryNZSubdivisions, countryOMSubdivisions, countryPASubdivisions, countryPESubdivisions, countryPFSubdivisions, countryPGSubdivisions, countryPHSubdivisions, countryPKSubdivisions, countryPLSubdivisions, countryPMSubdivisions, countryPRSubdivisions, countryPSSubdivisions, countryPTSubdivisions, countryPWSubdivisions, countryPYSubdivisions, countryQASubdivisions, countryRESubdivisions, countryROSubdivisions, countryRSSubdivisions, countryRUSubdivisions, countryRWSubdivisions, countrySASubdivisions, countrySBSubdivisions, countrySCSubdivisions, countrySDSubdivisions, countrySESubdivisions, countrySGSubdivisions, countrySHSubdivisions, countrySISubdivisions, countrySJSubdivisions, countrySKSubdivisions, countrySLSubdivisions, countrySMSubdivisions, countrySNSubdivisions, countrySOSubdivisions, countrySRSubdivisions, countrySSSubdivisions, countrySTSubdivisions, countrySVSubdivisions, countrySXSubdivisions, countrySYSubdivisions, countrySZSubdivisions, countryTDSubdivisions, countryTFSubdivisions, countryTGSubdivisions, countryTHSubdivisions, countryTJSubdivisions, countryTKSubdivisions, countryTLSubdivisions, countryTMSubdivisions, countryTNSubdivisions, countryTOSubdivisions, countryTRSubdivisions, countryTTSubdivisions, countryTVSubdivisions, countryTWSubdivisions, countryTZSubdivisions, countryUASubdivisions, countryUGSubdivisions, countryUMSubdivisions, countryUSSubdivisions, countryUYSubdivisions, countryUZSubdivisions, countryVCSubdivisions, countryVESubdivisions, countryVISubdivisions, countryVNSubdivisions, countryVUSubdivisions, countryWFSubdivisions, countryWSSubdivisions, countryYESubdivisions, countryYTSubdivisions, countryZASubdivisions, countryZMSubdivisions, countryZWSubdivisions
     )
 
 {-| Based upon the country data from <https://github.com/countries/countries>
@@ -16,17 +16,17 @@ Countries is a collection of all sorts of useful information for every country i
 
 # Helpers
 
-@docs all, fromAlpha2
+@docs all, fromAlpha2, findSubdivisionByCode
 
 
 # Countries
 
-@docs afghanistan, albania, algeria, americanSamoa, andorra, angola, anguilla, antarctica, antiguaAndBarbuda, argentina, armenia, aruba, australia, austria, azerbaijan, bahamas, bahrain, bangladesh, barbados, belarus, belgium, belize, benin, bermuda, bhutan, boliviaPlurinationalStateOf, bonaireSintEustatiusAndSaba, bosniaAndHerzegovina, botswana, bouvetIsland, brazil, britishIndianOceanTerritory, bruneiDarussalam, bulgaria, burkinaFaso, burundi, caboVerde, cambodia, cameroon, canada, caymanIslands, centralAfricanRepublic, chad, chile, china, christmasIsland, cocosKeelingIslands, colombia, comoros, congo, congoDemocraticRepublicOfThe, cookIslands, costaRica, croatia, cuba, curacao, cyprus, czechRepublic, coteDIvoire, denmark, djibouti, dominica, dominicanRepublic, ecuador, egypt, elSalvador, equatorialGuinea, eritrea, estonia, ethiopia, falklandIslandsMalvinas, faroeIslands, fiji, finland, france, frenchGuiana, frenchPolynesia, frenchSouthernTerritories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, grenada, guadeloupe, guam, guatemala, guernsey, guinea, guineaBissau, guyana, haiti, heardIslandAndMcdonaldIslands, holySee, honduras, hongKong, hungary, iceland, india, indonesia, iranIslamicRepublicOf, iraq, ireland, isleOfMan, israel, italy, jamaica, japan, jersey, jordan, kazakhstan, kenya, kiribati, koreaDemocraticPeopleSRepublicOf, koreaRepublicOf, kuwait, kyrgyzstan, laoPeopleSDemocraticRepublic, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, macao, madagascar, malawi, malaysia, maldives, mali, malta, marshallIslands, martinique, mauritania, mauritius, mayotte, mexico, micronesiaFederatedStatesOf, moldovaRepublicOf, monaco, mongolia, montenegro, montserrat, morocco, mozambique, myanmar, namibia, nauru, nepal, netherlands, newCaledonia, newZealand, nicaragua, niger, nigeria, niue, norfolkIsland, northMacedonia, northernMarianaIslands, norway, oman, pakistan, palau, palestineStateOf, panama, papuaNewGuinea, paraguay, peru, philippines, pitcairn, poland, portugal, puertoRico, qatar, romania, russianFederation, rwanda, reunion, saintBarthelemy, saintHelenaAscensionAndTristanDaCunha, saintKittsAndNevis, saintLucia, saintMartinFrenchPart, saintPierreAndMiquelon, saintVincentAndTheGrenadines, samoa, sanMarino, saoTomeAndPrincipe, saudiArabia, senegal, serbia, seychelles, sierraLeone, singapore, sintMaartenDutchPart, slovakia, slovenia, solomonIslands, somalia, southAfrica, southGeorgiaAndTheSouthSandwichIslands, southSudan, spain, sriLanka, sudan, suriname, svalbardAndJanMayen, sweden, switzerland, syrianArabRepublic, taiwanProvinceOfChina, tajikistan, tanzaniaUnitedRepublicOf, thailand, timorLeste, togo, tokelau, tonga, trinidadAndTobago, tunisia, turkey, turkmenistan, turksAndCaicosIslands, tuvalu, uganda, ukraine, unitedArabEmirates, unitedKingdomOfGreatBritainAndNorthernIreland, unitedStatesMinorOutlyingIslands, unitedStatesOfAmerica, uruguay, uzbekistan, vanuatu, venezuelaBolivarianRepublicOf, vietNam, virginIslandsBritish, virginIslandsUS, wallisAndFutuna, westernSahara, yemen, zambia, zimbabwe, eswatini, alandIslands
+@docs countryAF, countryAL, countryDZ, countryAS, countryAD, countryAO, countryAI, countryAQ, countryAG, countryAR, countryAM, countryAW, countryAU, countryAT, countryAZ, countryBS, countryBH, countryBD, countryBB, countryBY, countryBE, countryBZ, countryBJ, countryBM, countryBT, countryBO, countryBQ, countryBA, countryBW, countryBV, countryBR, countryIO, countryBN, countryBG, countryBF, countryBI, countryCV, countryKH, countryCM, countryCA, countryKY, countryCF, countryTD, countryCL, countryCN, countryCX, countryCC, countryCO, countryKM, countryCG, countryCD, countryCK, countryCR, countryHR, countryCU, countryCW, countryCY, countryCZ, countryCI, countryDK, countryDJ, countryDM, countryDO, countryEC, countryEG, countrySV, countryGQ, countryER, countryEE, countryET, countryFK, countryFO, countryFJ, countryFI, countryFR, countryGF, countryPF, countryTF, countryGA, countryGM, countryGE, countryDE, countryGH, countryGI, countryGR, countryGL, countryGD, countryGP, countryGU, countryGT, countryGG, countryGN, countryGW, countryGY, countryHT, countryHM, countryVA, countryHN, countryHK, countryHU, countryIS, countryIN, countryID, countryIR, countryIQ, countryIE, countryIM, countryIL, countryIT, countryJM, countryJP, countryJE, countryJO, countryKZ, countryKE, countryKI, countryKP, countryKR, countryKW, countryKG, countryLA, countryLV, countryLB, countryLS, countryLR, countryLY, countryLI, countryLT, countryLU, countryMO, countryMG, countryMW, countryMY, countryMV, countryML, countryMT, countryMH, countryMQ, countryMR, countryMU, countryYT, countryMX, countryFM, countryMD, countryMC, countryMN, countryME, countryMS, countryMA, countryMZ, countryMM, countryNA, countryNR, countryNP, countryNL, countryNC, countryNZ, countryNI, countryNE, countryNG, countryNU, countryNF, countryMK, countryMP, countryNO, countryOM, countryPK, countryPW, countryPS, countryPA, countryPG, countryPY, countryPE, countryPH, countryPN, countryPL, countryPT, countryPR, countryQA, countryRO, countryRU, countryRW, countryRE, countryBL, countrySH, countryKN, countryLC, countryMF, countryPM, countryVC, countryWS, countrySM, countryST, countrySA, countrySN, countryRS, countrySC, countrySL, countrySG, countrySX, countrySK, countrySI, countrySB, countrySO, countryZA, countryGS, countrySS, countryES, countryLK, countrySD, countrySR, countrySJ, countrySE, countryCH, countrySY, countryTW, countryTJ, countryTZ, countryTH, countryTL, countryTG, countryTK, countryTO, countryTT, countryTN, countryTR, countryTM, countryTC, countryTV, countryUG, countryUA, countryAE, countryGB, countryUM, countryUS, countryUY, countryUZ, countryVU, countryVE, countryVN, countryVG, countryVI, countryWF, countryEH, countryYE, countryZM, countryZW, countrySZ, countryAX
 
 
 # Subdivisions
 
-@docs andorraSubdivisions, unitedArabEmiratesSubdivisions, afghanistanSubdivisions, antiguaAndBarbudaSubdivisions, anguillaSubdivisions, albaniaSubdivisions, armeniaSubdivisions, angolaSubdivisions, argentinaSubdivisions, americanSamoaSubdivisions, austriaSubdivisions, australiaSubdivisions, arubaSubdivisions, alandIslandsSubdivisions, azerbaijanSubdivisions, bosniaAndHerzegovinaSubdivisions, barbadosSubdivisions, bangladeshSubdivisions, belgiumSubdivisions, burkinaFasoSubdivisions, bulgariaSubdivisions, bahrainSubdivisions, burundiSubdivisions, beninSubdivisions, saintBarthelemySubdivisions, bermudaSubdivisions, bruneiDarussalamSubdivisions, boliviaPlurinationalStateOfSubdivisions, bonaireSintEustatiusAndSabaSubdivisions, brazilSubdivisions, bahamasSubdivisions, bhutanSubdivisions, botswanaSubdivisions, belarusSubdivisions, belizeSubdivisions, canadaSubdivisions, congoDemocraticRepublicOfTheSubdivisions, centralAfricanRepublicSubdivisions, congoSubdivisions, switzerlandSubdivisions, coteDIvoireSubdivisions, cookIslandsSubdivisions, chileSubdivisions, cameroonSubdivisions, chinaSubdivisions, colombiaSubdivisions, costaRicaSubdivisions, cubaSubdivisions, caboVerdeSubdivisions, curacaoSubdivisions, cyprusSubdivisions, czechRepublicSubdivisions, germanySubdivisions, djiboutiSubdivisions, denmarkSubdivisions, dominicaSubdivisions, dominicanRepublicSubdivisions, algeriaSubdivisions, ecuadorSubdivisions, estoniaSubdivisions, egyptSubdivisions, westernSaharaSubdivisions, eritreaSubdivisions, spainSubdivisions, ethiopiaSubdivisions, finlandSubdivisions, fijiSubdivisions, micronesiaFederatedStatesOfSubdivisions, faroeIslandsSubdivisions, franceSubdivisions, gabonSubdivisions, unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions, grenadaSubdivisions, georgiaSubdivisions, frenchGuianaSubdivisions, guernseySubdivisions, ghanaSubdivisions, greenlandSubdivisions, gambiaSubdivisions, guineaSubdivisions, guadeloupeSubdivisions, equatorialGuineaSubdivisions, greeceSubdivisions, guatemalaSubdivisions, guamSubdivisions, guineaBissauSubdivisions, guyanaSubdivisions, hongKongSubdivisions, hondurasSubdivisions, croatiaSubdivisions, haitiSubdivisions, hungarySubdivisions, indonesiaSubdivisions, irelandSubdivisions, israelSubdivisions, isleOfManSubdivisions, indiaSubdivisions, iraqSubdivisions, iranIslamicRepublicOfSubdivisions, icelandSubdivisions, italySubdivisions, jerseySubdivisions, jamaicaSubdivisions, jordanSubdivisions, japanSubdivisions, kenyaSubdivisions, kyrgyzstanSubdivisions, cambodiaSubdivisions, kiribatiSubdivisions, comorosSubdivisions, saintKittsAndNevisSubdivisions, koreaDemocraticPeopleSRepublicOfSubdivisions, koreaRepublicOfSubdivisions, kuwaitSubdivisions, caymanIslandsSubdivisions, kazakhstanSubdivisions, laoPeopleSDemocraticRepublicSubdivisions, lebanonSubdivisions, saintLuciaSubdivisions, liechtensteinSubdivisions, sriLankaSubdivisions, liberiaSubdivisions, lesothoSubdivisions, lithuaniaSubdivisions, luxembourgSubdivisions, latviaSubdivisions, libyaSubdivisions, moroccoSubdivisions, monacoSubdivisions, moldovaRepublicOfSubdivisions, montenegroSubdivisions, saintMartinFrenchPartSubdivisions, madagascarSubdivisions, marshallIslandsSubdivisions, northMacedoniaSubdivisions, maliSubdivisions, myanmarSubdivisions, mongoliaSubdivisions, macaoSubdivisions, northernMarianaIslandsSubdivisions, martiniqueSubdivisions, mauritaniaSubdivisions, montserratSubdivisions, maltaSubdivisions, mauritiusSubdivisions, maldivesSubdivisions, malawiSubdivisions, mexicoSubdivisions, malaysiaSubdivisions, mozambiqueSubdivisions, namibiaSubdivisions, newCaledoniaSubdivisions, nigerSubdivisions, nigeriaSubdivisions, nicaraguaSubdivisions, netherlandsSubdivisions, norwaySubdivisions, nepalSubdivisions, nauruSubdivisions, newZealandSubdivisions, omanSubdivisions, panamaSubdivisions, peruSubdivisions, frenchPolynesiaSubdivisions, papuaNewGuineaSubdivisions, philippinesSubdivisions, pakistanSubdivisions, polandSubdivisions, saintPierreAndMiquelonSubdivisions, puertoRicoSubdivisions, palestineStateOfSubdivisions, portugalSubdivisions, palauSubdivisions, paraguaySubdivisions, qatarSubdivisions, reunionSubdivisions, romaniaSubdivisions, serbiaSubdivisions, russianFederationSubdivisions, rwandaSubdivisions, saudiArabiaSubdivisions, solomonIslandsSubdivisions, seychellesSubdivisions, sudanSubdivisions, swedenSubdivisions, singaporeSubdivisions, saintHelenaAscensionAndTristanDaCunhaSubdivisions, sloveniaSubdivisions, svalbardAndJanMayenSubdivisions, slovakiaSubdivisions, sierraLeoneSubdivisions, sanMarinoSubdivisions, senegalSubdivisions, somaliaSubdivisions, surinameSubdivisions, southSudanSubdivisions, saoTomeAndPrincipeSubdivisions, elSalvadorSubdivisions, sintMaartenDutchPartSubdivisions, syrianArabRepublicSubdivisions, eswatiniSubdivisions, chadSubdivisions, frenchSouthernTerritoriesSubdivisions, togoSubdivisions, thailandSubdivisions, tajikistanSubdivisions, tokelauSubdivisions, timorLesteSubdivisions, turkmenistanSubdivisions, tunisiaSubdivisions, tongaSubdivisions, turkeySubdivisions, trinidadAndTobagoSubdivisions, tuvaluSubdivisions, taiwanProvinceOfChinaSubdivisions, tanzaniaUnitedRepublicOfSubdivisions, ukraineSubdivisions, ugandaSubdivisions, unitedStatesMinorOutlyingIslandsSubdivisions, unitedStatesOfAmericaSubdivisions, uruguaySubdivisions, uzbekistanSubdivisions, saintVincentAndTheGrenadinesSubdivisions, venezuelaBolivarianRepublicOfSubdivisions, virginIslandsUSSubdivisions, vietNamSubdivisions, vanuatuSubdivisions, wallisAndFutunaSubdivisions, samoaSubdivisions, yemenSubdivisions, mayotteSubdivisions, southAfricaSubdivisions, zambiaSubdivisions, zimbabweSubdivisions
+@docs countryADSubdivisions, countryAESubdivisions, countryAFSubdivisions, countryAGSubdivisions, countryAISubdivisions, countryALSubdivisions, countryAMSubdivisions, countryAOSubdivisions, countryARSubdivisions, countryASSubdivisions, countryATSubdivisions, countryAUSubdivisions, countryAWSubdivisions, countryAXSubdivisions, countryAZSubdivisions, countryBASubdivisions, countryBBSubdivisions, countryBDSubdivisions, countryBESubdivisions, countryBFSubdivisions, countryBGSubdivisions, countryBHSubdivisions, countryBISubdivisions, countryBJSubdivisions, countryBLSubdivisions, countryBMSubdivisions, countryBNSubdivisions, countryBOSubdivisions, countryBQSubdivisions, countryBRSubdivisions, countryBSSubdivisions, countryBTSubdivisions, countryBWSubdivisions, countryBYSubdivisions, countryBZSubdivisions, countryCASubdivisions, countryCDSubdivisions, countryCFSubdivisions, countryCGSubdivisions, countryCHSubdivisions, countryCISubdivisions, countryCKSubdivisions, countryCLSubdivisions, countryCMSubdivisions, countryCNSubdivisions, countryCOSubdivisions, countryCRSubdivisions, countryCUSubdivisions, countryCVSubdivisions, countryCWSubdivisions, countryCYSubdivisions, countryCZSubdivisions, countryDESubdivisions, countryDJSubdivisions, countryDKSubdivisions, countryDMSubdivisions, countryDOSubdivisions, countryDZSubdivisions, countryECSubdivisions, countryEESubdivisions, countryEGSubdivisions, countryEHSubdivisions, countryERSubdivisions, countryESSubdivisions, countryETSubdivisions, countryFISubdivisions, countryFJSubdivisions, countryFMSubdivisions, countryFOSubdivisions, countryFRSubdivisions, countryGASubdivisions, countryGBSubdivisions, countryGDSubdivisions, countryGESubdivisions, countryGFSubdivisions, countryGGSubdivisions, countryGHSubdivisions, countryGLSubdivisions, countryGMSubdivisions, countryGNSubdivisions, countryGPSubdivisions, countryGQSubdivisions, countryGRSubdivisions, countryGTSubdivisions, countryGUSubdivisions, countryGWSubdivisions, countryGYSubdivisions, countryHKSubdivisions, countryHNSubdivisions, countryHRSubdivisions, countryHTSubdivisions, countryHUSubdivisions, countryIDSubdivisions, countryIESubdivisions, countryILSubdivisions, countryIMSubdivisions, countryINSubdivisions, countryIQSubdivisions, countryIRSubdivisions, countryISSubdivisions, countryITSubdivisions, countryJESubdivisions, countryJMSubdivisions, countryJOSubdivisions, countryJPSubdivisions, countryKESubdivisions, countryKGSubdivisions, countryKHSubdivisions, countryKISubdivisions, countryKMSubdivisions, countryKNSubdivisions, countryKPSubdivisions, countryKRSubdivisions, countryKWSubdivisions, countryKYSubdivisions, countryKZSubdivisions, countryLASubdivisions, countryLBSubdivisions, countryLCSubdivisions, countryLISubdivisions, countryLKSubdivisions, countryLRSubdivisions, countryLSSubdivisions, countryLTSubdivisions, countryLUSubdivisions, countryLVSubdivisions, countryLYSubdivisions, countryMASubdivisions, countryMCSubdivisions, countryMDSubdivisions, countryMESubdivisions, countryMFSubdivisions, countryMGSubdivisions, countryMHSubdivisions, countryMKSubdivisions, countryMLSubdivisions, countryMMSubdivisions, countryMNSubdivisions, countryMOSubdivisions, countryMPSubdivisions, countryMQSubdivisions, countryMRSubdivisions, countryMSSubdivisions, countryMTSubdivisions, countryMUSubdivisions, countryMVSubdivisions, countryMWSubdivisions, countryMXSubdivisions, countryMYSubdivisions, countryMZSubdivisions, countryNASubdivisions, countryNCSubdivisions, countryNESubdivisions, countryNGSubdivisions, countryNISubdivisions, countryNLSubdivisions, countryNOSubdivisions, countryNPSubdivisions, countryNRSubdivisions, countryNZSubdivisions, countryOMSubdivisions, countryPASubdivisions, countryPESubdivisions, countryPFSubdivisions, countryPGSubdivisions, countryPHSubdivisions, countryPKSubdivisions, countryPLSubdivisions, countryPMSubdivisions, countryPRSubdivisions, countryPSSubdivisions, countryPTSubdivisions, countryPWSubdivisions, countryPYSubdivisions, countryQASubdivisions, countryRESubdivisions, countryROSubdivisions, countryRSSubdivisions, countryRUSubdivisions, countryRWSubdivisions, countrySASubdivisions, countrySBSubdivisions, countrySCSubdivisions, countrySDSubdivisions, countrySESubdivisions, countrySGSubdivisions, countrySHSubdivisions, countrySISubdivisions, countrySJSubdivisions, countrySKSubdivisions, countrySLSubdivisions, countrySMSubdivisions, countrySNSubdivisions, countrySOSubdivisions, countrySRSubdivisions, countrySSSubdivisions, countrySTSubdivisions, countrySVSubdivisions, countrySXSubdivisions, countrySYSubdivisions, countrySZSubdivisions, countryTDSubdivisions, countryTFSubdivisions, countryTGSubdivisions, countryTHSubdivisions, countryTJSubdivisions, countryTKSubdivisions, countryTLSubdivisions, countryTMSubdivisions, countryTNSubdivisions, countryTOSubdivisions, countryTRSubdivisions, countryTTSubdivisions, countryTVSubdivisions, countryTWSubdivisions, countryTZSubdivisions, countryUASubdivisions, countryUGSubdivisions, countryUMSubdivisions, countryUSSubdivisions, countryUYSubdivisions, countryUZSubdivisions, countryVCSubdivisions, countryVESubdivisions, countryVISubdivisions, countryVNSubdivisions, countryVUSubdivisions, countryWFSubdivisions, countryWSSubdivisions, countryYESubdivisions, countryYTSubdivisions, countryZASubdivisions, countryZMSubdivisions, countryZWSubdivisions
 
 -}
 
@@ -141,7 +141,7 @@ type alias Subdivision =
 -}
 all : List Country
 all =
-    [ afghanistan, albania, algeria, americanSamoa, andorra, angola, anguilla, antarctica, antiguaAndBarbuda, argentina, armenia, aruba, australia, austria, azerbaijan, bahamas, bahrain, bangladesh, barbados, belarus, belgium, belize, benin, bermuda, bhutan, boliviaPlurinationalStateOf, bonaireSintEustatiusAndSaba, bosniaAndHerzegovina, botswana, bouvetIsland, brazil, britishIndianOceanTerritory, bruneiDarussalam, bulgaria, burkinaFaso, burundi, caboVerde, cambodia, cameroon, canada, caymanIslands, centralAfricanRepublic, chad, chile, china, christmasIsland, cocosKeelingIslands, colombia, comoros, congo, congoDemocraticRepublicOfThe, cookIslands, costaRica, croatia, cuba, curacao, cyprus, czechRepublic, coteDIvoire, denmark, djibouti, dominica, dominicanRepublic, ecuador, egypt, elSalvador, equatorialGuinea, eritrea, estonia, ethiopia, falklandIslandsMalvinas, faroeIslands, fiji, finland, france, frenchGuiana, frenchPolynesia, frenchSouthernTerritories, gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, grenada, guadeloupe, guam, guatemala, guernsey, guinea, guineaBissau, guyana, haiti, heardIslandAndMcdonaldIslands, holySee, honduras, hongKong, hungary, iceland, india, indonesia, iranIslamicRepublicOf, iraq, ireland, isleOfMan, israel, italy, jamaica, japan, jersey, jordan, kazakhstan, kenya, kiribati, koreaDemocraticPeopleSRepublicOf, koreaRepublicOf, kuwait, kyrgyzstan, laoPeopleSDemocraticRepublic, latvia, lebanon, lesotho, liberia, libya, liechtenstein, lithuania, luxembourg, macao, madagascar, malawi, malaysia, maldives, mali, malta, marshallIslands, martinique, mauritania, mauritius, mayotte, mexico, micronesiaFederatedStatesOf, moldovaRepublicOf, monaco, mongolia, montenegro, montserrat, morocco, mozambique, myanmar, namibia, nauru, nepal, netherlands, newCaledonia, newZealand, nicaragua, niger, nigeria, niue, norfolkIsland, northMacedonia, northernMarianaIslands, norway, oman, pakistan, palau, palestineStateOf, panama, papuaNewGuinea, paraguay, peru, philippines, pitcairn, poland, portugal, puertoRico, qatar, romania, russianFederation, rwanda, reunion, saintBarthelemy, saintHelenaAscensionAndTristanDaCunha, saintKittsAndNevis, saintLucia, saintMartinFrenchPart, saintPierreAndMiquelon, saintVincentAndTheGrenadines, samoa, sanMarino, saoTomeAndPrincipe, saudiArabia, senegal, serbia, seychelles, sierraLeone, singapore, sintMaartenDutchPart, slovakia, slovenia, solomonIslands, somalia, southAfrica, southGeorgiaAndTheSouthSandwichIslands, southSudan, spain, sriLanka, sudan, suriname, svalbardAndJanMayen, sweden, switzerland, syrianArabRepublic, taiwanProvinceOfChina, tajikistan, tanzaniaUnitedRepublicOf, thailand, timorLeste, togo, tokelau, tonga, trinidadAndTobago, tunisia, turkey, turkmenistan, turksAndCaicosIslands, tuvalu, uganda, ukraine, unitedArabEmirates, unitedKingdomOfGreatBritainAndNorthernIreland, unitedStatesMinorOutlyingIslands, unitedStatesOfAmerica, uruguay, uzbekistan, vanuatu, venezuelaBolivarianRepublicOf, vietNam, virginIslandsBritish, virginIslandsUS, wallisAndFutuna, westernSahara, yemen, zambia, zimbabwe, eswatini, alandIslands ]
+    [ countryAF, countryAL, countryDZ, countryAS, countryAD, countryAO, countryAI, countryAQ, countryAG, countryAR, countryAM, countryAW, countryAU, countryAT, countryAZ, countryBS, countryBH, countryBD, countryBB, countryBY, countryBE, countryBZ, countryBJ, countryBM, countryBT, countryBO, countryBQ, countryBA, countryBW, countryBV, countryBR, countryIO, countryBN, countryBG, countryBF, countryBI, countryCV, countryKH, countryCM, countryCA, countryKY, countryCF, countryTD, countryCL, countryCN, countryCX, countryCC, countryCO, countryKM, countryCG, countryCD, countryCK, countryCR, countryHR, countryCU, countryCW, countryCY, countryCZ, countryCI, countryDK, countryDJ, countryDM, countryDO, countryEC, countryEG, countrySV, countryGQ, countryER, countryEE, countryET, countryFK, countryFO, countryFJ, countryFI, countryFR, countryGF, countryPF, countryTF, countryGA, countryGM, countryGE, countryDE, countryGH, countryGI, countryGR, countryGL, countryGD, countryGP, countryGU, countryGT, countryGG, countryGN, countryGW, countryGY, countryHT, countryHM, countryVA, countryHN, countryHK, countryHU, countryIS, countryIN, countryID, countryIR, countryIQ, countryIE, countryIM, countryIL, countryIT, countryJM, countryJP, countryJE, countryJO, countryKZ, countryKE, countryKI, countryKP, countryKR, countryKW, countryKG, countryLA, countryLV, countryLB, countryLS, countryLR, countryLY, countryLI, countryLT, countryLU, countryMO, countryMG, countryMW, countryMY, countryMV, countryML, countryMT, countryMH, countryMQ, countryMR, countryMU, countryYT, countryMX, countryFM, countryMD, countryMC, countryMN, countryME, countryMS, countryMA, countryMZ, countryMM, countryNA, countryNR, countryNP, countryNL, countryNC, countryNZ, countryNI, countryNE, countryNG, countryNU, countryNF, countryMK, countryMP, countryNO, countryOM, countryPK, countryPW, countryPS, countryPA, countryPG, countryPY, countryPE, countryPH, countryPN, countryPL, countryPT, countryPR, countryQA, countryRO, countryRU, countryRW, countryRE, countryBL, countrySH, countryKN, countryLC, countryMF, countryPM, countryVC, countryWS, countrySM, countryST, countrySA, countrySN, countryRS, countrySC, countrySL, countrySG, countrySX, countrySK, countrySI, countrySB, countrySO, countryZA, countryGS, countrySS, countryES, countryLK, countrySD, countrySR, countrySJ, countrySE, countryCH, countrySY, countryTW, countryTJ, countryTZ, countryTH, countryTL, countryTG, countryTK, countryTO, countryTT, countryTN, countryTR, countryTM, countryTC, countryTV, countryUG, countryUA, countryAE, countryGB, countryUM, countryUS, countryUY, countryUZ, countryVU, countryVE, countryVN, countryVG, countryVI, countryWF, countryEH, countryYE, countryZM, countryZW, countrySZ, countryAX ]
 
 
 {-| Find a country by it's alpha2 code.
@@ -156,10 +156,22 @@ fromAlpha2 alpha2 =
         |> List.head
 
 
+{-| Find a subdivision by it's code.
+
+      ISO3166.findSubdivisionByCode ISO3166.countryUS "NY" # => Just { name = "New York", code = "NY", ... }
+
+-}
+findSubdivisionByCode : Country -> String -> Maybe Subdivision
+findSubdivisionByCode country code =
+    country.subdivisions
+        |> List.filter (\s -> s.code == code)
+        |> List.head
+
+
 {-| Afghanistan
 -}
-afghanistan : Country
-afghanistan =
+countryAF : Country
+countryAF =
     { addressFormat = ""
     , alpha2 = "AF"
     , alpha3 = "AFG"
@@ -184,7 +196,7 @@ afghanistan =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = afghanistanSubdivisions
+    , subdivisions = countryAFSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "AF"
     , unofficialNames = [ "Afghanistan", "Afganistán", "アフガニスタン" ]
@@ -194,8 +206,8 @@ afghanistan =
 
 {-| Albania
 -}
-albania : Country
-albania =
+countryAL : Country
+countryAL =
     { addressFormat = ""
     , alpha2 = "AL"
     , alpha3 = "ALB"
@@ -220,7 +232,7 @@ albania =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = albaniaSubdivisions
+    , subdivisions = countryALSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "AL"
     , unofficialNames = [ "Albania", "Albanien", "Albanie", "アルバニア", "Albanië" ]
@@ -230,8 +242,8 @@ albania =
 
 {-| Algeria
 -}
-algeria : Country
-algeria =
+countryDZ : Country
+countryDZ =
     { addressFormat = ""
     , alpha2 = "DZ"
     , alpha3 = "DZA"
@@ -256,7 +268,7 @@ algeria =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Sun
-    , subdivisions = algeriaSubdivisions
+    , subdivisions = countryDZSubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "DZ"
     , unofficialNames = [ "Algeria", "الجزائر", "Algerien", "Algérie", "Argelia", "アルジェリア", "Algerije" ]
@@ -266,8 +278,8 @@ algeria =
 
 {-| American Samoa
 -}
-americanSamoa : Country
-americanSamoa =
+countryAS : Country
+countryAS =
     { addressFormat = ""
     , alpha2 = "AS"
     , alpha3 = "ASM"
@@ -292,7 +304,7 @@ americanSamoa =
     , postalCodeFormat = "(96799)(?:[ \\-](\\d{4}))?"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = americanSamoaSubdivisions
+    , subdivisions = countryASSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "AS"
     , unofficialNames = [ "American Samoa", "Amerikanisch-Samoa", "Samoa américaines", "Samoa Americana", "アメリカ領サモア", "Amerikaans Samoa" ]
@@ -302,8 +314,8 @@ americanSamoa =
 
 {-| Andorra
 -}
-andorra : Country
-andorra =
+countryAD : Country
+countryAD =
     { addressFormat = ""
     , alpha2 = "AD"
     , alpha3 = "AND"
@@ -328,7 +340,7 @@ andorra =
     , postalCodeFormat = "AD[1-7]0\\d"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = andorraSubdivisions
+    , subdivisions = countryADSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "AD"
     , unofficialNames = [ "Andorre", "Andorra", "アンドラ" ]
@@ -338,8 +350,8 @@ andorra =
 
 {-| Angola
 -}
-angola : Country
-angola =
+countryAO : Country
+countryAO =
     { addressFormat = ""
     , alpha2 = "AO"
     , alpha3 = "AGO"
@@ -364,7 +376,7 @@ angola =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = angolaSubdivisions
+    , subdivisions = countryAOSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "AO"
     , unofficialNames = [ "Angola", "アンゴラ" ]
@@ -374,8 +386,8 @@ angola =
 
 {-| Anguilla
 -}
-anguilla : Country
-anguilla =
+countryAI : Country
+countryAI =
     { addressFormat = ""
     , alpha2 = "AI"
     , alpha3 = "AIA"
@@ -400,7 +412,7 @@ anguilla =
     , postalCodeFormat = "(?:AI-)?2640"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = anguillaSubdivisions
+    , subdivisions = countryAISubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "AI"
     , unofficialNames = [ "Anguilla", "アンギラ" ]
@@ -410,8 +422,8 @@ anguilla =
 
 {-| Antarctica
 -}
-antarctica : Country
-antarctica =
+countryAQ : Country
+countryAQ =
     { addressFormat = ""
     , alpha2 = "AQ"
     , alpha3 = "ATA"
@@ -446,8 +458,8 @@ antarctica =
 
 {-| Antigua and Barbuda
 -}
-antiguaAndBarbuda : Country
-antiguaAndBarbuda =
+countryAG : Country
+countryAG =
     { addressFormat = ""
     , alpha2 = "AG"
     , alpha3 = "ATG"
@@ -472,7 +484,7 @@ antiguaAndBarbuda =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = antiguaAndBarbudaSubdivisions
+    , subdivisions = countryAGSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "AG"
     , unofficialNames = [ "Antigua and Barbuda", "Antigua und Barbuda", "Antigua et Barbuda", "Antigua y Barbuda", "アンティグア・バーブーダ", "Antigua en Barbuda" ]
@@ -482,8 +494,8 @@ antiguaAndBarbuda =
 
 {-| Argentina
 -}
-argentina : Country
-argentina =
+countryAR : Country
+countryAR =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -513,7 +525,7 @@ argentina =
     , postalCodeFormat = "((?:[A-HJ-NP-Z])?\\d{4})([A-Z]{3})?"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = argentinaSubdivisions
+    , subdivisions = countryARSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "AR"
     , unofficialNames = [ "Argentina", "Argentinien", "Argentine", "アルゼンチン", "Argentinië" ]
@@ -523,8 +535,8 @@ argentina =
 
 {-| Armenia
 -}
-armenia : Country
-armenia =
+countryAM : Country
+countryAM =
     { addressFormat = ""
     , alpha2 = "AM"
     , alpha3 = "ARM"
@@ -549,7 +561,7 @@ armenia =
     , postalCodeFormat = "(?:37)?\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = armeniaSubdivisions
+    , subdivisions = countryAMSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "AM"
     , unofficialNames = [ "Armenia", "Armenien", "Arménie", "アルメニア", "Armenië" ]
@@ -559,8 +571,8 @@ armenia =
 
 {-| Aruba
 -}
-aruba : Country
-aruba =
+countryAW : Country
+countryAW =
     { addressFormat = ""
     , alpha2 = "AW"
     , alpha3 = "ABW"
@@ -585,7 +597,7 @@ aruba =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = arubaSubdivisions
+    , subdivisions = countryAWSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "AW"
     , unofficialNames = [ "Aruba", "アルバ" ]
@@ -595,8 +607,8 @@ aruba =
 
 {-| Australia
 -}
-australia : Country
-australia =
+countryAU : Country
+countryAU =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{region_short}} {{postalcode}}
@@ -625,7 +637,7 @@ australia =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = australiaSubdivisions
+    , subdivisions = countryAUSubdivisions
     , subregion = Subregion.AustraliaAndNewZealand
     , unLocode = "AU"
     , unofficialNames = [ "Australia", "Australien", "Australie", "オーストラリア", "Australië" ]
@@ -635,8 +647,8 @@ australia =
 
 {-| Austria
 -}
-austria : Country
-austria =
+countryAT : Country
+countryAT =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -665,7 +677,7 @@ austria =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = austriaSubdivisions
+    , subdivisions = countryATSubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "AT"
     , unofficialNames = [ "Austria", "Österreich", "Autriche", "オーストリア", "Oostenrijk" ]
@@ -675,8 +687,8 @@ austria =
 
 {-| Azerbaijan
 -}
-azerbaijan : Country
-azerbaijan =
+countryAZ : Country
+countryAZ =
     { addressFormat = ""
     , alpha2 = "AZ"
     , alpha3 = "AZE"
@@ -701,7 +713,7 @@ azerbaijan =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = azerbaijanSubdivisions
+    , subdivisions = countryAZSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "AZ"
     , unofficialNames = [ "Azerbaijan", "Aserbaidschan", "Azerbaïdjan", "Azerbaiyán", "アゼルバイジャン", "Azerbeidzjan" ]
@@ -711,8 +723,8 @@ azerbaijan =
 
 {-| Bahamas
 -}
-bahamas : Country
-bahamas =
+countryBS : Country
+countryBS =
     { addressFormat = ""
     , alpha2 = "BS"
     , alpha3 = "BHS"
@@ -737,7 +749,7 @@ bahamas =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = bahamasSubdivisions
+    , subdivisions = countryBSSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "BS"
     , unofficialNames = [ "Bahamas", "バハマ", "Bahama’s" ]
@@ -747,8 +759,8 @@ bahamas =
 
 {-| Bahrain
 -}
-bahrain : Country
-bahrain =
+countryBH : Country
+countryBH =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -777,7 +789,7 @@ bahrain =
     , postalCodeFormat = "(?:\\d|1[0-2])\\d{2}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = bahrainSubdivisions
+    , subdivisions = countryBHSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "BH"
     , unofficialNames = [ "Bahrain", "البحرين", "Bahreïn", "Bahrein", "バーレーン" ]
@@ -787,8 +799,8 @@ bahrain =
 
 {-| Bangladesh
 -}
-bangladesh : Country
-bangladesh =
+countryBD : Country
+countryBD =
     { addressFormat = ""
     , alpha2 = "BD"
     , alpha3 = "BGD"
@@ -813,7 +825,7 @@ bangladesh =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = bangladeshSubdivisions
+    , subdivisions = countryBDSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "BD"
     , unofficialNames = [ "Bangladesh", "Bangladesch", "バングラデシュ" ]
@@ -823,8 +835,8 @@ bangladesh =
 
 {-| Barbados
 -}
-barbados : Country
-barbados =
+countryBB : Country
+countryBB =
     { addressFormat = ""
     , alpha2 = "BB"
     , alpha3 = "BRB"
@@ -849,7 +861,7 @@ barbados =
     , postalCodeFormat = "BB\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = barbadosSubdivisions
+    , subdivisions = countryBBSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "BB"
     , unofficialNames = [ "Barbade", "Barbados", "バルバドス" ]
@@ -859,8 +871,8 @@ barbados =
 
 {-| Belarus
 -}
-belarus : Country
-belarus =
+countryBY : Country
+countryBY =
     { addressFormat = ""
     , alpha2 = "BY"
     , alpha3 = "BLR"
@@ -885,7 +897,7 @@ belarus =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = belarusSubdivisions
+    , subdivisions = countryBYSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "BY"
     , unofficialNames = [ "Belarus", "Weißrussland", "Biélorussie", "Bielorrusia", "ベラルーシ", "Wit-Rusland", "Беларусь" ]
@@ -895,8 +907,8 @@ belarus =
 
 {-| Belgium
 -}
-belgium : Country
-belgium =
+countryBE : Country
+countryBE =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -925,7 +937,7 @@ belgium =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = belgiumSubdivisions
+    , subdivisions = countryBESubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "BE"
     , unofficialNames = [ "Belgium", "Belgien", "Belgique", "Bélgica", "ベルギー", "België" ]
@@ -935,8 +947,8 @@ belgium =
 
 {-| Belize
 -}
-belize : Country
-belize =
+countryBZ : Country
+countryBZ =
     { addressFormat = ""
     , alpha2 = "BZ"
     , alpha3 = "BLZ"
@@ -961,7 +973,7 @@ belize =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = belizeSubdivisions
+    , subdivisions = countryBZSubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "BZ"
     , unofficialNames = [ "Belize", "Belice", "ベリーズ" ]
@@ -971,8 +983,8 @@ belize =
 
 {-| Benin
 -}
-benin : Country
-benin =
+countryBJ : Country
+countryBJ =
     { addressFormat = ""
     , alpha2 = "BJ"
     , alpha3 = "BEN"
@@ -997,7 +1009,7 @@ benin =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = beninSubdivisions
+    , subdivisions = countryBJSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "BJ"
     , unofficialNames = [ "Benin", "Bénin", "ベナン" ]
@@ -1007,8 +1019,8 @@ benin =
 
 {-| Bermuda
 -}
-bermuda : Country
-bermuda =
+countryBM : Country
+countryBM =
     { addressFormat = ""
     , alpha2 = "BM"
     , alpha3 = "BMU"
@@ -1033,7 +1045,7 @@ bermuda =
     , postalCodeFormat = "[A-Z]{2} ?[A-Z0-9]{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = bermudaSubdivisions
+    , subdivisions = countryBMSubdivisions
     , subregion = Subregion.NorthernAmerica
     , unLocode = "BM"
     , unofficialNames = [ "Bermuda", "Bermudes", "Bermudas", "バミューダ" ]
@@ -1043,8 +1055,8 @@ bermuda =
 
 {-| Bhutan
 -}
-bhutan : Country
-bhutan =
+countryBT : Country
+countryBT =
     { addressFormat = ""
     , alpha2 = "BT"
     , alpha3 = "BTN"
@@ -1069,7 +1081,7 @@ bhutan =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = bhutanSubdivisions
+    , subdivisions = countryBTSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "BT"
     , unofficialNames = [ "Bhutan", "Bhoutan", "Bután", "ブータン" ]
@@ -1079,8 +1091,8 @@ bhutan =
 
 {-| Bolivia (Plurinational State of)
 -}
-boliviaPlurinationalStateOf : Country
-boliviaPlurinationalStateOf =
+countryBO : Country
+countryBO =
     { addressFormat = ""
     , alpha2 = "BO"
     , alpha3 = "BOL"
@@ -1105,7 +1117,7 @@ boliviaPlurinationalStateOf =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = boliviaPlurinationalStateOfSubdivisions
+    , subdivisions = countryBOSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "BO"
     , unofficialNames = [ "Bolivia", "Bolivien", "Bolivie", "ボリビア多民族国" ]
@@ -1115,8 +1127,8 @@ boliviaPlurinationalStateOf =
 
 {-| Bonaire, Sint Eustatius and Saba
 -}
-bonaireSintEustatiusAndSaba : Country
-bonaireSintEustatiusAndSaba =
+countryBQ : Country
+countryBQ =
     { addressFormat = ""
     , alpha2 = "BQ"
     , alpha3 = "BES"
@@ -1141,7 +1153,7 @@ bonaireSintEustatiusAndSaba =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = bonaireSintEustatiusAndSabaSubdivisions
+    , subdivisions = countryBQSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "BQ"
     , unofficialNames = [ "Bonaire, Sint Eustatius and Saba", "Caribbean Netherlands", "Caribisch Nederland", "ボネール、シント・ユースタティウスおよびサバ" ]
@@ -1151,8 +1163,8 @@ bonaireSintEustatiusAndSaba =
 
 {-| Bosnia and Herzegovina
 -}
-bosniaAndHerzegovina : Country
-bosniaAndHerzegovina =
+countryBA : Country
+countryBA =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -1181,7 +1193,7 @@ bosniaAndHerzegovina =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = bosniaAndHerzegovinaSubdivisions
+    , subdivisions = countryBASubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "BA"
     , unofficialNames = [ "Bosnia and Herzegovina", "Bosnien und Herzegowina", "Bosnie et Herzégovine", "Bosnia y Herzegovina", "ボスニア・ヘルツェゴビナ", "Bosnië en Herzegovina", "Bosnia Herzegovina" ]
@@ -1191,8 +1203,8 @@ bosniaAndHerzegovina =
 
 {-| Botswana
 -}
-botswana : Country
-botswana =
+countryBW : Country
+countryBW =
     { addressFormat = ""
     , alpha2 = "BW"
     , alpha3 = "BWA"
@@ -1217,7 +1229,7 @@ botswana =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = botswanaSubdivisions
+    , subdivisions = countryBWSubdivisions
     , subregion = Subregion.SouthernAfrica
     , unLocode = "BW"
     , unofficialNames = [ "Botswana", "ボツワナ" ]
@@ -1227,8 +1239,8 @@ botswana =
 
 {-| Bouvet Island
 -}
-bouvetIsland : Country
-bouvetIsland =
+countryBV : Country
+countryBV =
     { addressFormat = ""
     , alpha2 = "BV"
     , alpha3 = "BVT"
@@ -1263,8 +1275,8 @@ bouvetIsland =
 
 {-| Brazil
 -}
-brazil : Country
-brazil =
+countryBR : Country
+countryBR =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}} {{region_short}}
@@ -1293,7 +1305,7 @@ brazil =
     , postalCodeFormat = "\\d{5}-?\\d{3}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = brazilSubdivisions
+    , subdivisions = countryBRSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "BR"
     , unofficialNames = [ "Brazil", "Brasilien", "Brésil", "Brasil", "ブラジル", "Brazilië" ]
@@ -1303,8 +1315,8 @@ brazil =
 
 {-| British Indian Ocean Territory
 -}
-britishIndianOceanTerritory : Country
-britishIndianOceanTerritory =
+countryIO : Country
+countryIO =
     { addressFormat = ""
     , alpha2 = "IO"
     , alpha3 = "IOT"
@@ -1339,8 +1351,8 @@ britishIndianOceanTerritory =
 
 {-| Brunei Darussalam
 -}
-bruneiDarussalam : Country
-bruneiDarussalam =
+countryBN : Country
+countryBN =
     { addressFormat = ""
     , alpha2 = "BN"
     , alpha3 = "BRN"
@@ -1365,7 +1377,7 @@ bruneiDarussalam =
     , postalCodeFormat = "[A-Z]{2} ?\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = bruneiDarussalamSubdivisions
+    , subdivisions = countryBNSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "BN"
     , unofficialNames = [ "Brunei", "ブルネイ・ダルサラーム" ]
@@ -1375,8 +1387,8 @@ bruneiDarussalam =
 
 {-| Bulgaria
 -}
-bulgaria : Country
-bulgaria =
+countryBG : Country
+countryBG =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -1405,7 +1417,7 @@ bulgaria =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = bulgariaSubdivisions
+    , subdivisions = countryBGSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "BG"
     , unofficialNames = [ "Bulgaria", "Bulgarien", "Bulgarie", "ブルガリア", "Bulgarije" ]
@@ -1415,8 +1427,8 @@ bulgaria =
 
 {-| Burkina Faso
 -}
-burkinaFaso : Country
-burkinaFaso =
+countryBF : Country
+countryBF =
     { addressFormat = ""
     , alpha2 = "BF"
     , alpha3 = "BFA"
@@ -1441,7 +1453,7 @@ burkinaFaso =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = burkinaFasoSubdivisions
+    , subdivisions = countryBFSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "BF"
     , unofficialNames = [ "Burkina Faso", "ブルキナファソ" ]
@@ -1451,8 +1463,8 @@ burkinaFaso =
 
 {-| Burundi
 -}
-burundi : Country
-burundi =
+countryBI : Country
+countryBI =
     { addressFormat = ""
     , alpha2 = "BI"
     , alpha3 = "BDI"
@@ -1477,7 +1489,7 @@ burundi =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = burundiSubdivisions
+    , subdivisions = countryBISubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "BI"
     , unofficialNames = [ "Burundi", "ブルンジ" ]
@@ -1487,8 +1499,8 @@ burundi =
 
 {-| Cabo Verde
 -}
-caboVerde : Country
-caboVerde =
+countryCV : Country
+countryCV =
     { addressFormat = ""
     , alpha2 = "CV"
     , alpha3 = "CPV"
@@ -1513,7 +1525,7 @@ caboVerde =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = caboVerdeSubdivisions
+    , subdivisions = countryCVSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "CV"
     , unofficialNames = [ "Cape Verde", "Kap Verde", "Cap Vert", "Cabo Verde", "カーボベルデ", "Kaapverdië" ]
@@ -1523,8 +1535,8 @@ caboVerde =
 
 {-| Cambodia
 -}
-cambodia : Country
-cambodia =
+countryKH : Country
+countryKH =
     { addressFormat = ""
     , alpha2 = "KH"
     , alpha3 = "KHM"
@@ -1549,7 +1561,7 @@ cambodia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = cambodiaSubdivisions
+    , subdivisions = countryKHSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "KH"
     , unofficialNames = [ "Cambodia", "Kambodscha", "Cambodge", "Camboya", "カンボジア", "Cambodja" ]
@@ -1559,8 +1571,8 @@ cambodia =
 
 {-| Cameroon
 -}
-cameroon : Country
-cameroon =
+countryCM : Country
+countryCM =
     { addressFormat = ""
     , alpha2 = "CM"
     , alpha3 = "CMR"
@@ -1585,7 +1597,7 @@ cameroon =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = cameroonSubdivisions
+    , subdivisions = countryCMSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "CM"
     , unofficialNames = [ "Cameroon", "Kamerun", "Cameroun", "Camerún", "カメルーン", "Kameroen" ]
@@ -1595,8 +1607,8 @@ cameroon =
 
 {-| Canada
 -}
-canada : Country
-canada =
+countryCA : Country
+countryCA =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{region_short}} {{postalcode}}
@@ -1625,7 +1637,7 @@ canada =
     , postalCodeFormat = "[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z] ?\\d[ABCEGHJ-NPRSTV-Z]\\d"
     , region = Region.Americas
     , startOfWeek = Time.Sun
-    , subdivisions = canadaSubdivisions
+    , subdivisions = countryCASubdivisions
     , subregion = Subregion.NorthernAmerica
     , unLocode = "CA"
     , unofficialNames = [ "Canada", "Kanada", "Canadá", "カナダ" ]
@@ -1635,8 +1647,8 @@ canada =
 
 {-| Cayman Islands
 -}
-caymanIslands : Country
-caymanIslands =
+countryKY : Country
+countryKY =
     { addressFormat = ""
     , alpha2 = "KY"
     , alpha3 = "CYM"
@@ -1661,7 +1673,7 @@ caymanIslands =
     , postalCodeFormat = "KY\\d-\\d{4}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = caymanIslandsSubdivisions
+    , subdivisions = countryKYSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "KY"
     , unofficialNames = [ "Cayman Islands", "Kaimaninseln", "Îles Caïmans", "Islas Caimán", "ケイマン諸島", "Caymaneilanden" ]
@@ -1671,8 +1683,8 @@ caymanIslands =
 
 {-| Central African Republic
 -}
-centralAfricanRepublic : Country
-centralAfricanRepublic =
+countryCF : Country
+countryCF =
     { addressFormat = ""
     , alpha2 = "CF"
     , alpha3 = "CAF"
@@ -1697,7 +1709,7 @@ centralAfricanRepublic =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = centralAfricanRepublicSubdivisions
+    , subdivisions = countryCFSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "CF"
     , unofficialNames = [ "Central African Republic", "Zentralafrikanische Republik", "République Centrafricaine", "República Centroafricana", "中央アフリカ共和国", "Centraal-Afrikaanse Republiek" ]
@@ -1707,8 +1719,8 @@ centralAfricanRepublic =
 
 {-| Chad
 -}
-chad : Country
-chad =
+countryTD : Country
+countryTD =
     { addressFormat = ""
     , alpha2 = "TD"
     , alpha3 = "TCD"
@@ -1733,7 +1745,7 @@ chad =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = chadSubdivisions
+    , subdivisions = countryTDSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "TD"
     , unofficialNames = [ "Chad", "تشاد", "Tschad", "Tchad", "チャド", "Tsjaad" ]
@@ -1743,8 +1755,8 @@ chad =
 
 {-| Chile
 -}
-chile : Country
-chile =
+countryCL : Country
+countryCL =
     { addressFormat = ""
     , alpha2 = "CL"
     , alpha3 = "CHL"
@@ -1769,7 +1781,7 @@ chile =
     , postalCodeFormat = "\\d{7}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = chileSubdivisions
+    , subdivisions = countryCLSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "CL"
     , unofficialNames = [ "Chile", "チリ", "Chili" ]
@@ -1779,8 +1791,8 @@ chile =
 
 {-| China
 -}
-china : Country
-china =
+countryCN : Country
+countryCN =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}} {{region_short}}
@@ -1809,7 +1821,7 @@ china =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = chinaSubdivisions
+    , subdivisions = countryCNSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "CN"
     , unofficialNames = [ "China", "Chine", "中国" ]
@@ -1819,8 +1831,8 @@ china =
 
 {-| Christmas Island
 -}
-christmasIsland : Country
-christmasIsland =
+countryCX : Country
+countryCX =
     { addressFormat = ""
     , alpha2 = "CX"
     , alpha3 = "CXR"
@@ -1855,8 +1867,8 @@ christmasIsland =
 
 {-| Cocos (Keeling) Islands
 -}
-cocosKeelingIslands : Country
-cocosKeelingIslands =
+countryCC : Country
+countryCC =
     { addressFormat = ""
     , alpha2 = "CC"
     , alpha3 = "CCK"
@@ -1891,8 +1903,8 @@ cocosKeelingIslands =
 
 {-| Colombia
 -}
-colombia : Country
-colombia =
+countryCO : Country
+countryCO =
     { addressFormat = ""
     , alpha2 = "CO"
     , alpha3 = "COL"
@@ -1917,7 +1929,7 @@ colombia =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = colombiaSubdivisions
+    , subdivisions = countryCOSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "CO"
     , unofficialNames = [ "Colombia", "Kolumbien", "Colombie", "コロンビア" ]
@@ -1927,8 +1939,8 @@ colombia =
 
 {-| Comoros
 -}
-comoros : Country
-comoros =
+countryKM : Country
+countryKM =
     { addressFormat = ""
     , alpha2 = "KM"
     , alpha3 = "COM"
@@ -1953,7 +1965,7 @@ comoros =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = comorosSubdivisions
+    , subdivisions = countryKMSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "KM"
     , unofficialNames = [ "Comoros", "Union der Komoren", "Comores", "コモロ", "Comoren" ]
@@ -1963,8 +1975,8 @@ comoros =
 
 {-| Congo
 -}
-congo : Country
-congo =
+countryCG : Country
+countryCG =
     { addressFormat = ""
     , alpha2 = "CG"
     , alpha3 = "COG"
@@ -1989,7 +2001,7 @@ congo =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = congoSubdivisions
+    , subdivisions = countryCGSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "CG"
     , unofficialNames = [ "Congo", "Kongo", "コンゴ共和国", "Congo [Republiek]", "Congo, Republic of" ]
@@ -1999,8 +2011,8 @@ congo =
 
 {-| Congo (Democratic Republic of the)
 -}
-congoDemocraticRepublicOfThe : Country
-congoDemocraticRepublicOfThe =
+countryCD : Country
+countryCD =
     { addressFormat = ""
     , alpha2 = "CD"
     , alpha3 = "COD"
@@ -2025,7 +2037,7 @@ congoDemocraticRepublicOfThe =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = congoDemocraticRepublicOfTheSubdivisions
+    , subdivisions = countryCDSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "CD"
     , unofficialNames = [ "Congo (Dem. Rep.)", "Kongo (Dem. Rep.)", "Congo (Rep. Dem.)", "コンゴ民主共和国", "Congo [DRC]", "Congo (The Democratic Republic Of The)", "Democratic Republic of the Congo", "Congo, Democratic Republic of" ]
@@ -2035,8 +2047,8 @@ congoDemocraticRepublicOfThe =
 
 {-| Cook Islands
 -}
-cookIslands : Country
-cookIslands =
+countryCK : Country
+countryCK =
     { addressFormat = ""
     , alpha2 = "CK"
     , alpha3 = "COK"
@@ -2061,7 +2073,7 @@ cookIslands =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = cookIslandsSubdivisions
+    , subdivisions = countryCKSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "CK"
     , unofficialNames = [ "Cook Islands", "Cookinseln", "Îles Cook", "Islas Cook", "クック諸島", "Cookeilanden" ]
@@ -2071,8 +2083,8 @@ cookIslands =
 
 {-| Costa Rica
 -}
-costaRica : Country
-costaRica =
+countryCR : Country
+countryCR =
     { addressFormat = ""
     , alpha2 = "CR"
     , alpha3 = "CRI"
@@ -2097,7 +2109,7 @@ costaRica =
     , postalCodeFormat = "\\d{4,5}|\\d{3}-\\d{4}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = costaRicaSubdivisions
+    , subdivisions = countryCRSubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "CR"
     , unofficialNames = [ "Costa Rica", "コスタリカ" ]
@@ -2107,8 +2119,8 @@ costaRica =
 
 {-| Croatia
 -}
-croatia : Country
-croatia =
+countryHR : Country
+countryHR =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -2137,7 +2149,7 @@ croatia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = croatiaSubdivisions
+    , subdivisions = countryHRSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "HR"
     , unofficialNames = [ "Croatia", "Kroatien", "Croatie", "Croacia", "クロアチア", "Kroatië", "Croatia (Hrvatska)" ]
@@ -2147,8 +2159,8 @@ croatia =
 
 {-| Cuba
 -}
-cuba : Country
-cuba =
+countryCU : Country
+countryCU =
     { addressFormat = ""
     , alpha2 = "CU"
     , alpha3 = "CUB"
@@ -2173,7 +2185,7 @@ cuba =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = cubaSubdivisions
+    , subdivisions = countryCUSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "CU"
     , unofficialNames = [ "Cuba", "Kuba", "キューバ" ]
@@ -2183,8 +2195,8 @@ cuba =
 
 {-| Curaçao
 -}
-curacao : Country
-curacao =
+countryCW : Country
+countryCW =
     { addressFormat = ""
     , alpha2 = "CW"
     , alpha3 = "CUW"
@@ -2209,7 +2221,7 @@ curacao =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = curacaoSubdivisions
+    , subdivisions = countryCWSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "CW"
     , unofficialNames = [ "Curaçao", "キュラソー島" ]
@@ -2219,8 +2231,8 @@ curacao =
 
 {-| Cyprus
 -}
-cyprus : Country
-cyprus =
+countryCY : Country
+countryCY =
     { addressFormat = ""
     , alpha2 = "CY"
     , alpha3 = "CYP"
@@ -2245,7 +2257,7 @@ cyprus =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = cyprusSubdivisions
+    , subdivisions = countryCYSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "CY"
     , unofficialNames = [ "Cyprus", "Zypern", "Chypre", "Chipre", "キプロス" ]
@@ -2255,8 +2267,8 @@ cyprus =
 
 {-| Czech Republic
 -}
-czechRepublic : Country
-czechRepublic =
+countryCZ : Country
+countryCZ =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -2285,7 +2297,7 @@ czechRepublic =
     , postalCodeFormat = "\\d{3} ?\\d{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = czechRepublicSubdivisions
+    , subdivisions = countryCZSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "CZ"
     , unofficialNames = [ "Czech Republic", "Tschechische Republik", "République Tchèque", "República Checa", "チェコ", "Tsjechië", "Czechia" ]
@@ -2295,8 +2307,8 @@ czechRepublic =
 
 {-| Côte d'Ivoire
 -}
-coteDIvoire : Country
-coteDIvoire =
+countryCI : Country
+countryCI =
     { addressFormat = ""
     , alpha2 = "CI"
     , alpha3 = "CIV"
@@ -2321,7 +2333,7 @@ coteDIvoire =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = coteDIvoireSubdivisions
+    , subdivisions = countryCISubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "CI"
     , unofficialNames = [ "Côte D'Ivoire", "Elfenbeinküste", "コートジボワール", "Ivoorkust", "Cote D'Ivoire (Ivory Coast)", "Cote d Ivoire (Ivory Coast)", "Ivory Coast" ]
@@ -2331,8 +2343,8 @@ coteDIvoire =
 
 {-| Denmark
 -}
-denmark : Country
-denmark =
+countryDK : Country
+countryDK =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -2362,7 +2374,7 @@ denmark =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = denmarkSubdivisions
+    , subdivisions = countryDKSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "DK"
     , unofficialNames = [ "Denmark", "Dänemark", "Danemark", "Dinamarca", "デンマーク", "Denemarken" ]
@@ -2372,8 +2384,8 @@ denmark =
 
 {-| Djibouti
 -}
-djibouti : Country
-djibouti =
+countryDJ : Country
+countryDJ =
     { addressFormat = ""
     , alpha2 = "DJ"
     , alpha3 = "DJI"
@@ -2398,7 +2410,7 @@ djibouti =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = djiboutiSubdivisions
+    , subdivisions = countryDJSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "DJ"
     , unofficialNames = [ "Djibouti", "جيبوتي", "Dschibuti", "ジブチ" ]
@@ -2408,8 +2420,8 @@ djibouti =
 
 {-| Dominica
 -}
-dominica : Country
-dominica =
+countryDM : Country
+countryDM =
     { addressFormat = ""
     , alpha2 = "DM"
     , alpha3 = "DMA"
@@ -2434,7 +2446,7 @@ dominica =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = dominicaSubdivisions
+    , subdivisions = countryDMSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "DM"
     , unofficialNames = [ "Dominica", "ドミニカ国" ]
@@ -2444,8 +2456,8 @@ dominica =
 
 {-| Dominican Republic
 -}
-dominicanRepublic : Country
-dominicanRepublic =
+countryDO : Country
+countryDO =
     { addressFormat = ""
     , alpha2 = "DO"
     , alpha3 = "DOM"
@@ -2470,7 +2482,7 @@ dominicanRepublic =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = dominicanRepublicSubdivisions
+    , subdivisions = countryDOSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "DO"
     , unofficialNames = [ "Dominican Republic", "Dominikanische Republik", "République Dominicaine", "República Dominicana", "ドミニカ共和国", "Dominicaanse Republiek" ]
@@ -2480,8 +2492,8 @@ dominicanRepublic =
 
 {-| Ecuador
 -}
-ecuador : Country
-ecuador =
+countryEC : Country
+countryEC =
     { addressFormat = ""
     , alpha2 = "EC"
     , alpha3 = "ECU"
@@ -2506,7 +2518,7 @@ ecuador =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = ecuadorSubdivisions
+    , subdivisions = countryECSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "EC"
     , unofficialNames = [ "Ecuador", "Équateur", "エクアドル" ]
@@ -2516,8 +2528,8 @@ ecuador =
 
 {-| Egypt
 -}
-egypt : Country
-egypt =
+countryEG : Country
+countryEG =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -2546,7 +2558,7 @@ egypt =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Sun
-    , subdivisions = egyptSubdivisions
+    , subdivisions = countryEGSubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "EG"
     , unofficialNames = [ "Egypt", "مصر", "Ägypten", "Égypte", "Egipto", "エジプト", "Egypte" ]
@@ -2556,8 +2568,8 @@ egypt =
 
 {-| El Salvador
 -}
-elSalvador : Country
-elSalvador =
+countrySV : Country
+countrySV =
     { addressFormat = ""
     , alpha2 = "SV"
     , alpha3 = "SLV"
@@ -2582,7 +2594,7 @@ elSalvador =
     , postalCodeFormat = "CP [1-3][1-7][0-2]\\d"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = elSalvadorSubdivisions
+    , subdivisions = countrySVSubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "SV"
     , unofficialNames = [ "El Salvador", "Salvador", "エルサルバドル" ]
@@ -2592,8 +2604,8 @@ elSalvador =
 
 {-| Equatorial Guinea
 -}
-equatorialGuinea : Country
-equatorialGuinea =
+countryGQ : Country
+countryGQ =
     { addressFormat = ""
     , alpha2 = "GQ"
     , alpha3 = "GNQ"
@@ -2618,7 +2630,7 @@ equatorialGuinea =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = equatorialGuineaSubdivisions
+    , subdivisions = countryGQSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "GQ"
     , unofficialNames = [ "Equatorial Guinea", "Äquatorial-Guinea", "Guinée Équatoriale", "Guinea Ecuatorial", "赤道ギニア", "Equatoriaal-Guinea" ]
@@ -2628,8 +2640,8 @@ equatorialGuinea =
 
 {-| Eritrea
 -}
-eritrea : Country
-eritrea =
+countryER : Country
+countryER =
     { addressFormat = ""
     , alpha2 = "ER"
     , alpha3 = "ERI"
@@ -2654,7 +2666,7 @@ eritrea =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = eritreaSubdivisions
+    , subdivisions = countryERSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "ER"
     , unofficialNames = [ "Eritrea", "إريتريا", "Érythrée", "エリトリア" ]
@@ -2664,8 +2676,8 @@ eritrea =
 
 {-| Estonia
 -}
-estonia : Country
-estonia =
+countryEE : Country
+countryEE =
     { addressFormat = ""
     , alpha2 = "EE"
     , alpha3 = "EST"
@@ -2690,7 +2702,7 @@ estonia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = estoniaSubdivisions
+    , subdivisions = countryEESubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "EE"
     , unofficialNames = [ "Estonia", "Estland", "Estonie", "エストニア" ]
@@ -2700,8 +2712,8 @@ estonia =
 
 {-| Ethiopia
 -}
-ethiopia : Country
-ethiopia =
+countryET : Country
+countryET =
     { addressFormat = ""
     , alpha2 = "ET"
     , alpha3 = "ETH"
@@ -2726,7 +2738,7 @@ ethiopia =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = ethiopiaSubdivisions
+    , subdivisions = countryETSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "ET"
     , unofficialNames = [ "Ethiopia", "Äthiopien", "Éthiopie", "Etiopía", "エチオピア", "Ethiopië" ]
@@ -2736,8 +2748,8 @@ ethiopia =
 
 {-| Falkland Islands (Malvinas)
 -}
-falklandIslandsMalvinas : Country
-falklandIslandsMalvinas =
+countryFK : Country
+countryFK =
     { addressFormat = ""
     , alpha2 = "FK"
     , alpha3 = "FLK"
@@ -2772,8 +2784,8 @@ falklandIslandsMalvinas =
 
 {-| Faroe Islands
 -}
-faroeIslands : Country
-faroeIslands =
+countryFO : Country
+countryFO =
     { addressFormat = ""
     , alpha2 = "FO"
     , alpha3 = "FRO"
@@ -2798,7 +2810,7 @@ faroeIslands =
     , postalCodeFormat = "\\d{3}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = faroeIslandsSubdivisions
+    , subdivisions = countryFOSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "FO"
     , unofficialNames = [ "Faroe Islands", "Färöer-Inseln", "Îles Féroé", "Islas Faroe", "フェロー諸島", "Faeröer" ]
@@ -2808,8 +2820,8 @@ faroeIslands =
 
 {-| Fiji
 -}
-fiji : Country
-fiji =
+countryFJ : Country
+countryFJ =
     { addressFormat = ""
     , alpha2 = "FJ"
     , alpha3 = "FJI"
@@ -2834,7 +2846,7 @@ fiji =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = fijiSubdivisions
+    , subdivisions = countryFJSubdivisions
     , subregion = Subregion.Melanesia
     , unLocode = "FJ"
     , unofficialNames = [ "Fiji", "Fidschi", "Fidji", "フィジー" ]
@@ -2844,8 +2856,8 @@ fiji =
 
 {-| Finland
 -}
-finland : Country
-finland =
+countryFI : Country
+countryFI =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -2874,7 +2886,7 @@ finland =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = finlandSubdivisions
+    , subdivisions = countryFISubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "FI"
     , unofficialNames = [ "Finland", "Finnland", "Finlande", "Finlandia", "フィンランド" ]
@@ -2884,8 +2896,8 @@ finland =
 
 {-| France
 -}
-france : Country
-france =
+countryFR : Country
+countryFR =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -2914,7 +2926,7 @@ france =
     , postalCodeFormat = "\\d{2} ?\\d{3}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = franceSubdivisions
+    , subdivisions = countryFRSubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "FR"
     , unofficialNames = [ "France", "Frankreich", "the French Republic", "フランス", "Frankrijk", "Francia" ]
@@ -2924,8 +2936,8 @@ france =
 
 {-| French Guiana
 -}
-frenchGuiana : Country
-frenchGuiana =
+countryGF : Country
+countryGF =
     { addressFormat = ""
     , alpha2 = "GF"
     , alpha3 = "GUF"
@@ -2950,7 +2962,7 @@ frenchGuiana =
     , postalCodeFormat = "9[78]3\\d{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = frenchGuianaSubdivisions
+    , subdivisions = countryGFSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "GF"
     , unofficialNames = [ "French Guiana", "Französisch Guyana", "Guayana Francesa", "フランス領ギアナ", "Frans-Guyana" ]
@@ -2960,8 +2972,8 @@ frenchGuiana =
 
 {-| French Polynesia
 -}
-frenchPolynesia : Country
-frenchPolynesia =
+countryPF : Country
+countryPF =
     { addressFormat = ""
     , alpha2 = "PF"
     , alpha3 = "PYF"
@@ -2986,7 +2998,7 @@ frenchPolynesia =
     , postalCodeFormat = "987\\d{2}"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = frenchPolynesiaSubdivisions
+    , subdivisions = countryPFSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "PF"
     , unofficialNames = [ "French Polynesia", "Französisch-Polynesien", "Polynésie Française", "Polinesia Francesa", "フランス領ポリネシア", "Frans-Polynesië" ]
@@ -2996,8 +3008,8 @@ frenchPolynesia =
 
 {-| French Southern Territories
 -}
-frenchSouthernTerritories : Country
-frenchSouthernTerritories =
+countryTF : Country
+countryTF =
     { addressFormat = ""
     , alpha2 = "TF"
     , alpha3 = "ATF"
@@ -3022,7 +3034,7 @@ frenchSouthernTerritories =
     , postalCodeFormat = ""
     , region = Region.None
     , startOfWeek = Time.Mon
-    , subdivisions = frenchSouthernTerritoriesSubdivisions
+    , subdivisions = countryTFSubdivisions
     , subregion = Subregion.None
     , unLocode = "TF"
     , unofficialNames = [ "French Southern Territories", "Französische Süd- und Antarktisgebiete", "Terres Australes Françaises", "Territorios Franceses del Sur", "フランス領南方・南極地域", "Franse Gebieden in de zuidelijke Indische Oceaan", "French Southern and Antarctic Lands" ]
@@ -3032,8 +3044,8 @@ frenchSouthernTerritories =
 
 {-| Gabon
 -}
-gabon : Country
-gabon =
+countryGA : Country
+countryGA =
     { addressFormat = ""
     , alpha2 = "GA"
     , alpha3 = "GAB"
@@ -3058,7 +3070,7 @@ gabon =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = gabonSubdivisions
+    , subdivisions = countryGASubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "GA"
     , unofficialNames = [ "Gabon", "Gabun", "Gabón", "ガボン" ]
@@ -3068,8 +3080,8 @@ gabon =
 
 {-| Gambia
 -}
-gambia : Country
-gambia =
+countryGM : Country
+countryGM =
     { addressFormat = ""
     , alpha2 = "GM"
     , alpha3 = "GMB"
@@ -3094,7 +3106,7 @@ gambia =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = gambiaSubdivisions
+    , subdivisions = countryGMSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "GM"
     , unofficialNames = [ "Gambia", "ガンビア" ]
@@ -3104,8 +3116,8 @@ gambia =
 
 {-| Georgia
 -}
-georgia : Country
-georgia =
+countryGE : Country
+countryGE =
     { addressFormat = ""
     , alpha2 = "GE"
     , alpha3 = "GEO"
@@ -3130,7 +3142,7 @@ georgia =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = georgiaSubdivisions
+    , subdivisions = countryGESubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "GE"
     , unofficialNames = [ "Georgia", "Georgien", "Géorgie", "グルジア", "Georgië" ]
@@ -3140,8 +3152,8 @@ georgia =
 
 {-| Germany
 -}
-germany : Country
-germany =
+countryDE : Country
+countryDE =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -3170,7 +3182,7 @@ germany =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = germanySubdivisions
+    , subdivisions = countryDESubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "DE"
     , unofficialNames = [ "Germany", "Deutschland", "Allemagne", "Alemania", "ドイツ", "Duitsland" ]
@@ -3180,8 +3192,8 @@ germany =
 
 {-| Ghana
 -}
-ghana : Country
-ghana =
+countryGH : Country
+countryGH =
     { addressFormat = ""
     , alpha2 = "GH"
     , alpha3 = "GHA"
@@ -3206,7 +3218,7 @@ ghana =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = ghanaSubdivisions
+    , subdivisions = countryGHSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "GH"
     , unofficialNames = [ "Ghana", "ガーナ" ]
@@ -3216,8 +3228,8 @@ ghana =
 
 {-| Gibraltar
 -}
-gibraltar : Country
-gibraltar =
+countryGI : Country
+countryGI =
     { addressFormat = ""
     , alpha2 = "GI"
     , alpha3 = "GIB"
@@ -3252,8 +3264,8 @@ gibraltar =
 
 {-| Greece
 -}
-greece : Country
-greece =
+countryGR : Country
+countryGR =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -3282,7 +3294,7 @@ greece =
     , postalCodeFormat = "\\d{3} ?\\d{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = greeceSubdivisions
+    , subdivisions = countryGRSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "GR"
     , unofficialNames = [ "Greece", "Griechenland", "Grèce", "Grecia", "ギリシャ", "Griekenland" ]
@@ -3292,8 +3304,8 @@ greece =
 
 {-| Greenland
 -}
-greenland : Country
-greenland =
+countryGL : Country
+countryGL =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -3322,7 +3334,7 @@ greenland =
     , postalCodeFormat = "39\\d{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = greenlandSubdivisions
+    , subdivisions = countryGLSubdivisions
     , subregion = Subregion.NorthernAmerica
     , unLocode = "GL"
     , unofficialNames = [ "Greenland", "Grönland", "Groenland", "Groenlandia", "グリーンランド" ]
@@ -3332,8 +3344,8 @@ greenland =
 
 {-| Grenada
 -}
-grenada : Country
-grenada =
+countryGD : Country
+countryGD =
     { addressFormat = ""
     , alpha2 = "GD"
     , alpha3 = "GRD"
@@ -3358,7 +3370,7 @@ grenada =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = grenadaSubdivisions
+    , subdivisions = countryGDSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "GD"
     , unofficialNames = [ "Grenada", "グレナダ" ]
@@ -3368,8 +3380,8 @@ grenada =
 
 {-| Guadeloupe
 -}
-guadeloupe : Country
-guadeloupe =
+countryGP : Country
+countryGP =
     { addressFormat = ""
     , alpha2 = "GP"
     , alpha3 = "GLP"
@@ -3394,7 +3406,7 @@ guadeloupe =
     , postalCodeFormat = "9[78][01]\\d{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = guadeloupeSubdivisions
+    , subdivisions = countryGPSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "GP"
     , unofficialNames = [ "Guadeloupe", "Guadalupe", "グアドループ" ]
@@ -3404,8 +3416,8 @@ guadeloupe =
 
 {-| Guam
 -}
-guam : Country
-guam =
+countryGU : Country
+countryGU =
     { addressFormat = ""
     , alpha2 = "GU"
     , alpha3 = "GUM"
@@ -3430,7 +3442,7 @@ guam =
     , postalCodeFormat = "(969(?:[12]\\d|3[12]))(?:[ \\-](\\d{4}))?"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = guamSubdivisions
+    , subdivisions = countryGUSubdivisions
     , subregion = Subregion.Micronesia
     , unLocode = "GU"
     , unofficialNames = [ "Guam", "グアム" ]
@@ -3440,8 +3452,8 @@ guam =
 
 {-| Guatemala
 -}
-guatemala : Country
-guatemala =
+countryGT : Country
+countryGT =
     { addressFormat = ""
     , alpha2 = "GT"
     , alpha3 = "GTM"
@@ -3466,7 +3478,7 @@ guatemala =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = guatemalaSubdivisions
+    , subdivisions = countryGTSubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "GT"
     , unofficialNames = [ "Guatemala", "グアテマラ" ]
@@ -3476,8 +3488,8 @@ guatemala =
 
 {-| Guernsey
 -}
-guernsey : Country
-guernsey =
+countryGG : Country
+countryGG =
     { addressFormat = ""
     , alpha2 = "GG"
     , alpha3 = "GGY"
@@ -3502,7 +3514,7 @@ guernsey =
     , postalCodeFormat = "GY\\d[\\dA-Z]? ?\\d[ABD-HJLN-UW-Z]{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = guernseySubdivisions
+    , subdivisions = countryGGSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "GG"
     , unofficialNames = [ "Guernsey and Alderney", "Guernsey und Alderney", "Guernsey et Alderney", "Guernsey y Alderney", "ガーンジー", "Guernsey" ]
@@ -3512,8 +3524,8 @@ guernsey =
 
 {-| Guinea
 -}
-guinea : Country
-guinea =
+countryGN : Country
+countryGN =
     { addressFormat = ""
     , alpha2 = "GN"
     , alpha3 = "GIN"
@@ -3538,7 +3550,7 @@ guinea =
     , postalCodeFormat = "\\d{3}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = guineaSubdivisions
+    , subdivisions = countryGNSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "GN"
     , unofficialNames = [ "Guinea", "Guinée", "ギニア", "Guinee" ]
@@ -3548,8 +3560,8 @@ guinea =
 
 {-| Guinea-Bissau
 -}
-guineaBissau : Country
-guineaBissau =
+countryGW : Country
+countryGW =
     { addressFormat = ""
     , alpha2 = "GW"
     , alpha3 = "GNB"
@@ -3574,7 +3586,7 @@ guineaBissau =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = guineaBissauSubdivisions
+    , subdivisions = countryGWSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "GW"
     , unofficialNames = [ "Guinea-Bissau", "Guinée-Bissau", "ギニアビサウ", "Guinee-Bissau", "Guinea Bissau" ]
@@ -3584,8 +3596,8 @@ guineaBissau =
 
 {-| Guyana
 -}
-guyana : Country
-guyana =
+countryGY : Country
+countryGY =
     { addressFormat = ""
     , alpha2 = "GY"
     , alpha3 = "GUY"
@@ -3610,7 +3622,7 @@ guyana =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = guyanaSubdivisions
+    , subdivisions = countryGYSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "GY"
     , unofficialNames = [ "Guyana", "ガイアナ" ]
@@ -3620,8 +3632,8 @@ guyana =
 
 {-| Haiti
 -}
-haiti : Country
-haiti =
+countryHT : Country
+countryHT =
     { addressFormat = ""
     , alpha2 = "HT"
     , alpha3 = "HTI"
@@ -3646,7 +3658,7 @@ haiti =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = haitiSubdivisions
+    , subdivisions = countryHTSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "HT"
     , unofficialNames = [ "Haiti", "ハイチ", "Haïti" ]
@@ -3656,8 +3668,8 @@ haiti =
 
 {-| Heard Island and McDonald Islands
 -}
-heardIslandAndMcdonaldIslands : Country
-heardIslandAndMcdonaldIslands =
+countryHM : Country
+countryHM =
     { addressFormat = ""
     , alpha2 = "HM"
     , alpha3 = "HMD"
@@ -3692,8 +3704,8 @@ heardIslandAndMcdonaldIslands =
 
 {-| Holy See
 -}
-holySee : Country
-holySee =
+countryVA : Country
+countryVA =
     { addressFormat = ""
     , alpha2 = "VA"
     , alpha3 = "VAT"
@@ -3728,8 +3740,8 @@ holySee =
 
 {-| Honduras
 -}
-honduras : Country
-honduras =
+countryHN : Country
+countryHN =
     { addressFormat = ""
     , alpha2 = "HN"
     , alpha3 = "HND"
@@ -3754,7 +3766,7 @@ honduras =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = hondurasSubdivisions
+    , subdivisions = countryHNSubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "HN"
     , unofficialNames = [ "Honduras", "ホンジュラス" ]
@@ -3764,8 +3776,8 @@ honduras =
 
 {-| Hong Kong
 -}
-hongKong : Country
-hongKong =
+countryHK : Country
+countryHK =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}} {{region_short}}
@@ -3794,7 +3806,7 @@ hongKong =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = hongKongSubdivisions
+    , subdivisions = countryHKSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "HK"
     , unofficialNames = [ "Hong Kong", "香港", "Hongkong" ]
@@ -3804,8 +3816,8 @@ hongKong =
 
 {-| Hungary
 -}
-hungary : Country
-hungary =
+countryHU : Country
+countryHU =
     { addressFormat = """{{recipient}}
 {{city}}
 {{street}}
@@ -3835,7 +3847,7 @@ hungary =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = hungarySubdivisions
+    , subdivisions = countryHUSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "HU"
     , unofficialNames = [ "Hungary", "Ungarn", "Hongrie", "Hungría", "ハンガリー", "Hongarije" ]
@@ -3845,8 +3857,8 @@ hungary =
 
 {-| Iceland
 -}
-iceland : Country
-iceland =
+countryIS : Country
+countryIS =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -3875,7 +3887,7 @@ iceland =
     , postalCodeFormat = "\\d{3}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = icelandSubdivisions
+    , subdivisions = countryISSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "IS"
     , unofficialNames = [ "Iceland", "Island", "Islande", "Islandia", "アイスランド", "IJsland" ]
@@ -3885,8 +3897,8 @@ iceland =
 
 {-| India
 -}
-india : Country
-india =
+countryIN : Country
+countryIN =
     { addressFormat = """{{recipient}}
 {{street}}
 {{region}}
@@ -3916,7 +3928,7 @@ india =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = indiaSubdivisions
+    , subdivisions = countryINSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "IN"
     , unofficialNames = [ "India", "Indien", "Inde", "インド" ]
@@ -3926,8 +3938,8 @@ india =
 
 {-| Indonesia
 -}
-indonesia : Country
-indonesia =
+countryID : Country
+countryID =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}}
@@ -3957,7 +3969,7 @@ indonesia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = indonesiaSubdivisions
+    , subdivisions = countryIDSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "ID"
     , unofficialNames = [ "Indonesia", "Indonesien", "Indonésie", "インドネシア", "Indonesië" ]
@@ -3967,8 +3979,8 @@ indonesia =
 
 {-| Iran (Islamic Republic of)
 -}
-iranIslamicRepublicOf : Country
-iranIslamicRepublicOf =
+countryIR : Country
+countryIR =
     { addressFormat = ""
     , alpha2 = "IR"
     , alpha3 = "IRN"
@@ -3993,7 +4005,7 @@ iranIslamicRepublicOf =
     , postalCodeFormat = "\\d{5}-?\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sat
-    , subdivisions = iranIslamicRepublicOfSubdivisions
+    , subdivisions = countryIRSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "IR"
     , unofficialNames = [ "Iran", "Irán", "Iran (Islamic Republic Of)", "イラン・イスラム共和国", "Islamic Republic of Iran" ]
@@ -4003,8 +4015,8 @@ iranIslamicRepublicOf =
 
 {-| Iraq
 -}
-iraq : Country
-iraq =
+countryIQ : Country
+countryIQ =
     { addressFormat = ""
     , alpha2 = "IQ"
     , alpha3 = "IRQ"
@@ -4029,7 +4041,7 @@ iraq =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = iraqSubdivisions
+    , subdivisions = countryIQSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "IQ"
     , unofficialNames = [ "Iraq", "العراق", "Irak", "イラク" ]
@@ -4039,8 +4051,8 @@ iraq =
 
 {-| Ireland
 -}
-ireland : Country
-ireland =
+countryIE : Country
+countryIE =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{region_short}} {{postalcode}}
@@ -4069,7 +4081,7 @@ ireland =
     , postalCodeFormat = "[\\dA-Z]{3} ?[\\dA-Z]{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = irelandSubdivisions
+    , subdivisions = countryIESubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "IE"
     , unofficialNames = [ "Ireland", "Irland", "Irlande", "Irlanda", "アイルランド", "Ierland" ]
@@ -4079,8 +4091,8 @@ ireland =
 
 {-| Isle of Man
 -}
-isleOfMan : Country
-isleOfMan =
+countryIM : Country
+countryIM =
     { addressFormat = ""
     , alpha2 = "IM"
     , alpha3 = "IMN"
@@ -4105,7 +4117,7 @@ isleOfMan =
     , postalCodeFormat = "IM\\d[\\dA-Z]? ?\\d[ABD-HJLN-UW-Z]{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = isleOfManSubdivisions
+    , subdivisions = countryIMSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "IM"
     , unofficialNames = [ "Isle of Man", "Insel Man", "Île de Man", "Isla de Man", "マン島" ]
@@ -4115,8 +4127,8 @@ isleOfMan =
 
 {-| Israel
 -}
-israel : Country
-israel =
+countryIL : Country
+countryIL =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -4145,7 +4157,7 @@ israel =
     , postalCodeFormat = "\\d{5}(?:\\d{2})?"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = israelSubdivisions
+    , subdivisions = countryILSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "IL"
     , unofficialNames = [ "Israel", "Israël", "イスラエル" ]
@@ -4155,8 +4167,8 @@ israel =
 
 {-| Italy
 -}
-italy : Country
-italy =
+countryIT : Country
+countryIT =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}} {{region_short}}
@@ -4185,7 +4197,7 @@ italy =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = italySubdivisions
+    , subdivisions = countryITSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "IT"
     , unofficialNames = [ "Italy", "Italien", "Italie", "Italia", "イタリア", "Italië" ]
@@ -4195,8 +4207,8 @@ italy =
 
 {-| Jamaica
 -}
-jamaica : Country
-jamaica =
+countryJM : Country
+countryJM =
     { addressFormat = ""
     , alpha2 = "JM"
     , alpha3 = "JAM"
@@ -4221,7 +4233,7 @@ jamaica =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = jamaicaSubdivisions
+    , subdivisions = countryJMSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "JM"
     , unofficialNames = [ "Jamaica", "Jamaika", "Jamaïque", "ジャマイカ" ]
@@ -4231,8 +4243,8 @@ jamaica =
 
 {-| Japan
 -}
-japan : Country
-japan =
+countryJP : Country
+countryJP =
     { addressFormat = """〒{{postalcode}}
 {{region_short}}{{city}}{{street}}
 {{recipient}}
@@ -4261,7 +4273,7 @@ japan =
     , postalCodeFormat = "\\d{3}-?\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = japanSubdivisions
+    , subdivisions = countryJPSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "JP"
     , unofficialNames = [ "Japan", "Japon", "Japón", "日本" ]
@@ -4271,8 +4283,8 @@ japan =
 
 {-| Jersey
 -}
-jersey : Country
-jersey =
+countryJE : Country
+countryJE =
     { addressFormat = ""
     , alpha2 = "JE"
     , alpha3 = "JEY"
@@ -4297,7 +4309,7 @@ jersey =
     , postalCodeFormat = "JE\\d[\\dA-Z]? ?\\d[ABD-HJLN-UW-Z]{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = jerseySubdivisions
+    , subdivisions = countryJESubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "JE"
     , unofficialNames = [ "Jersey", "ジャージー" ]
@@ -4307,8 +4319,8 @@ jersey =
 
 {-| Jordan
 -}
-jordan : Country
-jordan =
+countryJO : Country
+countryJO =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -4337,7 +4349,7 @@ jordan =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = jordanSubdivisions
+    , subdivisions = countryJOSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "JO"
     , unofficialNames = [ "Jordan", "الأردن", "Jordanien", "Jordanie", "Jordania", "ヨルダン", "Jordanië" ]
@@ -4347,8 +4359,8 @@ jordan =
 
 {-| Kazakhstan
 -}
-kazakhstan : Country
-kazakhstan =
+countryKZ : Country
+countryKZ =
     { addressFormat = ""
     , alpha2 = "KZ"
     , alpha3 = "KAZ"
@@ -4373,7 +4385,7 @@ kazakhstan =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = kazakhstanSubdivisions
+    , subdivisions = countryKZSubdivisions
     , subregion = Subregion.CentralAsia
     , unLocode = "KZ"
     , unofficialNames = [ "Kazakhstan", "Kasachstan", "Kazajistán", "カザフスタン", "Kazachstan" ]
@@ -4383,8 +4395,8 @@ kazakhstan =
 
 {-| Kenya
 -}
-kenya : Country
-kenya =
+countryKE : Country
+countryKE =
     { addressFormat = ""
     , alpha2 = "KE"
     , alpha3 = "KEN"
@@ -4409,7 +4421,7 @@ kenya =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = kenyaSubdivisions
+    , subdivisions = countryKESubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "KE"
     , unofficialNames = [ "Kenya", "Kenia", "ケニア" ]
@@ -4419,8 +4431,8 @@ kenya =
 
 {-| Kiribati
 -}
-kiribati : Country
-kiribati =
+countryKI : Country
+countryKI =
     { addressFormat = ""
     , alpha2 = "KI"
     , alpha3 = "KIR"
@@ -4445,7 +4457,7 @@ kiribati =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = kiribatiSubdivisions
+    , subdivisions = countryKISubdivisions
     , subregion = Subregion.Micronesia
     , unLocode = "KI"
     , unofficialNames = [ "Kiribati", "キリバス" ]
@@ -4455,8 +4467,8 @@ kiribati =
 
 {-| Korea (Democratic People's Republic of)
 -}
-koreaDemocraticPeopleSRepublicOf : Country
-koreaDemocraticPeopleSRepublicOf =
+countryKP : Country
+countryKP =
     { addressFormat = ""
     , alpha2 = "KP"
     , alpha3 = "PRK"
@@ -4481,7 +4493,7 @@ koreaDemocraticPeopleSRepublicOf =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = koreaDemocraticPeopleSRepublicOfSubdivisions
+    , subdivisions = countryKPSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "KP"
     , unofficialNames = [ "Korea (North)", "North Korea", "Nordkorea", "Corée du Nord", "Corea del Norte", "朝鮮民主主義人民共和国", "Noord-Korea", "Korea Democratic People's Republic", "Korea (Democratic People s Republic of)" ]
@@ -4491,8 +4503,8 @@ koreaDemocraticPeopleSRepublicOf =
 
 {-| Korea (Republic of)
 -}
-koreaRepublicOf : Country
-koreaRepublicOf =
+countryKR : Country
+countryKR =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{region_short}}
@@ -4522,7 +4534,7 @@ koreaRepublicOf =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = koreaRepublicOfSubdivisions
+    , subdivisions = countryKRSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "KR"
     , unofficialNames = [ "South Korea", "Korea (South)", "Südkorea", "Corée du Sud", "Corea del Sur", "大韓民国", "Zuid-Korea", "Korea (Republic of)" ]
@@ -4532,8 +4544,8 @@ koreaRepublicOf =
 
 {-| Kuwait
 -}
-kuwait : Country
-kuwait =
+countryKW : Country
+countryKW =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -4563,7 +4575,7 @@ kuwait =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = kuwaitSubdivisions
+    , subdivisions = countryKWSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "KW"
     , unofficialNames = [ "Kuwait", "الكويت", "Koweït", "クウェート", "Koeweit" ]
@@ -4573,8 +4585,8 @@ kuwait =
 
 {-| Kyrgyzstan
 -}
-kyrgyzstan : Country
-kyrgyzstan =
+countryKG : Country
+countryKG =
     { addressFormat = ""
     , alpha2 = "KG"
     , alpha3 = "KGZ"
@@ -4599,7 +4611,7 @@ kyrgyzstan =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = kyrgyzstanSubdivisions
+    , subdivisions = countryKGSubdivisions
     , subregion = Subregion.CentralAsia
     , unLocode = "KG"
     , unofficialNames = [ "Kyrgyzstan", "Kirgisistan", "Kirghizistan", "Kirguizistán", "キルギス", "Kirgizië", "Kyrgzstan" ]
@@ -4609,8 +4621,8 @@ kyrgyzstan =
 
 {-| Lao People's Democratic Republic
 -}
-laoPeopleSDemocraticRepublic : Country
-laoPeopleSDemocraticRepublic =
+countryLA : Country
+countryLA =
     { addressFormat = ""
     , alpha2 = "LA"
     , alpha3 = "LAO"
@@ -4635,7 +4647,7 @@ laoPeopleSDemocraticRepublic =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = laoPeopleSDemocraticRepublicSubdivisions
+    , subdivisions = countryLASubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "LA"
     , unofficialNames = [ "Laos", "ラオス人民民主共和国", "Lao People s Democratic Republic" ]
@@ -4645,8 +4657,8 @@ laoPeopleSDemocraticRepublic =
 
 {-| Latvia
 -}
-latvia : Country
-latvia =
+countryLV : Country
+countryLV =
     { addressFormat = """{{recipient}}
 {{street}}
 {{region}}
@@ -4676,7 +4688,7 @@ latvia =
     , postalCodeFormat = "LV-\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = latviaSubdivisions
+    , subdivisions = countryLVSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "LV"
     , unofficialNames = [ "Latvia", "Lettland", "Lettonie", "Letonia", "ラトビア", "Letland" ]
@@ -4686,8 +4698,8 @@ latvia =
 
 {-| Lebanon
 -}
-lebanon : Country
-lebanon =
+countryLB : Country
+countryLB =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -4716,7 +4728,7 @@ lebanon =
     , postalCodeFormat = "(?:\\d{4})(?: ?(?:\\d{4}))?"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = lebanonSubdivisions
+    , subdivisions = countryLBSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "LB"
     , unofficialNames = [ "Lebanon", "لبنان", "Libanon", "Liban", "Líbano", "レバノン" ]
@@ -4726,8 +4738,8 @@ lebanon =
 
 {-| Lesotho
 -}
-lesotho : Country
-lesotho =
+countryLS : Country
+countryLS =
     { addressFormat = ""
     , alpha2 = "LS"
     , alpha3 = "LSO"
@@ -4752,7 +4764,7 @@ lesotho =
     , postalCodeFormat = "\\d{3}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = lesothoSubdivisions
+    , subdivisions = countryLSSubdivisions
     , subregion = Subregion.SouthernAfrica
     , unLocode = "LS"
     , unofficialNames = [ "Lesotho", "レソト" ]
@@ -4762,8 +4774,8 @@ lesotho =
 
 {-| Liberia
 -}
-liberia : Country
-liberia =
+countryLR : Country
+countryLR =
     { addressFormat = ""
     , alpha2 = "LR"
     , alpha3 = "LBR"
@@ -4788,7 +4800,7 @@ liberia =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = liberiaSubdivisions
+    , subdivisions = countryLRSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "LR"
     , unofficialNames = [ "Liberia", "リベリア" ]
@@ -4798,8 +4810,8 @@ liberia =
 
 {-| Libya
 -}
-libya : Country
-libya =
+countryLY : Country
+countryLY =
     { addressFormat = ""
     , alpha2 = "LY"
     , alpha3 = "LBY"
@@ -4824,7 +4836,7 @@ libya =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Sun
-    , subdivisions = libyaSubdivisions
+    , subdivisions = countryLYSubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "LY"
     , unofficialNames = [ "Libya", "ليبيا", "Libyen", "Libye", "Libia", "リビア", "Libië", "Libyan Arab Jamahiriya" ]
@@ -4834,8 +4846,8 @@ libya =
 
 {-| Liechtenstein
 -}
-liechtenstein : Country
-liechtenstein =
+countryLI : Country
+countryLI =
     { addressFormat = ""
     , alpha2 = "LI"
     , alpha3 = "LIE"
@@ -4860,7 +4872,7 @@ liechtenstein =
     , postalCodeFormat = "948[5-9]|949[0-8]"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = liechtensteinSubdivisions
+    , subdivisions = countryLISubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "LI"
     , unofficialNames = [ "Liechtenstein", "リヒテンシュタイン" ]
@@ -4870,8 +4882,8 @@ liechtenstein =
 
 {-| Lithuania
 -}
-lithuania : Country
-lithuania =
+countryLT : Country
+countryLT =
     { addressFormat = ""
     , alpha2 = "LT"
     , alpha3 = "LTU"
@@ -4896,7 +4908,7 @@ lithuania =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = lithuaniaSubdivisions
+    , subdivisions = countryLTSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "LT"
     , unofficialNames = [ "Lithuania", "Litauen", "Lituanie", "Lituania", "リトアニア", "Litouwen", "Літва", "Lietuva" ]
@@ -4906,8 +4918,8 @@ lithuania =
 
 {-| Luxembourg
 -}
-luxembourg : Country
-luxembourg =
+countryLU : Country
+countryLU =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -4936,7 +4948,7 @@ luxembourg =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = luxembourgSubdivisions
+    , subdivisions = countryLUSubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "LU"
     , unofficialNames = [ "Luxembourg", "Luxemburg", "Luxemburgo", "ルクセンブルク" ]
@@ -4946,8 +4958,8 @@ luxembourg =
 
 {-| Macao
 -}
-macao : Country
-macao =
+countryMO : Country
+countryMO =
     { addressFormat = ""
     , alpha2 = "MO"
     , alpha3 = "MAC"
@@ -4972,7 +4984,7 @@ macao =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = macaoSubdivisions
+    , subdivisions = countryMOSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "MO"
     , unofficialNames = [ "Macao", "Macau", "マカオ" ]
@@ -4982,8 +4994,8 @@ macao =
 
 {-| Madagascar
 -}
-madagascar : Country
-madagascar =
+countryMG : Country
+countryMG =
     { addressFormat = ""
     , alpha2 = "MG"
     , alpha3 = "MDG"
@@ -5008,7 +5020,7 @@ madagascar =
     , postalCodeFormat = "\\d{3}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = madagascarSubdivisions
+    , subdivisions = countryMGSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "MG"
     , unofficialNames = [ "Madagascar", "Madagaskar", "the Republic of Madagascar", "マダガスカル" ]
@@ -5018,8 +5030,8 @@ madagascar =
 
 {-| Malawi
 -}
-malawi : Country
-malawi =
+countryMW : Country
+countryMW =
     { addressFormat = ""
     , alpha2 = "MW"
     , alpha3 = "MWI"
@@ -5044,7 +5056,7 @@ malawi =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = malawiSubdivisions
+    , subdivisions = countryMWSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "MW"
     , unofficialNames = [ "Malawi", "マラウイ" ]
@@ -5054,8 +5066,8 @@ malawi =
 
 {-| Malaysia
 -}
-malaysia : Country
-malaysia =
+countryMY : Country
+countryMY =
     { addressFormat = ""
     , alpha2 = "MY"
     , alpha3 = "MYS"
@@ -5080,7 +5092,7 @@ malaysia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = malaysiaSubdivisions
+    , subdivisions = countryMYSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "MY"
     , unofficialNames = [ "Malaysia", "Malaisie", "Malasia", "マレーシア", "Maleisië" ]
@@ -5090,8 +5102,8 @@ malaysia =
 
 {-| Maldives
 -}
-maldives : Country
-maldives =
+countryMV : Country
+countryMV =
     { addressFormat = ""
     , alpha2 = "MV"
     , alpha3 = "MDV"
@@ -5116,7 +5128,7 @@ maldives =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = maldivesSubdivisions
+    , subdivisions = countryMVSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "MV"
     , unofficialNames = [ "Maldives", "Malediven", "Maldivas", "モルディブ", "Maldiven" ]
@@ -5126,8 +5138,8 @@ maldives =
 
 {-| Mali
 -}
-mali : Country
-mali =
+countryML : Country
+countryML =
     { addressFormat = ""
     , alpha2 = "ML"
     , alpha3 = "MLI"
@@ -5152,7 +5164,7 @@ mali =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = maliSubdivisions
+    , subdivisions = countryMLSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "ML"
     , unofficialNames = [ "Mali", "マリ" ]
@@ -5162,8 +5174,8 @@ mali =
 
 {-| Malta
 -}
-malta : Country
-malta =
+countryMT : Country
+countryMT =
     { addressFormat = ""
     , alpha2 = "MT"
     , alpha3 = "MLT"
@@ -5188,7 +5200,7 @@ malta =
     , postalCodeFormat = "[A-Z]{3} ?\\d{2,4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = maltaSubdivisions
+    , subdivisions = countryMTSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "MT"
     , unofficialNames = [ "Malta", "Malte", "マルタ" ]
@@ -5198,8 +5210,8 @@ malta =
 
 {-| Marshall Islands
 -}
-marshallIslands : Country
-marshallIslands =
+countryMH : Country
+countryMH =
     { addressFormat = ""
     , alpha2 = "MH"
     , alpha3 = "MHL"
@@ -5224,7 +5236,7 @@ marshallIslands =
     , postalCodeFormat = "(969[67]\\d)(?:[ \\-](\\d{4}))?"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = marshallIslandsSubdivisions
+    , subdivisions = countryMHSubdivisions
     , subregion = Subregion.Micronesia
     , unLocode = "MH"
     , unofficialNames = [ "Marshall Islands", "Marshallinseln", "Îles Marshall", "Islas Marshall", "マーシャル諸島", "Marshalleilanden" ]
@@ -5234,8 +5246,8 @@ marshallIslands =
 
 {-| Martinique
 -}
-martinique : Country
-martinique =
+countryMQ : Country
+countryMQ =
     { addressFormat = ""
     , alpha2 = "MQ"
     , alpha3 = "MTQ"
@@ -5260,7 +5272,7 @@ martinique =
     , postalCodeFormat = "9[78]2\\d{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = martiniqueSubdivisions
+    , subdivisions = countryMQSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "MQ"
     , unofficialNames = [ "Martinique", "Martinica", "マルティニーク" ]
@@ -5270,8 +5282,8 @@ martinique =
 
 {-| Mauritania
 -}
-mauritania : Country
-mauritania =
+countryMR : Country
+countryMR =
     { addressFormat = ""
     , alpha2 = "MR"
     , alpha3 = "MRT"
@@ -5296,7 +5308,7 @@ mauritania =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = mauritaniaSubdivisions
+    , subdivisions = countryMRSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "MR"
     , unofficialNames = [ "Mauritania", "موريتانيا", "Mauretanien", "Mauritanie", "モーリタニア", "Mauritanië" ]
@@ -5306,8 +5318,8 @@ mauritania =
 
 {-| Mauritius
 -}
-mauritius : Country
-mauritius =
+countryMU : Country
+countryMU =
     { addressFormat = ""
     , alpha2 = "MU"
     , alpha3 = "MUS"
@@ -5332,7 +5344,7 @@ mauritius =
     , postalCodeFormat = "\\d{3}(?:\\d{2}|[A-Z]{2}\\d{3})"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = mauritiusSubdivisions
+    , subdivisions = countryMUSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "MU"
     , unofficialNames = [ "Mauritius", "Île Maurice", "Mauricio", "モーリシャス" ]
@@ -5342,8 +5354,8 @@ mauritius =
 
 {-| Mayotte
 -}
-mayotte : Country
-mayotte =
+countryYT : Country
+countryYT =
     { addressFormat = ""
     , alpha2 = "YT"
     , alpha3 = "MYT"
@@ -5368,7 +5380,7 @@ mayotte =
     , postalCodeFormat = "976\\d{2}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = mayotteSubdivisions
+    , subdivisions = countryYTSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "YT"
     , unofficialNames = [ "Mayotte", "マヨット" ]
@@ -5378,8 +5390,8 @@ mayotte =
 
 {-| Mexico
 -}
-mexico : Country
-mexico =
+countryMX : Country
+countryMX =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}} {{region_short}}
@@ -5408,7 +5420,7 @@ mexico =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = mexicoSubdivisions
+    , subdivisions = countryMXSubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "MX"
     , unofficialNames = [ "Mexico", "Mexiko", "Mexique", "México", "メキシコ" ]
@@ -5418,8 +5430,8 @@ mexico =
 
 {-| Micronesia (Federated States of)
 -}
-micronesiaFederatedStatesOf : Country
-micronesiaFederatedStatesOf =
+countryFM : Country
+countryFM =
     { addressFormat = ""
     , alpha2 = "FM"
     , alpha3 = "FSM"
@@ -5444,7 +5456,7 @@ micronesiaFederatedStatesOf =
     , postalCodeFormat = "(9694[1-4])(?:[ \\-](\\d{4}))?"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = micronesiaFederatedStatesOfSubdivisions
+    , subdivisions = countryFMSubdivisions
     , subregion = Subregion.Micronesia
     , unLocode = "FM"
     , unofficialNames = [ "Micronesia", "Mikronesien", "Micronésie", "ミクロネシア連邦", "Micronesië" ]
@@ -5454,8 +5466,8 @@ micronesiaFederatedStatesOf =
 
 {-| Moldova (Republic of)
 -}
-moldovaRepublicOf : Country
-moldovaRepublicOf =
+countryMD : Country
+countryMD =
     { addressFormat = ""
     , alpha2 = "MD"
     , alpha3 = "MDA"
@@ -5480,7 +5492,7 @@ moldovaRepublicOf =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = moldovaRepublicOfSubdivisions
+    , subdivisions = countryMDSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "MD"
     , unofficialNames = [ "Moldova", "Moldawien", "Moldavie", "Moldavia", "the Republic of Moldova", "モルドバ共和国", "Moldavië" ]
@@ -5490,8 +5502,8 @@ moldovaRepublicOf =
 
 {-| Monaco
 -}
-monaco : Country
-monaco =
+countryMC : Country
+countryMC =
     { addressFormat = ""
     , alpha2 = "MC"
     , alpha3 = "MCO"
@@ -5516,7 +5528,7 @@ monaco =
     , postalCodeFormat = "980\\d{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = monacoSubdivisions
+    , subdivisions = countryMCSubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "MC"
     , unofficialNames = [ "Monaco", "Mónaco", "モナコ" ]
@@ -5526,8 +5538,8 @@ monaco =
 
 {-| Mongolia
 -}
-mongolia : Country
-mongolia =
+countryMN : Country
+countryMN =
     { addressFormat = ""
     , alpha2 = "MN"
     , alpha3 = "MNG"
@@ -5552,7 +5564,7 @@ mongolia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = mongoliaSubdivisions
+    , subdivisions = countryMNSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "MN"
     , unofficialNames = [ "Mongolia", "Mongolei", "Mongolie", "モンゴル", "Mongolië" ]
@@ -5562,8 +5574,8 @@ mongolia =
 
 {-| Montenegro
 -}
-montenegro : Country
-montenegro =
+countryME : Country
+countryME =
     { addressFormat = ""
     , alpha2 = "ME"
     , alpha3 = "MNE"
@@ -5588,7 +5600,7 @@ montenegro =
     , postalCodeFormat = "8\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = montenegroSubdivisions
+    , subdivisions = countryMESubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "ME"
     , unofficialNames = [ "Crna Gora", "Montenegro", "モンテネグロ" ]
@@ -5598,8 +5610,8 @@ montenegro =
 
 {-| Montserrat
 -}
-montserrat : Country
-montserrat =
+countryMS : Country
+countryMS =
     { addressFormat = ""
     , alpha2 = "MS"
     , alpha3 = "MSR"
@@ -5624,7 +5636,7 @@ montserrat =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = montserratSubdivisions
+    , subdivisions = countryMSSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "MS"
     , unofficialNames = [ "Montserrat", "モントセラト" ]
@@ -5634,8 +5646,8 @@ montserrat =
 
 {-| Morocco
 -}
-morocco : Country
-morocco =
+countryMA : Country
+countryMA =
     { addressFormat = ""
     , alpha2 = "MA"
     , alpha3 = "MAR"
@@ -5660,7 +5672,7 @@ morocco =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = moroccoSubdivisions
+    , subdivisions = countryMASubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "MA"
     , unofficialNames = [ "Morocco", "المغرب", "Marokko", "Maroc", "Marruecos", "モロッコ" ]
@@ -5670,8 +5682,8 @@ morocco =
 
 {-| Mozambique
 -}
-mozambique : Country
-mozambique =
+countryMZ : Country
+countryMZ =
     { addressFormat = ""
     , alpha2 = "MZ"
     , alpha3 = "MOZ"
@@ -5696,7 +5708,7 @@ mozambique =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = mozambiqueSubdivisions
+    , subdivisions = countryMZSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "MZ"
     , unofficialNames = [ "Mozambique", "Mosambik", "モザンビーク" ]
@@ -5706,8 +5718,8 @@ mozambique =
 
 {-| Myanmar
 -}
-myanmar : Country
-myanmar =
+countryMM : Country
+countryMM =
     { addressFormat = ""
     , alpha2 = "MM"
     , alpha3 = "MMR"
@@ -5732,7 +5744,7 @@ myanmar =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = myanmarSubdivisions
+    , subdivisions = countryMMSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "MM"
     , unofficialNames = [ "Myanmar", "ミャンマー" ]
@@ -5742,8 +5754,8 @@ myanmar =
 
 {-| Namibia
 -}
-namibia : Country
-namibia =
+countryNA : Country
+countryNA =
     { addressFormat = ""
     , alpha2 = "NA"
     , alpha3 = "NAM"
@@ -5768,7 +5780,7 @@ namibia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = namibiaSubdivisions
+    , subdivisions = countryNASubdivisions
     , subregion = Subregion.SouthernAfrica
     , unLocode = "NA"
     , unofficialNames = [ "Namibia", "Namibie", "ナミビア", "Namibië" ]
@@ -5778,8 +5790,8 @@ namibia =
 
 {-| Nauru
 -}
-nauru : Country
-nauru =
+countryNR : Country
+countryNR =
     { addressFormat = ""
     , alpha2 = "NR"
     , alpha3 = "NRU"
@@ -5804,7 +5816,7 @@ nauru =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = nauruSubdivisions
+    , subdivisions = countryNRSubdivisions
     , subregion = Subregion.Micronesia
     , unLocode = "NR"
     , unofficialNames = [ "Nauru", "ナウル" ]
@@ -5814,8 +5826,8 @@ nauru =
 
 {-| Nepal
 -}
-nepal : Country
-nepal =
+countryNP : Country
+countryNP =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}}
@@ -5845,7 +5857,7 @@ nepal =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = nepalSubdivisions
+    , subdivisions = countryNPSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "NP"
     , unofficialNames = [ "Nepal", "Népal", "the Federal Democratic Republic of Nepal", "ネパール" ]
@@ -5855,8 +5867,8 @@ nepal =
 
 {-| Netherlands
 -}
-netherlands : Country
-netherlands =
+countryNL : Country
+countryNL =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -5885,7 +5897,7 @@ netherlands =
     , postalCodeFormat = "\\d{4} ?[A-Z]{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = netherlandsSubdivisions
+    , subdivisions = countryNLSubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "NL"
     , unofficialNames = [ "Netherlands", "The Netherlands", "Niederlande", "Pays-Bas", "Países Bajos", "オランダ", "Nederland" ]
@@ -5895,8 +5907,8 @@ netherlands =
 
 {-| New Caledonia
 -}
-newCaledonia : Country
-newCaledonia =
+countryNC : Country
+countryNC =
     { addressFormat = ""
     , alpha2 = "NC"
     , alpha3 = "NCL"
@@ -5921,7 +5933,7 @@ newCaledonia =
     , postalCodeFormat = "988\\d{2}"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = newCaledoniaSubdivisions
+    , subdivisions = countryNCSubdivisions
     , subregion = Subregion.Melanesia
     , unLocode = "NC"
     , unofficialNames = [ "New Caledonia", "Neukaledonien", "Nouvelle-Calédonie", "Nueva Caledonia", "ニューカレドニア", "Nieuw-Caledonië" ]
@@ -5931,8 +5943,8 @@ newCaledonia =
 
 {-| New Zealand
 -}
-newZealand : Country
-newZealand =
+countryNZ : Country
+countryNZ =
     { addressFormat = """{{recipient}}
 {{street}}
 {{region}}
@@ -5962,7 +5974,7 @@ newZealand =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = newZealandSubdivisions
+    , subdivisions = countryNZSubdivisions
     , subregion = Subregion.AustraliaAndNewZealand
     , unLocode = "NZ"
     , unofficialNames = [ "New Zealand", "Neuseeland", "Nouvelle Zélande", "Nueva Zelanda", "ニュージーランド", "Nieuw-Zeeland" ]
@@ -5972,8 +5984,8 @@ newZealand =
 
 {-| Nicaragua
 -}
-nicaragua : Country
-nicaragua =
+countryNI : Country
+countryNI =
     { addressFormat = ""
     , alpha2 = "NI"
     , alpha3 = "NIC"
@@ -5998,7 +6010,7 @@ nicaragua =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = nicaraguaSubdivisions
+    , subdivisions = countryNISubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "NI"
     , unofficialNames = [ "Nicaragua", "ニカラグア" ]
@@ -6008,8 +6020,8 @@ nicaragua =
 
 {-| Niger
 -}
-niger : Country
-niger =
+countryNE : Country
+countryNE =
     { addressFormat = ""
     , alpha2 = "NE"
     , alpha3 = "NER"
@@ -6034,7 +6046,7 @@ niger =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = nigerSubdivisions
+    , subdivisions = countryNESubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "NE"
     , unofficialNames = [ "Niger", "Níger", "ニジェール" ]
@@ -6044,8 +6056,8 @@ niger =
 
 {-| Nigeria
 -}
-nigeria : Country
-nigeria =
+countryNG : Country
+countryNG =
     { addressFormat = ""
     , alpha2 = "NG"
     , alpha3 = "NGA"
@@ -6070,7 +6082,7 @@ nigeria =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = nigeriaSubdivisions
+    , subdivisions = countryNGSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "NG"
     , unofficialNames = [ "Nigeria", "Nigéria", "the Federal Republic of Nigeria", "ナイジェリア" ]
@@ -6080,8 +6092,8 @@ nigeria =
 
 {-| Niue
 -}
-niue : Country
-niue =
+countryNU : Country
+countryNU =
     { addressFormat = ""
     , alpha2 = "NU"
     , alpha3 = "NIU"
@@ -6116,8 +6128,8 @@ niue =
 
 {-| Norfolk Island
 -}
-norfolkIsland : Country
-norfolkIsland =
+countryNF : Country
+countryNF =
     { addressFormat = ""
     , alpha2 = "NF"
     , alpha3 = "NFK"
@@ -6152,8 +6164,8 @@ norfolkIsland =
 
 {-| North Macedonia
 -}
-northMacedonia : Country
-northMacedonia =
+countryMK : Country
+countryMK =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{postalcode}}
@@ -6182,7 +6194,7 @@ northMacedonia =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = northMacedoniaSubdivisions
+    , subdivisions = countryMKSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "MK"
     , unofficialNames = [ "Macedonia", "Mazedonien", "Macédoine", "F.Y.R.O.M (Macedonia)", "マケドニア旧ユーゴスラビア共和国", "Macedonië [FYROM]", "Macedonia (The Former Yugoslav Republic of)", "North Macedonia" ]
@@ -6192,8 +6204,8 @@ northMacedonia =
 
 {-| Northern Mariana Islands
 -}
-northernMarianaIslands : Country
-northernMarianaIslands =
+countryMP : Country
+countryMP =
     { addressFormat = ""
     , alpha2 = "MP"
     , alpha3 = "MNP"
@@ -6218,7 +6230,7 @@ northernMarianaIslands =
     , postalCodeFormat = "(9695[012])(?:[ \\-](\\d{4}))?"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = northernMarianaIslandsSubdivisions
+    , subdivisions = countryMPSubdivisions
     , subregion = Subregion.Micronesia
     , unLocode = "MP"
     , unofficialNames = [ "Northern Mariana Islands", "Nördliche Marianen", "Mariannes du Nord", "Islas Marianas del Norte", "北マリアナ諸島", "Noordelijke Marianeneilanden" ]
@@ -6228,8 +6240,8 @@ northernMarianaIslands =
 
 {-| Norway
 -}
-norway : Country
-norway =
+countryNO : Country
+countryNO =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -6258,7 +6270,7 @@ norway =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = norwaySubdivisions
+    , subdivisions = countryNOSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "NO"
     , unofficialNames = [ "Norway", "Norwegen", "Norvège", "Noruega", "ノルウェー", "Noorwegen" ]
@@ -6268,8 +6280,8 @@ norway =
 
 {-| Oman
 -}
-oman : Country
-oman =
+countryOM : Country
+countryOM =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -6299,7 +6311,7 @@ oman =
     , postalCodeFormat = "(?:PC )?\\d{3}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = omanSubdivisions
+    , subdivisions = countryOMSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "OM"
     , unofficialNames = [ "Oman", "عمان", "Omán", "オマーン" ]
@@ -6309,8 +6321,8 @@ oman =
 
 {-| Pakistan
 -}
-pakistan : Country
-pakistan =
+countryPK : Country
+countryPK =
     { addressFormat = ""
     , alpha2 = "PK"
     , alpha3 = "PAK"
@@ -6335,7 +6347,7 @@ pakistan =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = pakistanSubdivisions
+    , subdivisions = countryPKSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "PK"
     , unofficialNames = [ "Pakistan", "Paquistán", "パキスタン" ]
@@ -6345,8 +6357,8 @@ pakistan =
 
 {-| Palau
 -}
-palau : Country
-palau =
+countryPW : Country
+countryPW =
     { addressFormat = ""
     , alpha2 = "PW"
     , alpha3 = "PLW"
@@ -6371,7 +6383,7 @@ palau =
     , postalCodeFormat = "(969(?:39|40))(?:[ \\-](\\d{4}))?"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = palauSubdivisions
+    , subdivisions = countryPWSubdivisions
     , subregion = Subregion.Micronesia
     , unLocode = "PW"
     , unofficialNames = [ "Palau", "パラオ" ]
@@ -6381,8 +6393,8 @@ palau =
 
 {-| Palestine, State of
 -}
-palestineStateOf : Country
-palestineStateOf =
+countryPS : Country
+countryPS =
     { addressFormat = ""
     , alpha2 = "PS"
     , alpha3 = "PSE"
@@ -6407,7 +6419,7 @@ palestineStateOf =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = palestineStateOfSubdivisions
+    , subdivisions = countryPSSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "PS"
     , unofficialNames = [ "Palestine", "فلسطين", "Palästina", "Palestina", "the Occupied Palestinian Territory", "パレスチナ", "Palestijnse gebieden", "Palestinian Territory Occupied", "Palestinian Authority" ]
@@ -6417,8 +6429,8 @@ palestineStateOf =
 
 {-| Panama
 -}
-panama : Country
-panama =
+countryPA : Country
+countryPA =
     { addressFormat = ""
     , alpha2 = "PA"
     , alpha3 = "PAN"
@@ -6443,7 +6455,7 @@ panama =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = panamaSubdivisions
+    , subdivisions = countryPASubdivisions
     , subregion = Subregion.CentralAmerica
     , unLocode = "PA"
     , unofficialNames = [ "Panama", "Panamá", "パナマ" ]
@@ -6453,8 +6465,8 @@ panama =
 
 {-| Papua New Guinea
 -}
-papuaNewGuinea : Country
-papuaNewGuinea =
+countryPG : Country
+countryPG =
     { addressFormat = ""
     , alpha2 = "PG"
     , alpha3 = "PNG"
@@ -6479,7 +6491,7 @@ papuaNewGuinea =
     , postalCodeFormat = "\\d{3}"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = papuaNewGuineaSubdivisions
+    , subdivisions = countryPGSubdivisions
     , subregion = Subregion.Melanesia
     , unLocode = "PG"
     , unofficialNames = [ "Papua New Guinea", "Papua-Neuguinea", "Papouasie Nouvelle-Guinée", "Papúa Nueva Guinea", "パプアニューギニア", "Papoea-Nieuw-Guinea" ]
@@ -6489,8 +6501,8 @@ papuaNewGuinea =
 
 {-| Paraguay
 -}
-paraguay : Country
-paraguay =
+countryPY : Country
+countryPY =
     { addressFormat = ""
     , alpha2 = "PY"
     , alpha3 = "PRY"
@@ -6515,7 +6527,7 @@ paraguay =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = paraguaySubdivisions
+    , subdivisions = countryPYSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "PY"
     , unofficialNames = [ "Paraguay", "パラグアイ" ]
@@ -6525,8 +6537,8 @@ paraguay =
 
 {-| Peru
 -}
-peru : Country
-peru =
+countryPE : Country
+countryPE =
     { addressFormat = ""
     , alpha2 = "PE"
     , alpha3 = "PER"
@@ -6551,7 +6563,7 @@ peru =
     , postalCodeFormat = "(?:LIMA \\d{1,2}|CALLAO 0?\\d)|[0-2]\\d{4}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = peruSubdivisions
+    , subdivisions = countryPESubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "PE"
     , unofficialNames = [ "Peru", "Pérou", "Perú", "ペルー" ]
@@ -6561,8 +6573,8 @@ peru =
 
 {-| Philippines
 -}
-philippines : Country
-philippines =
+countryPH : Country
+countryPH =
     { addressFormat = """{{recipient}}
 {{street}} {{region_short}}
 {{postalcode}} {{city}}
@@ -6591,7 +6603,7 @@ philippines =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = philippinesSubdivisions
+    , subdivisions = countryPHSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "PH"
     , unofficialNames = [ "Philippines", "Philippinen", "Filipinas", "フィリピン", "Filipijnen" ]
@@ -6601,8 +6613,8 @@ philippines =
 
 {-| Pitcairn
 -}
-pitcairn : Country
-pitcairn =
+countryPN : Country
+countryPN =
     { addressFormat = ""
     , alpha2 = "PN"
     , alpha3 = "PCN"
@@ -6637,8 +6649,8 @@ pitcairn =
 
 {-| Poland
 -}
-poland : Country
-poland =
+countryPL : Country
+countryPL =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -6668,7 +6680,7 @@ poland =
     , postalCodeFormat = "\\d{2}-\\d{3}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = polandSubdivisions
+    , subdivisions = countryPLSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "PL"
     , unofficialNames = [ "Poland", "Polen", "Pologne", "Polonia", "ポーランド" ]
@@ -6678,8 +6690,8 @@ poland =
 
 {-| Portugal
 -}
-portugal : Country
-portugal =
+countryPT : Country
+countryPT =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}} {{region_short}}
@@ -6708,7 +6720,7 @@ portugal =
     , postalCodeFormat = "\\d{4}-\\d{3}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = portugalSubdivisions
+    , subdivisions = countryPTSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "PT"
     , unofficialNames = [ "Portugal", "ポルトガル" ]
@@ -6718,8 +6730,8 @@ portugal =
 
 {-| Puerto Rico
 -}
-puertoRico : Country
-puertoRico =
+countryPR : Country
+countryPR =
     { addressFormat = ""
     , alpha2 = "PR"
     , alpha3 = "PRI"
@@ -6744,7 +6756,7 @@ puertoRico =
     , postalCodeFormat = "(00[679]\\d{2})(?:[ \\-](\\d{4}))?"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = puertoRicoSubdivisions
+    , subdivisions = countryPRSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "PR"
     , unofficialNames = [ "Puerto Rico", "プエルトリコ" ]
@@ -6754,8 +6766,8 @@ puertoRico =
 
 {-| Qatar
 -}
-qatar : Country
-qatar =
+countryQA : Country
+countryQA =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -6784,7 +6796,7 @@ qatar =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = qatarSubdivisions
+    , subdivisions = countryQASubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "QA"
     , unofficialNames = [ "Qatar", "قطر", "Katar", "カタール" ]
@@ -6794,8 +6806,8 @@ qatar =
 
 {-| Romania
 -}
-romania : Country
-romania =
+countryRO : Country
+countryRO =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -6824,7 +6836,7 @@ romania =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = romaniaSubdivisions
+    , subdivisions = countryROSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "RO"
     , unofficialNames = [ "Romania", "Rumänien", "Roumanie", "Rumania", "ルーマニア", "Roemenië" ]
@@ -6834,8 +6846,8 @@ romania =
 
 {-| Russian Federation
 -}
-russianFederation : Country
-russianFederation =
+countryRU : Country
+countryRU =
     { addressFormat = """{{recipient}}
 {{postalcode}} {{city}}
 {{street}}
@@ -6864,7 +6876,7 @@ russianFederation =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = russianFederationSubdivisions
+    , subdivisions = countryRUSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "RU"
     , unofficialNames = [ "Russia", "Russland", "Russie", "Rusia", "ロシア連邦", "Rusland", "Россия", "Расія" ]
@@ -6874,8 +6886,8 @@ russianFederation =
 
 {-| Rwanda
 -}
-rwanda : Country
-rwanda =
+countryRW : Country
+countryRW =
     { addressFormat = ""
     , alpha2 = "RW"
     , alpha3 = "RWA"
@@ -6900,7 +6912,7 @@ rwanda =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = rwandaSubdivisions
+    , subdivisions = countryRWSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "RW"
     , unofficialNames = [ "Rwanda", "Ruanda", "ルワンダ" ]
@@ -6910,8 +6922,8 @@ rwanda =
 
 {-| Réunion
 -}
-reunion : Country
-reunion =
+countryRE : Country
+countryRE =
     { addressFormat = ""
     , alpha2 = "RE"
     , alpha3 = "REU"
@@ -6936,7 +6948,7 @@ reunion =
     , postalCodeFormat = "9[78]4\\d{2}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = reunionSubdivisions
+    , subdivisions = countryRESubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "RE"
     , unofficialNames = [ "Réunion", "Reunión", "Reunion", "レユニオン" ]
@@ -6946,8 +6958,8 @@ reunion =
 
 {-| Saint Barthélemy
 -}
-saintBarthelemy : Country
-saintBarthelemy =
+countryBL : Country
+countryBL =
     { addressFormat = ""
     , alpha2 = "BL"
     , alpha3 = "BLM"
@@ -6972,7 +6984,7 @@ saintBarthelemy =
     , postalCodeFormat = "9[78][01]\\d{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = saintBarthelemySubdivisions
+    , subdivisions = countryBLSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "BL"
     , unofficialNames = [ "Saint Barthélemy", "Saint-Barthélemy", "サン・バルテルミー" ]
@@ -6982,8 +6994,8 @@ saintBarthelemy =
 
 {-| Saint Helena, Ascension and Tristan da Cunha
 -}
-saintHelenaAscensionAndTristanDaCunha : Country
-saintHelenaAscensionAndTristanDaCunha =
+countrySH : Country
+countrySH =
     { addressFormat = ""
     , alpha2 = "SH"
     , alpha3 = "SHN"
@@ -7008,7 +7020,7 @@ saintHelenaAscensionAndTristanDaCunha =
     , postalCodeFormat = "(?:ASCN|STHL) 1ZZ"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = saintHelenaAscensionAndTristanDaCunhaSubdivisions
+    , subdivisions = countrySHSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "SH"
     , unofficialNames = [ "Saint Helena", "Sankt Helena", "Sainte Hélène", "Santa Helena", "セントヘレナ・アセンションおよびトリスタンダクーニャ", "Sint-Helena", "Saint Helena, Ascension and Tristan da Cunha" ]
@@ -7018,8 +7030,8 @@ saintHelenaAscensionAndTristanDaCunha =
 
 {-| Saint Kitts and Nevis
 -}
-saintKittsAndNevis : Country
-saintKittsAndNevis =
+countryKN : Country
+countryKN =
     { addressFormat = ""
     , alpha2 = "KN"
     , alpha3 = "KNA"
@@ -7044,7 +7056,7 @@ saintKittsAndNevis =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = saintKittsAndNevisSubdivisions
+    , subdivisions = countryKNSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "KN"
     , unofficialNames = [ "Saint Kitts and Nevis", "Föderation St. Kitts und Nevis", "Saint Kitts et Nevis", "Saint Kitts y Nevis", "セントクリストファー・ネイビス", "Saint Kitts en Nevis", "St. Kitts and Nevis", "St Kitts and Nevis" ]
@@ -7054,8 +7066,8 @@ saintKittsAndNevis =
 
 {-| Saint Lucia
 -}
-saintLucia : Country
-saintLucia =
+countryLC : Country
+countryLC =
     { addressFormat = ""
     , alpha2 = "LC"
     , alpha3 = "LCA"
@@ -7080,7 +7092,7 @@ saintLucia =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = saintLuciaSubdivisions
+    , subdivisions = countryLCSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "LC"
     , unofficialNames = [ "Saint Lucia", "Saint-Lucie", "Santa Lucía", "セントルシア", "St. Lucia", "St Lucia" ]
@@ -7090,8 +7102,8 @@ saintLucia =
 
 {-| Saint Martin (French part)
 -}
-saintMartinFrenchPart : Country
-saintMartinFrenchPart =
+countryMF : Country
+countryMF =
     { addressFormat = ""
     , alpha2 = "MF"
     , alpha3 = "MAF"
@@ -7116,7 +7128,7 @@ saintMartinFrenchPart =
     , postalCodeFormat = "9[78][01]\\d{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = saintMartinFrenchPartSubdivisions
+    , subdivisions = countryMFSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "MF"
     , unofficialNames = [ "Saint Martin", "サン・マルタン（フランス領）", "Saint-Martin" ]
@@ -7126,8 +7138,8 @@ saintMartinFrenchPart =
 
 {-| Saint Pierre and Miquelon
 -}
-saintPierreAndMiquelon : Country
-saintPierreAndMiquelon =
+countryPM : Country
+countryPM =
     { addressFormat = ""
     , alpha2 = "PM"
     , alpha3 = "SPM"
@@ -7152,7 +7164,7 @@ saintPierreAndMiquelon =
     , postalCodeFormat = "9[78]5\\d{2}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = saintPierreAndMiquelonSubdivisions
+    , subdivisions = countryPMSubdivisions
     , subregion = Subregion.NorthernAmerica
     , unLocode = "PM"
     , unofficialNames = [ "Saint Pierre and Miquelon", "Saint-Pierre und Miquelon", "Saint-Pierre-et-Miquelon", "San Pedro y Miquelón", "サンピエール島・ミクロン島", "Saint Pierre en Miquelon" ]
@@ -7162,8 +7174,8 @@ saintPierreAndMiquelon =
 
 {-| Saint Vincent and the Grenadines
 -}
-saintVincentAndTheGrenadines : Country
-saintVincentAndTheGrenadines =
+countryVC : Country
+countryVC =
     { addressFormat = ""
     , alpha2 = "VC"
     , alpha3 = "VCT"
@@ -7188,7 +7200,7 @@ saintVincentAndTheGrenadines =
     , postalCodeFormat = "VC\\d{4}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = saintVincentAndTheGrenadinesSubdivisions
+    , subdivisions = countryVCSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "VC"
     , unofficialNames = [ "Saint Vincent and the Grenadines", "Saint Vincent und die Grenadinen", "Saint-Vincent et les Grenadines", "San Vicente y Granadinas", "セントビンセントおよびグレナディーン諸島", "Saint Vincent en de Grenadines", "St. Vincent Grenadines", "St Vincent Grenadines" ]
@@ -7198,8 +7210,8 @@ saintVincentAndTheGrenadines =
 
 {-| Samoa
 -}
-samoa : Country
-samoa =
+countryWS : Country
+countryWS =
     { addressFormat = ""
     , alpha2 = "WS"
     , alpha3 = "WSM"
@@ -7224,7 +7236,7 @@ samoa =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = samoaSubdivisions
+    , subdivisions = countryWSSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "WS"
     , unofficialNames = [ "Samoa", "サモア" ]
@@ -7234,8 +7246,8 @@ samoa =
 
 {-| San Marino
 -}
-sanMarino : Country
-sanMarino =
+countrySM : Country
+countrySM =
     { addressFormat = ""
     , alpha2 = "SM"
     , alpha3 = "SMR"
@@ -7260,7 +7272,7 @@ sanMarino =
     , postalCodeFormat = "4789\\d"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = sanMarinoSubdivisions
+    , subdivisions = countrySMSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "SM"
     , unofficialNames = [ "San Marino", "Saint-Marin", "サンマリノ" ]
@@ -7270,8 +7282,8 @@ sanMarino =
 
 {-| Sao Tome and Principe
 -}
-saoTomeAndPrincipe : Country
-saoTomeAndPrincipe =
+countryST : Country
+countryST =
     { addressFormat = ""
     , alpha2 = "ST"
     , alpha3 = "STP"
@@ -7296,7 +7308,7 @@ saoTomeAndPrincipe =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = saoTomeAndPrincipeSubdivisions
+    , subdivisions = countrySTSubdivisions
     , subregion = Subregion.MiddleAfrica
     , unLocode = "ST"
     , unofficialNames = [ "São Tomé and Príncipe", "São Tomé und Príncipe", "São Tomé et Príncipe", "Santo Tomé y Príncipe", "サントメ・プリンシペ", "Sao Tomé en Principe" ]
@@ -7306,8 +7318,8 @@ saoTomeAndPrincipe =
 
 {-| Saudi Arabia
 -}
-saudiArabia : Country
-saudiArabia =
+countrySA : Country
+countrySA =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -7336,7 +7348,7 @@ saudiArabia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = saudiArabiaSubdivisions
+    , subdivisions = countrySASubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "SA"
     , unofficialNames = [ "Saudi Arabia", "Kingdom of Saudi Arabia", "السعودية", "Saudi-Arabien", "Arabie Saoudite", "Arabia Saudí", "サウジアラビア", "Saoedi-Arabië" ]
@@ -7346,8 +7358,8 @@ saudiArabia =
 
 {-| Senegal
 -}
-senegal : Country
-senegal =
+countrySN : Country
+countrySN =
     { addressFormat = ""
     , alpha2 = "SN"
     , alpha3 = "SEN"
@@ -7372,7 +7384,7 @@ senegal =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = senegalSubdivisions
+    , subdivisions = countrySNSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "SN"
     , unofficialNames = [ "Senegal", "Sénégal", "セネガル" ]
@@ -7382,8 +7394,8 @@ senegal =
 
 {-| Serbia
 -}
-serbia : Country
-serbia =
+countryRS : Country
+countryRS =
     { addressFormat = ""
     , alpha2 = "RS"
     , alpha3 = "SRB"
@@ -7408,7 +7420,7 @@ serbia =
     , postalCodeFormat = "\\d{5,6}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = serbiaSubdivisions
+    , subdivisions = countryRSSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "RS"
     , unofficialNames = [ "Serbia", "Serbien", "Serbie", "セルビア", "Servië" ]
@@ -7418,8 +7430,8 @@ serbia =
 
 {-| Seychelles
 -}
-seychelles : Country
-seychelles =
+countrySC : Country
+countrySC =
     { addressFormat = ""
     , alpha2 = "SC"
     , alpha3 = "SYC"
@@ -7444,7 +7456,7 @@ seychelles =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = seychellesSubdivisions
+    , subdivisions = countrySCSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "SC"
     , unofficialNames = [ "Seychelles", "Seychellen", "セーシェル" ]
@@ -7454,8 +7466,8 @@ seychelles =
 
 {-| Sierra Leone
 -}
-sierraLeone : Country
-sierraLeone =
+countrySL : Country
+countrySL =
     { addressFormat = ""
     , alpha2 = "SL"
     , alpha3 = "SLE"
@@ -7480,7 +7492,7 @@ sierraLeone =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = sierraLeoneSubdivisions
+    , subdivisions = countrySLSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "SL"
     , unofficialNames = [ "Sierra Leone", "シエラレオネ" ]
@@ -7490,8 +7502,8 @@ sierraLeone =
 
 {-| Singapore
 -}
-singapore : Country
-singapore =
+countrySG : Country
+countrySG =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{postalcode}}
@@ -7520,7 +7532,7 @@ singapore =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = singaporeSubdivisions
+    , subdivisions = countrySGSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "SG"
     , unofficialNames = [ "Singapore", "Singapur", "Singapour", "シンガポール" ]
@@ -7530,8 +7542,8 @@ singapore =
 
 {-| Sint Maarten (Dutch part)
 -}
-sintMaartenDutchPart : Country
-sintMaartenDutchPart =
+countrySX : Country
+countrySX =
     { addressFormat = ""
     , alpha2 = "SX"
     , alpha3 = "SXM"
@@ -7556,7 +7568,7 @@ sintMaartenDutchPart =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = sintMaartenDutchPartSubdivisions
+    , subdivisions = countrySXSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "SX"
     , unofficialNames = [ "Sint Maarten", "セント・マーチン島" ]
@@ -7566,8 +7578,8 @@ sintMaartenDutchPart =
 
 {-| Slovakia
 -}
-slovakia : Country
-slovakia =
+countrySK : Country
+countrySK =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -7596,7 +7608,7 @@ slovakia =
     , postalCodeFormat = "\\d{3} ?\\d{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = slovakiaSubdivisions
+    , subdivisions = countrySKSubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "SK"
     , unofficialNames = [ "Slovakia", "Slowakei", "Slovaquie", "República Eslovaca", "スロバキア", "Slowakije" ]
@@ -7606,8 +7618,8 @@ slovakia =
 
 {-| Slovenia
 -}
-slovenia : Country
-slovenia =
+countrySI : Country
+countrySI =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -7636,7 +7648,7 @@ slovenia =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = sloveniaSubdivisions
+    , subdivisions = countrySISubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "SI"
     , unofficialNames = [ "Slovenia", "Slowenien", "Slovénie", "Eslovenia", "スロベニア", "Slovenië" ]
@@ -7646,8 +7658,8 @@ slovenia =
 
 {-| Solomon Islands
 -}
-solomonIslands : Country
-solomonIslands =
+countrySB : Country
+countrySB =
     { addressFormat = ""
     , alpha2 = "SB"
     , alpha3 = "SLB"
@@ -7672,7 +7684,7 @@ solomonIslands =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = solomonIslandsSubdivisions
+    , subdivisions = countrySBSubdivisions
     , subregion = Subregion.Melanesia
     , unLocode = "SB"
     , unofficialNames = [ "Solomon Islands", "Salomonen", "Îles Salomon", "Islas Salomón", "ソロモン諸島", "Salomonseilanden" ]
@@ -7682,8 +7694,8 @@ solomonIslands =
 
 {-| Somalia
 -}
-somalia : Country
-somalia =
+countrySO : Country
+countrySO =
     { addressFormat = ""
     , alpha2 = "SO"
     , alpha3 = "SOM"
@@ -7708,7 +7720,7 @@ somalia =
     , postalCodeFormat = "[A-Z]{2} ?\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = somaliaSubdivisions
+    , subdivisions = countrySOSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "SO"
     , unofficialNames = [ "Somalia", "الصومال", "ソマリア", "Somalië" ]
@@ -7718,8 +7730,8 @@ somalia =
 
 {-| South Africa
 -}
-southAfrica : Country
-southAfrica =
+countryZA : Country
+countryZA =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}}
@@ -7750,7 +7762,7 @@ southAfrica =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = southAfricaSubdivisions
+    , subdivisions = countryZASubdivisions
     , subregion = Subregion.SouthernAfrica
     , unLocode = "ZA"
     , unofficialNames = [ "South Africa", "Republik Südafrika", "Afrique du Sud", "República de Sudáfrica", "南アフリカ", "Zuid-Afrika" ]
@@ -7760,8 +7772,8 @@ southAfrica =
 
 {-| South Georgia and the South Sandwich Islands
 -}
-southGeorgiaAndTheSouthSandwichIslands : Country
-southGeorgiaAndTheSouthSandwichIslands =
+countryGS : Country
+countryGS =
     { addressFormat = ""
     , alpha2 = "GS"
     , alpha3 = "SGS"
@@ -7796,8 +7808,8 @@ southGeorgiaAndTheSouthSandwichIslands =
 
 {-| South Sudan
 -}
-southSudan : Country
-southSudan =
+countrySS : Country
+countrySS =
     { addressFormat = ""
     , alpha2 = "SS"
     , alpha3 = "SSD"
@@ -7822,7 +7834,7 @@ southSudan =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Sun
-    , subdivisions = southSudanSubdivisions
+    , subdivisions = countrySSSubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "SS"
     , unofficialNames = [ "South Sudan", "Südsudan", "南スーダン", "Zuid-Soedan" ]
@@ -7832,8 +7844,8 @@ southSudan =
 
 {-| Spain
 -}
-spain : Country
-spain =
+countryES : Country
+countryES =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -7863,7 +7875,7 @@ spain =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = spainSubdivisions
+    , subdivisions = countryESSubdivisions
     , subregion = Subregion.SouthernEurope
     , unLocode = "ES"
     , unofficialNames = [ "Spain", "Spanien", "Espagne", "España", "スペイン", "Spanje" ]
@@ -7873,8 +7885,8 @@ spain =
 
 {-| Sri Lanka
 -}
-sriLanka : Country
-sriLanka =
+countryLK : Country
+countryLK =
     { addressFormat = ""
     , alpha2 = "LK"
     , alpha3 = "LKA"
@@ -7899,7 +7911,7 @@ sriLanka =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = sriLankaSubdivisions
+    , subdivisions = countryLKSubdivisions
     , subregion = Subregion.SouthernAsia
     , unLocode = "LK"
     , unofficialNames = [ "Sri Lanka", "スリランカ" ]
@@ -7909,8 +7921,8 @@ sriLanka =
 
 {-| Sudan
 -}
-sudan : Country
-sudan =
+countrySD : Country
+countrySD =
     { addressFormat = ""
     , alpha2 = "SD"
     , alpha3 = "SDN"
@@ -7935,7 +7947,7 @@ sudan =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = sudanSubdivisions
+    , subdivisions = countrySDSubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "SD"
     , unofficialNames = [ "Sudan", "السودان", "Soudan", "Sudán", "スーダン", "Soedan" ]
@@ -7945,8 +7957,8 @@ sudan =
 
 {-| Suriname
 -}
-suriname : Country
-suriname =
+countrySR : Country
+countrySR =
     { addressFormat = ""
     , alpha2 = "SR"
     , alpha3 = "SUR"
@@ -7971,7 +7983,7 @@ suriname =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = surinameSubdivisions
+    , subdivisions = countrySRSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "SR"
     , unofficialNames = [ "Suriname", "Surinam", "スリナム" ]
@@ -7981,8 +7993,8 @@ suriname =
 
 {-| Svalbard and Jan Mayen
 -}
-svalbardAndJanMayen : Country
-svalbardAndJanMayen =
+countrySJ : Country
+countrySJ =
     { addressFormat = ""
     , alpha2 = "SJ"
     , alpha3 = "SJM"
@@ -8007,7 +8019,7 @@ svalbardAndJanMayen =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = svalbardAndJanMayenSubdivisions
+    , subdivisions = countrySJSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "SJ"
     , unofficialNames = [ "Svalbard and Jan Mayen", "Svalbard und Jan Mayen", "Îles Svalbard et Jan Mayen", "Islas Svalbard y Jan Mayen", "スヴァールバル諸島およびヤンマイエン島", "Svalbard en Jan Mayen" ]
@@ -8017,8 +8029,8 @@ svalbardAndJanMayen =
 
 {-| Sweden
 -}
-sweden : Country
-sweden =
+countrySE : Country
+countrySE =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -8047,7 +8059,7 @@ sweden =
     , postalCodeFormat = "\\d{3} ?\\d{2}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = swedenSubdivisions
+    , subdivisions = countrySESubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "SE"
     , unofficialNames = [ "Sweden", "Schweden", "Suède", "Suecia", "スウェーデン", "Zweden" ]
@@ -8057,8 +8069,8 @@ sweden =
 
 {-| Switzerland
 -}
-switzerland : Country
-switzerland =
+countryCH : Country
+countryCH =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -8087,7 +8099,7 @@ switzerland =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = switzerlandSubdivisions
+    , subdivisions = countryCHSubdivisions
     , subregion = Subregion.WesternEurope
     , unLocode = "CH"
     , unofficialNames = [ "Switzerland", "Schweiz", "Suisse", "Suiza", "スイス", "Zwitserland" ]
@@ -8097,8 +8109,8 @@ switzerland =
 
 {-| Syrian Arab Republic
 -}
-syrianArabRepublic : Country
-syrianArabRepublic =
+countrySY : Country
+countrySY =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -8127,7 +8139,7 @@ syrianArabRepublic =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = syrianArabRepublicSubdivisions
+    , subdivisions = countrySYSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "SY"
     , unofficialNames = [ "Syria", "سوريا", "سورية", "Syrien", "Syrie", "Siria", "シリア・アラブ共和国", "Syrië" ]
@@ -8137,8 +8149,8 @@ syrianArabRepublic =
 
 {-| Taiwan, Province of China
 -}
-taiwanProvinceOfChina : Country
-taiwanProvinceOfChina =
+countryTW : Country
+countryTW =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{region_short}} {{postalcode}}
@@ -8167,7 +8179,7 @@ taiwanProvinceOfChina =
     , postalCodeFormat = "\\d{3}(?:\\d{2})?"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = taiwanProvinceOfChinaSubdivisions
+    , subdivisions = countryTWSubdivisions
     , subregion = Subregion.EasternAsia
     , unLocode = "TW"
     , unofficialNames = [ "Taiwan", "Taiwán", "台湾" ]
@@ -8177,8 +8189,8 @@ taiwanProvinceOfChina =
 
 {-| Tajikistan
 -}
-tajikistan : Country
-tajikistan =
+countryTJ : Country
+countryTJ =
     { addressFormat = ""
     , alpha2 = "TJ"
     , alpha3 = "TJK"
@@ -8203,7 +8215,7 @@ tajikistan =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = tajikistanSubdivisions
+    , subdivisions = countryTJSubdivisions
     , subregion = Subregion.CentralAsia
     , unLocode = "TJ"
     , unofficialNames = [ "Tajikistan", "Tadschikistan", "Tayikistán", "タジキスタン", "Tadzjikistan", "Tajikstan" ]
@@ -8213,8 +8225,8 @@ tajikistan =
 
 {-| Tanzania, United Republic of
 -}
-tanzaniaUnitedRepublicOf : Country
-tanzaniaUnitedRepublicOf =
+countryTZ : Country
+countryTZ =
     { addressFormat = ""
     , alpha2 = "TZ"
     , alpha3 = "TZA"
@@ -8239,7 +8251,7 @@ tanzaniaUnitedRepublicOf =
     , postalCodeFormat = "\\d{4,5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = tanzaniaUnitedRepublicOfSubdivisions
+    , subdivisions = countryTZSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "TZ"
     , unofficialNames = [ "Tanzania", "Tansania", "Tanzanie", "タンザニア", "Tanzania United Republic" ]
@@ -8249,8 +8261,8 @@ tanzaniaUnitedRepublicOf =
 
 {-| Thailand
 -}
-thailand : Country
-thailand =
+countryTH : Country
+countryTH =
     { addressFormat = ""
     , alpha2 = "TH"
     , alpha3 = "THA"
@@ -8275,7 +8287,7 @@ thailand =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = thailandSubdivisions
+    , subdivisions = countryTHSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "TH"
     , unofficialNames = [ "Thailand", "Thaïlande", "Tailandia", "タイ" ]
@@ -8285,8 +8297,8 @@ thailand =
 
 {-| Timor-Leste
 -}
-timorLeste : Country
-timorLeste =
+countryTL : Country
+countryTL =
     { addressFormat = ""
     , alpha2 = "TL"
     , alpha3 = "TLS"
@@ -8311,7 +8323,7 @@ timorLeste =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = timorLesteSubdivisions
+    , subdivisions = countryTLSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "TL"
     , unofficialNames = [ "East Timor", "Timor-Leste", "Timor oriental", "Timor Oriental", "東ティモール", "Oost-Timor" ]
@@ -8321,8 +8333,8 @@ timorLeste =
 
 {-| Togo
 -}
-togo : Country
-togo =
+countryTG : Country
+countryTG =
     { addressFormat = ""
     , alpha2 = "TG"
     , alpha3 = "TGO"
@@ -8347,7 +8359,7 @@ togo =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = togoSubdivisions
+    , subdivisions = countryTGSubdivisions
     , subregion = Subregion.WesternAfrica
     , unLocode = "TG"
     , unofficialNames = [ "Togo", "トーゴ" ]
@@ -8357,8 +8369,8 @@ togo =
 
 {-| Tokelau
 -}
-tokelau : Country
-tokelau =
+countryTK : Country
+countryTK =
     { addressFormat = ""
     , alpha2 = "TK"
     , alpha3 = "TKL"
@@ -8383,7 +8395,7 @@ tokelau =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = tokelauSubdivisions
+    , subdivisions = countryTKSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "TK"
     , unofficialNames = [ "Tokelau", "Îles Tokelau", "Islas Tokelau", "トケラウ" ]
@@ -8393,8 +8405,8 @@ tokelau =
 
 {-| Tonga
 -}
-tonga : Country
-tonga =
+countryTO : Country
+countryTO =
     { addressFormat = ""
     , alpha2 = "TO"
     , alpha3 = "TON"
@@ -8419,7 +8431,7 @@ tonga =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = tongaSubdivisions
+    , subdivisions = countryTOSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "TO"
     , unofficialNames = [ "Tonga", "トンガ" ]
@@ -8429,8 +8441,8 @@ tonga =
 
 {-| Trinidad and Tobago
 -}
-trinidadAndTobago : Country
-trinidadAndTobago =
+countryTT : Country
+countryTT =
     { addressFormat = ""
     , alpha2 = "TT"
     , alpha3 = "TTO"
@@ -8455,7 +8467,7 @@ trinidadAndTobago =
     , postalCodeFormat = ""
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = trinidadAndTobagoSubdivisions
+    , subdivisions = countryTTSubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "TT"
     , unofficialNames = [ "Trinidad and Tobago", "Trinidad und Tobago", "Trinité et Tobago", "Trinidad y Tobago", "トリニダード・トバゴ", "Trinidad en Tobago" ]
@@ -8465,8 +8477,8 @@ trinidadAndTobago =
 
 {-| Tunisia
 -}
-tunisia : Country
-tunisia =
+countryTN : Country
+countryTN =
     { addressFormat = ""
     , alpha2 = "TN"
     , alpha3 = "TUN"
@@ -8491,7 +8503,7 @@ tunisia =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = tunisiaSubdivisions
+    , subdivisions = countryTNSubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "TN"
     , unofficialNames = [ "Tunisia", "تونس", "Tunesien", "Tunisie", "Túnez", "チュニジア", "Tunesië" ]
@@ -8501,8 +8513,8 @@ tunisia =
 
 {-| Turkey
 -}
-turkey : Country
-turkey =
+countryTR : Country
+countryTR =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -8531,7 +8543,7 @@ turkey =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = turkeySubdivisions
+    , subdivisions = countryTRSubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "TR"
     , unofficialNames = [ "Turkey", "Türkei", "Turquie", "Turquía", "トルコ", "Turkije" ]
@@ -8541,8 +8553,8 @@ turkey =
 
 {-| Turkmenistan
 -}
-turkmenistan : Country
-turkmenistan =
+countryTM : Country
+countryTM =
     { addressFormat = ""
     , alpha2 = "TM"
     , alpha3 = "TKM"
@@ -8567,7 +8579,7 @@ turkmenistan =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = turkmenistanSubdivisions
+    , subdivisions = countryTMSubdivisions
     , subregion = Subregion.CentralAsia
     , unLocode = "TM"
     , unofficialNames = [ "Turkmenistan", "Turkménistan", "Turkmenistán", "トルクメニスタン" ]
@@ -8577,8 +8589,8 @@ turkmenistan =
 
 {-| Turks and Caicos Islands
 -}
-turksAndCaicosIslands : Country
-turksAndCaicosIslands =
+countryTC : Country
+countryTC =
     { addressFormat = ""
     , alpha2 = "TC"
     , alpha3 = "TCA"
@@ -8613,8 +8625,8 @@ turksAndCaicosIslands =
 
 {-| Tuvalu
 -}
-tuvalu : Country
-tuvalu =
+countryTV : Country
+countryTV =
     { addressFormat = ""
     , alpha2 = "TV"
     , alpha3 = "TUV"
@@ -8639,7 +8651,7 @@ tuvalu =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = tuvaluSubdivisions
+    , subdivisions = countryTVSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "TV"
     , unofficialNames = [ "Tuvalu", "ツバル" ]
@@ -8649,8 +8661,8 @@ tuvalu =
 
 {-| Uganda
 -}
-uganda : Country
-uganda =
+countryUG : Country
+countryUG =
     { addressFormat = ""
     , alpha2 = "UG"
     , alpha3 = "UGA"
@@ -8675,7 +8687,7 @@ uganda =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = ugandaSubdivisions
+    , subdivisions = countryUGSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "UG"
     , unofficialNames = [ "Uganda", "ウガンダ", "Oeganda" ]
@@ -8685,8 +8697,8 @@ uganda =
 
 {-| Ukraine
 -}
-ukraine : Country
-ukraine =
+countryUA : Country
+countryUA =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{region_short}}
@@ -8716,7 +8728,7 @@ ukraine =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = ukraineSubdivisions
+    , subdivisions = countryUASubdivisions
     , subregion = Subregion.EasternEurope
     , unLocode = "UA"
     , unofficialNames = [ "Ukraine", "Ucrania", "ウクライナ", "Oekraïne", "Украина", "Україна", "Украіна" ]
@@ -8726,8 +8738,8 @@ ukraine =
 
 {-| United Arab Emirates
 -}
-unitedArabEmirates : Country
-unitedArabEmirates =
+countryAE : Country
+countryAE =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -8756,7 +8768,7 @@ unitedArabEmirates =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = unitedArabEmiratesSubdivisions
+    , subdivisions = countryAESubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "AE"
     , unofficialNames = [ "United Arab Emirates", "الإمارات العربية المتحدة", "Vereinigte Arabische Emirate", "Émirats Arabes Unis", "Emiratos Árabes Unidos", "アラブ首長国連邦", "Verenigde Arabische Emiraten" ]
@@ -8766,8 +8778,8 @@ unitedArabEmirates =
 
 {-| United Kingdom of Great Britain and Northern Ireland
 -}
-unitedKingdomOfGreatBritainAndNorthernIreland : Country
-unitedKingdomOfGreatBritainAndNorthernIreland =
+countryGB : Country
+countryGB =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}}
@@ -8798,7 +8810,7 @@ unitedKingdomOfGreatBritainAndNorthernIreland =
     , postalCodeFormat = "GIR ?0AA|(?:(?:AB|AL|B|BA|BB|BD|BF|BH|BL|BN|BR|BS|BT|BX|CA|CB|CF|CH|CM|CO|CR|CT|CV|CW|DA|DD|DE|DG|DH|DL|DN|DT|DY|E|EC|EH|EN|EX|FK|FY|G|GL|GY|GU|HA|HD|HG|HP|HR|HS|HU|HX|IG|IM|IP|IV|JE|KA|KT|KW|KY|L|LA|LD|LE|LL|LN|LS|LU|M|ME|MK|ML|N|NE|NG|NN|NP|NR|NW|OL|OX|PA|PE|PH|PL|PO|PR|RG|RH|RM|S|SA|SE|SG|SK|SL|SM|SN|SO|SP|SR|SS|ST|SW|SY|TA|TD|TF|TN|TQ|TR|TS|TW|UB|W|WA|WC|WD|WF|WN|WR|WS|WV|YO|ZE)(?:\\d[\\dA-Z]? ?\\d[ABD-HJLN-UW-Z]{2}))|BFPO ?\\d{1,4}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions
+    , subdivisions = countryGBSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "GB"
     , unofficialNames = [ "United Kingdom", "The United Kingdom", "Vereinigtes Königreich", "Royaume-Uni", "Reino Unido", "イギリス", "Verenigd Koninkrijk", "Great Britain (UK)", "UK", "Великобритания" ]
@@ -8808,8 +8820,8 @@ unitedKingdomOfGreatBritainAndNorthernIreland =
 
 {-| United States Minor Outlying Islands
 -}
-unitedStatesMinorOutlyingIslands : Country
-unitedStatesMinorOutlyingIslands =
+countryUM : Country
+countryUM =
     { addressFormat = ""
     , alpha2 = "UM"
     , alpha3 = "UMI"
@@ -8834,7 +8846,7 @@ unitedStatesMinorOutlyingIslands =
     , postalCodeFormat = "96898"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = unitedStatesMinorOutlyingIslandsSubdivisions
+    , subdivisions = countryUMSubdivisions
     , subregion = Subregion.NorthernAmerica
     , unLocode = "UM"
     , unofficialNames = [ "United States Minor Outlying Islands", "US-Amerikanische Hoheitsgebiete", "Dépendances américaines", "Islas menores de Estados Unidos", "合衆国領有小離島", "Kleine afgelegen eilanden van de Verenigde Staten" ]
@@ -8844,8 +8856,8 @@ unitedStatesMinorOutlyingIslands =
 
 {-| United States of America
 -}
-unitedStatesOfAmerica : Country
-unitedStatesOfAmerica =
+countryUS : Country
+countryUS =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}} {{region_short}} {{postalcode}}
@@ -8874,7 +8886,7 @@ unitedStatesOfAmerica =
     , postalCodeFormat = "(\\d{5})(?:[ \\-](\\d{4}))?"
     , region = Region.Americas
     , startOfWeek = Time.Sun
-    , subdivisions = unitedStatesOfAmericaSubdivisions
+    , subdivisions = countryUSSubdivisions
     , subregion = Subregion.NorthernAmerica
     , unLocode = "US"
     , unofficialNames = [ "United States", "Murica", "Vereinigte Staaten von Amerika", "États-Unis", "Estados Unidos", "アメリカ合衆国", "Verenigde Staten" ]
@@ -8884,8 +8896,8 @@ unitedStatesOfAmerica =
 
 {-| Uruguay
 -}
-uruguay : Country
-uruguay =
+countryUY : Country
+countryUY =
     { addressFormat = ""
     , alpha2 = "UY"
     , alpha3 = "URY"
@@ -8910,7 +8922,7 @@ uruguay =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = uruguaySubdivisions
+    , subdivisions = countryUYSubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "UY"
     , unofficialNames = [ "Uruguay", "ウルグアイ" ]
@@ -8920,8 +8932,8 @@ uruguay =
 
 {-| Uzbekistan
 -}
-uzbekistan : Country
-uzbekistan =
+countryUZ : Country
+countryUZ =
     { addressFormat = ""
     , alpha2 = "UZ"
     , alpha3 = "UZB"
@@ -8946,7 +8958,7 @@ uzbekistan =
     , postalCodeFormat = "\\d{6}"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = uzbekistanSubdivisions
+    , subdivisions = countryUZSubdivisions
     , subregion = Subregion.CentralAsia
     , unLocode = "UZ"
     , unofficialNames = [ "Uzbekistan", "Usbekistan", "Ouzbékistan", "Uzbekistán", "ウズベキスタン", "Oezbekistan" ]
@@ -8956,8 +8968,8 @@ uzbekistan =
 
 {-| Vanuatu
 -}
-vanuatu : Country
-vanuatu =
+countryVU : Country
+countryVU =
     { addressFormat = ""
     , alpha2 = "VU"
     , alpha3 = "VUT"
@@ -8982,7 +8994,7 @@ vanuatu =
     , postalCodeFormat = ""
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = vanuatuSubdivisions
+    , subdivisions = countryVUSubdivisions
     , subregion = Subregion.Melanesia
     , unLocode = "VU"
     , unofficialNames = [ "Vanuatu", "バヌアツ" ]
@@ -8992,8 +9004,8 @@ vanuatu =
 
 {-| Venezuela (Bolivarian Republic of)
 -}
-venezuelaBolivarianRepublicOf : Country
-venezuelaBolivarianRepublicOf =
+countryVE : Country
+countryVE =
     { addressFormat = ""
     , alpha2 = "VE"
     , alpha3 = "VEN"
@@ -9018,7 +9030,7 @@ venezuelaBolivarianRepublicOf =
     , postalCodeFormat = "\\d{4}"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = venezuelaBolivarianRepublicOfSubdivisions
+    , subdivisions = countryVESubdivisions
     , subregion = Subregion.SouthAmerica
     , unLocode = "VE"
     , unofficialNames = [ "Venezuela", "ベネズエラ・ボリバル共和国" ]
@@ -9028,8 +9040,8 @@ venezuelaBolivarianRepublicOf =
 
 {-| Viet Nam
 -}
-vietNam : Country
-vietNam =
+countryVN : Country
+countryVN =
     { addressFormat = """{{recipient}}
 {{street}}
 {{city}}
@@ -9059,7 +9071,7 @@ vietNam =
     , postalCodeFormat = "\\d{5}\\d?"
     , region = Region.Asia
     , startOfWeek = Time.Mon
-    , subdivisions = vietNamSubdivisions
+    , subdivisions = countryVNSubdivisions
     , subregion = Subregion.SouthEasternAsia
     , unLocode = "VN"
     , unofficialNames = [ "Vietnam", "ベトナム", "Viet Nam" ]
@@ -9069,8 +9081,8 @@ vietNam =
 
 {-| Virgin Islands (British)
 -}
-virginIslandsBritish : Country
-virginIslandsBritish =
+countryVG : Country
+countryVG =
     { addressFormat = ""
     , alpha2 = "VG"
     , alpha3 = "VGB"
@@ -9105,8 +9117,8 @@ virginIslandsBritish =
 
 {-| Virgin Islands (U.S.)
 -}
-virginIslandsUS : Country
-virginIslandsUS =
+countryVI : Country
+countryVI =
     { addressFormat = ""
     , alpha2 = "VI"
     , alpha3 = "VIR"
@@ -9131,7 +9143,7 @@ virginIslandsUS =
     , postalCodeFormat = "(008(?:(?:[0-4]\\d)|(?:5[01])))(?:[ \\-](\\d{4}))?"
     , region = Region.Americas
     , startOfWeek = Time.Mon
-    , subdivisions = virginIslandsUSSubdivisions
+    , subdivisions = countryVISubdivisions
     , subregion = Subregion.Caribbean
     , unLocode = "VI"
     , unofficialNames = [ "Virgin Islands of the United States", "Amerikanische Jungferninseln", "Îles Vierges américaines", "Islas Vírgenes de los Estados Unidos", "アメリカ領ヴァージン諸島", "Amerikaanse Maagdeneilanden", "Virgin Islands (U.S.)", "United States Virgin Islands" ]
@@ -9141,8 +9153,8 @@ virginIslandsUS =
 
 {-| Wallis and Futuna
 -}
-wallisAndFutuna : Country
-wallisAndFutuna =
+countryWF : Country
+countryWF =
     { addressFormat = ""
     , alpha2 = "WF"
     , alpha3 = "WLF"
@@ -9167,7 +9179,7 @@ wallisAndFutuna =
     , postalCodeFormat = "986\\d{2}"
     , region = Region.Oceania
     , startOfWeek = Time.Mon
-    , subdivisions = wallisAndFutunaSubdivisions
+    , subdivisions = countryWFSubdivisions
     , subregion = Subregion.Polynesia
     , unLocode = "WF"
     , unofficialNames = [ "Wallis and Futuna", "Wallis und Futuna", "Wallis et Futuna", "Wallis y Futuna", "ウォリス・フツナ", "Wallis en Futuna" ]
@@ -9177,8 +9189,8 @@ wallisAndFutuna =
 
 {-| Western Sahara
 -}
-westernSahara : Country
-westernSahara =
+countryEH : Country
+countryEH =
     { addressFormat = ""
     , alpha2 = "EH"
     , alpha3 = "ESH"
@@ -9203,7 +9215,7 @@ westernSahara =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = westernSaharaSubdivisions
+    , subdivisions = countryEHSubdivisions
     , subregion = Subregion.NorthernAfrica
     , unLocode = "EH"
     , unofficialNames = [ "Western Sahara", "الصحراء الغربية", "Westsahara", "Sahara Occidental", "西サハラ", "Westelijke Sahara" ]
@@ -9213,8 +9225,8 @@ westernSahara =
 
 {-| Yemen
 -}
-yemen : Country
-yemen =
+countryYE : Country
+countryYE =
     { addressFormat = """{{recipient}}
 {{street}}
 {{postalcode}} {{city}}
@@ -9243,7 +9255,7 @@ yemen =
     , postalCodeFormat = ""
     , region = Region.Asia
     , startOfWeek = Time.Sun
-    , subdivisions = yemenSubdivisions
+    , subdivisions = countryYESubdivisions
     , subregion = Subregion.WesternAsia
     , unLocode = "YE"
     , unofficialNames = [ "Yemen", "اليمن", "Jemen", "Yémen", "イエメン" ]
@@ -9253,8 +9265,8 @@ yemen =
 
 {-| Zambia
 -}
-zambia : Country
-zambia =
+countryZM : Country
+countryZM =
     { addressFormat = ""
     , alpha2 = "ZM"
     , alpha3 = "ZMB"
@@ -9279,7 +9291,7 @@ zambia =
     , postalCodeFormat = "\\d{5}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = zambiaSubdivisions
+    , subdivisions = countryZMSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "ZM"
     , unofficialNames = [ "Zambia", "Sambia", "Zambie", "ザンビア" ]
@@ -9289,8 +9301,8 @@ zambia =
 
 {-| Zimbabwe
 -}
-zimbabwe : Country
-zimbabwe =
+countryZW : Country
+countryZW =
     { addressFormat = ""
     , alpha2 = "ZW"
     , alpha3 = "ZWE"
@@ -9315,7 +9327,7 @@ zimbabwe =
     , postalCodeFormat = ""
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = zimbabweSubdivisions
+    , subdivisions = countryZWSubdivisions
     , subregion = Subregion.EasternAfrica
     , unLocode = "ZW"
     , unofficialNames = [ "Zimbabwe", "Simbabwe", "Zimbabue", "ジンバブエ" ]
@@ -9325,8 +9337,8 @@ zimbabwe =
 
 {-| eSwatini
 -}
-eswatini : Country
-eswatini =
+countrySZ : Country
+countrySZ =
     { addressFormat = ""
     , alpha2 = "SZ"
     , alpha3 = "SWZ"
@@ -9351,7 +9363,7 @@ eswatini =
     , postalCodeFormat = "[HLMS]\\d{3}"
     , region = Region.Africa
     , startOfWeek = Time.Mon
-    , subdivisions = eswatiniSubdivisions
+    , subdivisions = countrySZSubdivisions
     , subregion = Subregion.SouthernAfrica
     , unLocode = "SZ"
     , unofficialNames = [ "Swaziland", "Swasiland", "Suazilandia", "スワジランド" ]
@@ -9361,8 +9373,8 @@ eswatini =
 
 {-| Åland Islands
 -}
-alandIslands : Country
-alandIslands =
+countryAX : Country
+countryAX =
     { addressFormat = ""
     , alpha2 = "AX"
     , alpha3 = "ALA"
@@ -9387,7 +9399,7 @@ alandIslands =
     , postalCodeFormat = "22\\d{3}"
     , region = Region.Europe
     , startOfWeek = Time.Mon
-    , subdivisions = alandIslandsSubdivisions
+    , subdivisions = countryAXSubdivisions
     , subregion = Subregion.NorthernEurope
     , unLocode = "AX"
     , unofficialNames = [ "Åland Islands", "Åland", "オーランド諸島", "Ålandeilanden" ]
@@ -9396,8 +9408,8 @@ alandIslands =
 
 
 {-| -}
-andorraSubdivisions : List Subdivision
-andorraSubdivisions =
+countryADSubdivisions : List Subdivision
+countryADSubdivisions =
     [ { name = "Canillo"
       , code = "02"
       , unofficialNames = [ "Canillo" ]
@@ -9430,8 +9442,8 @@ andorraSubdivisions =
 
 
 {-| -}
-unitedArabEmiratesSubdivisions : List Subdivision
-unitedArabEmiratesSubdivisions =
+countryAESubdivisions : List Subdivision
+countryAESubdivisions =
     [ { name = "'Ajmān"
       , code = "AJ"
       , unofficialNames = [ "-إمارة عجمانّ - Ujman" ]
@@ -9464,8 +9476,8 @@ unitedArabEmiratesSubdivisions =
 
 
 {-| -}
-afghanistanSubdivisions : List Subdivision
-afghanistanSubdivisions =
+countryAFSubdivisions : List Subdivision
+countryAFSubdivisions =
     [ { name = "Balkh"
       , code = "BAL"
       , unofficialNames = [ "Balkh" ]
@@ -9606,8 +9618,8 @@ afghanistanSubdivisions =
 
 
 {-| -}
-antiguaAndBarbudaSubdivisions : List Subdivision
-antiguaAndBarbudaSubdivisions =
+countryAGSubdivisions : List Subdivision
+countryAGSubdivisions =
     [ { name = "Saint George"
       , code = "03"
       , unofficialNames = [ "Saint George" ]
@@ -9644,8 +9656,8 @@ antiguaAndBarbudaSubdivisions =
 
 
 {-| -}
-anguillaSubdivisions : List Subdivision
-anguillaSubdivisions =
+countryAISubdivisions : List Subdivision
+countryAISubdivisions =
     [ { name = "Blowing Point"
       , code = "BP"
       , unofficialNames = [ "Blowing Point" ]
@@ -9706,8 +9718,8 @@ anguillaSubdivisions =
 
 
 {-| -}
-albaniaSubdivisions : List Subdivision
-albaniaSubdivisions =
+countryALSubdivisions : List Subdivision
+countryALSubdivisions =
     [ { name = "Berat"
       , code = "BR"
       , unofficialNames = [ "Berat" ]
@@ -9856,8 +9868,8 @@ albaniaSubdivisions =
 
 
 {-| -}
-armeniaSubdivisions : List Subdivision
-armeniaSubdivisions =
+countryAMSubdivisions : List Subdivision
+countryAMSubdivisions =
     [ { name = "Aragacotn"
       , code = "AG"
       , unofficialNames = [ "Aragacotn" ]
@@ -9906,8 +9918,8 @@ armeniaSubdivisions =
 
 
 {-| -}
-angolaSubdivisions : List Subdivision
-angolaSubdivisions =
+countryAOSubdivisions : List Subdivision
+countryAOSubdivisions =
     [ { name = "Bengo"
       , code = "BGO"
       , unofficialNames = [ "Bengo" ]
@@ -9984,8 +9996,8 @@ angolaSubdivisions =
 
 
 {-| -}
-argentinaSubdivisions : List Subdivision
-argentinaSubdivisions =
+countryARSubdivisions : List Subdivision
+countryARSubdivisions =
     [ { name = "Salta"
       , code = "A"
       , unofficialNames = [ "Salta" ]
@@ -10086,8 +10098,8 @@ argentinaSubdivisions =
 
 
 {-| -}
-americanSamoaSubdivisions : List Subdivision
-americanSamoaSubdivisions =
+countryASSubdivisions : List Subdivision
+countryASSubdivisions =
     [ { name = "Eastern District"
       , code = "010"
       , unofficialNames = [ "Eastern District" ]
@@ -10112,8 +10124,8 @@ americanSamoaSubdivisions =
 
 
 {-| -}
-austriaSubdivisions : List Subdivision
-austriaSubdivisions =
+countryATSubdivisions : List Subdivision
+countryATSubdivisions =
     [ { name = "Burgenland"
       , code = "1"
       , unofficialNames = [ "Burgenland" ]
@@ -10154,8 +10166,8 @@ austriaSubdivisions =
 
 
 {-| -}
-australiaSubdivisions : List Subdivision
-australiaSubdivisions =
+countryAUSubdivisions : List Subdivision
+countryAUSubdivisions =
     [ { name = "Australian Capital Territory"
       , code = "ACT"
       , unofficialNames = [ "Australian Capital Territory" ]
@@ -10192,14 +10204,14 @@ australiaSubdivisions =
 
 
 {-| -}
-arubaSubdivisions : List Subdivision
-arubaSubdivisions =
+countryAWSubdivisions : List Subdivision
+countryAWSubdivisions =
     []
 
 
 {-| -}
-alandIslandsSubdivisions : List Subdivision
-alandIslandsSubdivisions =
+countryAXSubdivisions : List Subdivision
+countryAXSubdivisions =
     [ { name = "Mariehamn"
       , code = "211"
       , unofficialNames = [ "Mariehamn" ]
@@ -10216,8 +10228,8 @@ alandIslandsSubdivisions =
 
 
 {-| -}
-azerbaijanSubdivisions : List Subdivision
-azerbaijanSubdivisions =
+countryAZSubdivisions : List Subdivision
+countryAZSubdivisions =
     [ { name = "Äli Bayramli"
       , code = "AB"
       , unofficialNames = [ "Äli Bayramli" ]
@@ -10530,8 +10542,8 @@ azerbaijanSubdivisions =
 
 
 {-| -}
-bosniaAndHerzegovinaSubdivisions : List Subdivision
-bosniaAndHerzegovinaSubdivisions =
+countryBASubdivisions : List Subdivision
+countryBASubdivisions =
     [ { name = "Federacija Bosna i Hercegovina"
       , code = "BIH"
       , unofficialNames = [ "Federacija Bosna i Hercegovina" ]
@@ -10544,8 +10556,8 @@ bosniaAndHerzegovinaSubdivisions =
 
 
 {-| -}
-barbadosSubdivisions : List Subdivision
-barbadosSubdivisions =
+countryBBSubdivisions : List Subdivision
+countryBBSubdivisions =
     [ { name = "Christ Church"
       , code = "01"
       , unofficialNames = [ "Christ Church" ]
@@ -10594,8 +10606,8 @@ barbadosSubdivisions =
 
 
 {-| -}
-bangladeshSubdivisions : List Subdivision
-bangladeshSubdivisions =
+countryBDSubdivisions : List Subdivision
+countryBDSubdivisions =
     [ { name = "Bandarban zila"
       , code = "01"
       , unofficialNames = [ "Bandarban" ]
@@ -10856,8 +10868,8 @@ bangladeshSubdivisions =
 
 
 {-| -}
-belgiumSubdivisions : List Subdivision
-belgiumSubdivisions =
+countryBESubdivisions : List Subdivision
+countryBESubdivisions =
     [ { name = "Brussels"
       , code = "BRU"
       , unofficialNames = [ "Brussels Hoofdstedelijk Gewest", "Région de Bruxelles-Capitale", "Brussel", "Brüssel", "Bruxelles" ]
@@ -10906,8 +10918,8 @@ belgiumSubdivisions =
 
 
 {-| -}
-burkinaFasoSubdivisions : List Subdivision
-burkinaFasoSubdivisions =
+countryBFSubdivisions : List Subdivision
+countryBFSubdivisions =
     [ { name = "Balé"
       , code = "BAL"
       , unofficialNames = [ "Balé" ]
@@ -11092,8 +11104,8 @@ burkinaFasoSubdivisions =
 
 
 {-| -}
-bulgariaSubdivisions : List Subdivision
-bulgariaSubdivisions =
+countryBGSubdivisions : List Subdivision
+countryBGSubdivisions =
     [ { name = "Blagoevgrad"
       , code = "01"
       , unofficialNames = [ "Blagoevgrad" ]
@@ -11210,8 +11222,8 @@ bulgariaSubdivisions =
 
 
 {-| -}
-bahrainSubdivisions : List Subdivision
-bahrainSubdivisions =
+countryBHSubdivisions : List Subdivision
+countryBHSubdivisions =
     [ { name = "Al Manamah (Al ‘Asimah)"
       , code = "13"
       , unofficialNames = [ "Manāmah", "al-Manāmah", "Manama", "Manama", "Manama" ]
@@ -11236,8 +11248,8 @@ bahrainSubdivisions =
 
 
 {-| -}
-burundiSubdivisions : List Subdivision
-burundiSubdivisions =
+countryBISubdivisions : List Subdivision
+countryBISubdivisions =
     [ { name = "Bubanza"
       , code = "BB"
       , unofficialNames = [ "Bubanza" ]
@@ -11306,8 +11318,8 @@ burundiSubdivisions =
 
 
 {-| -}
-beninSubdivisions : List Subdivision
-beninSubdivisions =
+countryBJSubdivisions : List Subdivision
+countryBJSubdivisions =
     [ { name = "Atakora"
       , code = "AK"
       , unofficialNames = [ "Atakora" ]
@@ -11360,14 +11372,14 @@ beninSubdivisions =
 
 
 {-| -}
-saintBarthelemySubdivisions : List Subdivision
-saintBarthelemySubdivisions =
+countryBLSubdivisions : List Subdivision
+countryBLSubdivisions =
     []
 
 
 {-| -}
-bermudaSubdivisions : List Subdivision
-bermudaSubdivisions =
+countryBMSubdivisions : List Subdivision
+countryBMSubdivisions =
     [ { name = "Devonshire"
       , code = "DS"
       , unofficialNames = [ "Devonshire" ]
@@ -11416,8 +11428,8 @@ bermudaSubdivisions =
 
 
 {-| -}
-bruneiDarussalamSubdivisions : List Subdivision
-bruneiDarussalamSubdivisions =
+countryBNSubdivisions : List Subdivision
+countryBNSubdivisions =
     [ { name = "Belait"
       , code = "BE"
       , unofficialNames = [ "Belait" ]
@@ -11438,8 +11450,8 @@ bruneiDarussalamSubdivisions =
 
 
 {-| -}
-boliviaPlurinationalStateOfSubdivisions : List Subdivision
-boliviaPlurinationalStateOfSubdivisions =
+countryBOSubdivisions : List Subdivision
+countryBOSubdivisions =
     [ { name = "El Beni"
       , code = "B"
       , unofficialNames = [ "El Beni" ]
@@ -11480,8 +11492,8 @@ boliviaPlurinationalStateOfSubdivisions =
 
 
 {-| -}
-bonaireSintEustatiusAndSabaSubdivisions : List Subdivision
-bonaireSintEustatiusAndSabaSubdivisions =
+countryBQSubdivisions : List Subdivision
+countryBQSubdivisions =
     [ { name = "Bonaire"
       , code = "BO"
       , unofficialNames = [ "Bonaire" ]
@@ -11498,8 +11510,8 @@ bonaireSintEustatiusAndSabaSubdivisions =
 
 
 {-| -}
-brazilSubdivisions : List Subdivision
-brazilSubdivisions =
+countryBRSubdivisions : List Subdivision
+countryBRSubdivisions =
     [ { name = "Acre"
       , code = "AC"
       , unofficialNames = [ "Acre" ]
@@ -11612,8 +11624,8 @@ brazilSubdivisions =
 
 
 {-| -}
-bahamasSubdivisions : List Subdivision
-bahamasSubdivisions =
+countryBSSubdivisions : List Subdivision
+countryBSSubdivisions =
     [ { name = "Acklins and Crooked Islands"
       , code = "AC"
       , unofficialNames = [ "Acklins and Crooked Islands" ]
@@ -11702,8 +11714,8 @@ bahamasSubdivisions =
 
 
 {-| -}
-bhutanSubdivisions : List Subdivision
-bhutanSubdivisions =
+countryBTSubdivisions : List Subdivision
+countryBTSubdivisions =
     [ { name = "Paro"
       , code = "11"
       , unofficialNames = [ "Paro", "Rinpung" ]
@@ -11788,8 +11800,8 @@ bhutanSubdivisions =
 
 
 {-| -}
-botswanaSubdivisions : List Subdivision
-botswanaSubdivisions =
+countryBWSubdivisions : List Subdivision
+countryBWSubdivisions =
     [ { name = "Central"
       , code = "CE"
       , unofficialNames = [ "Central" ]
@@ -11830,8 +11842,8 @@ botswanaSubdivisions =
 
 
 {-| -}
-belarusSubdivisions : List Subdivision
-belarusSubdivisions =
+countryBYSubdivisions : List Subdivision
+countryBYSubdivisions =
     [ { name = "Brestskaya voblasts' (be) Brestskaya oblast' (ru)"
       , code = "BR"
       , unofficialNames = [ "Bierascie", "Brest-Litovsk", "Brestskaja Oblastʿ", "Brestskaja Voblastsʿ", "Brestskaya Oblastʿ", "Brestskaya Voblastsʿ", "Brisk", "Brześć nad Bugiem", "Brześć-Litewski" ]
@@ -11864,8 +11876,8 @@ belarusSubdivisions =
 
 
 {-| -}
-belizeSubdivisions : List Subdivision
-belizeSubdivisions =
+countryBZSubdivisions : List Subdivision
+countryBZSubdivisions =
     [ { name = "Belize"
       , code = "BZ"
       , unofficialNames = [ "Belize" ]
@@ -11894,8 +11906,8 @@ belizeSubdivisions =
 
 
 {-| -}
-canadaSubdivisions : List Subdivision
-canadaSubdivisions =
+countryCASubdivisions : List Subdivision
+countryCASubdivisions =
     [ { name = "Alberta"
       , code = "AB"
       , unofficialNames = [ "Alberta" ]
@@ -11952,8 +11964,8 @@ canadaSubdivisions =
 
 
 {-| -}
-congoDemocraticRepublicOfTheSubdivisions : List Subdivision
-congoDemocraticRepublicOfTheSubdivisions =
+countryCDSubdivisions : List Subdivision
+countryCDSubdivisions =
     [ { name = "Bas-Congo"
       , code = "BC"
       , unofficialNames = [ "Bas-Zaire" ]
@@ -12002,8 +12014,8 @@ congoDemocraticRepublicOfTheSubdivisions =
 
 
 {-| -}
-centralAfricanRepublicSubdivisions : List Subdivision
-centralAfricanRepublicSubdivisions =
+countryCFSubdivisions : List Subdivision
+countryCFSubdivisions =
     [ { name = "Ouham"
       , code = "AC"
       , unofficialNames = [ "Ouham" ]
@@ -12076,8 +12088,8 @@ centralAfricanRepublicSubdivisions =
 
 
 {-| -}
-congoSubdivisions : List Subdivision
-congoSubdivisions =
+countryCGSubdivisions : List Subdivision
+countryCGSubdivisions =
     [ { name = "Bouenza"
       , code = "11"
       , unofficialNames = [ "Bouénza" ]
@@ -12126,8 +12138,8 @@ congoSubdivisions =
 
 
 {-| -}
-switzerlandSubdivisions : List Subdivision
-switzerlandSubdivisions =
+countryCHSubdivisions : List Subdivision
+countryCHSubdivisions =
     [ { name = "Aargau (de)"
       , code = "AG"
       , unofficialNames = [ "Argovie" ]
@@ -12236,8 +12248,8 @@ switzerlandSubdivisions =
 
 
 {-| -}
-coteDIvoireSubdivisions : List Subdivision
-coteDIvoireSubdivisions =
+countryCISubdivisions : List Subdivision
+countryCISubdivisions =
     [ { name = "Lagunes (Région des)"
       , code = "01"
       , unofficialNames = [ "Lagunes (Région des)" ]
@@ -12318,8 +12330,8 @@ coteDIvoireSubdivisions =
 
 
 {-| -}
-cookIslandsSubdivisions : List Subdivision
-cookIslandsSubdivisions =
+countryCKSubdivisions : List Subdivision
+countryCKSubdivisions =
     [ { name = "Aitutaki"
       , code = "AI"
       , unofficialNames = [ "Aitutaki" ]
@@ -12368,8 +12380,8 @@ cookIslandsSubdivisions =
 
 
 {-| -}
-chileSubdivisions : List Subdivision
-chileSubdivisions =
+countryCLSubdivisions : List Subdivision
+countryCLSubdivisions =
     [ { name = "Aisén del General Carlos Ibáñez del Campo"
       , code = "AI"
       , unofficialNames = [ "Aisén del General Carlos Ibáñez del Campo", "Aysén" ]
@@ -12438,8 +12450,8 @@ chileSubdivisions =
 
 
 {-| -}
-cameroonSubdivisions : List Subdivision
-cameroonSubdivisions =
+countryCMSubdivisions : List Subdivision
+countryCMSubdivisions =
     [ { name = "Adamaoua"
       , code = "AD"
       , unofficialNames = [ "Adamawa" ]
@@ -12484,8 +12496,8 @@ cameroonSubdivisions =
 
 
 {-| -}
-chinaSubdivisions : List Subdivision
-chinaSubdivisions =
+countryCNSubdivisions : List Subdivision
+countryCNSubdivisions =
     [ { name = "Beijing"
       , code = "BJ"
       , unofficialNames = [ "Beijing", "Pekín" ]
@@ -12626,8 +12638,8 @@ chinaSubdivisions =
 
 
 {-| -}
-colombiaSubdivisions : List Subdivision
-colombiaSubdivisions =
+countryCOSubdivisions : List Subdivision
+countryCOSubdivisions =
     [ { name = "Amazonas"
       , code = "AMA"
       , unofficialNames = [ "Amazonas" ]
@@ -12764,8 +12776,8 @@ colombiaSubdivisions =
 
 
 {-| -}
-costaRicaSubdivisions : List Subdivision
-costaRicaSubdivisions =
+countryCRSubdivisions : List Subdivision
+countryCRSubdivisions =
     [ { name = "Alajuela"
       , code = "A"
       , unofficialNames = [ "Alajuela" ]
@@ -12798,8 +12810,8 @@ costaRicaSubdivisions =
 
 
 {-| -}
-cubaSubdivisions : List Subdivision
-cubaSubdivisions =
+countryCUSubdivisions : List Subdivision
+countryCUSubdivisions =
     [ { name = "Pinar del Río"
       , code = "01"
       , unofficialNames = [ "Pinar del Río" ]
@@ -12868,8 +12880,8 @@ cubaSubdivisions =
 
 
 {-| -}
-caboVerdeSubdivisions : List Subdivision
-caboVerdeSubdivisions =
+countryCVSubdivisions : List Subdivision
+countryCVSubdivisions =
     [ { name = "Brava"
       , code = "BR"
       , unofficialNames = [ "Brava" ]
@@ -12942,14 +12954,14 @@ caboVerdeSubdivisions =
 
 
 {-| -}
-curacaoSubdivisions : List Subdivision
-curacaoSubdivisions =
+countryCWSubdivisions : List Subdivision
+countryCWSubdivisions =
     []
 
 
 {-| -}
-cyprusSubdivisions : List Subdivision
-cyprusSubdivisions =
+countryCYSubdivisions : List Subdivision
+countryCYSubdivisions =
     [ { name = "Lefkosia"
       , code = "01"
       , unofficialNames = [ "Lefkosia" ]
@@ -12978,8 +12990,8 @@ cyprusSubdivisions =
 
 
 {-| -}
-czechRepublicSubdivisions : List Subdivision
-czechRepublicSubdivisions =
+countryCZSubdivisions : List Subdivision
+countryCZSubdivisions =
     [ { name = "Jihočeský kraj"
       , code = "JC"
       , unofficialNames = [ "Budějovický", "Českobudějovický" ]
@@ -13040,8 +13052,8 @@ czechRepublicSubdivisions =
 
 
 {-| -}
-germanySubdivisions : List Subdivision
-germanySubdivisions =
+countryDESubdivisions : List Subdivision
+countryDESubdivisions =
     [ { name = "Brandenburg"
       , code = "BB"
       , unofficialNames = [ "Brandenbourg", "Brandenburgo" ]
@@ -13110,8 +13122,8 @@ germanySubdivisions =
 
 
 {-| -}
-djiboutiSubdivisions : List Subdivision
-djiboutiSubdivisions =
+countryDJSubdivisions : List Subdivision
+countryDJSubdivisions =
     [ { name = "Arta"
       , code = "AR"
       , unofficialNames = [ "Arta" ]
@@ -13140,8 +13152,8 @@ djiboutiSubdivisions =
 
 
 {-| -}
-denmarkSubdivisions : List Subdivision
-denmarkSubdivisions =
+countryDKSubdivisions : List Subdivision
+countryDKSubdivisions =
     [ { name = "København"
       , code = "015"
       , unofficialNames = [ "København" ]
@@ -13230,8 +13242,8 @@ denmarkSubdivisions =
 
 
 {-| -}
-dominicaSubdivisions : List Subdivision
-dominicaSubdivisions =
+countryDMSubdivisions : List Subdivision
+countryDMSubdivisions =
     [ { name = "Saint Andrew"
       , code = "02"
       , unofficialNames = [ "Saint Andrew" ]
@@ -13276,8 +13288,8 @@ dominicaSubdivisions =
 
 
 {-| -}
-dominicanRepublicSubdivisions : List Subdivision
-dominicanRepublicSubdivisions =
+countryDOSubdivisions : List Subdivision
+countryDOSubdivisions =
     [ { name = "Distrito Nacional (Santo Domingo)"
       , code = "01"
       , unofficialNames = [ "Distrito Nacional (Santo Domingo)" ]
@@ -13406,8 +13418,8 @@ dominicanRepublicSubdivisions =
 
 
 {-| -}
-algeriaSubdivisions : List Subdivision
-algeriaSubdivisions =
+countryDZSubdivisions : List Subdivision
+countryDZSubdivisions =
     [ { name = "Adrar"
       , code = "01"
       , unofficialNames = [ "Adrar" ]
@@ -13604,8 +13616,8 @@ algeriaSubdivisions =
 
 
 {-| -}
-ecuadorSubdivisions : List Subdivision
-ecuadorSubdivisions =
+countryECSubdivisions : List Subdivision
+countryECSubdivisions =
     [ { name = "Azuay"
       , code = "A"
       , unofficialNames = [ "Azuay" ]
@@ -13706,8 +13718,8 @@ ecuadorSubdivisions =
 
 
 {-| -}
-estoniaSubdivisions : List Subdivision
-estoniaSubdivisions =
+countryEESubdivisions : List Subdivision
+countryEESubdivisions =
     [ { name = "Harjumaa"
       , code = "37"
       , unofficialNames = [ "Harjumaa" ]
@@ -13772,8 +13784,8 @@ estoniaSubdivisions =
 
 
 {-| -}
-egyptSubdivisions : List Subdivision
-egyptSubdivisions =
+countryEGSubdivisions : List Subdivision
+countryEGSubdivisions =
     [ { name = "Al Iskandariyah"
       , code = "ALX"
       , unofficialNames = [ "El Iskandariya", "al-Iskandariyah", "al-Iskandarīyah", "Alexandria", "Alexandrie", "Alexandria" ]
@@ -13886,8 +13898,8 @@ egyptSubdivisions =
 
 
 {-| -}
-westernSaharaSubdivisions : List Subdivision
-westernSaharaSubdivisions =
+countryEHSubdivisions : List Subdivision
+countryEHSubdivisions =
     [ { name = "Boujdour"
       , code = "BOD"
       , unofficialNames = [ "Bojador", "Boujdour", "Bu Jaydur", "Bujdur", "Cabo Bojador" ]
@@ -13908,8 +13920,8 @@ westernSaharaSubdivisions =
 
 
 {-| -}
-eritreaSubdivisions : List Subdivision
-eritreaSubdivisions =
+countryERSubdivisions : List Subdivision
+countryERSubdivisions =
     [ { name = "Anseba"
       , code = "AN"
       , unofficialNames = [ "Anseba" ]
@@ -13938,8 +13950,8 @@ eritreaSubdivisions =
 
 
 {-| -}
-spainSubdivisions : List Subdivision
-spainSubdivisions =
+countryESSubdivisions : List Subdivision
+countryESSubdivisions =
     [ { name = "Alicante/Alacant"
       , code = "A"
       , unofficialNames = [ "Alicante/Alacant", "Alacant/Alicante", "Alicante", "Alacant" ]
@@ -14152,8 +14164,8 @@ spainSubdivisions =
 
 
 {-| -}
-ethiopiaSubdivisions : List Subdivision
-ethiopiaSubdivisions =
+countryETSubdivisions : List Subdivision
+countryETSubdivisions =
     [ { name = "Adis Abeba"
       , code = "AA"
       , unofficialNames = [ "Adis Abeba" ]
@@ -14202,8 +14214,8 @@ ethiopiaSubdivisions =
 
 
 {-| -}
-finlandSubdivisions : List Subdivision
-finlandSubdivisions =
+countryFISubdivisions : List Subdivision
+countryFISubdivisions =
     [ { name = "Ahvenanmaan lääni"
       , code = "AL"
       , unofficialNames = [ "Åland" ]
@@ -14232,8 +14244,8 @@ finlandSubdivisions =
 
 
 {-| -}
-fijiSubdivisions : List Subdivision
-fijiSubdivisions =
+countryFJSubdivisions : List Subdivision
+countryFJSubdivisions =
     [ { name = "Central"
       , code = "C"
       , unofficialNames = [ "Central" ]
@@ -14258,8 +14270,8 @@ fijiSubdivisions =
 
 
 {-| -}
-micronesiaFederatedStatesOfSubdivisions : List Subdivision
-micronesiaFederatedStatesOfSubdivisions =
+countryFMSubdivisions : List Subdivision
+countryFMSubdivisions =
     [ { name = "Kosrae"
       , code = "KSA"
       , unofficialNames = [ "Kosrae" ]
@@ -14280,8 +14292,8 @@ micronesiaFederatedStatesOfSubdivisions =
 
 
 {-| -}
-faroeIslandsSubdivisions : List Subdivision
-faroeIslandsSubdivisions =
+countryFOSubdivisions : List Subdivision
+countryFOSubdivisions =
     [ { name = "Nordoyar"
       , code = "NO"
       , unofficialNames = [ "Nordoyar" ]
@@ -14310,8 +14322,8 @@ faroeIslandsSubdivisions =
 
 
 {-| -}
-franceSubdivisions : List Subdivision
-franceSubdivisions =
+countryFRSubdivisions : List Subdivision
+countryFRSubdivisions =
     [ { name = "Ain"
       , code = "01"
       , unofficialNames = [ "Ain" ]
@@ -14776,8 +14788,8 @@ franceSubdivisions =
 
 
 {-| -}
-gabonSubdivisions : List Subdivision
-gabonSubdivisions =
+countryGASubdivisions : List Subdivision
+countryGASubdivisions =
     [ { name = "Estuaire"
       , code = "1"
       , unofficialNames = [ "Estuaire" ]
@@ -14818,8 +14830,8 @@ gabonSubdivisions =
 
 
 {-| -}
-unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions : List Subdivision
-unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions =
+countryGBSubdivisions : List Subdivision
+countryGBSubdivisions =
     [ { name = "Aberdeenshire"
       , code = "ABD"
       , unofficialNames = [ "Siorrachd Obar Dheathain" ]
@@ -15744,8 +15756,8 @@ unitedKingdomOfGreatBritainAndNorthernIrelandSubdivisions =
 
 
 {-| -}
-grenadaSubdivisions : List Subdivision
-grenadaSubdivisions =
+countryGDSubdivisions : List Subdivision
+countryGDSubdivisions =
     [ { name = "Saint Andrew"
       , code = "01"
       , unofficialNames = [ "Saint Andrew" ]
@@ -15778,8 +15790,8 @@ grenadaSubdivisions =
 
 
 {-| -}
-georgiaSubdivisions : List Subdivision
-georgiaSubdivisions =
+countryGESubdivisions : List Subdivision
+countryGESubdivisions =
     [ { name = "Abkhazia"
       , code = "AB"
       , unofficialNames = [ "Abhasia" ]
@@ -15832,14 +15844,14 @@ georgiaSubdivisions =
 
 
 {-| -}
-frenchGuianaSubdivisions : List Subdivision
-frenchGuianaSubdivisions =
+countryGFSubdivisions : List Subdivision
+countryGFSubdivisions =
     []
 
 
 {-| -}
-guernseySubdivisions : List Subdivision
-guernseySubdivisions =
+countryGGSubdivisions : List Subdivision
+countryGGSubdivisions =
     [ { name = "Saint Pierre du Bois"
       , code = "1"
       , unofficialNames = [ "Saint Pierre du Bois" ]
@@ -15888,8 +15900,8 @@ guernseySubdivisions =
 
 
 {-| -}
-ghanaSubdivisions : List Subdivision
-ghanaSubdivisions =
+countryGHSubdivisions : List Subdivision
+countryGHSubdivisions =
     [ { name = "Greater Accra"
       , code = "AA"
       , unofficialNames = [ "Greater Accra" ]
@@ -15934,14 +15946,14 @@ ghanaSubdivisions =
 
 
 {-| -}
-greenlandSubdivisions : List Subdivision
-greenlandSubdivisions =
+countryGLSubdivisions : List Subdivision
+countryGLSubdivisions =
     []
 
 
 {-| -}
-gambiaSubdivisions : List Subdivision
-gambiaSubdivisions =
+countryGMSubdivisions : List Subdivision
+countryGMSubdivisions =
     [ { name = "Banjul"
       , code = "B"
       , unofficialNames = [ "Banjul" ]
@@ -15970,8 +15982,8 @@ gambiaSubdivisions =
 
 
 {-| -}
-guineaSubdivisions : List Subdivision
-guineaSubdivisions =
+countryGNSubdivisions : List Subdivision
+countryGNSubdivisions =
     [ { name = "Beyla"
       , code = "BE"
       , unofficialNames = [ "Beyla" ]
@@ -16112,14 +16124,14 @@ guineaSubdivisions =
 
 
 {-| -}
-guadeloupeSubdivisions : List Subdivision
-guadeloupeSubdivisions =
+countryGPSubdivisions : List Subdivision
+countryGPSubdivisions =
     []
 
 
 {-| -}
-equatorialGuineaSubdivisions : List Subdivision
-equatorialGuineaSubdivisions =
+countryGQSubdivisions : List Subdivision
+countryGQSubdivisions =
     [ { name = "Annobón"
       , code = "AN"
       , unofficialNames = [ "Annobón" ]
@@ -16160,8 +16172,8 @@ equatorialGuineaSubdivisions =
 
 
 {-| -}
-greeceSubdivisions : List Subdivision
-greeceSubdivisions =
+countryGRSubdivisions : List Subdivision
+countryGRSubdivisions =
     [ { name = "Aitolia-Akarnania"
       , code = "01"
       , unofficialNames = [ "Aetolia and Acarnania", "Áitoloakarnanía" ]
@@ -16374,8 +16386,8 @@ greeceSubdivisions =
 
 
 {-| -}
-guatemalaSubdivisions : List Subdivision
-guatemalaSubdivisions =
+countryGTSubdivisions : List Subdivision
+countryGTSubdivisions =
     [ { name = "Alta Verapaz"
       , code = "AV"
       , unofficialNames = [ "Alta Verapaz" ]
@@ -16468,8 +16480,8 @@ guatemalaSubdivisions =
 
 
 {-| -}
-guamSubdivisions : List Subdivision
-guamSubdivisions =
+countryGUSubdivisions : List Subdivision
+countryGUSubdivisions =
     [ { name = "Agana Heights"
       , code = "AH"
       , unofficialNames = [ "Agana Heights" ]
@@ -16550,8 +16562,8 @@ guamSubdivisions =
 
 
 {-| -}
-guineaBissauSubdivisions : List Subdivision
-guineaBissauSubdivisions =
+countryGWSubdivisions : List Subdivision
+countryGWSubdivisions =
     [ { name = "Bafatá"
       , code = "BA"
       , unofficialNames = [ "Bafatá" ]
@@ -16592,8 +16604,8 @@ guineaBissauSubdivisions =
 
 
 {-| -}
-guyanaSubdivisions : List Subdivision
-guyanaSubdivisions =
+countryGYSubdivisions : List Subdivision
+countryGYSubdivisions =
     [ { name = "Barima-Waini"
       , code = "BA"
       , unofficialNames = [ "Barima-Waini" ]
@@ -16638,8 +16650,8 @@ guyanaSubdivisions =
 
 
 {-| -}
-hongKongSubdivisions : List Subdivision
-hongKongSubdivisions =
+countryHKSubdivisions : List Subdivision
+countryHKSubdivisions =
     [ { name = "Central and Western District"
       , code = "HCW"
       , unofficialNames = [ "Central and Western District" ]
@@ -16716,8 +16728,8 @@ hongKongSubdivisions =
 
 
 {-| -}
-hondurasSubdivisions : List Subdivision
-hondurasSubdivisions =
+countryHNSubdivisions : List Subdivision
+countryHNSubdivisions =
     [ { name = "Atlántida"
       , code = "AT"
       , unofficialNames = [ "Atlántida" ]
@@ -16794,8 +16806,8 @@ hondurasSubdivisions =
 
 
 {-| -}
-croatiaSubdivisions : List Subdivision
-croatiaSubdivisions =
+countryHRSubdivisions : List Subdivision
+countryHRSubdivisions =
     [ { name = "Zagrebačka županija"
       , code = "01"
       , unofficialNames = [ "Zagreb County" ]
@@ -16884,8 +16896,8 @@ croatiaSubdivisions =
 
 
 {-| -}
-haitiSubdivisions : List Subdivision
-haitiSubdivisions =
+countryHTSubdivisions : List Subdivision
+countryHTSubdivisions =
     [ { name = "Artibonite"
       , code = "AR"
       , unofficialNames = [ "LʿArtibonite" ]
@@ -16926,8 +16938,8 @@ haitiSubdivisions =
 
 
 {-| -}
-hungarySubdivisions : List Subdivision
-hungarySubdivisions =
+countryHUSubdivisions : List Subdivision
+countryHUSubdivisions =
     [ { name = "Baranya"
       , code = "BA"
       , unofficialNames = [ "Baranya" ]
@@ -17104,14 +17116,14 @@ hungarySubdivisions =
 
 
 {-| -}
-indonesiaSubdivisions : List Subdivision
-indonesiaSubdivisions =
+countryIDSubdivisions : List Subdivision
+countryIDSubdivisions =
     []
 
 
 {-| -}
-irelandSubdivisions : List Subdivision
-irelandSubdivisions =
+countryIESubdivisions : List Subdivision
+countryIESubdivisions =
     [ { name = "Connacht"
       , code = "C"
       , unofficialNames = [ "Connaught" ]
@@ -17224,8 +17236,8 @@ irelandSubdivisions =
 
 
 {-| -}
-israelSubdivisions : List Subdivision
-israelSubdivisions =
+countryILSubdivisions : List Subdivision
+countryILSubdivisions =
     [ { name = "HaDarom"
       , code = "D"
       , unofficialNames = [ "Southern" ]
@@ -17254,8 +17266,8 @@ israelSubdivisions =
 
 
 {-| -}
-isleOfManSubdivisions : List Subdivision
-isleOfManSubdivisions =
+countryIMSubdivisions : List Subdivision
+countryIMSubdivisions =
     [ { name = "Andreas"
       , code = "1"
       , unofficialNames = [ "Andreas" ]
@@ -17356,8 +17368,8 @@ isleOfManSubdivisions =
 
 
 {-| -}
-indiaSubdivisions : List Subdivision
-indiaSubdivisions =
+countryINSubdivisions : List Subdivision
+countryINSubdivisions =
     [ { name = "Andaman and Nicobar Islands"
       , code = "AN"
       , unofficialNames = [ "Andaman and Nicobar Islands" ]
@@ -17506,8 +17518,8 @@ indiaSubdivisions =
 
 
 {-| -}
-iraqSubdivisions : List Subdivision
-iraqSubdivisions =
+countryIQSubdivisions : List Subdivision
+countryIQSubdivisions =
     [ { name = "Al Anbar"
       , code = "AN"
       , unofficialNames = [ "al-Anbar" ]
@@ -17584,8 +17596,8 @@ iraqSubdivisions =
 
 
 {-| -}
-iranIslamicRepublicOfSubdivisions : List Subdivision
-iranIslamicRepublicOfSubdivisions =
+countryIRSubdivisions : List Subdivision
+countryIRSubdivisions =
     [ { name = "Az¯arbayjan-e Sharqi"
       , code = "01"
       , unofficialNames = [ "Azarbayjān-e Khavari", "East Azerbaijan" ]
@@ -17714,8 +17726,8 @@ iranIslamicRepublicOfSubdivisions =
 
 
 {-| -}
-icelandSubdivisions : List Subdivision
-icelandSubdivisions =
+countryISSubdivisions : List Subdivision
+countryISSubdivisions =
     [ { name = "Reykjavík"
       , code = "0"
       , unofficialNames = [ "Reykjavík" ]
@@ -17756,8 +17768,8 @@ icelandSubdivisions =
 
 
 {-| -}
-italySubdivisions : List Subdivision
-italySubdivisions =
+countryITSubdivisions : List Subdivision
+countryITSubdivisions =
     [ { name = "Agrigento"
       , code = "AG"
       , unofficialNames = [ "Agrigento" ]
@@ -18202,8 +18214,8 @@ italySubdivisions =
 
 
 {-| -}
-jerseySubdivisions : List Subdivision
-jerseySubdivisions =
+countryJESubdivisions : List Subdivision
+countryJESubdivisions =
     [ { name = "Saint Clement"
       , code = "1"
       , unofficialNames = [ "Saint Clement" ]
@@ -18256,8 +18268,8 @@ jerseySubdivisions =
 
 
 {-| -}
-jamaicaSubdivisions : List Subdivision
-jamaicaSubdivisions =
+countryJMSubdivisions : List Subdivision
+countryJMSubdivisions =
     [ { name = "Kingston"
       , code = "01"
       , unofficialNames = [ "Kingston" ]
@@ -18318,8 +18330,8 @@ jamaicaSubdivisions =
 
 
 {-| -}
-jordanSubdivisions : List Subdivision
-jordanSubdivisions =
+countryJOSubdivisions : List Subdivision
+countryJOSubdivisions =
     [ { name = "Ajlun"
       , code = "AJ"
       , unofficialNames = [ "Ajloan", "Ajlun" ]
@@ -18372,8 +18384,8 @@ jordanSubdivisions =
 
 
 {-| -}
-japanSubdivisions : List Subdivision
-japanSubdivisions =
+countryJPSubdivisions : List Subdivision
+countryJPSubdivisions =
     [ { name = "Hokkaido"
       , code = "01"
       , unofficialNames = [ "Hokkaidô", "Hokkaido" ]
@@ -18566,8 +18578,8 @@ japanSubdivisions =
 
 
 {-| -}
-kenyaSubdivisions : List Subdivision
-kenyaSubdivisions =
+countryKESubdivisions : List Subdivision
+countryKESubdivisions =
     [ { name = "Nairobi Municipality"
       , code = "110"
       , unofficialNames = [ "Nairobi Municipality" ]
@@ -18604,8 +18616,8 @@ kenyaSubdivisions =
 
 
 {-| -}
-kyrgyzstanSubdivisions : List Subdivision
-kyrgyzstanSubdivisions =
+countryKGSubdivisions : List Subdivision
+countryKGSubdivisions =
     [ { name = "Batken"
       , code = "B"
       , unofficialNames = [ "Batken" ]
@@ -18642,8 +18654,8 @@ kyrgyzstanSubdivisions =
 
 
 {-| -}
-cambodiaSubdivisions : List Subdivision
-cambodiaSubdivisions =
+countryKHSubdivisions : List Subdivision
+countryKHSubdivisions =
     [ { name = "Banteay Mean Chey [Bântéay Méanchey]"
       , code = "1"
       , unofficialNames = [ "Banteay Mean Chey [Bântéay Méanchey]", "banteay meanchey", "b.chey", "bm", "b.m" ]
@@ -18744,8 +18756,8 @@ cambodiaSubdivisions =
 
 
 {-| -}
-kiribatiSubdivisions : List Subdivision
-kiribatiSubdivisions =
+countryKISubdivisions : List Subdivision
+countryKISubdivisions =
     [ { name = "Gilbert Islands"
       , code = "G"
       , unofficialNames = [ "Gilbert Islands" ]
@@ -18762,8 +18774,8 @@ kiribatiSubdivisions =
 
 
 {-| -}
-comorosSubdivisions : List Subdivision
-comorosSubdivisions =
+countryKMSubdivisions : List Subdivision
+countryKMSubdivisions =
     [ { name = "Anjouan"
       , code = "A"
       , unofficialNames = [ "Anjouan", "Ndzuwani", "Nzwani" ]
@@ -18780,8 +18792,8 @@ comorosSubdivisions =
 
 
 {-| -}
-saintKittsAndNevisSubdivisions : List Subdivision
-saintKittsAndNevisSubdivisions =
+countryKNSubdivisions : List Subdivision
+countryKNSubdivisions =
     [ { name = "Christ Church Nichola Town"
       , code = "01"
       , unofficialNames = [ "Christ Church Nichola Town" ]
@@ -18842,8 +18854,8 @@ saintKittsAndNevisSubdivisions =
 
 
 {-| -}
-koreaDemocraticPeopleSRepublicOfSubdivisions : List Subdivision
-koreaDemocraticPeopleSRepublicOfSubdivisions =
+countryKPSubdivisions : List Subdivision
+countryKPSubdivisions =
     [ { name = "Chagang-do"
       , code = "CHA"
       , unofficialNames = [ "Chagang", "Jagang" ]
@@ -18904,8 +18916,8 @@ koreaDemocraticPeopleSRepublicOfSubdivisions =
 
 
 {-| -}
-koreaRepublicOfSubdivisions : List Subdivision
-koreaRepublicOfSubdivisions =
+countryKRSubdivisions : List Subdivision
+countryKRSubdivisions =
     [ { name = "Seoul Teugbyeolsi [Seoul-T'ukpyolshi]"
       , code = "11"
       , unofficialNames = [ "Seoul", "Soul" ]
@@ -18974,8 +18986,8 @@ koreaRepublicOfSubdivisions =
 
 
 {-| -}
-kuwaitSubdivisions : List Subdivision
-kuwaitSubdivisions =
+countryKWSubdivisions : List Subdivision
+countryKWSubdivisions =
     [ { name = "Al Ahmadi"
       , code = "AH"
       , unofficialNames = [ "Ahmadi" ]
@@ -19004,8 +19016,8 @@ kuwaitSubdivisions =
 
 
 {-| -}
-caymanIslandsSubdivisions : List Subdivision
-caymanIslandsSubdivisions =
+countryKYSubdivisions : List Subdivision
+countryKYSubdivisions =
     [ { name = "Bodden Town"
       , code = "01~"
       , unofficialNames = [ "Bodden Town" ]
@@ -19034,8 +19046,8 @@ caymanIslandsSubdivisions =
 
 
 {-| -}
-kazakhstanSubdivisions : List Subdivision
-kazakhstanSubdivisions =
+countryKZSubdivisions : List Subdivision
+countryKZSubdivisions =
     [ { name = "Aqmola oblysy"
       , code = "AKM"
       , unofficialNames = [ "Akmola", "Akmolinsk", "Aķmola", "Celinograd", "Tselinograd" ]
@@ -19108,8 +19120,8 @@ kazakhstanSubdivisions =
 
 
 {-| -}
-laoPeopleSDemocraticRepublicSubdivisions : List Subdivision
-laoPeopleSDemocraticRepublicSubdivisions =
+countryLASubdivisions : List Subdivision
+countryLASubdivisions =
     [ { name = "Attapu [Attopeu]"
       , code = "AT"
       , unofficialNames = [ "Attapu", "Attopei", "Attopeu" ]
@@ -19186,8 +19198,8 @@ laoPeopleSDemocraticRepublicSubdivisions =
 
 
 {-| -}
-lebanonSubdivisions : List Subdivision
-lebanonSubdivisions =
+countryLBSubdivisions : List Subdivision
+countryLBSubdivisions =
     [ { name = "Loubnâne ech Chemâli"
       , code = "AS"
       , unofficialNames = [ "Ash Shamal", "North" ]
@@ -19216,14 +19228,14 @@ lebanonSubdivisions =
 
 
 {-| -}
-saintLuciaSubdivisions : List Subdivision
-saintLuciaSubdivisions =
+countryLCSubdivisions : List Subdivision
+countryLCSubdivisions =
     []
 
 
 {-| -}
-liechtensteinSubdivisions : List Subdivision
-liechtensteinSubdivisions =
+countryLISubdivisions : List Subdivision
+countryLISubdivisions =
     [ { name = "Balzers"
       , code = "01"
       , unofficialNames = [ "Balzers" ]
@@ -19272,8 +19284,8 @@ liechtensteinSubdivisions =
 
 
 {-| -}
-sriLankaSubdivisions : List Subdivision
-sriLankaSubdivisions =
+countryLKSubdivisions : List Subdivision
+countryLKSubdivisions =
     [ { name = "Colombo"
       , code = "11"
       , unofficialNames = [ "Kolamba", "Colombo", "Colombo" ]
@@ -19378,8 +19390,8 @@ sriLankaSubdivisions =
 
 
 {-| -}
-liberiaSubdivisions : List Subdivision
-liberiaSubdivisions =
+countryLRSubdivisions : List Subdivision
+countryLRSubdivisions =
     [ { name = "Bong"
       , code = "BG"
       , unofficialNames = [ "Bong" ]
@@ -19444,8 +19456,8 @@ liberiaSubdivisions =
 
 
 {-| -}
-lesothoSubdivisions : List Subdivision
-lesothoSubdivisions =
+countryLSSubdivisions : List Subdivision
+countryLSSubdivisions =
     [ { name = "Maseru"
       , code = "A"
       , unofficialNames = [ "Maseru" ]
@@ -19490,8 +19502,8 @@ lesothoSubdivisions =
 
 
 {-| -}
-lithuaniaSubdivisions : List Subdivision
-lithuaniaSubdivisions =
+countryLTSubdivisions : List Subdivision
+countryLTSubdivisions =
     [ { name = "Alytaus Apskritis"
       , code = "AL"
       , unofficialNames = [ "Alytaus Apskritis" ]
@@ -19536,8 +19548,8 @@ lithuaniaSubdivisions =
 
 
 {-| -}
-luxembourgSubdivisions : List Subdivision
-luxembourgSubdivisions =
+countryLUSubdivisions : List Subdivision
+countryLUSubdivisions =
     [ { name = "Diekirch"
       , code = "D"
       , unofficialNames = [ "Diekirch" ]
@@ -19554,8 +19566,8 @@ luxembourgSubdivisions =
 
 
 {-| -}
-latviaSubdivisions : List Subdivision
-latviaSubdivisions =
+countryLVSubdivisions : List Subdivision
+countryLVSubdivisions =
     [ { name = "Aizkraukles Aprinkis"
       , code = "AI"
       , unofficialNames = [ "Aizkraukles Aprinkis" ]
@@ -19692,8 +19704,8 @@ latviaSubdivisions =
 
 
 {-| -}
-libyaSubdivisions : List Subdivision
-libyaSubdivisions =
+countryLYSubdivisions : List Subdivision
+countryLYSubdivisions =
     [ { name = "Banghazi"
       , code = "BA"
       , unofficialNames = [ "Banghazi" ]
@@ -19786,8 +19798,8 @@ libyaSubdivisions =
 
 
 {-| -}
-moroccoSubdivisions : List Subdivision
-moroccoSubdivisions =
+countryMASubdivisions : List Subdivision
+countryMASubdivisions =
     [ { name = "Agadir*"
       , code = "AGD"
       , unofficialNames = [ "Agadir*" ]
@@ -20044,14 +20056,14 @@ moroccoSubdivisions =
 
 
 {-| -}
-monacoSubdivisions : List Subdivision
-monacoSubdivisions =
+countryMCSubdivisions : List Subdivision
+countryMCSubdivisions =
     []
 
 
 {-| -}
-moldovaRepublicOfSubdivisions : List Subdivision
-moldovaRepublicOfSubdivisions =
+countryMDSubdivisions : List Subdivision
+countryMDSubdivisions =
     [ { name = "Balti"
       , code = "BA"
       , unofficialNames = [ "Balti" ]
@@ -20108,8 +20120,8 @@ moldovaRepublicOfSubdivisions =
 
 
 {-| -}
-montenegroSubdivisions : List Subdivision
-montenegroSubdivisions =
+countryMESubdivisions : List Subdivision
+countryMESubdivisions =
     [ { name = "Andrijevica"
       , code = "01"
       , unofficialNames = [ "Andrijevica" ]
@@ -20198,14 +20210,14 @@ montenegroSubdivisions =
 
 
 {-| -}
-saintMartinFrenchPartSubdivisions : List Subdivision
-saintMartinFrenchPartSubdivisions =
+countryMFSubdivisions : List Subdivision
+countryMFSubdivisions =
     []
 
 
 {-| -}
-madagascarSubdivisions : List Subdivision
-madagascarSubdivisions =
+countryMGSubdivisions : List Subdivision
+countryMGSubdivisions =
     [ { name = "Toamasina"
       , code = "A"
       , unofficialNames = [ "Tamatave" ]
@@ -20234,8 +20246,8 @@ madagascarSubdivisions =
 
 
 {-| -}
-marshallIslandsSubdivisions : List Subdivision
-marshallIslandsSubdivisions =
+countryMHSubdivisions : List Subdivision
+countryMHSubdivisions =
     [ { name = "Ailuk"
       , code = "ALK"
       , unofficialNames = [ "Ailuk" ]
@@ -20340,8 +20352,8 @@ marshallIslandsSubdivisions =
 
 
 {-| -}
-northMacedoniaSubdivisions : List Subdivision
-northMacedoniaSubdivisions =
+countryMKSubdivisions : List Subdivision
+countryMKSubdivisions =
     [ { name = "Aerodrom *"
       , code = "AD"
       , unofficialNames = [ "Aerodrom *" ]
@@ -20686,8 +20698,8 @@ northMacedoniaSubdivisions =
 
 
 {-| -}
-maliSubdivisions : List Subdivision
-maliSubdivisions =
+countryMLSubdivisions : List Subdivision
+countryMLSubdivisions =
     [ { name = "Kayes"
       , code = "1"
       , unofficialNames = [ "Kayes" ]
@@ -20728,8 +20740,8 @@ maliSubdivisions =
 
 
 {-| -}
-myanmarSubdivisions : List Subdivision
-myanmarSubdivisions =
+countryMMSubdivisions : List Subdivision
+countryMMSubdivisions =
     [ { name = "Sagaing"
       , code = "01"
       , unofficialNames = [ "Sagaing" ]
@@ -20790,8 +20802,8 @@ myanmarSubdivisions =
 
 
 {-| -}
-mongoliaSubdivisions : List Subdivision
-mongoliaSubdivisions =
+countryMNSubdivisions : List Subdivision
+countryMNSubdivisions =
     [ { name = "Orhon"
       , code = "035"
       , unofficialNames = [ "Orhon" ]
@@ -20884,14 +20896,14 @@ mongoliaSubdivisions =
 
 
 {-| -}
-macaoSubdivisions : List Subdivision
-macaoSubdivisions =
+countryMOSubdivisions : List Subdivision
+countryMOSubdivisions =
     []
 
 
 {-| -}
-northernMarianaIslandsSubdivisions : List Subdivision
-northernMarianaIslandsSubdivisions =
+countryMPSubdivisions : List Subdivision
+countryMPSubdivisions =
     [ { name = "Northern Islands"
       , code = "N"
       , unofficialNames = [ "Northern Islands" ]
@@ -20912,14 +20924,14 @@ northernMarianaIslandsSubdivisions =
 
 
 {-| -}
-martiniqueSubdivisions : List Subdivision
-martiniqueSubdivisions =
+countryMQSubdivisions : List Subdivision
+countryMQSubdivisions =
     []
 
 
 {-| -}
-mauritaniaSubdivisions : List Subdivision
-mauritaniaSubdivisions =
+countryMRSubdivisions : List Subdivision
+countryMRSubdivisions =
     [ { name = "Hodh ech Chargui"
       , code = "01"
       , unofficialNames = [ "Hud-ash-Sharqi", "Huđ-aš-Šarqi", "Hodh ech Chargui" ]
@@ -20976,8 +20988,8 @@ mauritaniaSubdivisions =
 
 
 {-| -}
-montserratSubdivisions : List Subdivision
-montserratSubdivisions =
+countryMSSubdivisions : List Subdivision
+countryMSSubdivisions =
     [ { name = "Saint Anthony"
       , code = "1"
       , unofficialNames = [ "Saint Anthony" ]
@@ -20994,8 +21006,8 @@ montserratSubdivisions =
 
 
 {-| -}
-maltaSubdivisions : List Subdivision
-maltaSubdivisions =
+countryMTSubdivisions : List Subdivision
+countryMTSubdivisions =
     [ { name = "Attard"
       , code = "01"
       , unofficialNames = [ "Attard" ]
@@ -21272,8 +21284,8 @@ maltaSubdivisions =
 
 
 {-| -}
-mauritiusSubdivisions : List Subdivision
-mauritiusSubdivisions =
+countryMUSubdivisions : List Subdivision
+countryMUSubdivisions =
     [ { name = "Agalega Islands"
       , code = "AG"
       , unofficialNames = [ "Agalega Islands" ]
@@ -21346,8 +21358,8 @@ mauritiusSubdivisions =
 
 
 {-| -}
-maldivesSubdivisions : List Subdivision
-maldivesSubdivisions =
+countryMVSubdivisions : List Subdivision
+countryMVSubdivisions =
     [ { name = "Seenu"
       , code = "01"
       , unofficialNames = [ "Addu", "Addu Atholhu", "Addu Atoll", "Seenu", "Sîn" ]
@@ -21436,8 +21448,8 @@ maldivesSubdivisions =
 
 
 {-| -}
-malawiSubdivisions : List Subdivision
-malawiSubdivisions =
+countryMWSubdivisions : List Subdivision
+countryMWSubdivisions =
     [ { name = "Balaka"
       , code = "BA"
       , unofficialNames = [ "Balaka" ]
@@ -21550,8 +21562,8 @@ malawiSubdivisions =
 
 
 {-| -}
-mexicoSubdivisions : List Subdivision
-mexicoSubdivisions =
+countryMXSubdivisions : List Subdivision
+countryMXSubdivisions =
     [ { name = "Aguascalientes"
       , code = "AGU"
       , unofficialNames = [ "Aguascalientes" ]
@@ -21684,8 +21696,8 @@ mexicoSubdivisions =
 
 
 {-| -}
-malaysiaSubdivisions : List Subdivision
-malaysiaSubdivisions =
+countryMYSubdivisions : List Subdivision
+countryMYSubdivisions =
     [ { name = "Johor"
       , code = "01"
       , unofficialNames = [ "Johor" ]
@@ -21754,8 +21766,8 @@ malaysiaSubdivisions =
 
 
 {-| -}
-mozambiqueSubdivisions : List Subdivision
-mozambiqueSubdivisions =
+countryMZSubdivisions : List Subdivision
+countryMZSubdivisions =
     [ { name = "Niassa"
       , code = "A"
       , unofficialNames = [ "Niassa" ]
@@ -21804,8 +21816,8 @@ mozambiqueSubdivisions =
 
 
 {-| -}
-namibiaSubdivisions : List Subdivision
-namibiaSubdivisions =
+countryNASubdivisions : List Subdivision
+countryNASubdivisions =
     [ { name = "Zambezi"
       , code = "CA"
       , unofficialNames = [ "Zambezi" ]
@@ -21866,8 +21878,8 @@ namibiaSubdivisions =
 
 
 {-| -}
-newCaledoniaSubdivisions : List Subdivision
-newCaledoniaSubdivisions =
+countryNCSubdivisions : List Subdivision
+countryNCSubdivisions =
     [ { name = "Nord"
       , code = "N"
       , unofficialNames = [ "Nord" ]
@@ -21884,8 +21896,8 @@ newCaledoniaSubdivisions =
 
 
 {-| -}
-nigerSubdivisions : List Subdivision
-nigerSubdivisions =
+countryNESubdivisions : List Subdivision
+countryNESubdivisions =
     [ { name = "Agadez"
       , code = "1"
       , unofficialNames = [ "Agadez" ]
@@ -21922,8 +21934,8 @@ nigerSubdivisions =
 
 
 {-| -}
-nigeriaSubdivisions : List Subdivision
-nigeriaSubdivisions =
+countryNGSubdivisions : List Subdivision
+countryNGSubdivisions =
     [ { name = "Abia"
       , code = "AB"
       , unofficialNames = [ "Abia" ]
@@ -22076,8 +22088,8 @@ nigeriaSubdivisions =
 
 
 {-| -}
-nicaraguaSubdivisions : List Subdivision
-nicaraguaSubdivisions =
+countryNISubdivisions : List Subdivision
+countryNISubdivisions =
     [ { name = "Atlántico Norte*"
       , code = "AN"
       , unofficialNames = [ "RAAN", "Región Autónoma Atlántico Norte", "Zelaya Norte" ]
@@ -22150,8 +22162,8 @@ nicaraguaSubdivisions =
 
 
 {-| -}
-netherlandsSubdivisions : List Subdivision
-netherlandsSubdivisions =
+countryNLSubdivisions : List Subdivision
+countryNLSubdivisions =
     [ { name = "Drenthe"
       , code = "DR"
       , unofficialNames = [ "Drenthe" ]
@@ -22204,8 +22216,8 @@ netherlandsSubdivisions =
 
 
 {-| -}
-norwaySubdivisions : List Subdivision
-norwaySubdivisions =
+countryNOSubdivisions : List Subdivision
+countryNOSubdivisions =
     [ { name = "Oslo"
       , code = "NO-03"
       , unofficialNames = [ "Oslo" ]
@@ -22262,8 +22274,8 @@ norwaySubdivisions =
 
 
 {-| -}
-nepalSubdivisions : List Subdivision
-nepalSubdivisions =
+countryNPSubdivisions : List Subdivision
+countryNPSubdivisions =
     [ { name = "Bagmati"
       , code = "BA"
       , unofficialNames = [ "Bagmati" ]
@@ -22324,8 +22336,8 @@ nepalSubdivisions =
 
 
 {-| -}
-nauruSubdivisions : List Subdivision
-nauruSubdivisions =
+countryNRSubdivisions : List Subdivision
+countryNRSubdivisions =
     [ { name = "Aiwo"
       , code = "01"
       , unofficialNames = [ "Aiwo" ]
@@ -22386,8 +22398,8 @@ nauruSubdivisions =
 
 
 {-| -}
-newZealandSubdivisions : List Subdivision
-newZealandSubdivisions =
+countryNZSubdivisions : List Subdivision
+countryNZSubdivisions =
     [ { name = "Auckland"
       , code = "AUK"
       , unofficialNames = [ "Auckland" ]
@@ -22460,8 +22472,8 @@ newZealandSubdivisions =
 
 
 {-| -}
-omanSubdivisions : List Subdivision
-omanSubdivisions =
+countryOMSubdivisions : List Subdivision
+countryOMSubdivisions =
     [ { name = "Al Batinah"
       , code = "BA"
       , unofficialNames = [ "Al Batinah" ]
@@ -22502,8 +22514,8 @@ omanSubdivisions =
 
 
 {-| -}
-panamaSubdivisions : List Subdivision
-panamaSubdivisions =
+countryPASubdivisions : List Subdivision
+countryPASubdivisions =
     [ { name = "Bocas del Toro"
       , code = "1"
       , unofficialNames = [ "Bocas del Toro" ]
@@ -22560,8 +22572,8 @@ panamaSubdivisions =
 
 
 {-| -}
-peruSubdivisions : List Subdivision
-peruSubdivisions =
+countryPESubdivisions : List Subdivision
+countryPESubdivisions =
     [ { name = "Amazonas"
       , code = "AMA"
       , unofficialNames = [ "Amazonas" ]
@@ -22670,8 +22682,8 @@ peruSubdivisions =
 
 
 {-| -}
-frenchPolynesiaSubdivisions : List Subdivision
-frenchPolynesiaSubdivisions =
+countryPFSubdivisions : List Subdivision
+countryPFSubdivisions =
     [ { name = "Austral Islands"
       , code = "I"
       , unofficialNames = [ "Austral Islands" ]
@@ -22696,8 +22708,8 @@ frenchPolynesiaSubdivisions =
 
 
 {-| -}
-papuaNewGuineaSubdivisions : List Subdivision
-papuaNewGuineaSubdivisions =
+countryPGSubdivisions : List Subdivision
+countryPGSubdivisions =
     [ { name = "Chimbu"
       , code = "CPK"
       , unofficialNames = [ "Chimbu", "Simbúa" ]
@@ -22782,8 +22794,8 @@ papuaNewGuineaSubdivisions =
 
 
 {-| -}
-philippinesSubdivisions : List Subdivision
-philippinesSubdivisions =
+countryPHSubdivisions : List Subdivision
+countryPHSubdivisions =
     [ { name = "Abra"
       , code = "ABR"
       , unofficialNames = [ "Abra" ]
@@ -23124,8 +23136,8 @@ philippinesSubdivisions =
 
 
 {-| -}
-pakistanSubdivisions : List Subdivision
-pakistanSubdivisions =
+countryPKSubdivisions : List Subdivision
+countryPKSubdivisions =
     [ { name = "Baluchistan (en)"
       , code = "BA"
       , unofficialNames = [ "Baluchistan (en)" ]
@@ -23162,8 +23174,8 @@ pakistanSubdivisions =
 
 
 {-| -}
-polandSubdivisions : List Subdivision
-polandSubdivisions =
+countryPLSubdivisions : List Subdivision
+countryPLSubdivisions =
     [ { name = "Dolnośląskie"
       , code = "DS"
       , unofficialNames = [ "dolnośląskie", "Dolnośląskie" ]
@@ -23232,8 +23244,8 @@ polandSubdivisions =
 
 
 {-| -}
-saintPierreAndMiquelonSubdivisions : List Subdivision
-saintPierreAndMiquelonSubdivisions =
+countryPMSubdivisions : List Subdivision
+countryPMSubdivisions =
     [ { name = "Miquelon"
       , code = "M"
       , unofficialNames = [ "Miquelon" ]
@@ -23246,8 +23258,8 @@ saintPierreAndMiquelonSubdivisions =
 
 
 {-| -}
-puertoRicoSubdivisions : List Subdivision
-puertoRicoSubdivisions =
+countryPRSubdivisions : List Subdivision
+countryPRSubdivisions =
     [ { name = "Adjuntas"
       , code = "1"
       , unofficialNames = [ "Adjuntas" ]
@@ -23564,14 +23576,14 @@ puertoRicoSubdivisions =
 
 
 {-| -}
-palestineStateOfSubdivisions : List Subdivision
-palestineStateOfSubdivisions =
+countryPSSubdivisions : List Subdivision
+countryPSSubdivisions =
     []
 
 
 {-| -}
-portugalSubdivisions : List Subdivision
-portugalSubdivisions =
+countryPTSubdivisions : List Subdivision
+countryPTSubdivisions =
     [ { name = "Aveiro"
       , code = "01"
       , unofficialNames = [ "Aveiro" ]
@@ -23656,8 +23668,8 @@ portugalSubdivisions =
 
 
 {-| -}
-palauSubdivisions : List Subdivision
-palauSubdivisions =
+countryPWSubdivisions : List Subdivision
+countryPWSubdivisions =
     [ { name = "Aimeliik"
       , code = "002"
       , unofficialNames = [ "Aimeliik" ]
@@ -23726,8 +23738,8 @@ palauSubdivisions =
 
 
 {-| -}
-paraguaySubdivisions : List Subdivision
-paraguaySubdivisions =
+countryPYSubdivisions : List Subdivision
+countryPYSubdivisions =
     [ { name = "Concepción"
       , code = "1"
       , unofficialNames = [ "Concepción" ]
@@ -23804,8 +23816,8 @@ paraguaySubdivisions =
 
 
 {-| -}
-qatarSubdivisions : List Subdivision
-qatarSubdivisions =
+countryQASubdivisions : List Subdivision
+countryQASubdivisions =
     [ { name = "Ad Dawhah"
       , code = "DA"
       , unofficialNames = [ "Dawhah", "Doha", "ad-Dawhah", "ad-Dawh̨ah", "Doha", "Doha", "Doha" ]
@@ -23850,14 +23862,14 @@ qatarSubdivisions =
 
 
 {-| -}
-reunionSubdivisions : List Subdivision
-reunionSubdivisions =
+countryRESubdivisions : List Subdivision
+countryRESubdivisions =
     []
 
 
 {-| -}
-romaniaSubdivisions : List Subdivision
-romaniaSubdivisions =
+countryROSubdivisions : List Subdivision
+countryROSubdivisions =
     [ { name = "Alba"
       , code = "AB"
       , unofficialNames = [ "Alba" ]
@@ -24030,8 +24042,8 @@ romaniaSubdivisions =
 
 
 {-| -}
-serbiaSubdivisions : List Subdivision
-serbiaSubdivisions =
+countryRSSubdivisions : List Subdivision
+countryRSSubdivisions =
     [ { name = "Belgrade"
       , code = "00"
       , unofficialNames = [ "Belgrade" ]
@@ -24156,8 +24168,8 @@ serbiaSubdivisions =
 
 
 {-| -}
-russianFederationSubdivisions : List Subdivision
-russianFederationSubdivisions =
+countryRUSubdivisions : List Subdivision
+countryRUSubdivisions =
     [ { name = "Adygeya, Respublika"
       , code = "AD"
       , unofficialNames = [ "Adygei Republic", "Adygeja" ]
@@ -24494,8 +24506,8 @@ russianFederationSubdivisions =
 
 
 {-| -}
-rwandaSubdivisions : List Subdivision
-rwandaSubdivisions =
+countryRWSubdivisions : List Subdivision
+countryRWSubdivisions =
     [ { name = "Ville de Kigali"
       , code = "01"
       , unofficialNames = [ "Ville de Kigali" ]
@@ -24520,8 +24532,8 @@ rwandaSubdivisions =
 
 
 {-| -}
-saudiArabiaSubdivisions : List Subdivision
-saudiArabiaSubdivisions =
+countrySASubdivisions : List Subdivision
+countrySASubdivisions =
     [ { name = "Ar Riyāḑ"
       , code = "01"
       , unofficialNames = [ "ar-Riyad", "ar-Riyād̨", "Riad", "Riyadh", "Riad" ]
@@ -24578,8 +24590,8 @@ saudiArabiaSubdivisions =
 
 
 {-| -}
-solomonIslandsSubdivisions : List Subdivision
-solomonIslandsSubdivisions =
+countrySBSubdivisions : List Subdivision
+countrySBSubdivisions =
     [ { name = "Central"
       , code = "CE"
       , unofficialNames = [ "Central" ]
@@ -24624,8 +24636,8 @@ solomonIslandsSubdivisions =
 
 
 {-| -}
-seychellesSubdivisions : List Subdivision
-seychellesSubdivisions =
+countrySCSubdivisions : List Subdivision
+countrySCSubdivisions =
     [ { name = "Anse aux Pins"
       , code = "01"
       , unofficialNames = [ "Anse aux Pins" ]
@@ -24722,8 +24734,8 @@ seychellesSubdivisions =
 
 
 {-| -}
-sudanSubdivisions : List Subdivision
-sudanSubdivisions =
+countrySDSubdivisions : List Subdivision
+countrySDSubdivisions =
     [ { name = "Al Baḩr al Aḩmar"
       , code = "RS"
       , unofficialNames = [ "" ]
@@ -24800,8 +24812,8 @@ sudanSubdivisions =
 
 
 {-| -}
-swedenSubdivisions : List Subdivision
-swedenSubdivisions =
+countrySESubdivisions : List Subdivision
+countrySESubdivisions =
     [ { name = "Stockholms län"
       , code = "AB"
       , unofficialNames = [ "Stockholms län" ]
@@ -24890,8 +24902,8 @@ swedenSubdivisions =
 
 
 {-| -}
-singaporeSubdivisions : List Subdivision
-singaporeSubdivisions =
+countrySGSubdivisions : List Subdivision
+countrySGSubdivisions =
     [ { name = "Central Singapore"
       , code = "SG-01"
       , unofficialNames = [ "Central Singapore" ]
@@ -24916,8 +24928,8 @@ singaporeSubdivisions =
 
 
 {-| -}
-saintHelenaAscensionAndTristanDaCunhaSubdivisions : List Subdivision
-saintHelenaAscensionAndTristanDaCunhaSubdivisions =
+countrySHSubdivisions : List Subdivision
+countrySHSubdivisions =
     [ { name = "Ascension"
       , code = "AC"
       , unofficialNames = [ "Ascension" ]
@@ -24934,8 +24946,8 @@ saintHelenaAscensionAndTristanDaCunhaSubdivisions =
 
 
 {-| -}
-sloveniaSubdivisions : List Subdivision
-sloveniaSubdivisions =
+countrySISubdivisions : List Subdivision
+countrySISubdivisions =
     [ { name = "Ajdovšcina"
       , code = "001"
       , unofficialNames = [ "Ajdovšcina" ]
@@ -25712,8 +25724,8 @@ sloveniaSubdivisions =
 
 
 {-| -}
-svalbardAndJanMayenSubdivisions : List Subdivision
-svalbardAndJanMayenSubdivisions =
+countrySJSubdivisions : List Subdivision
+countrySJSubdivisions =
     [ { name = "Svalbard"
       , code = "21"
       , unofficialNames = [ "Svalbard" ]
@@ -25726,8 +25738,8 @@ svalbardAndJanMayenSubdivisions =
 
 
 {-| -}
-slovakiaSubdivisions : List Subdivision
-slovakiaSubdivisions =
+countrySKSubdivisions : List Subdivision
+countrySKSubdivisions =
     [ { name = "Banskobystrický kraj"
       , code = "BC"
       , unofficialNames = [ "Banskobystrický kraj" ]
@@ -25764,8 +25776,8 @@ slovakiaSubdivisions =
 
 
 {-| -}
-sierraLeoneSubdivisions : List Subdivision
-sierraLeoneSubdivisions =
+countrySLSubdivisions : List Subdivision
+countrySLSubdivisions =
     [ { name = "Eastern"
       , code = "E"
       , unofficialNames = [ "Eastern" ]
@@ -25786,8 +25798,8 @@ sierraLeoneSubdivisions =
 
 
 {-| -}
-sanMarinoSubdivisions : List Subdivision
-sanMarinoSubdivisions =
+countrySMSubdivisions : List Subdivision
+countrySMSubdivisions =
     [ { name = "Acquaviva"
       , code = "01"
       , unofficialNames = [ "Acquaviva" ]
@@ -25828,8 +25840,8 @@ sanMarinoSubdivisions =
 
 
 {-| -}
-senegalSubdivisions : List Subdivision
-senegalSubdivisions =
+countrySNSubdivisions : List Subdivision
+countrySNSubdivisions =
     [ { name = "Diourbel"
       , code = "DB"
       , unofficialNames = [ "Diourbel" ]
@@ -25878,8 +25890,8 @@ senegalSubdivisions =
 
 
 {-| -}
-somaliaSubdivisions : List Subdivision
-somaliaSubdivisions =
+countrySOSubdivisions : List Subdivision
+countrySOSubdivisions =
     [ { name = "Awdal"
       , code = "AW"
       , unofficialNames = [ "Awdal" ]
@@ -25956,8 +25968,8 @@ somaliaSubdivisions =
 
 
 {-| -}
-surinameSubdivisions : List Subdivision
-surinameSubdivisions =
+countrySRSubdivisions : List Subdivision
+countrySRSubdivisions =
     [ { name = "Brokopondo"
       , code = "BR"
       , unofficialNames = [ "Brokopondo" ]
@@ -26002,14 +26014,14 @@ surinameSubdivisions =
 
 
 {-| -}
-southSudanSubdivisions : List Subdivision
-southSudanSubdivisions =
+countrySSSubdivisions : List Subdivision
+countrySSSubdivisions =
     []
 
 
 {-| -}
-saoTomeAndPrincipeSubdivisions : List Subdivision
-saoTomeAndPrincipeSubdivisions =
+countrySTSubdivisions : List Subdivision
+countrySTSubdivisions =
     [ { name = "Príncipe"
       , code = "P"
       , unofficialNames = [ "Príncipe" ]
@@ -26022,8 +26034,8 @@ saoTomeAndPrincipeSubdivisions =
 
 
 {-| -}
-elSalvadorSubdivisions : List Subdivision
-elSalvadorSubdivisions =
+countrySVSubdivisions : List Subdivision
+countrySVSubdivisions =
     [ { name = "Ahuachapán"
       , code = "AH"
       , unofficialNames = [ "Ahuachapán" ]
@@ -26084,14 +26096,14 @@ elSalvadorSubdivisions =
 
 
 {-| -}
-sintMaartenDutchPartSubdivisions : List Subdivision
-sintMaartenDutchPartSubdivisions =
+countrySXSubdivisions : List Subdivision
+countrySXSubdivisions =
     []
 
 
 {-| -}
-syrianArabRepublicSubdivisions : List Subdivision
-syrianArabRepublicSubdivisions =
+countrySYSubdivisions : List Subdivision
+countrySYSubdivisions =
     [ { name = "Dimashq"
       , code = "DI"
       , unofficialNames = [ "Dimashq", "Madīnat Dimašq", "Damaskus", "Damas" ]
@@ -26152,8 +26164,8 @@ syrianArabRepublicSubdivisions =
 
 
 {-| -}
-eswatiniSubdivisions : List Subdivision
-eswatiniSubdivisions =
+countrySZSubdivisions : List Subdivision
+countrySZSubdivisions =
     [ { name = "Hhohho"
       , code = "HH"
       , unofficialNames = [ "Hhohho" ]
@@ -26174,8 +26186,8 @@ eswatiniSubdivisions =
 
 
 {-| -}
-chadSubdivisions : List Subdivision
-chadSubdivisions =
+countryTDSubdivisions : List Subdivision
+countryTDSubdivisions =
     [ { name = "Batha"
       , code = "BA"
       , unofficialNames = [ "Batha" ]
@@ -26252,8 +26264,8 @@ chadSubdivisions =
 
 
 {-| -}
-frenchSouthernTerritoriesSubdivisions : List Subdivision
-frenchSouthernTerritoriesSubdivisions =
+countryTFSubdivisions : List Subdivision
+countryTFSubdivisions =
     [ { name = "Ile Saint-Paul et Ile Amsterdam"
       , code = "X1~"
       , unofficialNames = [ "Ile Saint-Paul et Ile Amsterdam" ]
@@ -26274,8 +26286,8 @@ frenchSouthernTerritoriesSubdivisions =
 
 
 {-| -}
-togoSubdivisions : List Subdivision
-togoSubdivisions =
+countryTGSubdivisions : List Subdivision
+countryTGSubdivisions =
     [ { name = "Centre"
       , code = "C"
       , unofficialNames = [ "Centre" ]
@@ -26300,8 +26312,8 @@ togoSubdivisions =
 
 
 {-| -}
-thailandSubdivisions : List Subdivision
-thailandSubdivisions =
+countryTHSubdivisions : List Subdivision
+countryTHSubdivisions =
     [ { name = "Krung Thep Maha Nakhon [Bangkok]"
       , code = "10"
       , unofficialNames = [ "Krung Thep", "Bangkok", "BKK" ]
@@ -26614,8 +26626,8 @@ thailandSubdivisions =
 
 
 {-| -}
-tajikistanSubdivisions : List Subdivision
-tajikistanSubdivisions =
+countryTJSubdivisions : List Subdivision
+countryTJSubdivisions =
     [ { name = "Gorno-Badakhshan"
       , code = "GB"
       , unofficialNames = [ "Gorno-Badahşan" ]
@@ -26632,8 +26644,8 @@ tajikistanSubdivisions =
 
 
 {-| -}
-tokelauSubdivisions : List Subdivision
-tokelauSubdivisions =
+countryTKSubdivisions : List Subdivision
+countryTKSubdivisions =
     [ { name = "Atafu"
       , code = "A"
       , unofficialNames = [ "Atafu" ]
@@ -26650,8 +26662,8 @@ tokelauSubdivisions =
 
 
 {-| -}
-timorLesteSubdivisions : List Subdivision
-timorLesteSubdivisions =
+countryTLSubdivisions : List Subdivision
+countryTLSubdivisions =
     [ { name = "Aileu"
       , code = "AL"
       , unofficialNames = [ "Aileu" ]
@@ -26708,8 +26720,8 @@ timorLesteSubdivisions =
 
 
 {-| -}
-turkmenistanSubdivisions : List Subdivision
-turkmenistanSubdivisions =
+countryTMSubdivisions : List Subdivision
+countryTMSubdivisions =
     [ { name = "Ahal"
       , code = "A"
       , unofficialNames = [ "Akhal" ]
@@ -26734,8 +26746,8 @@ turkmenistanSubdivisions =
 
 
 {-| -}
-tunisiaSubdivisions : List Subdivision
-tunisiaSubdivisions =
+countryTNSubdivisions : List Subdivision
+countryTNSubdivisions =
     [ { name = "Tunis"
       , code = "11"
       , unofficialNames = [ "Toûnis", "Tūnis", "Tunis", "Tunis", "Túnez" ]
@@ -26836,8 +26848,8 @@ tunisiaSubdivisions =
 
 
 {-| -}
-tongaSubdivisions : List Subdivision
-tongaSubdivisions =
+countryTOSubdivisions : List Subdivision
+countryTOSubdivisions =
     [ { name = "'Eua"
       , code = "01"
       , unofficialNames = [ "Middleburg Island", "ʿEua" ]
@@ -26862,8 +26874,8 @@ tongaSubdivisions =
 
 
 {-| -}
-turkeySubdivisions : List Subdivision
-turkeySubdivisions =
+countryTRSubdivisions : List Subdivision
+countryTRSubdivisions =
     [ { name = "Adana"
       , code = "01"
       , unofficialNames = [ "Seyhan" ]
@@ -27192,8 +27204,8 @@ turkeySubdivisions =
 
 
 {-| -}
-trinidadAndTobagoSubdivisions : List Subdivision
-trinidadAndTobagoSubdivisions =
+countryTTSubdivisions : List Subdivision
+countryTTSubdivisions =
     [ { name = "Arima"
       , code = "ARI"
       , unofficialNames = [ "Arima" ]
@@ -27262,8 +27274,8 @@ trinidadAndTobagoSubdivisions =
 
 
 {-| -}
-tuvaluSubdivisions : List Subdivision
-tuvaluSubdivisions =
+countryTVSubdivisions : List Subdivision
+countryTVSubdivisions =
     [ { name = "Funafuti"
       , code = "FUN"
       , unofficialNames = [ "Funafuti" ]
@@ -27300,8 +27312,8 @@ tuvaluSubdivisions =
 
 
 {-| -}
-taiwanProvinceOfChinaSubdivisions : List Subdivision
-taiwanProvinceOfChinaSubdivisions =
+countryTWSubdivisions : List Subdivision
+countryTWSubdivisions =
     [ { name = "Changhua"
       , code = "CHA"
       , unofficialNames = [ "Changhua" ]
@@ -27398,8 +27410,8 @@ taiwanProvinceOfChinaSubdivisions =
 
 
 {-| -}
-tanzaniaUnitedRepublicOfSubdivisions : List Subdivision
-tanzaniaUnitedRepublicOfSubdivisions =
+countryTZSubdivisions : List Subdivision
+countryTZSubdivisions =
     [ { name = "Arusha"
       , code = "01"
       , unofficialNames = [ "Arusha" ]
@@ -27508,8 +27520,8 @@ tanzaniaUnitedRepublicOfSubdivisions =
 
 
 {-| -}
-ukraineSubdivisions : List Subdivision
-ukraineSubdivisions =
+countryUASubdivisions : List Subdivision
+countryUASubdivisions =
     [ { name = "Vinnyts'ka Oblast'"
       , code = "05"
       , unofficialNames = [ "Vinnica", "Vinnitsa", "Vinnytska", "Vinnytsya" ]
@@ -27622,8 +27634,8 @@ ukraineSubdivisions =
 
 
 {-| -}
-ugandaSubdivisions : List Subdivision
-ugandaSubdivisions =
+countryUGSubdivisions : List Subdivision
+countryUGSubdivisions =
     [ { name = "Kalangala"
       , code = "101"
       , unofficialNames = [ "Kalangala" ]
@@ -27948,8 +27960,8 @@ ugandaSubdivisions =
 
 
 {-| -}
-unitedStatesMinorOutlyingIslandsSubdivisions : List Subdivision
-unitedStatesMinorOutlyingIslandsSubdivisions =
+countryUMSubdivisions : List Subdivision
+countryUMSubdivisions =
     [ { name = "Johnston Atoll"
       , code = "67"
       , unofficialNames = [ "Johnston Atoll" ]
@@ -27990,8 +28002,8 @@ unitedStatesMinorOutlyingIslandsSubdivisions =
 
 
 {-| -}
-unitedStatesOfAmericaSubdivisions : List Subdivision
-unitedStatesOfAmericaSubdivisions =
+countryUSSubdivisions : List Subdivision
+countryUSSubdivisions =
     [ { name = "Armed Forces Americas"
       , code = "AA"
       , unofficialNames = [ "Armed Forces Americas" ]
@@ -28236,8 +28248,8 @@ unitedStatesOfAmericaSubdivisions =
 
 
 {-| -}
-uruguaySubdivisions : List Subdivision
-uruguaySubdivisions =
+countryUYSubdivisions : List Subdivision
+countryUYSubdivisions =
     [ { name = "Artigas"
       , code = "AR"
       , unofficialNames = [ "Artigas" ]
@@ -28318,8 +28330,8 @@ uruguaySubdivisions =
 
 
 {-| -}
-uzbekistanSubdivisions : List Subdivision
-uzbekistanSubdivisions =
+countryUZSubdivisions : List Subdivision
+countryUZSubdivisions =
     [ { name = "Andijon"
       , code = "AN"
       , unofficialNames = [ "Andijon", "Andizhan", "Andižan" ]
@@ -28380,8 +28392,8 @@ uzbekistanSubdivisions =
 
 
 {-| -}
-saintVincentAndTheGrenadinesSubdivisions : List Subdivision
-saintVincentAndTheGrenadinesSubdivisions =
+countryVCSubdivisions : List Subdivision
+countryVCSubdivisions =
     [ { name = "Charlotte"
       , code = "01"
       , unofficialNames = [ "Charlotte" ]
@@ -28410,8 +28422,8 @@ saintVincentAndTheGrenadinesSubdivisions =
 
 
 {-| -}
-venezuelaBolivarianRepublicOfSubdivisions : List Subdivision
-venezuelaBolivarianRepublicOfSubdivisions =
+countryVESubdivisions : List Subdivision
+countryVESubdivisions =
     [ { name = "Distrito Federal"
       , code = "A"
       , unofficialNames = [ "Distrito Federal" ]
@@ -28516,8 +28528,8 @@ venezuelaBolivarianRepublicOfSubdivisions =
 
 
 {-| -}
-virginIslandsUSSubdivisions : List Subdivision
-virginIslandsUSSubdivisions =
+countryVISubdivisions : List Subdivision
+countryVISubdivisions =
     [ { name = "Saint Croix"
       , code = "C"
       , unofficialNames = [ "Saint Croix" ]
@@ -28534,8 +28546,8 @@ virginIslandsUSSubdivisions =
 
 
 {-| -}
-vietNamSubdivisions : List Subdivision
-vietNamSubdivisions =
+countryVNSubdivisions : List Subdivision
+countryVNSubdivisions =
     [ { name = "Ho Chi Minh"
       , code = "SG"
       , unofficialNames = [ "Sai Gon" ]
@@ -28792,8 +28804,8 @@ vietNamSubdivisions =
 
 
 {-| -}
-vanuatuSubdivisions : List Subdivision
-vanuatuSubdivisions =
+countryVUSubdivisions : List Subdivision
+countryVUSubdivisions =
     [ { name = "Malampa"
       , code = "MAP"
       , unofficialNames = [ "Ambrim", "Ambrym", "Malakula", "Malekula", "Mallicollo", "Paama" ]
@@ -28822,14 +28834,14 @@ vanuatuSubdivisions =
 
 
 {-| -}
-wallisAndFutunaSubdivisions : List Subdivision
-wallisAndFutunaSubdivisions =
+countryWFSubdivisions : List Subdivision
+countryWFSubdivisions =
     []
 
 
 {-| -}
-samoaSubdivisions : List Subdivision
-samoaSubdivisions =
+countryWSSubdivisions : List Subdivision
+countryWSSubdivisions =
     [ { name = "A'ana"
       , code = "AA"
       , unofficialNames = [ "A'ana" ]
@@ -28878,8 +28890,8 @@ samoaSubdivisions =
 
 
 {-| -}
-yemenSubdivisions : List Subdivision
-yemenSubdivisions =
+countryYESubdivisions : List Subdivision
+countryYESubdivisions =
     [ { name = "Abyan"
       , code = "AB"
       , unofficialNames = [ "Abyan" ]
@@ -28960,8 +28972,8 @@ yemenSubdivisions =
 
 
 {-| -}
-mayotteSubdivisions : List Subdivision
-mayotteSubdivisions =
+countryYTSubdivisions : List Subdivision
+countryYTSubdivisions =
     [ { name = "Acoua"
       , code = "1"
       , unofficialNames = [ "Acoua" ]
@@ -29034,8 +29046,8 @@ mayotteSubdivisions =
 
 
 {-| -}
-southAfricaSubdivisions : List Subdivision
-southAfricaSubdivisions =
+countryZASubdivisions : List Subdivision
+countryZASubdivisions =
     [ { name = "Eastern Cape"
       , code = "EC"
       , unofficialNames = [ "Oos Kaap" ]
@@ -29076,8 +29088,8 @@ southAfricaSubdivisions =
 
 
 {-| -}
-zambiaSubdivisions : List Subdivision
-zambiaSubdivisions =
+countryZMSubdivisions : List Subdivision
+countryZMSubdivisions =
     [ { name = "Western"
       , code = "01"
       , unofficialNames = [ "Western" ]
@@ -29118,8 +29130,8 @@ zambiaSubdivisions =
 
 
 {-| -}
-zimbabweSubdivisions : List Subdivision
-zimbabweSubdivisions =
+countryZWSubdivisions : List Subdivision
+countryZWSubdivisions =
     [ { name = "Bulawayo"
       , code = "BU"
       , unofficialNames = [ "Bulawayo" ]
